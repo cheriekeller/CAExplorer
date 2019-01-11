@@ -10,11 +10,19 @@ import config from '../../../config/meta'
 
 const Title = styled.h1`
   margin: 0;
+  color: #fff;
 
   & * {
     color: #fff;
     text-decoration: none;
   }
+`
+
+const SubTitle = styled.h3`
+  margin: 0;
+  color: #fff;
+  font-style: italic;
+  font-weight: normal;
 `
 
 const Wrapper = styled.div`
@@ -26,9 +34,8 @@ const Wrapper = styled.div`
 const Header = () => (
   <Wrapper as="header">
     <Container>
-      <Title>
-        <Link to="/">{config.siteTitle}</Link>
-      </Title>
+      <Title>{config.siteTitle}</Title>
+      <SubTitle>{config.siteSubtitle}</SubTitle>
     </Container>
   </Wrapper>
 )
@@ -41,7 +48,6 @@ const Layout = ({ children }) => (
         {children}
         <Box mt={3} />
       </Container>
-      {/* <Footer /> */}
     </>
   </ThemeProvider>
 )

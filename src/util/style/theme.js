@@ -4,6 +4,7 @@
  */
 const breakpoints = ['40em', '52em', '64em']
 
+// TODO: update to: https://colorhunt.co/palette/7247
 /**
  * Primary: Colors to use for actionable items, such as links, buttons etc.
  * Grey: Colors for items that are not that important

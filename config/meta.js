@@ -5,6 +5,20 @@ module.exports = {
   siteTitleShort: 'Adaptation Explorer',
   siteDescription:
     'A climate adaptation resource for Florida, including information on climate impacts, habitats, species, and adaptation strategies.',
+  nav: [
+    {
+      label: 'Background',
+      link: '/background',
+    },
+    {
+      label: 'Habitats',
+      link: '/habitats',
+    },
+    {
+      label: 'Species',
+      link: '/species',
+    },
+  ],
   manifest: {
     themeColor: '#2d4059',
     backgroundColor: '#2d4059',
