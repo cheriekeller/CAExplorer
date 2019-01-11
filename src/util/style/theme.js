@@ -13,6 +13,7 @@ const colors = {
   pageBackground: 'hsl(228, 33%, 97%)',
   white: 'hsl(0, 0%, 100%)',
   black: 'hsl(0, 0%, 0%)',
+  header: '#2d4059',
   primary: {
     100: 'hsl(223, 88%, 97%)',
     200: 'hsl(223, 72%, 90%)',

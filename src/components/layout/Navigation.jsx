@@ -17,10 +17,16 @@ const NavLink = styled(Link)`
   text-decoration: none;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  border-bottom-color: ${props => (props.active ? '#f07b3f' : 'transparent')};
+  border-bottom-color: ${props =>
+    props.active ? '#f07b3f !important' : 'transparent'};
 
   & + a {
     margin-left: 1rem;
+  }
+
+  &:hover {
+    border-bottom-color: #fff;
+    transition: border-bottom-color 0.5s;
   }
 `
 
