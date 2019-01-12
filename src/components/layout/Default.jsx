@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { ThemeProvider, theme } from 'util/style'
-import { Flex, Box, Container } from 'components/Grid'
+import { Flex, Container } from 'components/Grid'
 import Sidebar from '../Sidebar'
 import MobileNavigation from './MobileNavigation'
 import Header from './Header'
@@ -13,10 +13,7 @@ const ContentPage = ({ children }) => (
       <Header />
       <Flex>
         <Sidebar />
-        <Container px={3}>
-          {children}
-          <Box mt={3} />
-        </Container>
+        <Container px={3}>{children}</Container>
       </Flex>
       <MobileNavigation />
     </>

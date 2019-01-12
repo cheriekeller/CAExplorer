@@ -6,8 +6,8 @@ import SEO from 'components/SEO'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Background" />
-    Background: TODO
+    <SEO title="Habitats" />
+    Habitats: TODO
   </Layout>
 )
 

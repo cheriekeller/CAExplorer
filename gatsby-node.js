@@ -17,3 +17,50 @@ exports.onCreateWebpackConfig = ({ actions }) => {
     },
   })
 }
+
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
+
+  return new Promise((resolve, reject) => {
+    const template = path.resolve(`src/templates/content.jsx`)
+    // Query for markdown nodes to use in creating pages.
+    resolve(
+      graphql(
+        `
+          {
+            allMarkdownRemark {
+              edges {
+                node {
+                  frontmatter {
+                    path
+                  }
+                }
+              }
+            }
+          }
+        `
+      ).then(result => {
+        if (result.errors) {
+          reject(result.errors)
+        }
+
+        // Create pages for each markdown file.
+        result.data.allMarkdownRemark.edges.forEach(
+          ({
+            node: {
+              frontmatter: { path: pagePath },
+            },
+          }) => {
+            createPage({
+              path: pagePath,
+              component: template,
+              // context: {
+              //   path: pagePath,
+              // },
+            })
+          }
+        )
+      })
+    )
+  })
+}
