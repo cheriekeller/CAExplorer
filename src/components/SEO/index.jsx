@@ -27,7 +27,9 @@ function SEO({ description, lang, meta, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s - ${config.siteTitle}`}
+      titleTemplate={
+        title !== config.siteTitle ? `%s - ${config.siteTitle}` : `%s`
+      }
       meta={[
         {
           name: `description`,
@@ -64,6 +66,7 @@ function SEO({ description, lang, meta, title }) {
       ].concat(meta)}
     >
       <script type="application/ld+json">{JSON.stringify(schemaOrg)}</script>
+      <style>{`html {overflow-y: auto !important;}`}</style>
     </Helmet>
   )
 }
@@ -72,10 +75,11 @@ SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.array,
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 }
 
 SEO.defaultProps = {
+  title: config.siteTitle,
   description: config.siteDescription,
   lang: `en`,
   meta: [],
