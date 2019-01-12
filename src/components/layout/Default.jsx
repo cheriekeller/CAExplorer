@@ -13,7 +13,7 @@ const ContentPage = ({ children }) => (
       <Header />
       <Flex>
         <Sidebar />
-        <Container maxWidth="700px" px={3}>
+        <Container px={3}>
           {children}
           <Box mt={3} />
         </Container>

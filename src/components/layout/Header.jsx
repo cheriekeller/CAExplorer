@@ -37,18 +37,22 @@ const Wrapper = styled.div`
   }
 `
 
-const Logo = () => (
-  <svg height="32" width="32">
-    <circle cx="16" cy="16" r="12" fill="#ffd460" />
+const Logo = ({ height }) => (
+  <svg height={height} width={height} style={{ marginRight: '0.5em' }}>
+    <circle cx={height / 2} cy={height / 2} r={height / 2} fill="#ffd460" />
   </svg>
 )
+
+Logo.propTypes = {
+  height: PropTypes.number.isRequired,
+}
 
 const Header = ({ isLarge }) => (
   <Wrapper as="header">
     <Flex alignItems="center">
       <Link to="/">
         <Flex alignItems="center">
-          <Logo />
+          <Logo height={isLarge ? 60 : 32} />
           <div>
             {isLarge ? (
               <LargeTitle>{config.siteTitle}</LargeTitle>

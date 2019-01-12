@@ -11,12 +11,12 @@ module.exports = {
       link: '/background',
     },
     {
-      label: 'Habitats',
-      link: '/habitats',
-    },
-    {
       label: 'Species',
       link: '/species',
+    },
+    {
+      label: 'Habitats',
+      link: '/habitats',
     },
   ],
   manifest: {

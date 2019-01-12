@@ -6,6 +6,7 @@ import styled, { themePx } from 'util/style'
 
 const Wrapper = styled.div`
   margin-top: -${themePx('space.4')};
+  margin-bottom: ${themePx('space.4')};
   height: ${props => props.maxHeight};
   overflow: hidden;
   width: 100%;
@@ -32,7 +33,7 @@ ImageBanner.propTypes = {
 }
 
 ImageBanner.defaultProps = {
-  height: '40vh',
+  height: '60vh',
 }
 
 export default ImageBanner
