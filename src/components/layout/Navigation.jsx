@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
-import styled, { themePx } from 'util/style'
+import styled, { themePx, themeGet } from 'util/style'
 import config from '../../../config/meta'
 
 // TODO: responsive font size
@@ -12,20 +12,21 @@ const NavBar = styled(Flex)`
 `
 
 const NavLink = styled(Link)`
-  color: #fff;
+  color: ${({ active }) =>
+    themeGet(active ? 'colors.secondary.500' : 'colors.secondary.800')};
   border-top: 2px solid transparent;
   text-decoration: none;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  border-bottom-color: ${props =>
-    props.active ? '#f07b3f !important' : 'transparent'};
+  border-bottom-color: ${({ active }) =>
+    active ? themeGet('colors.secondary.500') : 'transparent'};
 
   & + a {
     margin-left: 1rem;
   }
 
   &:hover {
-    border-bottom-color: #fff;
+    border-bottom-color: ${themeGet('colors.secondary.200')};
     transition: border-bottom-color 0.5s;
   }
 `

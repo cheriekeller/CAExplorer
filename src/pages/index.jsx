@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import styled from 'util/style'
+import styled, { themeGet } from 'util/style'
 import { Flex, Box, Container } from 'components/Grid'
 import { Link } from 'components/Link'
 import Divider from 'components/Divider'
@@ -22,11 +22,11 @@ const InfoBox = styled(Box).attrs({
   flex: '1 1 14em',
 })`
   border-radius: 6px;
-  background: #ffeebf;
-
+  background: ${themeGet('colors.yellow.200')};
+  /* 
   a {
     color: #ea5455;
-  }
+  } */
 `
 
 const Logo = styled.img`

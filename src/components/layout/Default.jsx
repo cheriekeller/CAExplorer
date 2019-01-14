@@ -7,21 +7,26 @@ import Sidebar from '../Sidebar'
 import MobileNavigation from './MobileNavigation'
 import Header from './Header'
 
-const ContentPage = ({ children }) => (
-  <ThemeProvider theme={theme}>
-    <>
-      <Header />
-      <Flex>
-        <Sidebar />
-        <Container px={3}>{children}</Container>
-      </Flex>
-      <MobileNavigation />
-    </>
-  </ThemeProvider>
-)
+import { backgroundItemList } from '../Sidebar/items'
 
-ContentPage.propTypes = {
+const Layout = ({ children }) => {
+  console.log('items', backgroundItemList)
+  return (
+    <ThemeProvider theme={theme}>
+      <>
+        <Header />
+        <Flex>
+          <Sidebar items={backgroundItemList} />
+          <Container px={3}>{children}</Container>
+        </Flex>
+        <MobileNavigation />
+      </>
+    </ThemeProvider>
+  )
+}
+
+Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default ContentPage
+export default Layout

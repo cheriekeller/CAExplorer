@@ -4,27 +4,15 @@
  */
 const breakpoints = ['40em', '52em', '64em']
 
-// TODO: update to: https://colorhunt.co/palette/7247
+// palette: https://colorhunt.co/palette/7247
+// shades generated: http://www.0to255.com/2d4059
 /**
  * Primary: Colors to use for actionable items, such as links, buttons etc.
  * Grey: Colors for items that are not that important
  */
 const colors = {
-  pageBackground: 'hsl(228, 33%, 97%)',
   white: 'hsl(0, 0%, 100%)',
   black: 'hsl(0, 0%, 0%)',
-  header: '#2d4059',
-  primary: {
-    100: 'hsl(223, 88%, 97%)',
-    200: 'hsl(223, 72%, 90%)',
-    300: 'hsl(223, 71%, 76%)',
-    400: 'hsl(227, 63%, 67%)',
-    500: 'hsl(230, 65%, 63%)',
-    600: 'hsl(230, 52%, 53%)',
-    700: 'hsl(230, 51%, 43%)',
-    800: 'hsl(230, 57%, 34%)',
-    900: 'hsl(231, 55%, 28%)',
-  },
   grey: {
     100: 'hsl(210, 17%, 98%)',
     200: 'hsl(207, 22%, 90%)',
@@ -36,38 +24,39 @@ const colors = {
     800: 'hsl(215, 17%, 30%)',
     900: 'hsl(215, 23%, 16%)',
   },
-  red: {
-    100: 'hsl(360, 77%, 95%)',
-    200: 'hsl(360, 79%, 81%)',
-    300: 'hsl(360, 71%, 73%)',
-    400: 'hsl(360, 70%, 64%)',
-    500: 'hsl(360, 71%, 53%)',
-    600: 'hsl(360, 65%, 45%)',
-    700: 'hsl(360, 61%, 38%)',
-    800: 'hsl(360, 63%, 31%)',
-    900: 'hsl(360, 60%, 24%)',
+  primary: {
+    100: '#d0dae7', // primary + 18
+    200: '#a3b7d1',
+    300: '#8da5c5',
+    400: '#7693ba',
+    500: '#6082ae',
+    600: '#4f719d',
+    700: '#446086',
+    800: '#385070', // primary +2
+    900: '#2d4059', // palette primary
   },
+  secondary: {
+    100: '#fce7dd', // secondary + 10
+    200: '#f7bc9e',
+    300: '#f5a67e',
+    400: '#f2915f', // secondary + 2
+    500: '#f07b3f', // palette orange
+    600: '#ee651f', // secondary - 2
+    700: '#da5511',
+    800: '#bb490f',
+    900: '#9b3d0c',
+  },
+
   yellow: {
-    100: 'hsl(44, 100%, 98%)',
-    200: 'hsl(44, 90%, 92%)',
-    300: 'hsl(45, 86%, 86%)',
-    400: 'hsl(44, 90%, 80%)',
-    500: 'hsl(43, 87%, 67%)',
-    600: 'hsl(44, 57%, 52%)',
-    700: 'hsl(43, 59%, 42%)',
-    800: 'hsl(43, 64%, 34%)',
-    900: 'hsl(44, 66%, 22%)',
-  },
-  green: {
-    100: 'hsl(142, 81%, 94%)',
-    200: 'hsl(141, 67%, 80%)',
-    300: 'hsl(145, 65%, 68%)',
-    400: 'hsl(146, 57%, 65%)',
-    500: 'hsl(145, 55%, 49%)',
-    600: 'hsl(145, 55%, 41%)',
-    700: 'hsl(145, 59%, 33%)',
-    800: 'hsl(155, 63%, 26%)',
-    900: 'hsl(156, 61%, 20%)',
+    100: '#fff9e8',
+    200: '#fff0c6',
+    300: '#ffe6a4',
+    400: '#ffdd82', // palette + 2
+    500: '#ffd460', // palette yellow
+    600: '#ffcb3e', // palette - 2
+    700: '#ffc21c',
+    800: '#f9b600',
+    900: '#d79d00',
   },
 }
 

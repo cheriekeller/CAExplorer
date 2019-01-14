@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 import { Link } from 'components/Link'
@@ -19,15 +20,25 @@ const SidebarContainer = styled.div`
   }
 `
 
-const Sidebar = () => (
+const Sidebar = ({items}) => (
   <SidebarContainer>
-    <h3>Sidebar content</h3>
+    {/* <h3>Sidebar content</h3> */}
     <ul>
-      <li>
-        <Link to="/test">Page 1</Link>
-      </li>
+      {items.map(({path, label})=> (
+      <li key={path}>
+        <Link to={path}>{label}</Link>
+      </li>  
+      ))}
+      
     </ul>
   </SidebarContainer>
 )
+
+Sidebar.propTypes = {
+  items: PropTypes.shape({
+    path: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired
+  }).isRequired
+}
 
 export default Sidebar

@@ -7,7 +7,7 @@ import SEO from 'components/SEO'
 const IndexPage = () => (
   <Layout>
     <SEO title="Background" />
-    Background: TODO
+    Background launch page content TODO
   </Layout>
 )
 
