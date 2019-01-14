@@ -22,7 +22,23 @@ module.exports = {
         path: `${__dirname}/src/pages/background`,
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              showCaptions: true,
+              linkImagesToOriginal: false,
+              quality: 95,
+              maxWidth: 960,
+              withWebp: true,
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
