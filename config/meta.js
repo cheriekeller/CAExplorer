@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'TODO',
+  siteUrl: 'https://serene-euler-cd49c1.netlify.com',
   siteTitle: 'Climate Adaptation Explorer',
   siteSubtitle: 'for Florida',
   siteTitleShort: 'Adaptation Explorer',

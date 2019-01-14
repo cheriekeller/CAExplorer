@@ -31,13 +31,16 @@ const NavLink = styled(Link)`
   }
 `
 
+// make sure that window is available (not available in Gatsby build)
+const hasWindow = typeof window !== 'undefined' && window
+
 const Navigation = () => (
   <NavBar as="nav">
     {config.nav.map(({ label, link }) => (
       <NavLink
         key={link}
         to={link}
-        active={window && window.location.href.search(link) !== -1}
+        active={hasWindow && window.location.href.search(link) !== -1}
       >
         {label}
       </NavLink>

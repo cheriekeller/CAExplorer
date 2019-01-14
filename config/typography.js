@@ -16,6 +16,10 @@ theme.overrideThemeStyles = () => ({
   },
   a: {
     color: '#bb490f', // theme.colors.secondary.800
+    textDecoration: 'none',
+  },
+  'a:hover': {
+    textDecoration: 'underline',
   },
 })
 

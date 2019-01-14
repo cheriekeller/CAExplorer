@@ -28,7 +28,7 @@ const Wrapper = styled.div`
   border-bottom: 2px solid ${themeGet('colors.secondary.800')};
   padding: 0.5rem;
 
-  a {
+  a:hover {
     text-decoration: none;
   }
 `

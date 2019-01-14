@@ -17,7 +17,7 @@ Each major change to the earth’s climate is associated with a range of possibl
 
 <tbody>
 <tr>
-<td>Sea Level Rise</td>
+<td><a href="/background/fl-slr">Sea Level Rise</a></td>
 <td>
 <ul>
 <li>Inundation or Saturation</li>
@@ -28,7 +28,7 @@ Each major change to the earth’s climate is associated with a range of possibl
 </tr>
 
 <tr>
-<td>Changes in Precipitation</td>
+<td><a href="/background/fl-precipitation">Changes in Precipitation</a></td>
 <td>
 <ul>
 <li>Changes in Amount - Increased Precipitation</li>
@@ -40,7 +40,7 @@ Each major change to the earth’s climate is associated with a range of possibl
 </tr>
 
 <tr>
-<td>Changes in Air Temperature</td>
+<td><a href="/background/fl-temperature">Changes in Air Temperature</a></td>
 <td>
 <ul>
 <li>Increased Average Summer Temperature</li>
@@ -51,7 +51,7 @@ Each major change to the earth’s climate is associated with a range of possibl
 </tr>
 
 <tr>
-<td>Changes in Extreme Events</td>
+<td><a href="/background/fl-extreme-events">Changes in Extreme Events</a></td>
 <td>
 <ul>
 <li>Increased Intensity/Frequency of Storms</li>
@@ -62,7 +62,7 @@ Each major change to the earth’s climate is associated with a range of possibl
 </tr>
 
 <tr>
-<td>Changes in CO2</td>
+<td><a href="/background/fl-co2">Changes in Carbon Dioxide (CO2) Concentration</a></td>
 <td>
 <ul>
 <li>Changes in Air Chemistry</li>
