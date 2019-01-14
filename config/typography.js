@@ -3,6 +3,14 @@ import theme from 'typography-theme-kirkham'
 
 theme.baseFontSize = '20px'
 theme.overrideThemeStyles = () => ({
+  html: {
+    overflowY: 'auto',
+    height: '100%',
+  },
+  body: {
+    height: '100%',
+    width: '100%',
+  },
   'h1,h2,h3,h4,h5': {
     color: '#2d4059',
   },

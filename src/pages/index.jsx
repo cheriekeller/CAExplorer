@@ -23,20 +23,24 @@ const InfoBox = styled(Box).attrs({
 })`
   border-radius: 6px;
   background: ${themeGet('colors.yellow.200')};
-  /* 
-  a {
-    color: #ea5455;
-  } */
 `
 
 const Logo = styled.img`
   height: 70px;
 `
 
+const BannerContainer = styled.div`
+  margin-top: 4.5rem;
+`
+
 const IndexPage = ({ data: { headerImage } }) => (
   <Layout>
     <SEO />
-    <ImageBanner headerImage={headerImage.childImageSharp.fluid} />
+
+    <BannerContainer>
+      <ImageBanner headerImage={headerImage.childImageSharp.fluid} />
+    </BannerContainer>
+
     <Container mx={[2, 2, 4, 'auto']}>
       <h1>Florida&apos;s unique wildlife are at risk from climate change.</h1>
       <p>

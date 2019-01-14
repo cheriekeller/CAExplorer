@@ -1,29 +1,37 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { ThemeProvider, theme } from 'util/style'
+import styled, { ThemeProvider, theme } from 'util/style'
 import { Flex, Container } from 'components/Grid'
 import Sidebar from '../Sidebar'
 import MobileNavigation from './MobileNavigation'
 import Header from './Header'
 
-import { backgroundItemList } from '../Sidebar/items'
+import { backgroundItems } from '../../../config/sidebarItems'
 
-const Layout = ({ children }) => {
-  console.log('items', backgroundItemList)
-  return (
-    <ThemeProvider theme={theme}>
-      <>
-        <Header />
-        <Flex>
-          <Sidebar items={backgroundItemList} />
+const Content = styled(Flex)`
+  padding-top: 2.75rem;
+`
+
+const ContentContainer = styled.div`
+  padding: 2rem 0 2rem 16rem;
+  width: 100%;
+`
+
+const Layout = ({ children }) => (
+  <ThemeProvider theme={theme}>
+    <>
+      <Header />
+      <Content>
+        <Sidebar items={backgroundItems} />
+        <ContentContainer>
           <Container px={3}>{children}</Container>
-        </Flex>
-        <MobileNavigation />
-      </>
-    </ThemeProvider>
-  )
-}
+        </ContentContainer>
+      </Content>
+      <MobileNavigation />
+    </>
+  </ThemeProvider>
+)
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

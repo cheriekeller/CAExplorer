@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { ThemeProvider, theme } from 'util/style'
-import Header from './Header'
+import Header from './LargeHeader'
 
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>

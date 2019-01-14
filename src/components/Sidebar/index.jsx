@@ -4,11 +4,22 @@ import styled from 'styled-components'
 
 import { Link } from 'components/Link'
 
+const ItemsPropType = PropTypes.arrayOf(
+  PropTypes.shape({
+    path: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+  })
+)
+
 // TODO: responsive
 const SidebarContainer = styled.div`
-  width: 250px;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 16rem;
+  /* min-width: 12em; */
   border-right: 1px solid #aaa;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
   header {
     font-weight: bold;
     text-transform: uppercase;
@@ -18,27 +29,43 @@ const SidebarContainer = styled.div`
     margin: 0 0 16px 0;
     list-style: none;
   }
+
+  ul ul {
+    margin-left: 1em;
+  }
 `
 
-const Sidebar = ({items}) => (
-  <SidebarContainer>
-    {/* <h3>Sidebar content</h3> */}
-    <ul>
-      {items.map(({path, label})=> (
+const List = ({ items }) => (
+  <ul>
+    {items.map(({ path, label, children }) => (
       <li key={path}>
         <Link to={path}>{label}</Link>
-      </li>  
+        {children && children.length > 0 ? <List items={children} /> : null}
+      </li>
+    ))}
+  </ul>
+)
+
+List.propTypes = {
+  items: ItemsPropType.isRequired,
+}
+
+const Sidebar = ({ items }) => (
+  <SidebarContainer>
+    <List items={items} />
+    {/* <h3>Sidebar content</h3> */}
+    {/* <ul>
+      {items.map(({ path, label, children }) => (
+        <li key={path}>
+          <Link to={path}>{label}</Link>
+        </li>
       ))}
-      
-    </ul>
+    </ul> */}
   </SidebarContainer>
 )
 
 Sidebar.propTypes = {
-  items: PropTypes.shape({
-    path: PropTypes.string.isRequired,
-    label: PropTypes.string.isRequired
-  }).isRequired
+  items: ItemsPropType.isRequired,
 }
 
 export default Sidebar

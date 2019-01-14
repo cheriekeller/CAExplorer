@@ -66,7 +66,6 @@ function SEO({ description, lang, meta, title }) {
       ].concat(meta)}
     >
       <script type="application/ld+json">{JSON.stringify(schemaOrg)}</script>
-      <style>{`html {overflow-y: auto !important;}`}</style>
     </Helmet>
   )
 }

@@ -5,9 +5,10 @@ import Img from 'gatsby-image'
 import styled, { themePx } from 'util/style'
 
 const Wrapper = styled.div`
-  margin-top: -${themePx('space.4')};
-  margin-bottom: ${themePx('space.4')};
-  height: ${props => props.maxHeight};
+  /* margin-top: -${themePx('space.4')}; */
+  margin-top: 0;
+  margin-bottom: 2rem;
+  height: ${({ height }) => height};
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -22,7 +23,7 @@ const StyledImage = styled(Img)`
 `
 
 const ImageBanner = ({ headerImage, height }) => (
-  <Wrapper maxHeight={height}>
+  <Wrapper height={height}>
     <StyledImage fluid={headerImage} />
   </Wrapper>
 )
