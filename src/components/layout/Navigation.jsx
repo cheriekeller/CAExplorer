@@ -37,7 +37,7 @@ const Navigation = () => (
       <NavLink
         key={link}
         to={link}
-        active={window.location.href.search(link) !== -1}
+        active={window && window.location.href.search(link) !== -1}
       >
         {label}
       </NavLink>

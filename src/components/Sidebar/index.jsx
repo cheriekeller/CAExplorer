@@ -17,7 +17,6 @@ const SidebarContainer = styled.div`
   left: 0;
   height: 100%;
   width: 16rem;
-  /* min-width: 12em; */
   border-right: 1px solid #aaa;
   padding: 2rem 1rem;
   header {
@@ -31,6 +30,7 @@ const SidebarContainer = styled.div`
   }
 
   ul ul {
+    margin-top: 0.5em;
     margin-left: 1em;
   }
 `

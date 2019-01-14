@@ -38,10 +38,6 @@ const Logo = styled.img.attrs({ src: SiteLogo })`
   margin: -0.5rem 0.5rem -0.5rem -0.5rem;
 `
 
-Logo.propTypes = {
-  height: PropTypes.string.isRequired,
-}
-
 const Header = () => (
   <Wrapper as="header">
     <Flex alignItems="center">

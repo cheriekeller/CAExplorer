@@ -17,10 +17,6 @@ theme.overrideThemeStyles = () => ({
   a: {
     color: '#bb490f', // theme.colors.secondary.800
   },
-  figcaption: {
-    fontWeight: 'bold',
-    marginBottom: '3rem',
-  },
 })
 
 const typography = Typography(theme)

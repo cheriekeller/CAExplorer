@@ -3,6 +3,18 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout/Default'
+import styled from '../util/style'
+
+const Content = styled.div`
+  h2 {
+    margin-top: 3rem;
+  }
+  figcaption {
+    font-weight: bold;
+    font-size: smaller;
+    margin-bottom: 3rem;
+  }
+`
 
 const Template = ({
   data: {
@@ -10,7 +22,7 @@ const Template = ({
   },
 }) => (
   <Layout>
-    <div
+    <Content
       className="blog-post-content"
       dangerouslySetInnerHTML={{ __html: html }}
     />
