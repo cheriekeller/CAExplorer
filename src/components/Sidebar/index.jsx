@@ -19,11 +19,12 @@ const ItemsPropType = PropTypes.arrayOf(
 // TODO: responsive
 const SidebarContainer = styled.div`
   position: fixed;
+  overflow-y: auto;
   left: 0;
   height: 100%;
   width: 16rem;
   border-right: 1px solid #aaa;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 4rem;
   header {
     font-weight: bold;
     text-transform: uppercase;
@@ -77,22 +78,23 @@ const SidebarLink = styled(Link)`
     `}
 `
 
+const isActive = path => hasWindow && window.location.href.endsWith(path)
+
+const showChildren = path =>
+  hasWindow && window.location.href.search(path) !== -1
+
 const List = ({ items }) => (
   <ul>
-    {items.map(({ path, label, children }) => {
-      console.log(path, hasWindow && window.location.href.search(path) !== -1)
-      return (
-        <li key={path}>
-          <SidebarLink
-            to={path}
-            active={hasWindow && window.location.href.search(path) !== -1}
-          >
-            {label}
-          </SidebarLink>
-          {children && children.length > 0 ? <List items={children} /> : null}
-        </li>
-      )
-    })}
+    {items.map(({ path, label, children }) => (
+      <li key={path}>
+        <SidebarLink to={path} active={isActive(path)}>
+          {label}
+        </SidebarLink>
+        {children && children.length > 0 && showChildren(path) ? (
+          <List items={children} />
+        ) : null}
+      </li>
+    ))}
   </ul>
 )
 

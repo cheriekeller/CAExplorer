@@ -1,5 +1,5 @@
 ---
-path: /background/co2
+path: /background/climate101/co2
 title: Increasing Atmospheric CO2
 ---
 

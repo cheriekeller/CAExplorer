@@ -1,5 +1,5 @@
 ---
-path: /background/models
+path: /background/climate101/models
 title: Emission Models
 ---
 

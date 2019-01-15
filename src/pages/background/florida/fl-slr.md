@@ -1,5 +1,5 @@
 ---
-path: /background/fl-slr
+path: /background/florida/slr
 title: Sea Level Rise
 ---
 

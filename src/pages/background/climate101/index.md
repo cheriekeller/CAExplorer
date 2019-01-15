@@ -29,7 +29,7 @@ Climate projections take a much longer-term view.  These projections try to ans
 
 One of the leading causes of climate change is increasing levels of atmospheric carbon dioxide (CO2). Carbon dioxide is a heat-trapping gas, which is released through natural processes such as respiration and volcanic eruptions, as well as through human activities such as deforestation and burning fossil fuels. Carbon dioxide causes about 20% of the Earth’s greenhouse (warming) effect; others include water vapor (50%), clouds (25%), and other small particles and gases (5%). The current concentration of carbon dioxide in the atmosphere is much higher than it has been at any other time, as far back as 400,000 years. Since 1970 carbon dioxide in the atmosphere has risen 24 percent. Carbon dioxide remains in the atmosphere for centuries so the impacts of emissions today will linger long into the future.
 
-[More information on how increased levels of carbon dioxide are affecting ecosystems](/background/co2)
+[More information on how increased levels of carbon dioxide are affecting ecosystems](/background/climate101/co2)
 
 ## Climate Models
 
@@ -46,7 +46,7 @@ The predictive capability of any model will rely somewhat on the size of the gri
 <figcaption>Figure 1: Resolution of the climate models presented in the first four IPCC reports.  National Academy of Sciences. 2012. Climate Modeling 101. 
 <a href="http://nas-sites.org/climate-change/climatemodeling/page_3_2.php" target="_blank" rel="noopener noreferrer">http://nas-sites.org/climate-change/climatemodeling/page_3_2.php</a></figcaption>
 
-[More information on emission models](/background/models)
+[More information on emission models](/background/climate101/models)
 
 ## Temperature and Precipitation
 
