@@ -36,6 +36,13 @@ module.exports = {
               withWebp: true,
             },
           },
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+              rel: 'noopener noreferrer',
+            },
+          },
         ],
       },
     },

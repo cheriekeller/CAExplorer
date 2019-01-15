@@ -5,7 +5,7 @@ title: Florida's Climate
 
 # Florida's Climate
 
-Each major change to the earth’s climate is associated with a range of possible local changes in any given area, referred to here as measurable climatic shifts. In the coming century, projections indicate that few other states will be impacted by climate change as severely as Florida. The major climatic changes Florida is likely to experience include [sea level rise](/background/fl-slr), [changes in precipitation](/background/fl-precipitation), [changes in air temperature](/background/fl-temperature), [changes in extreme events](/background/fl-extreme-events), and [changes in carbon dioxide (CO2) concentration](/background/fl-co2). Each of major changes has multiple measurable climatic shifts that further define the direction, frequency, intensity or duration.
+Each major change to the earth’s climate is associated with a range of possible local changes in any given area, referred to here as measurable climatic shifts. In the coming century, projections indicate that few other states will be impacted by climate change as severely as Florida. The major climatic changes Florida is likely to experience include [sea level rise](/background/fl-slr), [changes in precipitation](/background/fl-precipitation), [changes in air temperature](/background/fl-temperature), [changes in extreme events](/background/fl-extreme-events), and [changes in carbon dioxide concentration](/background/fl-co2). Each of major changes has multiple measurable climatic shifts that further define the direction, frequency, intensity or duration.
 
 <table>
 <thead>
@@ -62,7 +62,7 @@ Each major change to the earth’s climate is associated with a range of possibl
 </tr>
 
 <tr>
-<td><a href="/background/fl-co2">Changes in Carbon Dioxide (CO2) Concentration</a></td>
+<td><a href="/background/fl-co2">Changes in Carbon Dioxide Concentration</a></td>
 <td>
 <ul>
 <li>Changes in Air Chemistry</li>

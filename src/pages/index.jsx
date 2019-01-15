@@ -2,10 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import styled, { themeGet } from 'util/style'
-import { Flex, Box, Container } from 'components/Grid'
+import styled from 'util/style'
+import { Flex, Container } from 'components/Grid'
 import { Link } from 'components/Link'
-import Divider from 'components/Divider'
+import Divider from 'components/elements/Divider'
+import InfoBox from 'components/elements/InfoBox'
 import Layout from 'components/layout/Home'
 import SEO from 'components/SEO'
 
@@ -13,17 +14,6 @@ import ImageBanner from 'components/ImageBanner'
 
 import CBILogo from '../images/cbi_logo.png'
 import PFLCCLogo from '../images/pflcc_logo.png'
-
-const InfoBox = styled(Box).attrs({
-  width: [1, 0.3],
-  minWidth: '14em',
-  p: 3,
-  m: 2,
-  flex: '1 1 14em',
-})`
-  border-radius: 6px;
-  background: ${themeGet('colors.yellow.200')};
-`
 
 const Logo = styled.img`
   height: 70px;
