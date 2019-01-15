@@ -9,6 +9,7 @@ import styled from '../util/style'
 const Content = styled.div`
   h2,
   p + h3,
+  ul + h3,
   p + h4 {
     margin-top: 3rem;
   }

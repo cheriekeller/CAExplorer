@@ -7,9 +7,7 @@ title: 'Temperature Impacts'
 
 Changes in temperature can lead to various impacts on species, depending on the season and duration of the temperature change.
 
-Examples of impacts from changes in temperature include:
-
-**Increased average summer temperatures:**
+### Impacts from increased average summer temperatures include:
 
 - Species range reductions or shifts due to reduced habitats
 - Reduction of threatened species due to temperature increases exacerbating existing stressors
@@ -25,7 +23,7 @@ Examples of impacts from changes in temperature include:
 - Earlier physiological developments and larval release in plankton
 - Range expansion of invasive exotic species
 
-**Increased minimum winter temperatures (warmer lows):**
+### Impacts from increased minimum winter temperatures (warmer lows) include:
 
 - Increased pathogen and vector survival and disease transmission rates
 - Local extirpations of species at the southern extent of their range
@@ -34,7 +32,7 @@ Examples of impacts from changes in temperature include:
 - Loss of Alosine (shad) due to mortality and reduced reproductive success
 - Range expansion of euryhaline marine species further into inland waters
 
-**Increased temperature extremes - colder lows:**
+### Impacts from increased temperature extremes (colder lows) include:
 
 - Reduced fitness, recruitment, and competitive ability
 - Increased mortality

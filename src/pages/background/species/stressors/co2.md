@@ -7,7 +7,7 @@ title: 'CO2 Impacts'
 
 Examples of impacts from changes in carbon dioxide concentrations in water include:
 
-**Ocean Acidification:**
+### Impacts from ocean acidification include:
 
 - Increased mortality (events) in corals and shell-forming organisms
 - Decreased metabolic rate
@@ -15,7 +15,7 @@ Examples of impacts from changes in carbon dioxide concentrations in water inclu
 - Decline in primary productivity
 - Decreased growth due to reallocation of resources to maintain calcification
 
-**Freshwater chemistry changes:**
+### Impacts from freshwater chemistry changes include:
 
 - Increased stress
 - Increased mortality

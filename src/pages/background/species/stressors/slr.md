@@ -15,7 +15,7 @@ Many species will lose habitat due to direct inundation by sea level rise. This 
 
 In addition to direct impacts, sea level rise will also impact species through changes in water and soil salinity.
 
-**Examples of impacts from salinity shifts include:**
+### Impacts from salinity shifts:
 
 - Changes in competition and predator/prey relationships due to de-coupling of mutualistic relationships as salt-intolerant plants and animals are reduced and/or replaced by salt tolerant species
 - Changes in species composition as a result of salinity stress related shifts

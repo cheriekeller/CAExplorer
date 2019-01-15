@@ -5,7 +5,9 @@ title: 'Extreme Event Impacts'
 
 # Impacts to Species from Changes to Extreme Events
 
-Examples of impacts from extreme events include:
+**TODO: intro paragraph**
+
+### Impacts from extreme events include:
 
 - Increased morality
 - Reduced reproductive success and recruitment
