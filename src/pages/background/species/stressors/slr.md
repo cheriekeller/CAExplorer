@@ -1,5 +1,5 @@
 ---
-path: '/background/species/slr'
+path: '/background/species/stressors/slr'
 title: 'Sea Level Rise Impacts'
 ---
 

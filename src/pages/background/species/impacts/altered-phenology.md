@@ -1,5 +1,5 @@
 ---
-path: '/background/species/altered-phenology'
+path: '/background/species/impacts/altered-phenology'
 title: 'Altered Phenology'
 ---
 
@@ -21,6 +21,20 @@ Changing environmental conditions may also cause fluctuations in the physiologic
 - Impeded physiological processes
 - Increased growth rates
 - Reduced metabolic processes
+
+## Temperature-Dependent Sex Determination
+
+The sex of most turtle species and all species of crocodilians is determined by the environment after fertilization. The temperature of the eggs during a certain period of development is the deciding factor in determining sex and small changes in temperature can significantly change the sex ratio. Sex determination is affected by both mean incubation temperature as well as the magnitude of daily temperature fluctuation. Two parameters—the pivotal temperature and the transitional range of temperature—control sex determination in species with TSD. Species with a larger transitional range of temperature are expected to be at a lower risk to climate change.
+
+In species with temperature-dependent sex determination (TSD), global climate change may result in a strong sex ratio bias that could lead to significant population declines or extinction. Some species including the snapping turtle, crocodile, and alligator produce males at intermediate incubation temperatures and either females or a mixed sex ratio are produced at extreme (either high or low) temperatures. Whereas, sea turtles and most other turtle species are female-biased at higher temperatures and male-biased at lower temperatures.
+
+**TODO: sea turtle picture**
+
+## Phenotypic Plasticity and Microevolution
+
+Phenotypic plasticity is the ability of an organism to change its characteristics or traits, including morphological, physiological, and behavioral. Species with phenotypic plasticity can quickly compensate for a moderate change in environmental. For example, some species of pond snails exhibit morphological plasticity in that they develop spiny shells, rather than “normal” smooth shells, in the presence of predators. Plants are more phenotypically plastic than animals, because unlike animals, plants are forced to stay put and address various changing conditions with very limited options to move or migrate.
+
+Microevolution is the changes in the gene pool (allele frequencies) of a population over time that result in relatively small changes to the organism. Gene flow, genetic drift, and mutation are pathways for microevolution. These changes happen over a relatively short (in evolutionary terms) amount of time. Development of resistance of pests to pesticides, weeds to herbicides, and pathogens to medicines (e.g., antibiotics) are examples of microevolution.
 
 ## Examples of Phenological Mismatch
 

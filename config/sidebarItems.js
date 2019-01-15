@@ -24,12 +24,12 @@ const backgroundItems = [
     children: [
       { path: '/background/florida/slr', label: 'Sea Level Rise' },
       {
-        path: '/background/florida/precipitation',
-        label: 'Changes in Precipitation',
-      },
-      {
         path: '/background/florida/temperature',
         label: 'Changes in Temperature',
+      },
+      {
+        path: '/background/florida/precipitation',
+        label: 'Changes in Precipitation',
       },
       {
         path: '/background/florida/extreme-events',
@@ -46,63 +46,62 @@ const backgroundItems = [
     label: "Florida's Species",
     children: [
       {
-        path: '/background/species/temperature',
-        label: 'Temperature Impacts',
-      },
-      {
-        path: '/background/species/precipitation',
-        label: 'Precipitation Impacts',
-      },
-      { path: '/background/species/slr', label: 'Sea Level Rise Impacts' },
-      {
-        path: '/background/species/extreme-events',
-        label: 'Impacts from Extreme Events',
-      },
+        path: '/background/species/stressors',
+        label: 'Climate Stressors',
+        children: [
+          {
+            path: '/background/species/stressors/slr',
+            label: 'Sea Level Rise Impacts',
+          },
+          {
+            path: '/background/species/stressors/temperature',
+            label: 'Temperature Impacts',
+          },
+          {
+            path: '/background/species/stressors/precipitation',
+            label: 'Precipitation Impacts',
+          },
 
-      { path: '/background/species/co2', label: 'Carbon Dioxide Impacts' },
-      {
-        path: '/background/species/community-dynamics',
-        label: 'Altered Community Dynamics',
+          {
+            path: '/background/species/stressors/extreme-events',
+            label: 'Impacts from Extreme Events',
+          },
+
+          {
+            path: '/background/species/stressors/co2',
+            label: 'Carbon Dioxide Impacts',
+          },
+        ],
       },
       {
-        path: '/background/species/keystone-species',
-        label: 'Loss of Keystone Species',
-      },
-      {
-        path: '/background/species/altered-range',
-        label: 'Altered Habitat Suitability',
-      },
-      {
-        path: '/background/species/migratory-species',
-        label: 'Migratory Species',
-      },
-      {
-        path: '/background/species/altered-survival',
-        label: 'Altered Survival',
-      },
-      {
-        path: '/background/species/altered-phenology',
-        label: 'Altered Phenology & Physiology',
-      },
-      {
-        path: '/background/species/',
-        label: 'Temperature-Dependent Sex Determination',
-      },
-      {
-        path: '/background/species/plasticity',
-        label: 'Phenotypic Plasticity',
-      },
-      {
-        path: '/background/species/extinction',
-        label: 'Increased Extinction Risk',
-      },
-      {
-        path: '/background/species/disturbance',
-        label: 'Altered Disturbance Regimes',
-      },
-      {
-        path: '/background/species/existing-stressors',
-        label: 'Existing Stressors',
+        path: '/background/species/impacts',
+        label: 'Climate Impacts',
+        children: [
+          {
+            path: '/background/species/impacts/community-dynamics',
+            label: 'Altered Community Dynamics',
+          },
+          {
+            path: '/background/species/impacts/altered-range',
+            label: 'Altered Habitat Suitability',
+          },
+          {
+            path: '/background/species/impacts/altered-survival',
+            label: 'Altered Survival',
+          },
+          {
+            path: '/background/species/impacts/altered-phenology',
+            label: 'Altered Phenology & Physiology',
+          },
+          {
+            path: '/background/species/impacts/disturbance',
+            label: 'Altered Disturbance Regimes',
+          },
+          {
+            path: '/background/species/impacts/existing-stressors',
+            label: 'Existing Stressors',
+          },
+        ],
       },
     ],
   },

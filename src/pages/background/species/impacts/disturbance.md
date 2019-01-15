@@ -1,5 +1,5 @@
 ---
-path: '/background/species/disturbance'
+path: '/background/species/impacts/disturbance'
 title: 'Altered Disturbance Regimes'
 ---
 

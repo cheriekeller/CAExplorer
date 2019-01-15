@@ -1,5 +1,5 @@
 ---
-path: '/background/species/extreme-events'
+path: '/background/species/stressors/extreme-events'
 title: 'Extreme Event Impacts'
 ---
 

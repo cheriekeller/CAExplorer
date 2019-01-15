@@ -1,9 +1,9 @@
 ---
-path: '/background/species/precipitation'
+path: '/background/species/stressors/precipitation'
 title: 'Precipitation Impacts'
 ---
 
-# Impacts from Changes in Precipitation
+# Impacts to Species from Changes in Precipitation
 
 Changes in precipitation can lead to various impacts on species, depending on the amount, intensity, duration and season of the change.
 

@@ -1,5 +1,5 @@
 ---
-path: '/background/species/temperature'
+path: '/background/species/stressors/temperature'
 title: 'Temperature Impacts'
 ---
 
@@ -30,9 +30,9 @@ Examples of impacts from changes in temperature include:
 - Increased pathogen and vector survival and disease transmission rates
 - Local extirpations of species at the southern extent of their range
 - Increased growth rates of fish (+)
-  Earlier onset of spawning by fish species whose spawning is initiated by a minimum temperature
-  Loss of Alosine (shad) due to mortality and reduced reproductive success
-  Range expansion of euryhaline marine species further into inland waters
+- Earlier onset of spawning by fish species whose spawning is initiated by a minimum temperature
+- Loss of Alosine (shad) due to mortality and reduced reproductive success
+- Range expansion of euryhaline marine species further into inland waters
 
 **Increased temperature extremes - colder lows:**
 

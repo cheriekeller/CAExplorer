@@ -61,8 +61,8 @@ const SidebarLink = styled(Link)`
     }
   }
 
-  ${({ active }) =>
-    active &&
+  ${({ isActive }) =>
+    isActive &&
     css`
       color: ${themeGet('colors.primary.800')};
       font-weight: bold;
@@ -73,6 +73,13 @@ const SidebarLink = styled(Link)`
         left: 0 !important;
       }
     `}
+
+  ${({ isActiveParent }) =>
+    isActiveParent &&
+    css`
+      color: ${themeGet('colors.primary.800')};
+      font-weight: bold;
+    `}
 `
 
 // make sure that window is available (not available in Gatsby build)
@@ -81,22 +88,26 @@ const hasWindow = typeof window !== 'undefined' && window
 const isActive = path => hasWindow && window.location.pathname.endsWith(path)
 
 const showChildren = path =>
-  hasWindow && window.location.pathname.search(path) !== -1
+  hasWindow && window.location.pathname.startsWith(path)
 
 const List = ({ items }) => (
-    <ul>
-      {items.map(({ path, label, children }) => (
-        <li key={path}>
-          <SidebarLink to={path} active={isActive(path)}>
-            {label}
-          </SidebarLink>
-          {children && children.length > 0 && showChildren(path) ? (
-            <List items={children} />
-          ) : null}
-        </li>
-      ))}
-    </ul>
-  )
+  <ul>
+    {items.map(({ path, label, children }) => (
+      <li key={path}>
+        <SidebarLink
+          to={path}
+          isActive={isActive(path)}
+          isActiveParent={children && children.length && showChildren(path)}
+        >
+          {label}
+        </SidebarLink>
+        {children && children.length > 0 && showChildren(path) ? (
+          <List items={children} />
+        ) : null}
+      </li>
+    ))}
+  </ul>
+)
 
 List.propTypes = {
   items: ItemsPropType.isRequired,
