@@ -7,7 +7,7 @@ import Sidebar from '../Sidebar'
 import MobileNavigation from './MobileNavigation'
 import Header from './Header'
 
-import { backgroundItems } from '../../../config/sidebarItems'
+import sidebarItems from '../../../config/sidebarItems'
 
 const Content = styled(Flex)`
   padding-top: 2.75rem;
@@ -18,20 +18,29 @@ const ContentContainer = styled.div`
   width: 100%;
 `
 
-const Layout = ({ children }) => (
-  <ThemeProvider theme={theme}>
-    <>
-      <Header />
-      <Content>
-        <Sidebar items={backgroundItems} />
-        <ContentContainer>
-          <Container px={3}>{children}</Container>
-        </ContentContainer>
-      </Content>
-      <MobileNavigation />
-    </>
-  </ThemeProvider>
-)
+// make sure that window is available (not available in Gatsby build)
+const hasWindow = typeof window !== 'undefined' && window
+
+const Layout = ({ children }) => {
+  const items = hasWindow
+    ? sidebarItems[window.location.pathname.split('/')[1]] || []
+    : []
+
+  return (
+    <ThemeProvider theme={theme}>
+      <>
+        <Header />
+        <Content>
+          <Sidebar items={items} />
+          <ContentContainer>
+            <Container px={3}>{children}</Container>
+          </ContentContainer>
+        </Content>
+        <MobileNavigation />
+      </>
+    </ThemeProvider>
+  )
+}
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

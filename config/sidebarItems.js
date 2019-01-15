@@ -1,4 +1,4 @@
-export const backgroundItems = [
+const backgroundItems = [
   {
     path: '/background',
     label: 'Get Started',
@@ -107,3 +107,5 @@ export const backgroundItems = [
     ],
   },
 ]
+
+export default { background: backgroundItems, species: [], habitats: [] }

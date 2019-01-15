@@ -6,9 +6,6 @@ import styled, { themeGet } from 'util/style'
 
 import { Link } from 'components/Link'
 
-// make sure that window is available (not available in Gatsby build)
-const hasWindow = typeof window !== 'undefined' && window
-
 const ItemsPropType = PropTypes.arrayOf(
   PropTypes.shape({
     path: PropTypes.string.isRequired,
@@ -78,25 +75,28 @@ const SidebarLink = styled(Link)`
     `}
 `
 
-const isActive = path => hasWindow && window.location.href.endsWith(path)
+// make sure that window is available (not available in Gatsby build)
+const hasWindow = typeof window !== 'undefined' && window
+
+const isActive = path => hasWindow && window.location.pathname.endsWith(path)
 
 const showChildren = path =>
-  hasWindow && window.location.href.search(path) !== -1
+  hasWindow && window.location.pathname.search(path) !== -1
 
 const List = ({ items }) => (
-  <ul>
-    {items.map(({ path, label, children }) => (
-      <li key={path}>
-        <SidebarLink to={path} active={isActive(path)}>
-          {label}
-        </SidebarLink>
-        {children && children.length > 0 && showChildren(path) ? (
-          <List items={children} />
-        ) : null}
-      </li>
-    ))}
-  </ul>
-)
+    <ul>
+      {items.map(({ path, label, children }) => (
+        <li key={path}>
+          <SidebarLink to={path} active={isActive(path)}>
+            {label}
+          </SidebarLink>
+          {children && children.length > 0 && showChildren(path) ? (
+            <List items={children} />
+          ) : null}
+        </li>
+      ))}
+    </ul>
+  )
 
 List.propTypes = {
   items: ItemsPropType.isRequired,
