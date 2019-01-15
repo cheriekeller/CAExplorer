@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { css } from 'styled-components'
+import { setConfig } from 'react-hot-loader'
 
 import styled, { themeGet } from 'util/style'
-
+import { scrollIntoView } from 'util/dom'
 import { Link } from 'components/Link'
+
+setConfig({ pureSFC: true })
 
 const ItemsPropType = PropTypes.arrayOf(
   PropTypes.shape({
@@ -93,7 +96,7 @@ const showChildren = path =>
 const List = ({ items }) => (
   <ul>
     {items.map(({ path, label, children }) => (
-      <li key={path}>
+      <li key={path} id={isActive(path) ? 'ActiveSidebarLink' : null}>
         <SidebarLink
           to={path}
           isActive={isActive(path)}
@@ -113,11 +116,17 @@ List.propTypes = {
   items: ItemsPropType.isRequired,
 }
 
-const Sidebar = ({ items }) => (
-  <SidebarContainer>
-    <List items={items} />
-  </SidebarContainer>
-)
+const Sidebar = ({ items }) => {
+  useEffect(() => {
+    scrollIntoView('ActiveSidebarLink')
+  })
+
+  return (
+    <SidebarContainer>
+      <List items={items} />
+    </SidebarContainer>
+  )
+}
 
 Sidebar.propTypes = {
   items: ItemsPropType.isRequired,

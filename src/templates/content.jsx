@@ -24,7 +24,10 @@ const Content = styled.div`
 
 const Template = ({
   data: {
-    markdownRemark: { html, frontmatter: {title} },
+    markdownRemark: {
+      html,
+      frontmatter: { title },
+    },
   },
 }) => (
   <Layout>
