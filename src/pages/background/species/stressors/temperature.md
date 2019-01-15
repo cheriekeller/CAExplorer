@@ -27,7 +27,7 @@ Changes in temperature can lead to various impacts on species, depending on the 
 
 - Increased pathogen and vector survival and disease transmission rates
 - Local extirpations of species at the southern extent of their range
-- Increased growth rates of fish (+)
+- Increased growth rates of fish (potentially beneficial change)
 - Earlier onset of spawning by fish species whose spawning is initiated by a minimum temperature
 - Loss of Alosine (shad) due to mortality and reduced reproductive success
 - Range expansion of euryhaline marine species further into inland waters
@@ -42,4 +42,4 @@ Changes in temperature can lead to various impacts on species, depending on the 
 - Impediments to seasonal movement due to variation in temperature regimes
 - Increased mortality for cold temperature sensitive species
 - Increased occurrence and severity of cold kill events
-- Limit northern extent/expansion of exotic species range (+)
+- Limit northern extent/expansion of exotic species range (potentially beneficial change)

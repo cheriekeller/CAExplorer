@@ -9,7 +9,7 @@ Climate change will compound many of the existing stressors and threats to speci
 
 Three key drivers of biodiversity loss include existing threats, direct effects of climate change, and the interaction between the existing threats and climate change. The ability of species and systems to adapt to climate change will be further challenged when considering the effects of these other stressors. It is expected that the overall vulnerability of some ecosystems may be primarily driven by the severity of these non-climate stressors and by how they interact with climate change. The synergistic effects of climate and non-climate stressors, leading to range reductions and population declines, may be severe enough to threaten some species with extinction or extirpation from significant portions of their ranges. Examples of synergistic effects can be found here.
 
-The primary existing threats to Florida’s species and habits that are expected to have synergistic effects with climate change include:
+### Existing threats expected to have synergistic effects with climate change include:
 
 - Habitat loss
 - Fragmentation and degradation
@@ -17,18 +17,18 @@ The primary existing threats to Florida’s species and habits that are expected
 - Pathogens, pests/parasites, and pollutants
 - Competition for resources and overexploitation
 
-** TODO: Examples of ways to address these stressors can be found here.**
+**TODO: Examples of ways to address these stressors can be found here.**
 
 ## Synergistic Effect of Climate Change and Non-climate Stressors
 
-**Impacts of climate change may be exacerbated by existing stressors:**
+### Impacts of climate change may be exacerbated by existing stressors:
 
 - Pollution may increase sensitivity of corals to temperature and bleaching
 - Destruction of riparian vegetation may increase stream exposure to higher temperatures/ erosion
 - Habitat fragmentation may limit adaptive capacity
 - People's response to climate change may cause additional stressors
 
-**Climate change may exacerbate existing stressors:**
+### Climate change may exacerbate existing stressors:
 
 - Heavier downpours may lead to more polluted runoff
 - Warming may allow movement of nonnative species and diseases
@@ -67,7 +67,7 @@ Increased temperatures impact parasites by increasing their growth rates, sexual
 
 Alterations to temperature, pH, dilution rates, salinity, and other environmental conditions due to climate change can affect the impacts of pollutants on species and systems. The effects from these climatic changes can modify the availability of pollutants, the exposure and sensitivity of species to pollutants, transport patterns, and the uptake and toxicity of pollutants. Increased coastal flooding and inundation may result in release of contaminants from coastal soils, sediments, and infrastructure and increase exposure of fish, wildlife, and plants to these pollutants. The amount of runoff of phosphorus and other nutrients from farms and other landscapes currently contributes to harmful algal blooms and is expected to worsen with predicted increases in floods and other extreme precipitation events.
 
-## Competition for Resources/Overexploitation
+## Competition for Resources and Overexploitation
 
 Florida’s natural systems, in addition to their role in supporting biodiversity, provide a multitude of public services—supporting working landscapes, commercial and recreational activities. When well-maintained and well-managed, Florida’s ecosystems can support these activities; however, overexploitation, misuse, and illegal activities can cause harm to the systems, communities, and species. Climate change can heighten species’ vulnerability to overexploitation and, inversely, exploitation has made species particularly vulnerable to changes in climate. Species and populations impacted by climate change may be more vulnerable to over-harvesting if they become easier to harvest due to altered and increased movements as they react to loss or degradation of habitat, if they are forced to find alternative food sources, if their behavior is altered, or if they become stressed or diseased.
 

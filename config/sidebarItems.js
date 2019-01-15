@@ -15,7 +15,10 @@ const backgroundItems = [
         path: '/background/climate101/co2',
         label: 'Increasing Atmospheric Carbon Dioxide',
       },
-      { path: '/background/climate101/models', label: 'Climate Models' },
+      {
+        path: '/background/climate101/models',
+        label: 'Carbon Dioxide Emission Models',
+      },
     ],
   },
   {
@@ -99,11 +102,25 @@ const backgroundItems = [
           },
           {
             path: '/background/species/impacts/existing-stressors',
-            label: 'Existing Stressors',
+            label: 'Interactions with Existing Stressors',
           },
         ],
       },
     ],
+  },
+  {
+    path: '/background/habitats',
+    label: "Florida's Ecosystems and Habitats",
+  },
+  {
+    path: '/background/vulnerability',
+    label: 'Vulnerability to Climate Change',
+    children: [
+      {path: '/background/vulnerability/scenarios', label: 'Scenario Planning'},
+      {path: '/background/vulnerability/ccvi', label: 'Climate Change Vulnerability Index'},
+      {path: '/background/vulnerability/sivva', label: 'Standardized Index of Vulnerability and Value Assessment'},
+      {path: '/background/vulnerability/gcva', label: 'Gulf Coast Vulnerability Assessment'},
+    ]
   },
 ]
 

@@ -5,7 +5,7 @@ title: 'CO2 Impacts'
 
 # Impacts to Species from Water Chemistry Changes
 
-Examples of impacts from changes in carbon dioxide concentrations in water include:
+**TODO: intro paragraph**
 
 ### Impacts from ocean acidification include:
 

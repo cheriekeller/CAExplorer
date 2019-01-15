@@ -9,7 +9,7 @@ title: 'Sea Level Rise Impacts'
 
 Many species will lose habitat due to direct inundation by sea level rise. This chart shows projected habitat loss (%) for those species most likely to be impacted by sea level rise. The colored bars represent five categories of percent habitat loss. The height of the colored bars (and numbers at the top of each bar) indicate how many species are included in each of the five categories at three different sea level rise scenarios (1m, 3m and 6m).
 
-**TODO: SLR barchart **
+**TODO: SLR barchart**
 
 ## Salinity Shifts
 
