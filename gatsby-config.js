@@ -43,6 +43,12 @@ module.exports = {
               rel: 'noopener noreferrer',
             },
           },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'media',
+            }
+          }
         ],
       },
     },
