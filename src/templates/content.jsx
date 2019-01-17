@@ -22,6 +22,33 @@ const Content = styled.div`
     font-size: smaller;
     margin-bottom: 3rem;
   }
+
+  hr {
+    margin-top: 3rem;
+  }
+
+  .float-left {
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex: 1 0 auto;
+    min-width: 400px;
+    width: 50%;
+    &.is-two-thirds {
+      width: 66%;
+    }
+  }
 `
 
 const Template = ({

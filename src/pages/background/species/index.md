@@ -15,7 +15,7 @@ This tool includes species profile for 139 species.
 
 ## Species Profiles - Introduction
 
-There are 139 individual species profiles included on the Climate Adaptation Explorer (CAE). These species were selected for inclusion based on multiple criteria (species only need to meet 1 criteria):
+There are 139 individual species profiles included in this tool. Species are included if they meet at least one of the following criteria:
 
 - Federally listed
 - State listed
@@ -37,11 +37,36 @@ Species will be impacted by changes in temperature, precipitation, extreme event
 
 Climate change impacts on species will be driven by one or multiple climate-related factors acting in concert or synergistically.
 
-** TODO: links in following block**
-Impacts of climate change on species include: altered community dynamics, altered habitat suitability/geographic range, altered species fitness and survival, altered phenology and physiology, and increased risk of extinction.
+### Impacts of climate change on species include:
 
-Additionally, climate climatic shifts that lead to altered disturbance regimes will have direct and indirect impacts on species. Species that will likely be most vulnerable to climate change are those that have: poor dispersal ability, long generation times, long time to sexual maturity, low reproductive rates, low genetic variability, narrow environmental tolerances, specialized requirements or relationships with other species, specialized habitat and/or microhabitat requirements, a narrow geographic range, or a dependence on specific triggers or cues likely to be disrupted by climate change.
+- [altered community dynamics](/background/species/impacts/altered-dynamics)
+- [altered habitat suitability/geographic range](/background/species/impacts/altered-range)
+- [altered species fitness and survival](/background/species/impacts/altered-survival)
+- [altered phenology and physiology](/background/species/impacts/altered-phenology)
+- [increased risk of extinction](/background/species/impacts/altered-survival)
+
+Additionally, climate climatic shifts that lead to altered disturbance regimes will have direct and indirect impacts on species. Species that will likely be most vulnerable to climate change are those that have:
+
+- poor dispersal ability
+- long generation times
+- long time to sexual maturity
+- low reproductive rates
+- low genetic variability
+- narrow environmental tolerances
+- specialized requirements or relationships with other species
+- specialized habitat and/or microhabitat requirements
+- narrow geographic range
+- dependence on specific triggers or cues likely to be disrupted by climate change
 
 Many generalist species, such as white-tailed deer or raccoons, are likely to continue to thrive in a changing climate. Species, both native and exotic, with traits that assist in invading or colonizing disturbed areas (e.g., ability to change/adjust their range, phenology, and physiology) will have an advantage in a rapidly changing climate.
 
-The biodiversity and ecology of Florida are already suffering from a number of existing stressors, including habitat loss, fragmentation and degradation, invasive plants and animals, altered hydrologic regimes, overexploitation, and pathogens, parasites and pollutants. Loss of habitat is the most significant threat to Florida’s species. The effects on species and habitat from existing stressors will likely be exacerbated by climate change. Conversely, the impacts of climate change will be compounded by existing stressors.
+The biodiversity and ecology of Florida are already suffering from a number of existing stressors, including:
+
+- habitat loss
+- fragmentation and degradation
+- invasive plants and animals
+- altered hydrologic regimes
+- overexploitation
+- pathogens, parasites and pollutants.
+
+Loss of habitat is the most significant threat to Florida’s species. The effects on species and habitat from existing stressors will likely be exacerbated by climate change. The impacts of climate change will also be compounded by existing stressors.
