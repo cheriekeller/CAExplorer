@@ -3,7 +3,7 @@ path: '/background/species/impacts/existing-stressors'
 title: 'Existing Stressors'
 ---
 
-# Existing Non-climate Stressors
+# Interaction with Existing Non-climate Stressors
 
 Climate change will compound many of the existing stressors and threats to species and habitats and lead to an increased rate of biodiversity loss.
 

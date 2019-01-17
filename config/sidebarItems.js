@@ -54,25 +54,25 @@ const backgroundItems = [
         children: [
           {
             path: '/background/species/stressors/slr',
-            label: 'Sea Level Rise Impacts',
+            label: 'Sea Level Rise',
           },
           {
             path: '/background/species/stressors/temperature',
-            label: 'Temperature Impacts',
+            label: 'Temperature Changes',
           },
           {
             path: '/background/species/stressors/precipitation',
-            label: 'Precipitation Impacts',
+            label: 'Precipitation Changes',
           },
 
           {
             path: '/background/species/stressors/extreme-events',
-            label: 'Impacts from Extreme Events',
+            label: 'Changes to Extreme Events',
           },
 
           {
             path: '/background/species/stressors/co2',
-            label: 'Carbon Dioxide Impacts',
+            label: 'Changes in Carbon Dioxide Concentration',
           },
         ],
       },
@@ -111,16 +111,66 @@ const backgroundItems = [
   {
     path: '/background/habitats',
     label: "Florida's Ecosystems and Habitats",
+    children: [
+      {
+        path: '/background/habitats/stressors',
+        label: 'Climate Stressors',
+        children: [
+          {
+            path: '/background/habitats/stressors/slr',
+            label: 'Sea Level Rise',
+          },
+          {
+            path: '/background/habitats/stressors/temperature',
+            label: 'Temperature Changes',
+          },
+          {
+            path: '/background/habitats/stressors/precipitation',
+            label: 'Precipitation Changes',
+          },
+
+          {
+            path: '/background/habitats/stressors/extreme-events',
+            label: 'Changes to Extreme Events',
+          },
+
+          {
+            path: '/background/habitats/stressors/co2',
+            label: 'Changes in Carbon Dioxide Concentration',
+          },
+        ],
+      },
+    ],
   },
   {
     path: '/background/vulnerability',
     label: 'Vulnerability to Climate Change',
     children: [
-      {path: '/background/vulnerability/scenarios', label: 'Scenario Planning'},
-      {path: '/background/vulnerability/ccvi', label: 'Climate Change Vulnerability Index'},
-      {path: '/background/vulnerability/sivva', label: 'Standardized Index of Vulnerability and Value Assessment'},
-      {path: '/background/vulnerability/gcva', label: 'Gulf Coast Vulnerability Assessment'},
-    ]
+      {
+        path: '/background/vulnerability/scenarios',
+        label: 'Scenario Planning',
+      },
+      {
+        path: '/background/vulnerability/ccvi',
+        label: 'Climate Change Vulnerability Index',
+      },
+      {
+        path: '/background/vulnerability/sivva',
+        label: 'Standardized Index of Vulnerability and Value Assessment',
+      },
+      {
+        path: '/background/vulnerability/gcva',
+        label: 'Gulf Coast Vulnerability Assessment',
+      },
+    ],
+  },
+  {
+    path: '/background/impacts',
+    label: 'Florida Climate Change Impacts',
+    children: [
+      { path: '/background/impacts/social', label: 'Social Impacts' },
+      { path: '/background/impacts/economic', label: 'Economic Impacts' },
+    ],
   },
 ]
 
