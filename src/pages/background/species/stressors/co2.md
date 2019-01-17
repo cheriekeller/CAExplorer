@@ -1,9 +1,9 @@
 ---
 path: '/background/species/stressors/co2'
-title: 'CO2 Impacts'
+title: 'Changes in Water Chemistry'
 ---
 
-# Impacts to Species from Water Chemistry Changes
+# Impacts to Species from Changes in Water Chemistry
 
 **TODO: intro paragraph**
 

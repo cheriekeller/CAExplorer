@@ -19,7 +19,9 @@ Sea level rise will not impact the coastal areas of Florida to the same degree. 
 
 <!-- Simple inundation models results of Priority Resource communities. -->
 
-## Sea Level Rise Visualization Tools
+---
+
+## Resources
 
 #### [NOAA Digital Coast – Sea Level Rise Viewer](http://coast.noaa.gov/digitalcoast/tools/slr)
 
@@ -28,8 +30,6 @@ This tool simulates various SLR scenarios and the corresponding areas that would
 #### [Sea Level Scenario Sketch Planning Tool](http://sls.geoplan.ufl.edu/#intro)
 
 This tool from the University of Florida can be used to conduct statewide and regional assessments of transportation facilities potentially vulnerable to climate trends.
-
-### Sea Level Rise and Marsh Migration Models
 
 ####[Marshes on the Move](https://coast.noaa.gov/data/digitalcoast/pdf/marshes-on-the-move.pdf)
 This report from the NOAA Coastal Services Center (CSC) and the Nature Conservancy provides a basic understanding of the parameters and uncertainties involved in modeling the future impacts of sea level rise on coastal wetlands.

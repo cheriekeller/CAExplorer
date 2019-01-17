@@ -1,6 +1,6 @@
 ---
 path: '/background/habitats/co2'
-title: 'CO2 Impacts'
+title: 'Changes in Water Chemistry'
 ---
 
 # Impacts to Ecosystems and Habitats from Changes in Water Chemistry

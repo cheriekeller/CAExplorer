@@ -23,7 +23,7 @@ const backgroundItems = [
   },
   {
     path: '/background/florida',
-    label: "Florida's Climate and Impacts",
+    label: 'Impacts of Climate Change in Florida',
     children: [
       { path: '/background/florida/slr', label: 'Sea Level Rise' },
       {
@@ -40,7 +40,7 @@ const backgroundItems = [
       },
       {
         path: '/background/florida/co2',
-        label: 'Changes in Carbon Dioxide Concentration',
+        label: 'Changes in Water Chemistry',
       },
     ],
   },
@@ -72,7 +72,7 @@ const backgroundItems = [
 
           {
             path: '/background/species/stressors/co2',
-            label: 'Changes in Carbon Dioxide Concentration',
+            label: 'Changes in Water Chemistry',
           },
         ],
       },
@@ -132,7 +132,7 @@ const backgroundItems = [
 
       {
         path: '/background/habitats/co2',
-        label: 'Changes in Carbon Dioxide Concentration',
+        label: 'Changes in Water Chemistry',
       },
     ],
   },
@@ -159,12 +159,12 @@ const backgroundItems = [
     ],
   },
   {
-    path: '/background/impacts',
-    label: 'Florida Climate Change Impacts',
-    children: [
-      { path: '/background/impacts/social', label: 'Social Impacts' },
-      { path: '/background/impacts/economic', label: 'Economic Impacts' },
-    ],
+    path: '/background/adaptation',
+    label: 'Adaptation Strategies',
+    // children: [
+    //   { path: '/background/impacts/social', label: 'Social Impacts' },
+    //   { path: '/background/impacts/economic', label: 'Economic Impacts' },
+    // ],
   },
 ]
 

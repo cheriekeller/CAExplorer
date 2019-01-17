@@ -5,8 +5,6 @@ title: Climate 101
 
 # Climate 101
 
-## A Changing Climate
-
 In recent decades, changes in the global climate impacted natural and human systems on all continents and across the oceans. Evidence of impacts from climate-change is strongest and most comprehensive for natural systems.
 
 The main changes expected for North America include rising temperatures, regional increases or decreases in precipitation, rising sea levels, and changes in the frequency and severity of extreme weather events.
