@@ -113,32 +113,26 @@ const backgroundItems = [
     label: "Florida's Ecosystems and Habitats",
     children: [
       {
-        path: '/background/habitats/stressors',
-        label: 'Climate Stressors',
-        children: [
-          {
-            path: '/background/habitats/stressors/slr',
-            label: 'Sea Level Rise',
-          },
-          {
-            path: '/background/habitats/stressors/temperature',
-            label: 'Temperature Changes',
-          },
-          {
-            path: '/background/habitats/stressors/precipitation',
-            label: 'Precipitation Changes',
-          },
+        path: '/background/habitats/slr',
+        label: 'Sea Level Rise',
+      },
+      {
+        path: '/background/habitats/temperature',
+        label: 'Temperature Changes',
+      },
+      {
+        path: '/background/habitats/precipitation',
+        label: 'Precipitation Changes',
+      },
 
-          {
-            path: '/background/habitats/stressors/extreme-events',
-            label: 'Changes to Extreme Events',
-          },
+      {
+        path: '/background/habitats/extreme-events',
+        label: 'Changes to Extreme Events',
+      },
 
-          {
-            path: '/background/habitats/stressors/co2',
-            label: 'Changes in Carbon Dioxide Concentration',
-          },
-        ],
+      {
+        path: '/background/habitats/co2',
+        label: 'Changes in Carbon Dioxide Concentration',
       },
     ],
   },

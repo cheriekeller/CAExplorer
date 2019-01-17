@@ -1,5 +1,5 @@
 ---
-path: '/background/habitats/stressors/temperature'
+path: '/background/habitats/temperature'
 title: 'Temperature Impacts'
 ---
 
@@ -7,7 +7,7 @@ title: 'Temperature Impacts'
 
 Changes in temperature can lead to various impacts, depending on the season and duration of the temperature change.
 
-See temperature related impacts for:
+See temperature-related impacts for:
 
 - [Coastal and Terrestrial Ecosystems](#Terrestrial)
 - [Freshwater Ecosystems](#Freshwater)
