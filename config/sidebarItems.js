@@ -165,6 +165,8 @@ const strategiesNav = [
     path: '/strategies/guidance',
     label: 'How to Create Strategies?',
   },
+  { path: '/strategies/species', label: 'Species Strategies' },
+  { path: '/strategies/habitats', label: 'Habitat Strategies' },
   {
     path: '/strategies/crosscutting',
     label: 'Cross-cutting Strategies',

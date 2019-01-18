@@ -21,7 +21,9 @@ Adaptation strategies consider three main concepts:
 - **Resilience:** the ability of a system to recover from or adjust easily to a disturbance, returning to its original state. In the emerging context of climate change, resilience might best be measured more in terms of overall ecosystem structure, function, and process rates and less in terms of taxonomic composition.
 - **Transformation:** the change in a system’s composition and/or function in response to changes in climate or other factors.
 
-[Learn more about how to create adaptation strategies](/strategies/guidelines)
+<br />
+
+[Learn more about how to create adaptation strategies](/strategies/guidelines).
 
 ---
 

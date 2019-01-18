@@ -5,8 +5,6 @@ title: 'Resources'
 
 # Additional Resources for Adaptation Strategies
 
-**TODO:images**
-
 The following adaptation guides provide additional information and resources for creating your own adaptation strategies.
 
 - [National Fish, Wildlife, and Plants Climate Adaptation Strategy](#WAS)
@@ -20,7 +18,13 @@ There is more information available on the [additional resources for climate imp
 
 ## [National Fish, Wildlife, and Plants Climate Adaptation Strategy](https://www.wildlifeadaptationstrategy.gov/strategy.php)
 
+<div class="float-left" style="width: 150px;">
+<img src="resources-nfwp-cas.png" />
+</div>
+
 This nationwide strategy is the product of an interagency steering committee, consisting of members at both the state and federal levels. The purpose of the Strategy is to inspire and enable natural resource professionals and other decision makers to take action to conserve the nation’s fish, wildlife, plants, and ecosystem functions, as well as the human uses and values these natural systems provide, in a changing climate. This document provides an excellent starting point for examining broad approaches to climate adaptation and provide key successes that serve as examples for how to best to begin employing appropriate climate adaptation strategies.
+
+<div class="clear"></div>
 
 This strategy outlines 7 primary goals:
 
@@ -36,9 +40,15 @@ This strategy outlines 7 primary goals:
 
 ## [Climate Smart Conservation: Putting Adaptation into Practice](https://www.nwf.org/climatesmartguide)
 
+<div class="float-left" style="width: 150px;">
+<img src="resources-csc.png" />
+</div>
+
 The goal of this guide is to aid policy makers and practitioners in recognizing, designing, and employing good climate-smart conservation strategies and goals. It offers strategies for carrying out conservation in a rapidly changing climate.
 
 Climate-smart conservation is defined as “the intentional and deliberate consideration of climate change in natural resource management, realized through adopting forward-looking goals and explicitly linking strategies to key climate impacts and vulnerabilities.”
+
+<div class="clear"></div>
 
 The guide examines four key themes of climate-smart conservation:
 
@@ -63,9 +73,15 @@ Climate-smart conservation can be described as an approach that:
 
 ## [Embracing Change: Adapting Conservation Approaches to Address a Changing Climate](https://www.wcsclimateadaptationfund.org/resources)
 
+<div class="float-left" style="width: 150px;">
+<img src="resources-wcs.png" />
+</div>
+
 The goal of this report is to help conservationists learn how to move beyond business-as-usual conservation approaches and make their work climate informed. Twelve real-world examples of how conservation practitioners around the United States are modifying their approaches to support the capacity of wildlife and ecosystems to adapt to a changing climate.
 
 Integrating climate change into conservation planning can reveal the need for strategic and forward-looking adjustments in the WHAT, WHERE, WHEN and WHY of conservation efforts.
+
+<div class="clear"></div>
 
 #### WHAT - Taking Climate-Informed Actions
 
@@ -90,6 +106,26 @@ The goal of conservation projects may evolve as climate change affects a place o
 Published by the World Conservation Union (IUCN), this series of publications provides information on management tools to promote resilience in marine
 ecosystems:
 
-- [Mangroves](https://portals.iucn.org/library/sites/library/files/documents/2006-041.pdf)
-- [Seagrass](https://www.reefresilience.org/pdf/Managing_Seagrasses_for_Resilience_to_Climate_Change.pdf)
-- [Coral Reefs](https://portals.iucn.org/library/sites/library/files/documents/2006-042.pdf)
+<div class="float-left" style="width: 150px;">
+<img src="resources-iucn-mangroves.png" />
+</div>
+
+[Mangroves](https://portals.iucn.org/library/sites/library/files/documents/2006-041.pdf)
+
+<div class="clear"></div>
+
+<div class="float-left" style="width: 150px;">
+<img src="resources-iucn-seagrasses.png" />
+</div>
+
+[Seagrass](https://www.reefresilience.org/pdf/Managing_Seagrasses_for_Resilience_to_Climate_Change.pdf)
+
+<div class="clear"></div>
+
+<div class="float-left" style="width: 150px;">
+<img src="resources-iucn-reefs.png" />
+</div>
+
+[Coral Reefs](https://portals.iucn.org/library/sites/library/files/documents/2006-042.pdf)
+
+<div class="clear"></div>
