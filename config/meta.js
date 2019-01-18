@@ -7,8 +7,8 @@ module.exports = {
     'A climate adaptation resource for Florida, including information on climate impacts, habitats, species, and adaptation strategies.',
   nav: [
     {
-      label: 'Background',
-      link: '/background',
+      label: 'Impacts',
+      link: '/impacts',
     },
     {
       label: 'Species',
@@ -17,6 +17,11 @@ module.exports = {
     {
       label: 'Habitats',
       link: '/habitats',
+    },
+    {
+      label: 'Adaptation Strategies',
+      shortLabel: 'Adaptation',
+      link: '/strategies',
     },
   ],
   manifest: {

@@ -61,7 +61,7 @@ const IndexPage = ({ data: { headerImage } }) => (
             TODO: Stuff about climate impacts
             <br />
             <br />
-            <Link to="/background">Read more...</Link>
+            <Link to="/impacts">Read more...</Link>
           </p>
         </InfoBox>
         <InfoBox>
@@ -100,6 +100,17 @@ const IndexPage = ({ data: { headerImage } }) => (
         future impacts of climate change on Florida’s ecosystems.
         <br />
         <br />
+      </p>
+
+      <div>More info on getting started goes here</div>
+
+      <h3>Need help?</h3>
+      <p>
+        We are here to help you interpret and apply the information in this
+        tool.
+        <br />
+        <br />
+        Please <a href="#">contact us</a> for assistance or to report issues.
       </p>
 
       <h3>Credits</h3>

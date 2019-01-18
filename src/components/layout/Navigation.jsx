@@ -22,7 +22,7 @@ const NavLink = styled(Link)`
     active ? themeGet('colors.secondary.500') : 'transparent'};
 
   & + a {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
   }
 
   &:hover {

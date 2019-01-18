@@ -11,6 +11,7 @@ Species and Their Habitats](http://www.myfwc.com/media/3794360/adaptation-guide.
 Ecology chapter in "Florida’s Climate: Changes, Variations
 and Impacts"](http://floridaclimateinstitute.org/docs/climatebook/Ch12-Stys.pdf) (Florida Climate Institute, 2017).
 
+
 ## Credits
 
 This project is made possible due to support from the U.S. Fish and Wildlife Service, Peninsular Florida Landscape Conservation Cooperative.

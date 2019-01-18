@@ -18,8 +18,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `background`,
-        path: `${__dirname}/src/pages/background`,
+        name: `impacts`,
+        path: `${__dirname}/src/pages/impacts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `strategies`,
+        path: `${__dirname}/src/pages/strategies`,
       },
     },
     {
@@ -47,8 +54,8 @@ module.exports = {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
               destinationDir: 'media',
-            }
-          }
+            },
+          },
         ],
       },
     },
