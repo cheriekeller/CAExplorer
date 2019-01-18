@@ -13,6 +13,7 @@ import SEO from 'components/SEO'
 import ImageBanner from 'components/ImageBanner'
 
 import CBILogo from '../images/cbi_logo.png'
+import FWCLogo from '../images/fwc_logo.png'
 import PFLCCLogo from '../images/pflcc_logo.png'
 
 const Logo = styled.img`
@@ -113,7 +114,7 @@ const IndexPage = ({ data: { headerImage } }) => (
           Tools for Climate Smart Management of Florida&apos;s Fish and Wildlife
           Species and Their Habitats
         </a>{' '}
-        (Florida Fish and Wildlife Commission, 2016) and the{' '}
+        (Florida Fish and Wildlife Conservation Commission, 2016) and the{' '}
         <a
           href="http://floridaclimateinstitute.org/docs/climatebook/Ch12-Stys.pdf"
           target="_blank"
@@ -123,7 +124,7 @@ const IndexPage = ({ data: { headerImage } }) => (
           Ecology&quot; chapter in &quot;Florida’s Climate: Changes, Variations
           and Impacts
         </a>{' '}
-        (Florida Climate Insitute, 2017)
+        (Florida Climate Institute, 2017)
       </p>
 
       <Divider />
@@ -147,17 +148,17 @@ const IndexPage = ({ data: { headerImage } }) => (
         </a>{' '}
         /{' '}
         <a
-          href="https://myfwc.com/about/inside-fwc/fwri/"
+          href="https://myfwc.com/conservation/special-initiatives/climate-change/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Florida Fish and Wildlife Commission Fish and Wildlife Research
-          Institute
+          Florida Fish and Wildlife Conservation Commission
         </a>
         .
       </p>
       <Flex justifyContent="space-between">
         <Logo src={CBILogo} alt="CBI Logo" />
+        <Logo src={FWCLogo} alt="FWC Logo" style={{ height: 100 }} />
         <Logo src={PFLCCLogo} alt="PFLCC Logo" />
       </Flex>
 
