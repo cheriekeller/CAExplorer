@@ -4,10 +4,6 @@ const impactNav = [
     label: 'Get Started',
   },
   {
-    path: '/impacts/howto',
-    label: 'How to Use This Tool',
-  },
-  {
     path: '/impacts/climate101',
     label: 'Climate 101',
     children: [
@@ -158,17 +154,74 @@ const impactNav = [
       },
     ],
   },
-  {
-    path: '/impacts/adaptation',
-    label: 'Overview',
-    children: [
-      { path: '/strategies', label: 'TODO' },
-      { path: '/strategies/resources', label: 'Resources' },
-    ],
-  },
 ]
 
-const strategiesNav = []
+const strategiesNav = [
+  {
+    path: '/strategies',
+    label: 'Overview',
+  },
+  {
+    path: '/strategies/guidance',
+    label: 'How to Create Strategies?',
+  },
+  {
+    path: '/strategies/crosscutting',
+    label: 'Cross-cutting Strategies',
+    children: [
+      {
+        path: '/strategies/crosscutting/protection',
+        label: 'Land and Water Protection',
+      },
+      {
+        path: '/strategies/crosscutting/restoration',
+        label: 'Restoration',
+      },
+      {
+        path: '/strategies/crosscutting/planning',
+        label: 'Planning',
+      },
+      {
+        path: '/strategies/crosscutting/research',
+        label: 'Research',
+      },
+      {
+        path: '/strategies/crosscutting/policy',
+        label: 'Policy',
+      },
+      {
+        path: '/strategies/crosscutting/education',
+        label: 'Education and Outreach',
+      },
+      {
+        path: '/strategies/crosscutting/collaboration',
+        label: 'Collaboration',
+      },
+      {
+        path: '/strategies/crosscutting/monitoring',
+        label: 'Monitoring',
+      },
+      {
+        path: '/strategies/crosscutting/habitat-loss',
+        label: 'Habitat Loss',
+      },
+      {
+        path: '/strategies/crosscutting/invasives',
+        label: 'Invasive Species',
+      },
+      {
+        path: '/strategies/crosscutting/pathogens',
+        label: 'Pathogens, Pests / Parasites, Pollutants',
+      },
+      {
+        path: '/strategies/crosscutting/competition',
+        label: 'Competition and Overexploitation',
+      },
+    ],
+  },
+
+  { path: '/strategies/resources', label: 'Additional Resources' },
+]
 
 export default {
   impacts: impactNav,

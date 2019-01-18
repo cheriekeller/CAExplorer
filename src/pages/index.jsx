@@ -48,12 +48,10 @@ const IndexPage = ({ data: { headerImage } }) => (
         <br />
         <br />
       </p>
-
       <h2>
         This tool can help, by empowering you with the latest available
         information about:
       </h2>
-
       <Flex flexWrap="wrap">
         <InfoBox>
           <h3>Climate Impacts</h3>
@@ -83,7 +81,6 @@ const IndexPage = ({ data: { headerImage } }) => (
           </p>
         </InfoBox>
       </Flex>
-
       <p>
         <br />
         <br />
@@ -101,9 +98,76 @@ const IndexPage = ({ data: { headerImage } }) => (
         <br />
         <br />
       </p>
-
-      <div>More info on getting started goes here</div>
-
+      <hr />
+      <h3>How to use this tool?</h3>
+      TODO:content and organization
+      <h4>Species profiles</h4>
+      <p>
+        There are 139 individual species profiles included in this tool. Species
+        are included if they meet at least one of the following criteria:
+      </p>
+      <ul>
+        <li>Federally listed</li>
+        <li>State listed</li>
+        <li>Species with a State Species Action Plan</li>
+        <li>Specie with a State Management Plan</li>
+        <li>Species included in the State Imperiled Species Management Plan</li>
+        <li>Species with Habitat Models</li>
+        <li>
+          Selected additional species with a Vulnerability Assessment score
+        </li>
+      </ul>
+      <p>
+        Each species profile will include information on life history, range,
+        habitat use, climate change impacts, vulnerability and adaptation
+        strategies. A map interface will include potential habitat and impacts
+        from sea level rise. Physical environmental parameters play a major
+        direct or indirect role in determining species distribution, survival
+        and ecosystem sustainability. Many species of fish and wildlife in
+        Florida have limited ranges that are determined in part by climatic
+        conditions and their survival could be threatened by future climatic
+        shifts. This threat is greater for species with narrower tolerance
+        ranges and species occupying habitats in areas where migration or
+        relocation is challenging due to physical barriers. Limited
+        movement/migration pathways include natural (e.g., rivers) and man-made
+        (e.g., roads, land use) barriers. Species with a limited ability to
+        disperse or having specialized habitat requirements, small populations
+        or low genetic diversity are expected to be most at risk. Florida’s
+        species have migrated and adapted to climate change in the past, but
+        that ability is severely compromised now due largely to human
+        modification of the landscape. Up to 76% of 236 surveyed species were
+        deemed unlikely to be able to relocate inland in response to rising sea
+        levels. Nearly one quarter of the approximately 1,200 species tracked by
+        the Florida Natural Areas Inventory are projected to have at least 50%
+        of their range lost to a sea level rise of 1 m. Several keystone species
+        are particularly vulnerable to the impacts of climate change and the
+        loss of these species can have cascading impacts on natural communities
+        and other species. Species will be impacted by changes in temperature,
+        precipitation, extreme events, sea level rise, and carbon dioxide
+        concentration.
+      </p>
+      <h4>Adaptation strategies</h4>
+      <p>
+        <br />
+        <br />
+        Each species has example adaptation strategies provided on their species
+        profile page. <Link to="/species">Read more...</Link>.
+        <br />
+        <br />
+        Adaptation strategies for priority resources and habitats can be
+        accessed from the associated profile pages.{' '}
+        <Link to="/habitats">Read more...</Link>.
+        <br />
+        <br />
+        There are many general adaptation strategies that address impacts across
+        all ecosystems and habitats. Examples of these are presented as
+        cross-cutting adaptation strategies. Additionally, examples of general
+        strategies for addressing existing non-climate stressors are presented
+        here. The majority of these strategies came directly from the National
+        Fish Wildlife and Plants Climate Adaptation Strategy.{' '}
+        <Link to="/strategies">Read more...</Link>
+      </p>
+      <hr />
       <h3>Need help?</h3>
       <p>
         We are here to help you interpret and apply the information in this
@@ -112,7 +176,7 @@ const IndexPage = ({ data: { headerImage } }) => (
         <br />
         Please <a href="#">contact us</a> for assistance or to report issues.
       </p>
-
+      <Divider />
       <h3>Credits</h3>
       <p>
         Much of the content presented here is taken from{' '}
@@ -137,9 +201,6 @@ const IndexPage = ({ data: { headerImage } }) => (
         </a>{' '}
         (Florida Climate Institute, 2017)
       </p>
-
-      <Divider />
-
       <p>
         This application was created by{' '}
         <a href="mailto:bcward@consbio.org">Brendan C. Ward</a> at the&nbsp;
@@ -172,7 +233,6 @@ const IndexPage = ({ data: { headerImage } }) => (
         <Logo src={FWCLogo} alt="FWC Logo" style={{ height: 100 }} />
         <Logo src={PFLCCLogo} alt="PFLCC Logo" />
       </Flex>
-
       <p />
     </Container>
   </Layout>

@@ -3,11 +3,22 @@ path: '/strategies/resources'
 title: 'Resources'
 ---
 
-# Additional Resources
+# Additional Resources for Adaptation Strategies
 
 **TODO:images**
 
-#### [National Fish, Wildlife, and Plants Climate Adaptation Strategy](https://www.wildlifeadaptationstrategy.gov/strategy.php)
+The following adaptation guides provide additional information and resources for creating your own adaptation strategies.
+
+- [National Fish, Wildlife, and Plants Climate Adaptation Strategy](#WAS)
+- [Climate Smart Conservation: Putting Adaptation into Practice](#CSC)
+- [Embracing Change: Adapting Conservation Approaches to Address a Changing Climate](#WCS)
+- [Promoting Resilience in Marine Ecosystems](#IUCN)
+
+There is more information available on the [additional resources for climate impacts page](/impacts/resources) that may help inform your adaptation strategies.
+
+<hr id="WAS"></hr>
+
+## [National Fish, Wildlife, and Plants Climate Adaptation Strategy](https://www.wildlifeadaptationstrategy.gov/strategy.php)
 
 This nationwide strategy is the product of an interagency steering committee, consisting of members at both the state and federal levels. The purpose of the Strategy is to inspire and enable natural resource professionals and other decision makers to take action to conserve the nation’s fish, wildlife, plants, and ecosystem functions, as well as the human uses and values these natural systems provide, in a changing climate. This document provides an excellent starting point for examining broad approaches to climate adaptation and provide key successes that serve as examples for how to best to begin employing appropriate climate adaptation strategies.
 
@@ -21,7 +32,9 @@ This strategy outlines 7 primary goals:
 - Increase awareness and motivate action to safeguard fish, wildlife, and plants in a changing climate.
 - Reduce non-climate stressors to help fish, wildlife, plants, and ecosystems adapt to a changing climate.
 
-#### [Climate Smart Conservation: Putting Adaptation into Practice](https://www.nwf.org/climatesmartguide)
+<hr id="CSC"></hr>
+
+## [Climate Smart Conservation: Putting Adaptation into Practice](https://www.nwf.org/climatesmartguide)
 
 The goal of this guide is to aid policy makers and practitioners in recognizing, designing, and employing good climate-smart conservation strategies and goals. It offers strategies for carrying out conservation in a rapidly changing climate.
 
@@ -46,29 +59,33 @@ Climate-smart conservation can be described as an approach that:
 - safeguards people and nature
 - avoids maladaptation
 
-#### [Embracing Change: Adapting Conservation Approaches to Address a Changing Climate](https://www.wcsclimateadaptationfund.org/resources)
+<hr id="WCS"></hr>
+
+## [Embracing Change: Adapting Conservation Approaches to Address a Changing Climate](https://www.wcsclimateadaptationfund.org/resources)
 
 The goal of this report is to help conservationists learn how to move beyond business-as-usual conservation approaches and make their work climate informed. Twelve real-world examples of how conservation practitioners around the United States are modifying their approaches to support the capacity of wildlife and ecosystems to adapt to a changing climate.
 
 Integrating climate change into conservation planning can reveal the need for strategic and forward-looking adjustments in the WHAT, WHERE, WHEN and WHY of conservation efforts.
 
-##### WHAT - Taking Climate-Informed Actions
+#### WHAT - Taking Climate-Informed Actions
 
 Practitioners are introducing new or modifying current actions in ways that make them more effective in light of climate variability and projected changes.
 
-##### WHERE - Working in Strategic Locations
+#### WHERE - Working in Strategic Locations
 
 Conservationists are working in new or strategic locations to target places where longer-term maintenance of species, populations, ecosystem services, or other values is more likely.
 
-##### WHEN - Shifting the Urgency and Timing of Actions
+#### WHEN - Shifting the Urgency and Timing of Actions
 
 To stay ahead or keep pace with a changing climate, the need for action may become more urgent, or actions may be needed at different times of year.
 
-##### WHY - Embracing Forward-Looking Goals
+#### WHY - Embracing Forward-Looking Goals
 
 The goal of conservation projects may evolve as climate change affects a place or ecosystem, leading practitioners to focus on new threats or targets.
 
-#### Promoting Resilience in Marine Ecosystems
+<hr id="IUCN"></hr>
+
+## Promoting Resilience in Marine Ecosystems
 
 Published by the World Conservation Union (IUCN), this series of publications provides information on management tools to promote resilience in marine
 ecosystems:
