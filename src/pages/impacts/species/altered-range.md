@@ -1,5 +1,5 @@
 ---
-path: '/impacts/species/impacts/altered-range'
+path: '/impacts/species/altered-range'
 title: 'Altered Habitat Suitability'
 ---
 

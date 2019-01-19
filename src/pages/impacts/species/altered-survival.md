@@ -1,5 +1,5 @@
 ---
-path: '/impacts/species/impacts/altered-survival'
+path: '/impacts/species/altered-survival'
 title: 'Altered Survival'
 ---
 

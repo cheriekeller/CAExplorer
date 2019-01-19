@@ -1,5 +1,5 @@
 ---
-path: '/impacts/species/impacts/altered-phenology'
+path: '/impacts/species/altered-phenology'
 title: 'Altered Phenology'
 ---
 

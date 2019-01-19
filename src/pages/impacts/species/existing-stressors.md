@@ -1,5 +1,5 @@
 ---
-path: '/impacts/species/impacts/existing-stressors'
+path: '/impacts/species/existing-stressors'
 title: 'Existing Stressors'
 ---
 

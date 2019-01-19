@@ -1,5 +1,5 @@
 ---
-path: '/impacts/species/stressors/temperature'
+path: '/impacts/species/temperature'
 title: 'Temperature Impacts'
 ---
 

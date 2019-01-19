@@ -1,5 +1,5 @@
 ---
-path: '/impacts/species/stressors/precipitation'
+path: '/impacts/species/precipitation'
 title: 'Precipitation Impacts'
 ---
 

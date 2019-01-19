@@ -1,5 +1,5 @@
 ---
-path: '/impacts/species/impacts/community-dynamics'
+path: '/impacts/species/community-dynamics'
 title: 'Altered Community Dynamics'
 ---
 

@@ -61,62 +61,50 @@ const impactNav = [
     label: "Florida's Species",
     children: [
       {
-        path: '/impacts/species/stressors',
-        label: 'Climate Stressors',
-        children: [
-          {
-            path: '/impacts/species/stressors/slr',
-            label: 'Sea Level Rise',
-          },
-          {
-            path: '/impacts/species/stressors/temperature',
-            label: 'Temperature Changes',
-          },
-          {
-            path: '/impacts/species/stressors/precipitation',
-            label: 'Precipitation Changes',
-          },
-
-          {
-            path: '/impacts/species/stressors/extreme-events',
-            label: 'Changes to Extreme Events',
-          },
-
-          {
-            path: '/impacts/species/stressors/co2',
-            label: 'Changes in Water Chemistry',
-          },
-        ],
+        path: '/impacts/species/slr',
+        label: 'Sea Level Rise',
       },
       {
-        path: '/impacts/species/impacts',
-        label: 'Climate Impacts',
-        children: [
-          {
-            path: '/impacts/species/impacts/community-dynamics',
-            label: 'Altered Community Dynamics',
-          },
-          {
-            path: '/impacts/species/impacts/altered-range',
-            label: 'Altered Habitat Suitability',
-          },
-          {
-            path: '/impacts/species/impacts/altered-survival',
-            label: 'Altered Survival',
-          },
-          {
-            path: '/impacts/species/impacts/altered-phenology',
-            label: 'Altered Phenology & Physiology',
-          },
-          {
-            path: '/impacts/species/impacts/disturbance',
-            label: 'Altered Disturbance Regimes',
-          },
-          {
-            path: '/impacts/species/impacts/existing-stressors',
-            label: 'Interactions with Existing Stressors',
-          },
-        ],
+        path: '/impacts/species/temperature',
+        label: 'Temperature Changes',
+      },
+      {
+        path: '/impacts/species/precipitation',
+        label: 'Precipitation Changes',
+      },
+
+      {
+        path: '/impacts/species/extreme-events',
+        label: 'Changes to Extreme Events',
+      },
+
+      {
+        path: '/impacts/species/co2',
+        label: 'Changes in Water Chemistry',
+      },
+      {
+        path: '/impacts/species/community-dynamics',
+        label: 'Altered Community Dynamics',
+      },
+      {
+        path: '/impacts/species/altered-range',
+        label: 'Altered Habitat Suitability',
+      },
+      {
+        path: '/impacts/species/altered-survival',
+        label: 'Altered Survival',
+      },
+      {
+        path: '/impacts/species/altered-phenology',
+        label: 'Altered Phenology & Physiology',
+      },
+      {
+        path: '/impacts/species/disturbance',
+        label: 'Altered Disturbance Regimes',
+      },
+      {
+        path: '/impacts/species/existing-stressors',
+        label: 'Interactions with Existing Stressors',
       },
     ],
   },
