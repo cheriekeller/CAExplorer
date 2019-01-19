@@ -3,11 +3,15 @@ path: /impacts/climate101/co2
 title: Increasing Atmospheric CO2
 ---
 
-# Increasing Carbon Dioxide Concentrations
+# Changes in Air and Water Chemistry
 
-Increasing levels of CO2 in the atmosphere can affect plants directly by stimulating photosynthesis and reducing loss of water by reducing the opening of the small pores in the leaves. These changes can lead to changes in the amount of leaf, root and below ground microbial biomass, resulting in changes to ecosystem functioning. Additional effects include relief of water and low light stresses, relief of nutrient stress, and delay of senescence that prolongs the growing season. However, because species respond differently to climate change, some will increase in abundance while others will decrease.
+Increasing levels of carbon dioxide (CO2) in the atmosphere can affect plants directly by stimulating photosynthesis and reducing loss of water by reducing the opening of the small pores in the leaves. These changes can lead to changes in the amount of leaf, root and below ground microbial biomass, resulting in changes to ecosystem functioning. Additional effects include relief of water and low light stresses, relief of nutrient stress, and delay of senescence that prolongs the growing season. However, because species respond differently to climate change, some will increase in abundance while others will decrease.
+
+<div style="width:700px;">
 
 ![CO2 Levels chart](co2-chart1.png 'Figure 1: CO2 levels during the last three glacial cycles, as reconstructed from ice cores.')
+
+</div>
 
 ## Ocean acidification
 

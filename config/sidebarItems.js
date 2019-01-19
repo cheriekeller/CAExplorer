@@ -1,19 +1,31 @@
 const impactNav = [
   {
     path: '/impacts',
-    label: 'Get Started',
+    label: 'Overview',
   },
   {
     path: '/impacts/climate101',
     label: 'Climate 101',
     children: [
       {
+        path: '/impacts/climate101/slr',
+        label: 'Sea Level Rise',
+      },
+      {
+        path: '/impacts/climate101/temperature',
+        label: 'Changes in Temperature',
+      },
+      {
+        path: '/impacts/climate101/precipitation',
+        label: 'Changes in Precipitation',
+      },
+      {
         path: '/impacts/climate101/co2',
         label: 'Increasing Atmospheric Carbon Dioxide',
       },
       {
         path: '/impacts/climate101/models',
-        label: 'Carbon Dioxide Emission Models',
+        label: 'Climate Models',
       },
     ],
   },

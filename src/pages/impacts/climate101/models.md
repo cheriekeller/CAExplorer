@@ -3,7 +3,22 @@ path: /impacts/climate101/models
 title: Emission Models
 ---
 
-# Carbon Dioxide Emission Models
+# Climate Models
+
+Climate models, also known as general circulation models (GCMs), are very similar to weather forecast models, but with many added physical processes.
+
+Climate models include elements such as ocean circulations, sea and glacial ice, land cover and soil moisture, and human emissions of greenhouse gases and other pollutants to better simulate long-term climate variability and change.
+
+For climate projections over periods of decades to centuries and longer, the model is started from a statistical mean state and spontaneously develops its own weather and climate. The accuracy of equations that describe the behavior of the climate system are evaluated by putting them into models and evaluating the model results, validating them against past observations.
+
+The predictive capability of any model will rely somewhat on the size of the grid cell. In general, the amount of detail and information increases as grid cells get smaller, thus increasing the predictive capability of the model. Over the last four decades, both increased grid resolution and more complexity has increased the skill and capabilities of climate models. However, finer grid resolution alone will not remove uncertainties in projected regional or global climate changes. Much of this uncertainty is driven by the many complicated processes that affect the climate, such as clouds or climate-biosphere interaction, which are difficult to perfectly simulate.
+
+![Climate Model Resolution Chart](models-chart1.png)
+
+<figcaption>Figure 1: Resolution of the climate models presented in the first four IPCC reports.  National Academy of Sciences. 2012. Climate Modeling 101. 
+<a href="http://nas-sites.org/climate-change/climatemodeling/page_3_2.php" target="_blank" rel="noopener noreferrer">http://nas-sites.org/climate-change/climatemodeling/page_3_2.php</a></figcaption>
+
+## Carbon Dioxide Emission Models
 
 Many climate models have been developed to perform climate projections. Specifically, simulating climate change in response to the emission of greenhouse gases and aerosols is the focus of many climate models.
 
