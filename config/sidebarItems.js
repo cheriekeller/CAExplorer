@@ -154,6 +154,14 @@ const impactNav = [
       },
     ],
   },
+  {
+    path: '/impacts/tools',
+    label: 'Other Tools',
+  },
+  {
+    path: '/impacts/resources',
+    label: 'Additional Resources',
+  },
 ]
 
 const strategiesNav = [

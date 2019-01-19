@@ -18,7 +18,9 @@ There is more information available on the [additional resources for climate imp
 
 ## [National Fish, Wildlife, and Plants Climate Adaptation Strategy](https://www.wildlifeadaptationstrategy.gov/strategy.php)
 
-<div class="float-left" style="width: 150px;">
+by: National Fish, Wildlife and Plants Climate Adaptation Partnership. 2012. National Fish, Wildlife and Plants Climate Adaptation Strategy, Association of Fish and Wildlife Agencies, Council on Environmental Quality, Great Lakes Indian Fish and Wildlife Commission, National Oceanic and Atmospheric Administration, and U.S. Fish and Wildlife Service. Washington, D.C.
+
+<div class="float-left thumbnail-small">
 <img src="resources-nfwp-cas.png" />
 </div>
 
@@ -40,7 +42,9 @@ This strategy outlines 7 primary goals:
 
 ## [Climate Smart Conservation: Putting Adaptation into Practice](https://www.nwf.org/climatesmartguide)
 
-<div class="float-left" style="width: 150px;">
+by: Stein, B.A., P. Glick, N. Edelson, and A. Staudt, editors. 2014. National Wildlife Federation, Washington, D.C.
+
+<div class="float-left thumbnail-small">
 <img src="resources-csc.png" />
 </div>
 
@@ -73,7 +77,7 @@ Climate-smart conservation can be described as an approach that:
 
 ## [Embracing Change: Adapting Conservation Approaches to Address a Changing Climate](https://www.wcsclimateadaptationfund.org/resources)
 
-<div class="float-left" style="width: 150px;">
+<div class="float-left thumbnail-small">
 <img src="resources-wcs.png" />
 </div>
 
@@ -106,26 +110,32 @@ The goal of conservation projects may evolve as climate change affects a place o
 Published by the World Conservation Union (IUCN), this series of publications provides information on management tools to promote resilience in marine
 ecosystems:
 
-<div class="float-left" style="width: 150px;">
+<div class="float-left thumbnail-small">
 <img src="resources-iucn-mangroves.png" />
 </div>
 
-[Mangroves](https://portals.iucn.org/library/sites/library/files/documents/2006-041.pdf)
+[Managing Mangroves for Resilience to Climate Change](https://portals.iucn.org/library/sites/library/files/documents/2006-041.pdf)
+
+by: McLeod, E. and R.V. Salm. 2006. IUCN, Gland, Switzerland.
 
 <div class="clear"></div>
 
-<div class="float-left" style="width: 150px;">
+<div class="float-left thumbnail-small">
 <img src="resources-iucn-seagrasses.png" />
 </div>
 
-[Seagrass](https://www.reefresilience.org/pdf/Managing_Seagrasses_for_Resilience_to_Climate_Change.pdf)
+[Managing Seagrasses for Resilience to Climate Change](https://www.reefresilience.org/pdf/Managing_Seagrasses_for_Resilience_to_Climate_Change.pdf)
+
+by: Björk M., F. Short, E. Mcleod, and S. Beer. 2008. IUCN, Gland, Switzerland.
 
 <div class="clear"></div>
 
-<div class="float-left" style="width: 150px;">
+<div class="float-left thumbnail-small">
 <img src="resources-iucn-reefs.png" />
 </div>
 
-[Coral Reefs](https://portals.iucn.org/library/sites/library/files/documents/2006-042.pdf)
+[Coral Reef Resilience and Resistance to Bleaching](https://portals.iucn.org/library/sites/library/files/documents/2006-042.pdf)
+
+by: Grimsditch, G.D. and R.V. Salm. 2006. IUCN, Gland, Switzerland.
 
 <div class="clear"></div>

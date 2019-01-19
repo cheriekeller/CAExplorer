@@ -32,6 +32,10 @@ const Content = styled.div`
     margin: 0 1em 1em 0;
   }
 
+  .thumbnail-small {
+    width: 150px;
+  }
+
   .clear {
     clear: both;
   }
