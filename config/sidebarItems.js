@@ -50,6 +50,10 @@ const impactNav = [
         path: '/impacts/florida/co2',
         label: 'Changes in Water Chemistry',
       },
+      {
+        path: '/impacts/florida/social',
+        label: 'Social and Economic Impacts',
+      },
     ],
   },
   {
