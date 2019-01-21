@@ -151,6 +151,13 @@ const impactNav = [
       {
         path: '/impacts/vulnerability/sivva',
         label: 'Standardized Index of Vulnerability and Value Assessment',
+        children: [
+          { path: '/impacts/vulnerability/sivva/species', label: 'Species' },
+          {
+            path: '/impacts/vulnerability/sivva/natcom',
+            label: 'Natural Communities',
+          },
+        ],
       },
       {
         path: '/impacts/vulnerability/gcva',

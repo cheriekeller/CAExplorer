@@ -9,6 +9,6 @@ title: Impacts
 
 To learn more about major climate changes to climate and background on climate change modeling, please see [Climate 101](/impacts/climate101). This background is a useful starting point for understanding the opportunities for possible solutions.
 
-To learn more about how climate change is impacting Florida in general, please see [Impacts of Climate Change in Florida](/impacts/florida).
+Learn more about how climate change is impacting [Florida in general](/impacts/florida), [Florida species](/impacts/species), [Florida Habitats](/impacts/habitats).
 
-**TODO:others**
+You can also learn how species and habitats are assessed for [vulnerability to climate change](/impacts/vulnerability).

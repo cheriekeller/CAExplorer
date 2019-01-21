@@ -7,6 +7,8 @@ title: 'Adaptation Strategy Guidance'
 
 **TODO:more intro**
 
+<br />
+
 Adaptation strategies often include one or more of the following elements:
 
 - Establishing special protections for keystone species, corridors, processes, and habitats
@@ -22,7 +24,9 @@ Adaptation strategies often include one or more of the following elements:
 - Increasing awareness and knowledge of stakeholders
 - Promoting sustainable use of resources (subsistence, recreational, and commercial)
 
-**TODO: break this up more**
+<br />
+
+<br />
 
 Adaptation strategies should be developed with the following guidelines in mind:
 

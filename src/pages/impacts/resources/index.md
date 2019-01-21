@@ -93,6 +93,21 @@ CCVI is a spreadsheet assessment method for estimating a plant or animal species
 
 <div class="clear"></div>
 
+<hr id="GCVA"></hr>
+
+## [Gulf Coast Vulnerability Assessment](http://gulfcoastprairielcc.org/science/science-projects/gulf-coast-vulnerability-assessment/)
+
+by: Watson, A., J. Reece, B.E. Tirpak, C.K. Edwards, L. Geselbracht, M. Woodrey, M. LaPeyre, and
+P.S. Dalyander. 2015.
+
+<div class="float-left thumbnail-small">
+<img src="resources-gcva.png"></img>
+</div>
+
+The Gulf Coast Vulnerability Assessment used an expert opinion approach to qualitatively assess the vulnerability of four ecosystems: mangrove, oyster reef, tidal emergent marsh, and barrier islands, and a suite of wildlife species that depend on them. Vulnerability in this context incorporates the aspects of exposure and sensitivity to threats, coupled with the adaptive capacity to mitigate those threats. Potential impact and adaptive capacity reflect natural history features of target species and ecosystems.
+
+<div class="clear"></div>
+
 <hr id="FLAXMAN"></hr>
 
 ## [Considering Climate Change in Florida’s Wildlife Action Planning – A Spatial Resilience Planning Approach](http://myfwc.com/media/1770248/consideringclimatechange-wildlifeactionplan.pdf)
