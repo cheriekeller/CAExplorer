@@ -13,15 +13,14 @@ The overall vulnerability of some ecosystems may be primarily driven by the seve
 
 ### Existing threats expected to have synergistic effects with climate change include:
 
-- Habitat loss
-- Fragmentation and degradation
-- Invasive species
-- Pathogens, pests/parasites, and pollutants
-- Competition for resources and overexploitation
+- [Habitat loss, fragmentation and degradation](/impacts/existing-stressors/habitat-loss)
+- [Invasive species](/impacts/existing-stressors/invasives)
+- [Pathogens, pests/parasites, and pollutants](/impacts/existing-stressors/pathogens)
+- [Competition for resources and overexploitation](/impacts/existing-stressors/competition)
 
 **TODO: Examples of ways to address these stressors can be found here.**
 
-## Synergistic Effect of Climate Change and Non-climate Stressors
+## Synergistic Effects of Climate Change and Non-climate Stressors
 
 ### Impacts of climate change may be exacerbated by existing stressors:
 

@@ -9,7 +9,7 @@ Florida is in a transitional zone where the pine and bottomland hardwood element
 
 Florida’s landscape is one of the most rapidly changing and climate-vulnerable within the United States. It is extremely vulnerable to sea level rise and impacts from severe storms due to low elevation, geographic location and configuration. Many of the unique subtropical ecosystems are very sensitive to temperature and precipitation fluctuations.
 
-This tool includes four ecosystems, split into nine priority resources, highlighting 39 habitats.
+This tool includes four ecosystems, split into conservation assets, highlighting 29 habitats.
 
 [Review climate change impacts for individual habitats](/habitats)
 
@@ -29,18 +29,25 @@ Florida’s ecosystems and habitats will be impacted by the major climatic shift
 
 **TODO:crosslinks**
 
-Priority Resources were identified by the Peninsular Florida Landscape Conservation Cooperative (PFLCC) as the set of biological, ecological, and cultural features most important for Florida’s Landscape. The priority resources represent the most significant resources, embody key landscape components, and reflect the mission, vision, common interests, and values of the PFLCC partners.
+Conservation Assets (formerly known as Priority Resources) were identified by the Peninsular Florida Landscape Conservation Cooperative (PFLCC) as the set of biological, ecological, and cultural features most important for Florida’s Landscape. They represent the most significant resources, embody key landscape components, and reflect the mission, vision, common interests, and values of the PFLCC partners.
 
-### PFLCC Priority Resources:
+### Landscape Conservation Planning - Conservation Assets:
 
-- High Pine and Scrub (3 habitats)
-- Pine Flatwoods and Dry Prairie (5 habitats)
-- Hardwood Forested Uplands (1 habitats)
-- Working Lands (2 habitats)
-- Coastal Uplands (7 habitats)
-- Freshwater Forested Wetlands (5 habitats)
-- Freshwater Non-forested Wetlands (6 habitats)
-- Freshwater Aquatic (4 habitats)
-- Estuarine/Marine (6 habitats)
+- High Pine and Scrub
+- Pine Flatwoods and Dry Prairie
+- Hardwood Forested Uplands
+- Coastal Uplands
+- Freshwater Forested Wetlands
+- Freshwater Non-forested Wetlands
+- Rivers and Streams
+- Lakes, Ponds, and Reservoirs
+- Springs
+- Mangrove
+- Saltwater Marsh
+- Seagrass
+- Coral Reef / Hardbottom
+- Marine / Estuarine System (inlets, bays, open ocean)
+- Working Lands - Low Intensity
+- Working Lands - Medium Intensity
 
 **TODO:crosslinks**
