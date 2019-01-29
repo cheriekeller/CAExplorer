@@ -102,10 +102,6 @@ const impactNav = [
         path: '/impacts/species/disturbance',
         label: 'Altered Disturbance Regimes',
       },
-      {
-        path: '/impacts/species/existing-stressors',
-        label: 'Interactions with Existing Stressors',
-      },
     ],
   },
   {
@@ -133,6 +129,28 @@ const impactNav = [
       {
         path: '/impacts/habitats/co2',
         label: 'Changes in Water Chemistry',
+      },
+    ],
+  },
+  {
+    path: '/impacts/existing-stressors',
+    label: 'Interactions with Existing Stressors',
+    children: [
+      {
+        path: '/impacts/existing-stressors/habitat-loss',
+        label: 'Habitat Loss',
+      },
+      {
+        path: '/impacts/existing-stressors/invasives',
+        label: 'Invasive Species',
+      },
+      {
+        path: '/impacts/existing-stressors/pathogens',
+        label: 'Pathogens, Pests, Pollution',
+      },
+      {
+        path: '/impacts/existing-stressors/competition',
+        label: 'Competition & Overexploitation',
       },
     ],
   },

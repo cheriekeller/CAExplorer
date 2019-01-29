@@ -13,10 +13,6 @@ Impacts caused by changes in temperature will vary based on ecosystem type; Coas
 
 **TODO: table of regions and projections**
 
-The following graphics display potential changes in the average temperature (colored by mean temperature departure) annually and seasonally. Two scenarios, A1B and A2, are included in the graphics for annual and seasonal changes in temperature for projected changes by the 2080s. The A1B is similar to the AR5 RCP 6.0 and the A2 is similar to the AR5 RCP 8.5. These model graphics were developed using the Climate Wizard (http://climatewizard.org/) tools, which have not been updated to include the AR5 RCPs.
-
-**TODO: Climate wizard graphics (iframe??)**
-
 Changes such as the number of extremely hot days or fewer days with below freezing temperatures are likely to be more important than average temperature changes and will cause impacts to species and habitats.
 
 ### More Hot Days

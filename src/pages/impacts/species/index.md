@@ -21,17 +21,17 @@ This tool includes species profile for 139 species. These species were chosen ba
 
 ### Major impacts of climate change on species include:
 
-- [sea level rise](/impacts/species/stressors/slr)
-- [changes in temperature](/impacts/species/stressors/temperature)
-- [changes in precipitation](/impacts/species/stressors/precipitation)
-- [changes in extreme events](/impacts/species/stressors/extreme-events)
-- [changes in water chemistry](/impacts/species/stressors/co2)
-- [altered community dynamics](/impacts/species/impacts/altered-dynamics)
-- [altered habitat suitability/geographic range](/impacts/species/impacts/altered-range)
-- [altered species fitness and survival](/impacts/species/impacts/altered-survival)
-- [altered phenology and physiology](/impacts/species/impacts/altered-phenology)
-- [increased risk of extinction](/impacts/species/impacts/altered-survival)
-- [combined effects of existing stressors](/impacts/species/impacts/existing-stressors)
+- [sea level rise](/impacts/species/slr)
+- [changes in temperature](/impacts/species/temperature)
+- [changes in precipitation](/impacts/species/precipitation)
+- [changes in extreme events](/impacts/species/extreme-events)
+- [changes in water chemistry](/impacts/species/co2)
+- [altered community dynamics](/impacts/species/altered-dynamics)
+- [altered habitat suitability/geographic range](/impacts/species/altered-range)
+- [altered species fitness and survival](/impacts/species/altered-survival)
+- [altered phenology and physiology](/impacts/species/altered-phenology)
+- [increased risk of extinction](/impacts/species/altered-survival)
+- [combined effects of existing stressors](/impacts/existing-stressors)
 
 ---
 

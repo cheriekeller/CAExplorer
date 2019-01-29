@@ -15,6 +15,4 @@ Sea level rise will not impact the coastal areas of Florida to the same degree. 
 
 **TODO: Map page or embedded map: To visualize sea level rise at 1m and 3m, click here.**
 
-**TODO: table or chart on inundation by PR**
-
-<!-- Simple inundation models results of Priority Resource communities. -->
+![SLR chart by Conservation Asset](slr-chart.png 'Figure 1: Percent inundation of conservation assets by 1 and 3 meters sea level rise.')

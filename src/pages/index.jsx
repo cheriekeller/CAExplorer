@@ -100,24 +100,12 @@ const IndexPage = ({ data: { headerImage } }) => (
       </p>
       <hr />
       <h3>How to use this tool?</h3>
-      TODO:content and organization
+      <p>TODO:content and organization</p>
       <h4>Species profiles</h4>
       <p>
-        There are 139 individual species profiles included in this tool. Species
-        are included if they meet at least one of the following criteria:
-      </p>
-      <ul>
-        <li>Federally listed</li>
-        <li>State listed</li>
-        <li>Species with a State Species Action Plan</li>
-        <li>Specie with a State Management Plan</li>
-        <li>Species included in the State Imperiled Species Management Plan</li>
-        <li>Species with Habitat Models</li>
-        <li>
-          Selected additional species with a Vulnerability Assessment score
-        </li>
-      </ul>
-      <p>
+        There are 139 individual species profiles included in this tool.
+        <br />
+        <br />
         Each species profile will include information on life history, range,
         habitat use, climate change impacts, vulnerability and adaptation
         strategies. A map interface will include potential habitat and impacts
