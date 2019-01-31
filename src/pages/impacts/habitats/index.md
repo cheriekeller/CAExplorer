@@ -9,7 +9,7 @@ Florida is in a transitional zone where the pine and bottomland hardwood element
 
 Florida’s landscape is one of the most rapidly changing and climate-vulnerable within the United States. It is extremely vulnerable to sea level rise and impacts from severe storms due to low elevation, geographic location and configuration. Many of the unique subtropical ecosystems are very sensitive to temperature and precipitation fluctuations.
 
-This tool includes four ecosystems, split into conservation assets, highlighting 29 habitats.
+This tool includes four ecosystems, split into 15 conservation assets, highlighting 29 habitats.
 
 [Review climate change impacts for individual habitats](/habitats)
 
@@ -42,12 +42,11 @@ Conservation Assets (formerly known as Priority Resources) were identified by th
 - Rivers and Streams
 - Lakes, Ponds, and Reservoirs
 - Springs
-- Mangrove
+- Mangrove Swamp
 - Saltwater Marsh
 - Seagrass
 - Coral Reef / Hardbottom
 - Marine / Estuarine System (inlets, bays, open ocean)
-- Working Lands - Low Intensity
-- Working Lands - Medium Intensity
+- Working Lands
 
 **TODO:crosslinks**

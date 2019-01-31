@@ -1,6 +1,16 @@
 import Typography from 'typography'
 import theme from 'typography-theme-kirkham'
 
+theme.googleFonts = [
+  {
+    name: 'Playfair Display',
+    styles: ['400', '700'],
+  },
+  {
+    name: 'Fira Sans',
+    styles: ['400', '400i', '700', '700i'],
+  },
+]
 theme.baseFontSize = '20px'
 theme.overrideThemeStyles = () => ({
   html: {

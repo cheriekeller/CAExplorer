@@ -1,3 +1,5 @@
+import { sppNav } from './sppSidebarItems'
+
 const impactNav = [
   {
     path: '/impacts',
@@ -264,7 +266,7 @@ const strategiesNav = [
 
 export default {
   impacts: impactNav,
-  species: [],
+  species: sppNav,
   habitats: [],
   strategies: strategiesNav,
 }

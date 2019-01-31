@@ -22,7 +22,9 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   return new Promise((resolve, reject) => {
-    const template = path.resolve(`src/templates/content.jsx`)
+    const contentTemplate = path.resolve(`src/templates/content.jsx`)
+    const sppTemplate = path.resolve(`src/templates/species.jsx`)
+    let template = null
     // Query for markdown nodes to use in creating pages.
     resolve(
       graphql(
@@ -51,6 +53,12 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter: { path: pagePath },
             },
           }) => {
+            if (pagePath.startsWith('/species')) {
+              template = sppTemplate
+            } else {
+              template = contentTemplate
+            }
+
             createPage({
               path: pagePath,
               component: template,
