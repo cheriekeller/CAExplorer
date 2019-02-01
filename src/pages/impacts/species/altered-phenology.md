@@ -13,13 +13,17 @@ Likewise, many flowering plants are dependent upon specialized pollinators, prim
 
 Changing environmental conditions may also cause fluctuations in the physiological processes of plants and animals, such as growth rate and sex ratio. There is particular interest in the effects of climate change on the population dynamics of species with temperature-dependent sex determination.
 
-The sex of most turtle species and all species of crocodilians is determined by the environment after fertilization. The temperature of the eggs during a certain period of development is the deciding factor in determining sex and small changes in temperature can significantly change the sex ratio. Sex determination is affected by both mean incubation temperature as well as the magnitude of daily temperature fluctuation. Two parameters—the pivotal temperature and the transitional range of temperature—control sex determination in species with TSD. Species with a larger transitional range of temperature are expected to be at a lower risk to climate change.
+<br />
 
-In species with temperature-dependent sex determination, global climate change may result in a strong sex ratio bias that could lead to significant population declines or extinction. Some species including the snapping turtle, crocodile, and alligator produce males at intermediate incubation temperatures and either females or a mixed sex ratio are produced at extreme (either high or low) temperatures. Whereas, sea turtles and most other turtle species are female-biased at higher temperatures and male-biased at lower temperatures.
+**Temperature-dependent sex determination (TSD)** is when the temperature of the eggs during a certain period of development determines sex.  Sex determination is affected by both mean incubation temperature as well as the magnitude of daily temperature fluctuation.  Small changes in temperature can significantly change the sex ratio
+
+The sex of most turtle species and all species of crocodilians is determined by the environment after fertilization. Two parameters — the pivotal temperature and the transitional range of temperature — control sex determination in species with TSD. Species with a larger transitional range of temperature are expected to be at a lower risk to climate change.
+
+Climate change may result in a strong sex ratio bias that could lead to significant population declines or extinction. Some species including the snapping turtle, crocodile, and alligator produce males at intermediate incubation temperatures and either females or a mixed sex ratio are produced at extreme (either high or low) temperatures. In contrast, sea turtles and most other turtle species are female-biased at higher temperatures and male-biased at lower temperatures.
 
 **TODO: sea turtle picture**
 
-## Phenotypic Plasticity and Microevolution
+<br />
 
 In addition to shifting their range, species can cope with climate change through phenotypic plasticity and microevolution.
 
