@@ -7,28 +7,15 @@ title: "Florida's Species"
 
 Florida has more than 16,000 species of native fish, wildlife, and invertebrates, including 147 endemic vertebrate species and approximately 400 terrestrial and freshwater endemic invertebrates. There are currently 82 species designated as federally endangered or threatened in Florida. An additional 59 species are listed as endangered or threatened by the state, including 21 birds, eight mammals, 13 reptiles, four amphibians, nine fish, and four invertebrates.
 
-<!-- This tool includes species profile for 139 species. These species were chosen based on:
+[See species profiles for more about how climate change will impact each species](/species).
 
-- Federally listed
-- State listed
-- Species with a State Species Action Plan
-- Specie with a State Management Plan
-- Species included in the State Imperiled Species Management Plan
-- Species with Habitat Models
-- Selected additional species with a Vulnerability Assessment score -->
+## Climate Change Impacts on Florida Species
 
-<!-- [Learn more about how climate change will impact each species](/species). -->
+Physical environmental parameters play a major direct or indirect role in determining species distribution, survival and ecosystem sustainability. Many species of fish and wildlife in Florida have limited ranges that are determined in part by climatic conditions and their survival could be threatened by future climatic shifts. In contrast, many generalist species, such as white-tailed deer or raccoons, are likely to continue to thrive in a changing climate.
 
-## Climatic Influence on Species
+Florida’s species have migrated and adapted to climate change in the past, but that ability is severely compromised now due largely to human modification of the landscape. Species, both native and exotic, with traits that assist in invading or colonizing disturbed areas (e.g., ability to change/adjust their range, phenology, and physiology) will have an advantage in a rapidly changing climate.
 
-Physical environmental parameters play a major direct or indirect role in determining species distribution, survival and ecosystem sustainability. Many species of fish and wildlife in Florida have limited ranges that are determined in part by climatic conditions and their survival could be threatened by future climatic shifts. Florida’s species have migrated and adapted to climate change in the past, but that ability is severely compromised now due largely to human modification of the landscape.
-
-## Level of Impact
-
-Many generalist species, such as white-tailed deer or raccoons, are likely to continue to thrive in a changing climate. Species, both native and exotic, with traits that assist in invading or colonizing disturbed areas (e.g., ability to change/adjust their range, phenology, and physiology) will have an advantage in a rapidly changing climate.
-Climate change impacts on species will be driven by one or multiple climate-related factors acting in concert or synergistically.
-
-Impacts of climate change on species include:
+Climate change impacts on species will be driven by one or more climate-related factors acting in concert or synergistically. These include:
 
 - [altered community dynamics](/impacts/species/altered-dynamics)
 - [altered habitat suitability/geographic range](/impacts/species/altered-range)
@@ -37,21 +24,7 @@ Impacts of climate change on species include:
 - [increased risk of extinction](/impacts/species/altered-survival)
 - [altered disturbance regimes](/impacts/species/disturbance)
 
-<br/>
-
-<!-- ### Major impacts of climate change on species include:
-
-- [sea level rise](/impacts/species/slr)
-- [changes in temperature](/impacts/species/temperature)
-- [changes in precipitation](/impacts/species/precipitation)
-- [changes in extreme events](/impacts/species/extreme-events)
-- [changes in water chemistry](/impacts/species/co2)
-- [altered community dynamics](/impacts/species/altered-dynamics)
-- [altered habitat suitability/geographic range](/impacts/species/altered-range)
-- [altered species fitness and survival](/impacts/species/altered-survival)
-- [altered phenology and physiology](/impacts/species/altered-phenology)
-- [increased risk of extinction](/impacts/species/altered-survival)
-- [combined effects of existing stressors](/impacts/existing-stressors) -->
+## Most Severely Impacted Species
 
 Species that are likely to be most affected by climate change have:
 
@@ -66,12 +39,48 @@ Species that are likely to be most affected by climate change have:
 - narrow geographic range
 - dependence on specific triggers or cues likely to be disrupted by climate change
 
-<!-- [Learn more about how species were assessed for vulnerability to climate change](/impacts/vulnerability). -->
+### Some of the most highly vulnerable species include:
 
-## Species Movement and Migration
 
-Climate change impacts may be more severe for species occupying habitats in areas where migration or relocation is challenging due to physical barriers. Barriers to movement/migration pathways can be caused by natural (e.g., rivers) and man-made (e.g., roads, land use) features.
 
-Migratory species may be impacted at multiple geographic scales, experiencing alterations of habitat in their wintering grounds, breeding grounds, and/or along their migratory pathway. Mechanisms that aid in migrations, such as wind and water currents, may have positive or negative consequences depending on whether changes increase or decrease required energy expenditures to complete their migration. Altered directions of winds/currents can impact species’ ability to navigate to the desired location, even delivering individuals to the wrong location.
+<div class="thumbnail-small float-left">
+<a href="/species/birds/shorebirds_seabirds/113">
+<img src="113.jpg" alt="Cuban snowy plover photo" />
+</a>
+</div>
 
-Although migratory species are adapted to adjust their behavior with annual changes in the weather, shifts in climatic variables are beginning to result in mistimed migration, with some species abandoning migration altogether and others shifting their migratory pattern. Changes in cues (e.g., temperatures, precipitation) for migration initiation or pathways could lead to mismatched availability of resources required for successful completion of migration or reproductive success and survival upon arriving at the spring or winter destinations.
+#### [Cuban snowy plover](/species/birds/shorebirds_seabirds/113)
+
+As a beach nesting species, the Cuban snowy plover is extremely vulnerable to many threats that are common in coastal areas including habitat inundation from sea level rise. Cuban snowy plover nests on the open beach are easily destroyed by extreme weather events, human disturbance and predation, all of which are likely to increase as climate change accelerates.  [Read more...](/species/birds/shorebirds_seabirds/113)
+
+<div class="clear"></div>
+
+<br />
+
+<div class="thumbnail-small float-left">
+<a href="/species/mammals/large_mammals/119">
+<img src="119.jpg" alt="Key deer photo" />
+</a>
+</div>
+
+#### [Key deer](/species/mammals/large_mammals/119)
+
+Florida Key deer are likely to be heavily impacted sea level rise as well as potential changes in hydrology and disturbance regimes on freshwater drinking sources. Over 95% of the species' modeled potential habitat is expected to be impacted by a 1-meter sea level rise. [Read more...](/species/mammals/large_mammals/119)
+
+<div class="clear"></div>
+
+<br />
+
+
+<div class="thumbnail-small float-left">
+<a href="/species/reptiles/turtles/217">
+<img src="217.jpg" alt="Loggerhead turtle photo" />
+</a>
+</div>
+
+#### [Loggerhead turtle](/species/reptiles/turtles/217)
+
+Loggerhead turtles are likely to be impacted by sea level rise, anthropogenic barriers impacting the nesting habitat, and potentially incompatible human responses to climate change. Approximately 90% of the species' nesting habitat is expected to be impacted by a 1-meter sea level rise. Up to 80% of the nesting habitat is bordered by inland urban areas. [Read more...](/species/reptiles/turtles/217)
+
+<div class="clear"></div>
+

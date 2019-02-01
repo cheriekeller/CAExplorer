@@ -135,7 +135,6 @@ const Sidebar = ({ items, isOpen }) => {
   return (
     <SidebarContainer
       isOpen={isOpen}
-      // fontSize={['1rem', '0.75rem', '1rem', '1rem']}
       width={['100%', '12rem', '12rem', '16rem']}
     >
       <List items={items} />

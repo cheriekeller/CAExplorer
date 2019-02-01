@@ -5,9 +5,9 @@ title: 'Altered Community Dynamics'
 
 # Altered Community Dynamics
 
-As species and habitats respond to shifting environmental variables there will be changes in the species composition within a community.
+Species composition within a community will change as species and habitats respond to shifting environmental variables. These changes may lead to changes in availability of food due to increased competition and changes in predator-prey relationships.
 
-These changes may lead to changes in availability of food due to increased competition and changes in predator-prey relationships. Many exotic and invasive plants and pest species already possess characteristics that will allow them to take advantage of climatic changes (e. g., highly mobile, opportunistic breeding, wide climatic tolerance) leading to an increase in abundance to such an extent that they have a transformative, and often negative, impact on other species and ecosystems. Native communities under stress from climatic changes may be more susceptible to invasion and other disturbances.
+Many exotic and invasive plants and pest species already possess characteristics that will allow them to take advantage of climatic changes (e. g., highly mobile, opportunistic breeding, wide climatic tolerance) leading to an increase in abundance to such an extent that they have a transformative, and often negative, impact on other species and ecosystems. Native communities under stress from climatic changes may be more susceptible to invasion and other disturbances.
 
 #### Impacts of Salinity Shifts:
 
@@ -33,6 +33,11 @@ These changes may lead to changes in availability of food due to increased compe
 - Limit northern extent/expansion of exotic species range (potentially beneficial change)
 - Reduced competitive ability
 
+#### Impacts of Increased Precipitation:
+
+- Increased connectivity of in ephemeral wetlands to adjacent wetlands and water bodies
+- Reduced food source for aquatic species due to displacement of stored organic carbon
+
 #### Impacts of Decreased Precipitation:
 
 - Shift in species composition
@@ -44,17 +49,12 @@ These changes may lead to changes in availability of food due to increased compe
 - Loss of keystone species
 - Increased competition for limited forage due to drier conditions
 
-#### Impacts of Increased Precipitation:
-
-- Increased connectivity of in ephemeral wetlands to adjacent wetlands and water bodies
-- Reduced food source for aquatic species due to displacement of stored organic carbon
-
 #### Impacts of Changes in Timing of Precipitation:
 
 - Altered interactions between species that depend on seasonal availability of resources
 - Altered predator/prey interactions due to changes in timing of migration
 
-#### Impacts of Extreme Events:
+#### Impacts of Changes in Frequency and Severity of Extreme Events:
 
 - Introduction of competitors and/or predators
 - Loss of keystone species

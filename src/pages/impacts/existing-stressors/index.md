@@ -11,8 +11,6 @@ Three key drivers of biodiversity loss include existing threats, direct effects 
 
 The overall vulnerability of some ecosystems may be primarily driven by the severity of these non-climate stressors and by how they interact with climate change. The synergistic effects of climate and non-climate stressors, leading to range reductions and population declines, may be severe enough to threaten some species with extinction or extirpation from significant portions of their ranges.
 
-**TODO:Examples of synergistic effects can be found here.**
-
 ## Synergistic Effects of Climate Change and Non-climate Stressors
 
 Impacts of climate change **_may be exacerbated_** by existing stressors:
