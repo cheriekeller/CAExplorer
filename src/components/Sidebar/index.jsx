@@ -28,7 +28,6 @@ const SidebarContainer = styled(Text)`
 
   @media screen and (min-width: ${themeGet('breakpoints.0')}) {
     position: fixed;
-    width: 16em;
     border-right: 1px solid #aaa;
   }
 
@@ -136,7 +135,8 @@ const Sidebar = ({ items, isOpen }) => {
   return (
     <SidebarContainer
       isOpen={isOpen}
-      fontSize={['1rem', '0.75rem', '1rem', '1rem']}
+      // fontSize={['1rem', '0.75rem', '1rem', '1rem']}
+      width={['100%', '12rem', '12rem', '16rem']}
     >
       <List items={items} />
     </SidebarContainer>

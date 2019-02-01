@@ -26,6 +26,7 @@ const SidebarToggle = styled.button`
   outline: none !important;
   color: #fff;
   box-sizing: border-box;
+  text-align: center;
 
   @media screen and (max-width: ${themeGet('breakpoints.0')}) {
     display: block;
@@ -64,7 +65,10 @@ const Layout = ({ children }) => {
             {isSidebarOpen ? <FaTimes /> : <FaBars />}
           </SidebarToggle>
           <Sidebar items={items} isOpen={isSidebarOpen} />
-          <ContentContainer isOpen={!isSidebarOpen} pl={[0, '16em']}>
+          <ContentContainer
+            isOpen={!isSidebarOpen}
+            pl={[0, '12rem', '12rem', '16rem']}
+          >
             <Container px={3}>{children}</Container>
           </ContentContainer>
         </Flex>

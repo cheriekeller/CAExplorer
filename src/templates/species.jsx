@@ -72,9 +72,10 @@ const Content = styled.div`
 
   .header-photo {
     margin-bottom: 3rem;
-    @media (min-width: 40rem) {
+    min-width: 290px;
+    margin: 0 1rem 1rem 0;
+    @media (min-width: ${themeGet('breakpoints.0')}) {
       width: 480px;
-      min-width: 320px;
       margin: 0 1rem 1rem 0;
       flex-grow: 0 !important;
     }
