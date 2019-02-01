@@ -5,6 +5,7 @@ import styled, { themeGet } from 'util/style'
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
 import { hasWindow } from 'util/dom'
+
 import config from '../../../config/meta'
 
 const NavBar = styled(Flex)`
@@ -13,7 +14,6 @@ const NavBar = styled(Flex)`
   bottom: 0;
   left: 0;
   right: 0;
-  /* padding: 0.5rem; */
   z-index: 2000;
   background: ${themeGet('colors.primary.100')};
   border-top: 2px solid ${themeGet('colors.secondary.800')};
@@ -24,6 +24,10 @@ const NavBar = styled(Flex)`
 
   @media (max-width: 480px) {
     font-size: 0.75rem;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 0.5rem;
   }
 `
 
@@ -37,10 +41,6 @@ const NavLink = styled(Link)`
   flex-grow: 1;
   background: ${({ active }) =>
     active ? themeGet('colors.primary.200') : 'transparent'};
-
-  & + a {
-    margin-left: 1em;
-  }
 `
 
 const isActive = path => hasWindow && window.location.pathname.startsWith(path)

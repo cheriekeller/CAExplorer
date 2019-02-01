@@ -34,6 +34,7 @@ const SidebarContainer = styled(Text)`
 
   @media screen and (max-width: ${themeGet('breakpoints.0')}) {
     display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
+    padding-top: 1rem;
   }
 
   header {
