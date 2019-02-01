@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'util/style'
+import styled, { themeGet } from 'util/style'
 
 const Wrapper = styled.div`
   width: 5rem;
@@ -11,6 +11,10 @@ const Wrapper = styled.div`
   padding: 0.25rem;
   box-sizing: border-box;
   margin-left: 1rem;
+
+  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+    display: none;
+  }
 `
 
 const index = () => <Wrapper>search...</Wrapper>

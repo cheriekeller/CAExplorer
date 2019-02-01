@@ -6,7 +6,6 @@ import { Text } from 'rebass'
 
 import styled, { themeGet } from 'util/style'
 import { scrollIntoView } from 'util/dom'
-import ResponsiveHide from 'components/elements/ResponsiveHide'
 import { Link } from 'components/Link'
 
 setConfig({ pureSFC: true })
@@ -18,17 +17,24 @@ const ItemsPropType = PropTypes.arrayOf(
   })
 )
 
-// TODO: responsive
 const SidebarContainer = styled(Text)`
-  position: fixed;
   overflow-y: auto;
   left: 0;
   height: 100%;
-  width: 16em;
-  border-right: 1px solid #aaa;
+  width: 100%;
   padding: 2rem 1rem 4rem;
   z-index: 999;
   background: #fff;
+
+  @media screen and (min-width: ${themeGet('breakpoints.0')}) {
+    position: fixed;
+    width: 16em;
+    border-right: 1px solid #aaa;
+  }
+
+  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+    display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
+  }
 
   header {
     font-weight: bold;
@@ -121,22 +127,24 @@ List.propTypes = {
   items: ItemsPropType.isRequired,
 }
 
-const Sidebar = ({ items }) => {
+const Sidebar = ({ items, isOpen }) => {
   useEffect(() => {
     scrollIntoView('ActiveSidebarLink')
   })
 
   return (
-    <ResponsiveHide min={themeGet('breakpoints.0')}>
-      <SidebarContainer fontSize={['0.75rem', '0.75rem', '1rem', '1rem']}>
-        <List items={items} />
-      </SidebarContainer>
-    </ResponsiveHide>
+    <SidebarContainer
+      isOpen={isOpen}
+      fontSize={['1rem', '0.75rem', '1rem', '1rem']}
+    >
+      <List items={items} />
+    </SidebarContainer>
   )
 }
 
 Sidebar.propTypes = {
   items: ItemsPropType.isRequired,
+  isOpen: PropTypes.bool.isRequired,
 }
 
 export default Sidebar

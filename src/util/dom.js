@@ -6,4 +6,6 @@ export const scrollIntoView = (id, behavior = 'auto') => {
   }
 }
 
-export default { scrollIntoView }
+export const hasWindow = typeof window !== 'undefined' && window
+
+export default { scrollIntoView, hasWindow }

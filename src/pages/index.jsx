@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { Image } from 'rebass'
 
 import styled from 'util/style'
 import { Flex, Container } from 'components/Grid'
@@ -15,9 +16,9 @@ import CBILogo from '../images/cbi_logo.png'
 import FWCLogo from '../images/fwc_logo.png'
 import PFLCCLogo from '../images/pflcc_logo.png'
 
-const Logo = styled.img`
-  height: 70px;
-`
+// const Logo = styled.img`
+//   height: 70px;
+// `
 
 const IndexPage = ({ data: { headerImage } }) => (
   <Layout>
@@ -217,10 +218,14 @@ const IndexPage = ({ data: { headerImage } }) => (
         </a>
         .
       </p>
-      <Flex justifyContent="space-between">
-        <Logo src={CBILogo} alt="CBI Logo" />
-        <Logo src={FWCLogo} alt="FWC Logo" style={{ height: 100 }} />
-        <Logo src={PFLCCLogo} alt="PFLCC Logo" />
+      <Flex justifyContent="space-between" alignItems="center" flexWrap="wrap">
+        <Image src={CBILogo} alt="CBI Logo" height={['40px', '50px', '64px']} />
+        <Image src={FWCLogo} alt="FWC Logo" height={['70px', '100px']} />
+        <Image
+          src={PFLCCLogo}
+          alt="PFLCC Logo"
+          height={['40px', '50px', '64px']}
+        />
       </Flex>
       <p />
     </Container>

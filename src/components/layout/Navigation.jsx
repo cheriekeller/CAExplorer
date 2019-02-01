@@ -3,13 +3,15 @@ import { Text } from 'rebass'
 
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
-import styled, { themePx, themeGet } from 'util/style'
+import styled, { themeGet } from 'util/style'
 import config from '../../../config/meta'
 
-// TODO: responsive font size
 const NavBar = styled(Flex)`
-  /* font-size: ${themePx('fontSizes.3')}; */
   flex-grow: 1;
+
+  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+    display: none;
+  }
 `
 
 const NavLink = styled(Link)`

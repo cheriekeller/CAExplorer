@@ -1,10 +1,9 @@
 import React from 'react'
 import { Image, Text } from 'rebass'
 
-import styled, { theme, themeGet } from 'util/style'
+import styled, { themeGet } from 'util/style'
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
-import ResponsiveHide from 'components/elements/ResponsiveHide'
 import Navigation from './Navigation'
 import Search from '../Search'
 
@@ -23,6 +22,10 @@ const Subtitle = styled(Text)`
   color: ${themeGet('colors.primary.900')};
   font-style: italic;
   font-weight: normal;
+
+  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+    display: none;
+  }
 `
 
 const Wrapper = styled.div`
@@ -62,11 +65,9 @@ const LargeHeader = () => (
             >
               {config.siteTitle}
             </Title>
-            <ResponsiveHide min={theme.breakpoints[0]}>
-              <Subtitle as="h2" fontSize={[0, 1, 2]}>
-                {config.siteSubtitle}
-              </Subtitle>
-            </ResponsiveHide>
+            <Subtitle as="h2" fontSize={[0, 1, 2]}>
+              {config.siteSubtitle}
+            </Subtitle>
           </div>
         </Flex>
       </Link>
