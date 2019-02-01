@@ -54,6 +54,9 @@ const Content = styled.div`
     & > div {
       flex-grow: 1;
     }
+    .vulnerability {
+      margin-bottom: 3rem;
+    }
   }
 
   .gatsby-resp-image-wrapper {
@@ -70,9 +73,10 @@ const Content = styled.div`
   .header-photo {
     margin-bottom: 3rem;
     @media (min-width: 40rem) {
-      width: 50%;
+      width: 480px;
       min-width: 320px;
       margin: 0 1rem 1rem 0;
+      flex-grow: 0 !important;
     }
   }
 
@@ -92,34 +96,36 @@ const Content = styled.div`
       margin-bottom: 0;
       max-width: 600px;
     }
+  }
 
-    b {
-      display: block;
-      padding: 0.5em 1em;
-      background: ${themeGet('colors.grey.200')};
-      border-radius: 0.5em;
-      width: 300px;
-      text-align: center;
-      letter-spacing: 0.05em;
+  .vulnerability {
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    width: 300px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+  }
 
-      &.low,
-      &.slight {
-        background: ${themeGet('colors.yellow.200')};
-      }
-      &.moderate {
-        background: ${themeGet('colors.yellow.400')};
-      }
-      &.high {
-        background: ${themeGet('colors.secondary.500')};
-        color: #fff;
-        font-weight: normal;
-      }
-      &.extreme {
-        background: ${themeGet('colors.secondary.800')};
-        color: #fff;
-        font-weight: normal;
-      }
-    }
+  .vulnerability.vulnerability-not {
+    background: ${themeGet('colors.grey.200')};
+  }
+  .vulnerability.vulnerability-low,
+  .vulnerability.vulnerability-slight {
+    background: ${themeGet('colors.yellow.200')};
+  }
+  .vulnerability.vulnerability-moderate {
+    background: ${themeGet('colors.yellow.400')};
+  }
+  .vulnerability.vulnerability-high {
+    background: ${themeGet('colors.secondary.500')};
+    color: #fff;
+    font-weight: normal;
+  }
+  .vulnerability.vulnerability-extreme {
+    background: ${themeGet('colors.secondary.800')};
+    color: #fff;
+    font-weight: normal;
   }
 
   // .thumbnail-small {
