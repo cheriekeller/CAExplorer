@@ -12,9 +12,27 @@ const Content = styled.div`
     & + h3 {
       color: ${themeGet('colors.primary.300')};
       font-weight: normal;
+      font-style: italic;
+      margin-bottom: 2rem;
     }
   }
+
+  // h2,
+  // h3,
+  // h4,
+  // hr {
+  //   clear: both;
+  // }
+
   h2,
+  hr {
+    margin-top: 2rem;
+  }
+
+  h3 {
+    margin-bottom: 0.25em;
+  }
+
   p + h3,
   ul + h3,
   p + h4,
@@ -30,18 +48,32 @@ const Content = styled.div`
     margin-bottom: 3rem;
   }
 
-  hr {
-    margin-top: 3rem;
+  #TopSection {
+    display: flex;
+    flex-wrap: wrap;
+    & > div {
+      flex-grow: 1;
+    }
+  }
+
+  .gatsby-resp-image-wrapper {
+    max-width: inherit !important;
   }
 
   .gatsby-resp-image-wrapper + figcaption {
     text-align: center;
     font-weight: normal;
     margin-bottom: 0;
+    font-size: small;
   }
 
   .header-photo {
     margin-bottom: 3rem;
+    @media (min-width: 40rem) {
+      width: 50%;
+      min-width: 320px;
+      margin: 0 1rem 1rem 0;
+    }
   }
 
   .float-left {
@@ -49,9 +81,50 @@ const Content = styled.div`
     margin: 0 1em 1em 0;
   }
 
-  .thumbnail-small {
-    width: 150px;
+  .vulnerability-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em;
+
+    h3 {
+      margin-bottom: 0;
+      max-width: 600px;
+    }
+
+    b {
+      display: block;
+      padding: 0.5em 1em;
+      background: ${themeGet('colors.grey.200')};
+      border-radius: 0.5em;
+      width: 300px;
+      text-align: center;
+      letter-spacing: 0.05em;
+
+      &.low,
+      &.slight {
+        background: ${themeGet('colors.yellow.200')};
+      }
+      &.moderate {
+        background: ${themeGet('colors.yellow.400')};
+      }
+      &.high {
+        background: ${themeGet('colors.secondary.500')};
+        color: #fff;
+        font-weight: normal;
+      }
+      &.extreme {
+        background: ${themeGet('colors.secondary.800')};
+        color: #fff;
+        font-weight: normal;
+      }
+    }
   }
+
+  // .thumbnail-small {
+  //   width: 150px;
+  // }
 
   .clear {
     clear: both;

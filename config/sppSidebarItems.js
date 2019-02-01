@@ -288,6 +288,20 @@ export const sppNav = [
     'label': 'Fish',
     'children': [
       {
+        'path': '/species/fish/estuarine_fish',
+        'label': 'Estuarine Fish',
+        'children': [
+          {
+            'path': '/species/fish/estuarine_fish/324',
+            'label': 'Saltmarsh topminnow'
+          },
+          {
+            'path': '/species/fish/estuarine_fish/232',
+            'label': 'Slashcheek goby'
+          }
+        ]
+      },
+      {
         'path': '/species/fish/freshwater_fish',
         'label': 'Freshwater Fish',
         'children': [
@@ -316,37 +330,29 @@ export const sppNav = [
             'label': 'Okaloosa darter'
           },
           {
-            'path': '/species/fish/freshwater_fish/232',
-            'label': 'Slashcheek goby'
-          },
-          {
             'path': '/species/fish/freshwater_fish/326',
             'label': 'Southern tessellated darter'
           }
         ]
       },
       {
-        'path': '/species/fish/saltwater_fish',
-        'label': 'Saltwater Fish',
+        'path': '/species/fish/marine_fish',
+        'label': 'Marine Fish',
         'children': [
           {
-            'path': '/species/fish/saltwater_fish/316',
+            'path': '/species/fish/marine_fish/316',
             'label': 'Key silverside'
           },
           {
-            'path': '/species/fish/saltwater_fish/318',
+            'path': '/species/fish/marine_fish/318',
             'label': 'Mangrove rivulus'
           },
           {
-            'path': '/species/fish/saltwater_fish/227',
+            'path': '/species/fish/marine_fish/227',
             'label': 'Red drum'
           },
           {
-            'path': '/species/fish/saltwater_fish/324',
-            'label': 'Saltmarsh topminnow'
-          },
-          {
-            'path': '/species/fish/saltwater_fish/233',
+            'path': '/species/fish/marine_fish/233',
             'label': 'Spotted seatrout'
           }
         ]
@@ -358,78 +364,60 @@ export const sppNav = [
     'label': 'Invertebrates',
     'children': [
       {
-        'path': '/species/invertebrates/corals',
-        'label': 'Corals',
+        'path': '/species/invertebrates/freshwater_invertebrates',
+        'label': 'Freshwater Invertebrates',
         'children': [
           {
-            'path': '/species/invertebrates/corals/320',
-            'label': 'Pillar coral'
-          }
-        ]
-      },
-      {
-        'path': '/species/invertebrates/crabs',
-        'label': 'Crabs',
-        'children': [
-          {
-            'path': '/species/invertebrates/crabs/200',
-            'label': 'Blue crab'
-          }
-        ]
-      },
-      {
-        'path': '/species/invertebrates/crayfish',
-        'label': 'Crayfish',
-        'children': [
-          {
-            'path': '/species/invertebrates/crayfish/303',
+            'path': '/species/invertebrates/freshwater_invertebrates/303',
             'label': 'Black Creek crayfish'
           },
           {
-            'path': '/species/invertebrates/crayfish/141',
+            'path': '/species/invertebrates/freshwater_invertebrates/141',
             'label': 'Panama City crayfish'
           },
           {
-            'path': '/species/invertebrates/crayfish/325',
+            'path': '/species/invertebrates/freshwater_invertebrates/325',
             'label': 'Sante Fe cave crayfish'
           }
         ]
       },
       {
-        'path': '/species/invertebrates/insects',
-        'label': 'Insects',
+        'path': '/species/invertebrates/marine_invertebrates',
+        'label': 'Marine Invertebrates',
         'children': [
           {
-            'path': '/species/invertebrates/insects/222',
+            'path': '/species/invertebrates/marine_invertebrates/200',
+            'label': 'Blue crab'
+          },
+          {
+            'path': '/species/invertebrates/marine_invertebrates/204',
+            'label': 'Eastern oyster'
+          },
+          {
+            'path': '/species/invertebrates/marine_invertebrates/320',
+            'label': 'Pillar coral'
+          }
+        ]
+      },
+      {
+        'path': '/species/invertebrates/terrestrial_invertebrates',
+        'label': 'Terrestrial Invertebrates',
+        'children': [
+          {
+            'path': '/species/invertebrates/terrestrial_invertebrates/207',
+            'label': 'Florida tree snail'
+          },
+          {
+            'path': '/species/invertebrates/terrestrial_invertebrates/222',
             'label': 'Miami blue butterfly'
           },
           {
-            'path': '/species/invertebrates/insects/150',
+            'path': '/species/invertebrates/terrestrial_invertebrates/150',
             'label': 'Say\u2019s spiketail (dragonfly)'
           },
           {
-            'path': '/species/invertebrates/insects/230',
+            'path': '/species/invertebrates/terrestrial_invertebrates/230',
             'label': 'Schaus swallowtail butterfly'
-          }
-        ]
-      },
-      {
-        'path': '/species/invertebrates/mollusks',
-        'label': 'Mollusks',
-        'children': [
-          {
-            'path': '/species/invertebrates/mollusks/204',
-            'label': 'Eastern oyster'
-          }
-        ]
-      },
-      {
-        'path': '/species/invertebrates/snails',
-        'label': 'Snails',
-        'children': [
-          {
-            'path': '/species/invertebrates/snails/207',
-            'label': 'Florida tree snail'
           }
         ]
       }
