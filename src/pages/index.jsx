@@ -10,8 +10,7 @@ import InfoBox from 'components/elements/InfoBox'
 import Layout from 'components/layout/Home'
 import SEO from 'components/SEO'
 
-import ImageBanner from 'components/ImageBanner'
-
+import { FluidImage } from 'components/Image'
 import CBILogo from '../images/cbi_logo.png'
 import FWCLogo from '../images/fwc_logo.png'
 import PFLCCLogo from '../images/pflcc_logo.png'
@@ -20,17 +19,18 @@ const Logo = styled.img`
   height: 70px;
 `
 
-const BannerContainer = styled.div`
-  margin-top: 4.5rem;
-`
-
 const IndexPage = ({ data: { headerImage } }) => (
   <Layout>
     <SEO />
 
-    <BannerContainer>
-      <ImageBanner headerImage={headerImage.childImageSharp.fluid} />
-    </BannerContainer>
+    <FluidImage
+      image={headerImage.childImageSharp.fluid}
+      height="80vh"
+      credits={{
+        url: 'https://unsplash.com/photos/bxa3nqFOGmc',
+        author: 'Nik Shuliahin',
+      }}
+    />
 
     <Container mx={[2, 2, 4, 'auto']}>
       <h1>Florida&apos;s unique wildlife are at risk from climate change.</h1>
@@ -238,7 +238,7 @@ export default IndexPage
 export const pageQuery = graphql`
   query HeaderImageQuery {
     headerImage: file(
-      relativePath: { eq: "nik-shuliahin-621547-unsplash.jpg" }
+      relativePath: { eq: "ray-hennessy-1134702-unsplash.jpg" }
     ) {
       childImageSharp {
         fluid(maxWidth: 4160) {
