@@ -25,10 +25,11 @@ const IndexPage = ({ data: { headerImage } }) => (
 
     <FluidImage
       image={headerImage.childImageSharp.fluid}
-      height="80vh"
+      height="40vh"
+      minHeight="20rem"
       credits={{
-        url: 'https://unsplash.com/photos/bxa3nqFOGmc',
-        author: 'Nik Shuliahin',
+        url: 'https://unsplash.com/photos/NqFwYtq93l0',
+        author: 'Ray Hennessy',
       }}
     />
 

@@ -1,7 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import { Image, Text } from 'rebass'
 
-import styled, { themeGet, themePx } from 'util/style'
+import styled, { themeGet } from 'util/style'
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
 import Navigation from './Navigation'
@@ -11,7 +11,7 @@ import SiteLogo from '../../images/CAE_Icon.svg'
 
 import config from '../../../config/meta'
 
-const Title = styled.h3`
+const Title = styled(Text)`
   margin: 0 1.5rem 0 0;
   color: ${themeGet('colors.primary.900')};
   text-decoration: none;
@@ -23,19 +23,21 @@ const Wrapper = styled.div`
   top: 0;
   left: 0;
   right: 0;
-  height: 2.75rem;
   background: ${themeGet('colors.primary.100')};
   border-bottom: 2px solid ${themeGet('colors.secondary.800')};
   padding: 0.5rem;
+
+  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+    position: unset;
+  }
 
   a:hover {
     text-decoration: none;
   }
 `
 
-const Logo = styled.img.attrs({ src: SiteLogo })`
-  height: 2.5rem;
-  margin: -0.5rem 0.5rem -0.5rem -0.5rem;
+const Logo = styled(Image).attrs({ src: SiteLogo })`
+  margin: -0.5rem 0.25rem -0.5rem -0.5rem;
 `
 
 const Header = () => (
@@ -43,9 +45,11 @@ const Header = () => (
     <Flex alignItems="center">
       <Link to="/">
         <Flex alignItems="center">
-          <Logo />
+          <Logo as="img" width={['1.75rem', '2rem', '2.25rem', '2.5rem']} />
           <div>
-            <Title>{config.siteTitle}</Title>
+            <Title as="h1" fontSize={['0.9rem', '1rem', '1.5rem', '1.75rem']}>
+              {config.siteTitle}
+            </Title>
           </div>
         </Flex>
       </Link>
@@ -54,13 +58,5 @@ const Header = () => (
     </Flex>
   </Wrapper>
 )
-
-Header.propTypes = {
-  isLarge: PropTypes.bool,
-}
-
-Header.defaultProps = {
-  isLarge: false,
-}
 
 export default Header

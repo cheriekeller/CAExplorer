@@ -2,9 +2,11 @@ import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import { css } from 'styled-components'
 import { setConfig } from 'react-hot-loader'
+import { Text } from 'rebass'
 
 import styled, { themeGet } from 'util/style'
 import { scrollIntoView } from 'util/dom'
+import ResponsiveHide from 'components/elements/ResponsiveHide'
 import { Link } from 'components/Link'
 
 setConfig({ pureSFC: true })
@@ -17,14 +19,17 @@ const ItemsPropType = PropTypes.arrayOf(
 )
 
 // TODO: responsive
-const SidebarContainer = styled.div`
+const SidebarContainer = styled(Text)`
   position: fixed;
   overflow-y: auto;
   left: 0;
   height: 100%;
-  width: 16rem;
+  width: 16em;
   border-right: 1px solid #aaa;
   padding: 2rem 1rem 4rem;
+  z-index: 999;
+  background: #fff;
+
   header {
     font-weight: bold;
     text-transform: uppercase;
@@ -122,9 +127,11 @@ const Sidebar = ({ items }) => {
   })
 
   return (
-    <SidebarContainer>
-      <List items={items} />
-    </SidebarContainer>
+    <ResponsiveHide min={themeGet('breakpoints.0')}>
+      <SidebarContainer fontSize={['0.75rem', '0.75rem', '1rem', '1rem']}>
+        <List items={items} />
+      </SidebarContainer>
+    </ResponsiveHide>
   )
 }
 

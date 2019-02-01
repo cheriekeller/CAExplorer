@@ -7,7 +7,7 @@ import Header from './LargeHeader'
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
     <>
-      <Header isLarge />
+      <Header />
       {children}
     </>
   </ThemeProvider>

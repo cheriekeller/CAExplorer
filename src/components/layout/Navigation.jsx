@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'rebass'
 
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
@@ -7,7 +8,7 @@ import config from '../../../config/meta'
 
 // TODO: responsive font size
 const NavBar = styled(Flex)`
-  font-size: ${themePx('fontSizes.3')};
+  /* font-size: ${themePx('fontSizes.3')}; */
   flex-grow: 1;
 `
 
@@ -22,7 +23,7 @@ const NavLink = styled(Link)`
     active ? themeGet('colors.secondary.500') : 'transparent'};
 
   & + a {
-    margin-left: 1.5rem;
+    margin-left: 1em;
   }
 
   &:hover {
@@ -40,7 +41,7 @@ const Navigation = () => (
   <NavBar as="nav">
     {config.nav.map(({ label, link }) => (
       <NavLink key={link} to={link} active={isActive(link)}>
-        {label}
+        <Text fontSize={['0.75rem', '0.75em', '1rem']}>{label}</Text>
       </NavLink>
     ))}
   </NavBar>

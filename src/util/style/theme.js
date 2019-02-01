@@ -2,7 +2,9 @@
  * This is our custom theme where we define global styles.
  * It should serve as a guideline for styling, but not all styles *have* to be taken from here.
  */
-const breakpoints = ['40em', '52em', '64em']
+// const breakpoints = ['40em', '52em', '64em']
+// breakpoints from Bulma:
+const breakpoints = ['769px', '1024px', '1216px']
 
 // palette: https://colorhunt.co/palette/7247
 // shades generated: http://www.0to255.com/2d4059
@@ -69,7 +71,19 @@ const space = [0, 4, 8, 16, 32, 64, 128, 256, 512]
 /**
  * Typographic scale
  */
-const fontSizes = [12, 14, 16, 20, 24, 32, 48, 64, 96, 128]
+// const fontSizes = [12, 14, 16, 20, 24, 32, 48, 64, 96, 128]
+const fontSizes = [
+  '0.5rem',
+  '0.75rem',
+  '1rem',
+  '1.25rem',
+  '1.5rem',
+  '1.75rem',
+  '2rem',
+  '2.5rem',
+  '3rem',
+  '4rem',
+]
 
 const lineHeights = [1, 1.125, 1.25, 1.5]
 

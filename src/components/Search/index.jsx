@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   font-size: smaller;
   padding: 0.25rem;
   box-sizing: border-box;
+  margin-left: 1rem;
 `
 
 const index = () => <Wrapper>search...</Wrapper>

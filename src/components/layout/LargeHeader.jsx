@@ -1,8 +1,10 @@
 import React from 'react'
+import { Image, Text } from 'rebass'
 
-import styled, { themeGet, themePx } from 'util/style'
+import styled, { theme, themeGet } from 'util/style'
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
+import ResponsiveHide from 'components/elements/ResponsiveHide'
 import Navigation from './Navigation'
 import Search from '../Search'
 
@@ -10,13 +12,13 @@ import SiteLogo from '../../images/CAE_Icon.svg'
 
 import config from '../../../config/meta'
 
-const Title = styled.h2`
-  margin: 0 1.5rem 0 0;
+const Title = styled(Text)`
+  margin: 0 1.5rem 0.2em 0;
   color: ${themeGet('colors.primary.900')};
   text-decoration: none;
 `
 
-const Subtitle = styled.h4`
+const Subtitle = styled(Text)`
   margin: 0.25rem 0 0 0;
   color: ${themeGet('colors.primary.900')};
   font-style: italic;
@@ -29,18 +31,20 @@ const Wrapper = styled.div`
   top: 0;
   left: 0;
   right: 0;
-  height: 4.5rem;
   background: ${themeGet('colors.primary.100')};
   border-bottom: 2px solid ${themeGet('colors.secondary.800')};
   padding: 0.5rem;
+
+  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+    position: unset;
+  }
 
   a:hover {
     text-decoration: none;
   }
 `
 
-const Logo = styled.img.attrs({ src: SiteLogo })`
-  height: 4.25rem;
+const Logo = styled(Image).attrs({ src: SiteLogo })`
   margin: -0.5rem 0.5rem -0.5rem -0.5rem;
 `
 
@@ -49,10 +53,20 @@ const LargeHeader = () => (
     <Flex alignItems="center">
       <Link to="/">
         <Flex alignItems="center">
-          <Logo />
+          <Logo as="img" width={['3rem', '2.5rem', '4rem', '4.25rem']} />
           <div>
-            <Title>{config.siteTitle}</Title>
-            <Subtitle>{config.siteSubtitle}</Subtitle>
+            <Title
+              as="h1"
+              fontSize={['1rem', '1rem', '1.5rem', '1.75rem']}
+              width={[]}
+            >
+              {config.siteTitle}
+            </Title>
+            <ResponsiveHide min={theme.breakpoints[0]}>
+              <Subtitle as="h2" fontSize={[0, 1, 2]}>
+                {config.siteSubtitle}
+              </Subtitle>
+            </ResponsiveHide>
           </div>
         </Flex>
       </Link>

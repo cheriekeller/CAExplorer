@@ -8,7 +8,7 @@ import ImageCredits from './ImageCredits'
 const Wrapper = styled.div`
   margin-top: 0;
   height: ${({ height }) => height};
-  min-height: 20rem;
+  min-height: ${({ minHeight }) => minHeight};
   overflow: hidden;
   width: 100%;
   position: relative;
@@ -23,9 +23,9 @@ const StyledImage = styled(Img)`
   right: 0;
 `
 
-const Fluid = ({ image, height, credits }) => (
+const Fluid = ({ image, height, minHeight, credits }) => (
   <>
-    <Wrapper height={height}>
+    <Wrapper height={height} minHeight={minHeight}>
       <StyledImage fluid={image} />
     </Wrapper>
     {credits ? (
@@ -42,6 +42,7 @@ const Fluid = ({ image, height, credits }) => (
 Fluid.propTypes = {
   image: PropTypes.any.isRequired,
   height: PropTypes.string,
+  minHeight: PropTypes.string,
   credits: PropTypes.shape({
     url: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
@@ -50,6 +51,7 @@ Fluid.propTypes = {
 
 Fluid.defaultProps = {
   height: '60vh',
+  minHeight: '20rem',
   credits: null,
 }
 

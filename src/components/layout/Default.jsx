@@ -2,19 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import styled, { ThemeProvider, theme } from 'util/style'
-import { Flex, Container } from 'components/Grid'
+import { Box, Flex, Container } from 'components/Grid'
 import Sidebar from '../Sidebar'
 import MobileNavigation from './MobileNavigation'
 import Header from './Header'
 
 import sidebarItems from '../../../config/sidebarItems'
 
-const Content = styled(Flex)`
-  padding-top: 2.75rem;
-`
-
-const ContentContainer = styled.div`
-  padding: 2rem 0 2rem 16rem;
+const ContentContainer = styled(Box)`
+  padding: 2rem 0 2rem 0;
   width: 100%;
 `
 
@@ -30,12 +26,12 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={theme}>
       <>
         <Header />
-        <Content>
+        <Flex pt={[0, '2rem', '2.75rem']}>
           <Sidebar items={items} />
-          <ContentContainer>
+          <ContentContainer pl={[0, '16em']}>
             <Container px={3}>{children}</Container>
           </ContentContainer>
-        </Content>
+        </Flex>
         <MobileNavigation />
       </>
     </ThemeProvider>
