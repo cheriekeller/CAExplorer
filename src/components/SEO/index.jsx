@@ -2,7 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+import favicon32 from 'images/favicon-32x32.png'
+import favicon16 from 'images/favicon-16x16.png'
 import config from '../../../config/meta'
+
 
 function SEO({ description, lang, meta, title }) {
   const metaDescription = description || config.siteDescription
@@ -30,6 +33,10 @@ function SEO({ description, lang, meta, title }) {
       titleTemplate={
         title !== config.siteTitle ? `%s - ${config.siteTitle}` : `%s`
       }
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon32}`, sizes: '32x32' },
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon16}`, sizes:'16x16' }
+    ]}
       meta={[
         {
           name: `description`,
