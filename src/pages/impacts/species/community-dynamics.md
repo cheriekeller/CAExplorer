@@ -9,29 +9,60 @@ As species and habitats respond to shifting environmental variables there will b
 
 These changes may lead to changes in availability of food due to increased competition and changes in predator-prey relationships. Many exotic and invasive plants and pest species already possess characteristics that will allow them to take advantage of climatic changes (e. g., highly mobile, opportunistic breeding, wide climatic tolerance) leading to an increase in abundance to such an extent that they have a transformative, and often negative, impact on other species and ecosystems. Native communities under stress from climatic changes may be more susceptible to invasion and other disturbances.
 
-### Impacts include:
+#### Impacts of Salinity Shifts:
 
-- Altered predator-prey relationships
-- Altered species composition
-- Changes in numbers and density of invasive and introduced species
-- Decreased native species diversity
-- Increased competition for resources
+- Changes in competition and predator/prey relationships due to de-coupling of mutualistic relationships as salt-intolerant plants and animals are reduced and/or replaced by salt tolerant species
+- Changes in species composition as a result of salinity stress related shifts
+- Shifts in species presence and abundance due to changes in plant community structure as vegetation responds to changes in groundwater and soil salinity
+
+#### Impacts of Warning Temperatures:
+
+- Shift in fish communities from sportfish to rough fish
+- Changes in community composition
+- Reduction of threatened species due to temperature increases exacerbating existing stressors
+- Altered food web dynamics
+- Altered composition of parasite community
+- Range expansion of euryhaline marine species further into inland waters
+- Range expansion of invasive exotic species
 - Loss of keystone species
 
-## Loss of Keystone Species
+#### Impacts of Increased Cold Events:
 
-A keystone species is a species that has a disproportionately large effect on its environment relative to its abundance. Such species play a critical role in maintaining the structure of an ecological community, affecting many other organisms in an ecosystem and helping to determine the types and numbers of various other species in the community.
+- Shift in species distribution
+- Decoupling of predator/prey relationships of fish
+- Limit northern extent/expansion of exotic species range (potentially beneficial change)
+- Reduced competitive ability
 
-Examples of keystone species in Florida include the gopher tortoise, reef building species and the American alligator.
+#### Impacts of Decreased Precipitation:
 
-### Gopher Tortoise
+- Shift in species composition
+- Loss of species due to alteration of habitat
+- Altered macro-invertebrate assemblages in streams
+- Loss or reduction of some species as biotic interactions are altered
+- Increased predator density at limited sources of freshwater
+- Altered distribution of species due to increased inshore salinity levels
+- Loss of keystone species
+- Increased competition for limited forage due to drier conditions
 
-The gopher tortoise is considered a keystone species for the sandhill community in that it “engineers” the habitat of many other species. Species that have been reported using gopher tortoise burrows include at least 36 amphibians and reptiles, 19 mammals, seven birds, and more than 300 species of invertebrates. Climatic changes that impact gopher tortoise abundance or survival, such as alterations to fire regimes, will impact a large suite of associated species.
+#### Impacts of Increased Precipitation:
 
-### Reef Building Species
+- Increased connectivity of in ephemeral wetlands to adjacent wetlands and water bodies
+- Reduced food source for aquatic species due to displacement of stored organic carbon
 
-The species that create worm reefs and coral reefs are also considered to be keystone species. Coral reef systems composed of species such as Oculina provide habitat for many recreational and commercially important species, such as scallop, shrimp, grouper, snapper, and amberjack. Changes in circulation patterns, wave actions, sea surface temperatures, and ocean acidification may impact the coral and worm reef species and, in turn, the species that depend upon their structure as habitat.
+#### Impacts of Changes in Timing of Precipitation:
 
-### American Alligator
+- Altered interactions between species that depend on seasonal availability of resources
+- Altered predator/prey interactions due to changes in timing of migration
 
-The American alligator is considered to be a keystone species of the Everglades ecosystem and wetlands systems throughout Florida, creating important habitat for other species and aiding in ecological processes. The deep holes that they create in the wetland systems retain water during the dry season, providing habitat for a variety of other species. Climate changes, particularly those changes impacting hydrological processes, can cause changes in the alligator’s range or nesting; multiple other species would also be impacted.
+#### Impacts of Extreme Events:
+
+- Introduction of competitors and/or predators
+- Loss of keystone species
+- Loss of food sources
+
+#### Impacts of Altered Water Chemistry:
+
+- Increased disease, pathogens, parasites
+- Shift in species composition
+- Changes in competition and predator/prey relationships
+- Reduced competitive ability

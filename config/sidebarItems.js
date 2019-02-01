@@ -62,28 +62,28 @@ const impactNav = [
     path: '/impacts/species',
     label: "Florida's Species",
     children: [
-      {
-        path: '/impacts/species/slr',
-        label: 'Sea Level Rise',
-      },
-      {
-        path: '/impacts/species/temperature',
-        label: 'Temperature Changes',
-      },
-      {
-        path: '/impacts/species/precipitation',
-        label: 'Precipitation Changes',
-      },
+      // {
+      //   path: '/impacts/species/slr',
+      //   label: 'Sea Level Rise',
+      // },
+      // {
+      //   path: '/impacts/species/temperature',
+      //   label: 'Temperature Changes',
+      // },
+      // {
+      //   path: '/impacts/species/precipitation',
+      //   label: 'Precipitation Changes',
+      // },
 
-      {
-        path: '/impacts/species/extreme-events',
-        label: 'Changes to Extreme Events',
-      },
+      // {
+      //   path: '/impacts/species/extreme-events',
+      //   label: 'Changes to Extreme Events',
+      // },
 
-      {
-        path: '/impacts/species/co2',
-        label: 'Changes in Water Chemistry',
-      },
+      // {
+      //   path: '/impacts/species/co2',
+      //   label: 'Changes in Water Chemistry',
+      // },
       {
         path: '/impacts/species/community-dynamics',
         label: 'Altered Community Dynamics',
@@ -103,6 +103,10 @@ const impactNav = [
       {
         path: '/impacts/species/disturbance',
         label: 'Altered Disturbance Regimes',
+      },
+      {
+        path: '/impacts/species/keystone',
+        label: 'Loss of Keystone Species',
       },
     ],
   },
