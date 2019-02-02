@@ -20,7 +20,7 @@ import PFLCCLogo from '../images/pflcc_logo.png'
 //   height: 70px;
 // `
 
-const IndexPage = ({ data: { headerImage } }) => (
+const IndexPage = ({ data: { headerImage, bodyImage1 } }) => (
   <Layout>
     <SEO />
 
@@ -100,7 +100,17 @@ const IndexPage = ({ data: { headerImage } }) => (
         <br />
         <br />
       </p>
-      <hr />
+
+      <FluidImage
+      image={bodyImage1.childImageSharp.fluid}
+      height="40vh"
+      minHeight="20rem"
+      credits={{
+        url: 'https://www.flickr.com/photos/evergladesnps/9101434468/in/album-72157626553127734/',
+        author: 'G.Gardner (NPS)',
+      }}
+    />
+
       <h3>How to use this tool?</h3>
       <p>TODO:content and organization</p>
       <h4>Species profiles</h4>
@@ -245,6 +255,16 @@ export const pageQuery = graphql`
   query HeaderImageQuery {
     headerImage: file(
       relativePath: { eq: "ray-hennessy-1134702-unsplash.jpg" }
+    ) {
+      childImageSharp {
+        fluid(maxWidth: 4160) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+
+    bodyImage1: file(
+      relativePath: { eq: "9101434468_3d0807e732_o.jpg" }
     ) {
       childImageSharp {
         fluid(maxWidth: 4160) {
