@@ -7,6 +7,9 @@ title: 'Sea Level Rise Impacts'
 
 Inundation by sea level rise will have direct impacts on ecosystems. Some areas will be lost, while others may have the ability to move inland – depending on rate of sea level rise and presence of barriers. In addition to the direct loss of habitats due to sea level rise, there are many additional impacts expected to occur due to changes in water and soil salinity levels, caused by more frequent exposure through flooding, storm surge and salt spray.
 
+<!-- https://www.flickr.com/photos/evergladesnps/44864389982/ -->
+![Cypress Dome photo](44864389982_4899e2486d_k.jpg 'Cypress Dome.  Photo: Andrea Sanchez (NPS)')
+
 See sea level rise impacts for:
 
 - [Coastal and Terrestrial Ecosystems](#Terrestrial)

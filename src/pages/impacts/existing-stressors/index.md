@@ -7,6 +7,11 @@ title: 'Existing Stressors'
 
 Climate change will compound many of the existing stressors and threats to species and habitats and lead to an increased rate of biodiversity loss.
 
+<div class="float-right thumbnail-large">
+<img src="" alt="" />
+<!--  -->
+</div>
+
 Three key drivers of biodiversity loss include existing threats, direct effects of climate change, and the interaction between the existing threats and climate change. The ability of species and systems to adapt to climate change will be further challenged when considering the effects of these other stressors.
 
 The overall vulnerability of some ecosystems may be primarily driven by the severity of these non-climate stressors and by how they interact with climate change. The synergistic effects of climate and non-climate stressors, leading to range reductions and population declines, may be severe enough to threaten some species with extinction or extirpation from significant portions of their ranges.

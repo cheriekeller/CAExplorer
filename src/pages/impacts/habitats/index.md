@@ -9,6 +9,9 @@ Florida is in a transitional zone where the pine and bottomland hardwood element
 
 Florida’s landscape is one of the most rapidly changing and climate-vulnerable within the United States. It is extremely vulnerable to sea level rise and impacts from severe storms due to low elevation, geographic location and configuration. Many of the unique subtropical ecosystems are very sensitive to temperature and precipitation fluctuations.
 
+<!-- https://www.flickr.com/photos/evergladesnps/42295786392/ -->
+![Sawgrass Prairie photo](42295786392_67dfacdbf7_k.jpg 'Sawgrass Prairie, Everglades National Park. Photo: G. Gardner (NPS).')
+
 This tool includes four ecosystems, split into 15 conservation assets, highlighting 29 habitats.
 
 [Review climate change impacts for individual habitats](/habitats)

@@ -7,11 +7,20 @@ title: 'Altered Habitat Suitability'
 
 The suitability of habitat may shift, as vegetative composition and other key environmental variables respond to climate change. Species distributions are influenced through species-specific temperature and precipitation thresholds and, as these thresholds are crossed, species will need to change their movement patterns, shift their ranges, or disperse further distances to reach suitable habitat as they are forced to move away from unsuitable habitat conditions. These changes may lead to habitat degradation, fragmentation or loss for some species. Of particular significance, the loss of a keystone species from a community can lead to the loss of habitat for many associated species.
 
+<div class="float-right thumbnail-large">
+<img src="136.jpg" alt="Lower Keys marsh rabbit" />
+</div>
+
 While some species may be able to migrate as a means of adapting to shifts in habitat conditions, others may not be able to as the shifts in suitable habitat outpace their ability to move. Climate change impacts may be more severe for species occupying habitats in areas where migration or relocation is challenging due to physical barriers. Barriers to movement/migration pathways can be caused by natural (e.g., rivers) and man-made (e.g., roads, land use) features.
 
 Climatic changes will lead to contraction of the range of some species. These same changes could lead to the range expansion of other species, particularly non-native invasive species.
 
 #### Impacts to Migratory Species
+
+<div class="float-left thumbnail-large">
+<img src="135.jpg" alt="Louisiana waterthrush" />
+</div>
+
 
 Migratory species are likely to be strongly affected by climate change. They may be impacted at multiple geographic scales, possibly experiencing alterations of habitat in their wintering grounds, breeding grounds, and along their migratory. Mechanisms that aid in migrations, such as wind and water currents, may have positive or negative consequences depending on whether changes increase or decrease required energy expenditures to complete their migration. Altered directions of winds/currents can impact species’ ability to navigate to the desired location, even delivering individuals to the wrong location.
 

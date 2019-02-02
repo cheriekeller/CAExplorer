@@ -7,7 +7,17 @@ title: 'Altered Community Dynamics'
 
 Species composition within a community will change as species and habitats respond to shifting environmental variables. These changes may lead to changes in availability of food due to increased competition and changes in predator-prey relationships.
 
+
+<div class="float-left thumbnail-large">
+<img src="9099355261_9d71697c34_k.jpg" alt="Burmese Python" />
+<!-- https://www.flickr.com/photos/evergladesnps/9099355261/ -->
+</div>
+
 Many exotic and invasive plants and pest species already possess characteristics that will allow them to take advantage of climatic changes (e. g., highly mobile, opportunistic breeding, wide climatic tolerance) leading to an increase in abundance to such an extent that they have a transformative, and often negative, impact on other species and ecosystems. Native communities under stress from climatic changes may be more susceptible to invasion and other disturbances.
+
+
+
+
 
 #### Impacts of Salinity Shifts:
 

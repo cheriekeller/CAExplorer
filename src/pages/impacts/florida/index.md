@@ -11,6 +11,12 @@ Climate change will have impacts on Florida’s natural resources that operate a
 
 Climate change will have additional impacts on Florida’s natural resources that will affect [social, cultural, and economic](/impacts/florida/social) aspects of Florida’s natural resources including the ability of residents and tourist to safely enjoy and use them.
 
+<div class="float-right thumbnail-large" style="margin-right: 2rem;">
+<!-- https://www.flickr.com/photos/evergladesnps/9099305573/ -->
+<img src="9099305573_29c509e6d1_k.jpg" alt="Cape sable sea side sparrow photo" />
+</div>
+
+
 The overall vulnerability of some systems and species is primarily driven by the severity and extent of existing non-climate stressors, including human-caused alterations and impacts. The rate of climate change may become the most important feature in terms of consequences for biodiversity, potentially leading to escalating extinctions and widespread reorganizations of ecosystems, particularly where the rate of change is too fast and overwhelms the capacity of current ecosystems to adapt. Those species, populations, and communities that cannot keep pace with the rate of change will be most adversely impacted.
 
 Major climate changes in Florida include:
