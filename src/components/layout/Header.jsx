@@ -45,9 +45,9 @@ const Header = () => (
     <Flex alignItems="center">
       <Link to="/">
         <Flex alignItems="center">
-          <Logo as="img" width={['1.75rem', '2rem', '2.25rem', '2.5rem']} />
+          <Logo as="img" width={['1.75rem', '2rem', '2.5rem']} />
           <div>
-            <Title as="h1" fontSize={['0.9rem', '1rem', '1.5rem', '1.75rem']}>
+            <Title as="h1" fontSize={['0.9rem', '1rem', '1.5rem']}>
               {config.siteTitle}
             </Title>
           </div>

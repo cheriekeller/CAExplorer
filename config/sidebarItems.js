@@ -62,28 +62,6 @@ const impactNav = [
     path: '/impacts/species',
     label: "Florida's Species",
     children: [
-      // {
-      //   path: '/impacts/species/slr',
-      //   label: 'Sea Level Rise',
-      // },
-      // {
-      //   path: '/impacts/species/temperature',
-      //   label: 'Temperature Changes',
-      // },
-      // {
-      //   path: '/impacts/species/precipitation',
-      //   label: 'Precipitation Changes',
-      // },
-
-      // {
-      //   path: '/impacts/species/extreme-events',
-      //   label: 'Changes to Extreme Events',
-      // },
-
-      // {
-      //   path: '/impacts/species/co2',
-      //   label: 'Changes in Water Chemistry',
-      // },
       {
         path: '/impacts/species/community-dynamics',
         label: 'Altered Community Dynamics',
@@ -212,7 +190,7 @@ const strategiesNav = [
   { path: '/strategies/habitats', label: 'Habitat Strategies' },
   {
     path: '/strategies/crosscutting',
-    label: 'Cross-cutting Strategies',
+    label: 'Common Adaptation Strategies',
     children: [
       {
         path: '/strategies/crosscutting/protection',
@@ -247,20 +225,26 @@ const strategiesNav = [
         label: 'Monitoring',
       },
       {
-        path: '/strategies/crosscutting/habitat-loss',
-        label: 'Habitat Loss',
-      },
-      {
-        path: '/strategies/crosscutting/invasives',
-        label: 'Invasive Species',
-      },
-      {
-        path: '/strategies/crosscutting/pathogens',
-        label: 'Pathogens, Pests / Parasites, Pollutants',
-      },
-      {
-        path: '/strategies/crosscutting/competition',
-        label: 'Competition and Overexploitation',
+        path: '/strategies/crosscutting/existing',
+        label: 'Existing Stressors',
+        children: [
+          {
+            path: '/strategies/crosscutting/habitat-loss',
+            label: 'Habitat Loss',
+          },
+          {
+            path: '/strategies/crosscutting/invasives',
+            label: 'Invasive Species',
+          },
+          {
+            path: '/strategies/crosscutting/pathogens',
+            label: 'Pathogens, Pests / Parasites, Pollutants',
+          },
+          {
+            path: '/strategies/crosscutting/competition',
+            label: 'Competition and Overexploitation',
+          },
+        ],
       },
     ],
   },

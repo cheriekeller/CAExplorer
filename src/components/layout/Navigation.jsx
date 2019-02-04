@@ -3,7 +3,9 @@ import { Text } from 'rebass'
 
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
-import styled, { themeGet } from 'util/style'
+import ResponsiveHide from 'components/elements/ResponsiveHide'
+import ResponsiveShow from 'components/elements/ResponsiveShow'
+import styled, { theme, themeGet } from 'util/style'
 import config from '../../../config/meta'
 
 const NavBar = styled(Flex)`
@@ -39,11 +41,24 @@ const hasWindow = typeof window !== 'undefined' && window
 
 const isActive = path => hasWindow && window.location.pathname.startsWith(path)
 
+const fontSizes = ['0.75rem', '0.75em', '1rem']
+
 const Navigation = () => (
   <NavBar as="nav">
-    {config.nav.map(({ label, link }) => (
+    {config.nav.map(({ label, shortLabel, link }) => (
       <NavLink key={link} to={link} active={isActive(link)}>
-        <Text fontSize={['0.75rem', '0.75em', '1rem']}>{label}</Text>
+        {shortLabel ? (
+          <>
+            <ResponsiveHide min={theme.breakpoints[2]}>
+              <Text fontSize={fontSizes}>{label}</Text>
+            </ResponsiveHide>
+            <ResponsiveShow max={theme.breakpoints[2]}>
+              <Text fontSize={fontSizes}>{shortLabel}</Text>
+            </ResponsiveShow>
+          </>
+        ) : (
+          <Text fontSize={fontSizes}>{label}</Text>
+        )}
       </NavLink>
     ))}
   </NavBar>

@@ -1,5 +1,5 @@
 ---
-path: '/strategies/crosscutting/competition'
+path: '/strategies/crosscutting/existing/competition'
 title: 'Competition and Overexploitation'
 ---
 

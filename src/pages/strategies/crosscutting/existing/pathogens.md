@@ -1,5 +1,5 @@
 ---
-path: '/strategies/crosscutting/pathogens'
+path: '/strategies/crosscutting/existing/pathogens'
 title: 'Pathogens, Pests / Parasites, Pollutants'
 ---
 

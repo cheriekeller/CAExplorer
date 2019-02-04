@@ -1,5 +1,5 @@
 ---
-path: '/strategies/crosscutting/habitat-loss'
+path: '/strategies/crosscutting/existing/habitat-loss'
 title: 'Habitat Loss'
 ---
 

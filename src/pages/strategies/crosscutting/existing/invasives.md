@@ -1,5 +1,5 @@
 ---
-path: '/strategies/crosscutting/invasives'
+path: '/strategies/crosscutting/existing/invasives'
 title: 'Invasive Species'
 ---
 

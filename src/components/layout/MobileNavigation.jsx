@@ -50,9 +50,9 @@ const MobileNavigation = () => (
     <NavLink to="/" active={hasWindow && window.location.pathname === '/'}>
       <FaHome />
     </NavLink>
-    {config.nav.map(({ label, link }) => (
+    {config.nav.map(({ label, shortLabel, link }) => (
       <NavLink key={link} to={link} active={isActive(link)}>
-        {label}
+        {shortLabel || label}
       </NavLink>
     ))}
   </NavBar>

@@ -19,7 +19,8 @@ module.exports = {
       link: '/habitats',
     },
     {
-      label: 'Adaptation',
+      label: 'Adaptation Strategies',
+      shortLabel: 'Adaptation',
       link: '/strategies',
     },
   ],
