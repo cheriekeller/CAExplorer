@@ -32,20 +32,26 @@ const Content = styled.div`
     margin: 0 1em 1em 0;
   }
 
-.float-right {
-  float: right;
-  margin: 0 0 1em 1em;
-}
+  .float-right {
+    float: right;
+    margin: 0 0 1em 1em;
+  }
 
   .thumbnail-small {
     width: 150px;
+  }
+
+  .thumbnail-medium {
+    width: 320px;
   }
 
   .thumbnail-large {
     width: 460px;
   }
 
-  h2, h3, .clear {
+  h2,
+  h3,
+  .clear {
     clear: both;
   }
 

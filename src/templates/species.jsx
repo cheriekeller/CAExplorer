@@ -129,10 +129,6 @@ const Content = styled.div`
     font-weight: normal;
   }
 
-  // .thumbnail-small {
-  //   width: 150px;
-  // }
-
   .clear {
     clear: both;
   }

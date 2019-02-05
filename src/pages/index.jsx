@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { Image } from 'rebass'
 
-import styled from 'util/style'
 import { Flex, Container } from 'components/Grid'
 import { Link } from 'components/Link'
 import Divider from 'components/elements/Divider'
@@ -16,10 +15,6 @@ import CBILogo from '../images/cbi_logo.png'
 import FWCLogo from '../images/fwc_logo.png'
 import PFLCCLogo from '../images/pflcc_logo.png'
 
-// const Logo = styled.img`
-//   height: 70px;
-// `
-
 const IndexPage = ({ data: { headerImage, bodyImage1 } }) => (
   <Layout>
     <SEO />
@@ -27,7 +22,7 @@ const IndexPage = ({ data: { headerImage, bodyImage1 } }) => (
     <FluidImage
       image={headerImage.childImageSharp.fluid}
       height="40vh"
-      minHeight="20rem"
+      minHeight="24rem"
       credits={{
         url: 'https://unsplash.com/photos/NqFwYtq93l0',
         author: 'Ray Hennessy',
@@ -102,14 +97,15 @@ const IndexPage = ({ data: { headerImage, bodyImage1 } }) => (
       </p>
 
       <FluidImage
-      image={bodyImage1.childImageSharp.fluid}
-      height="40vh"
-      minHeight="20rem"
-      credits={{
-        url: 'https://www.flickr.com/photos/evergladesnps/9101434468/in/album-72157626553127734/',
-        author: 'G.Gardner (NPS)',
-      }}
-    />
+        image={bodyImage1.childImageSharp.fluid}
+        height="40vh"
+        minHeight="20rem"
+        credits={{
+          url:
+            'https://www.flickr.com/photos/evergladesnps/9101434468/in/album-72157626553127734/',
+          author: 'G.Gardner (NPS)',
+        }}
+      />
 
       <h3>How to use this tool?</h3>
       <p>TODO:content and organization</p>
@@ -263,9 +259,7 @@ export const pageQuery = graphql`
       }
     }
 
-    bodyImage1: file(
-      relativePath: { eq: "9101434468_3d0807e732_o.jpg" }
-    ) {
+    bodyImage1: file(relativePath: { eq: "9101434468_3d0807e732_o.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 4160) {
           ...GatsbyImageSharpFluid_withWebp

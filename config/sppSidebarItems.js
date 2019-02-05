@@ -1,5 +1,9 @@
 export const sppNav = [
   {
+    'path': '/species',
+    'label': 'Overview'
+  },
+  {
     'path': '/species/amphibians',
     'label': 'Amphibians',
     'children': [
