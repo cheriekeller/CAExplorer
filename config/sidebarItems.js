@@ -93,26 +93,20 @@ const impactNav = [
     label: "Florida's Ecosystems and Habitats",
     children: [
       {
-        path: '/impacts/habitats/slr',
-        label: 'Sea Level Rise',
+        path: '/impacts/habitats/coastal',
+        label: 'Coastal Ecosystems',
       },
       {
-        path: '/impacts/habitats/temperature',
-        label: 'Temperature Changes',
+        path: '/impacts/habitats/freshwater',
+        label: 'Freshwater Ecosystems',
       },
       {
-        path: '/impacts/habitats/precipitation',
-        label: 'Precipitation Changes',
+        path: '/impacts/habitats/marine',
+        label: 'Marine & Estuarine Ecosystems',
       },
-
       {
-        path: '/impacts/habitats/extreme-events',
-        label: 'Changes to Extreme Events',
-      },
-
-      {
-        path: '/impacts/habitats/co2',
-        label: 'Changes in Water Chemistry',
+        path: '/impacts/habitats/terrestrial',
+        label: 'Terrestrial Ecosystems',
       },
     ],
   },

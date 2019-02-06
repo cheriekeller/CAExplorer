@@ -50,7 +50,8 @@ Species that have limited ranges or dispersal ability, specialized habitat requi
 - Decreased reproductive success of amphibians
 - Reduced reproductive success in birds due to decreased availability of arthropods
 - Reduced fitness of freshwater species in tidal creeks due to increased salinity
-- Increased mortality of fish and other aquatic species •Decreased survival of amphibians in ephemeral ponds
+- Increased mortality of fish and other aquatic species
+- Decreased survival of amphibians in ephemeral ponds
 - Increased isolation – lower genetic diversity
 
 #### Impacts of Decreased Precipitation:
