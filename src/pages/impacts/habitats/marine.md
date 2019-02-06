@@ -1,5 +1,5 @@
 ---
-path: '/impacts/habitats/coastal'
+path: '/impacts/habitats/marine'
 title: 'Marine & Estuarine Ecosystems'
 ---
 

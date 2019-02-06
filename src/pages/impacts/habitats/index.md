@@ -41,10 +41,6 @@ Florida has abundant surface water in lakes, rivers, streams, marshes and spring
 
 Florida also has an extremely diverse marine and estuarine ecosystem, and is the only state in the continental U.S. with an extensive shallow reef system. Vulnerable coastal areas provide critical habitat for many of Florida’s threatened species, including seaside sparrows, beach mice, sea turtles, beach nesting birds, and many endemic plant species.
 
-<!-- https://www.flickr.com/photos/evergladesnps/42295786392/ -->
-
-<!-- ![Sawgrass Prairie photo](42295786392_67dfacdbf7_k.jpg 'Sawgrass Prairie, Everglades National Park. Photo: G. Gardner (NPS).') -->
-
 ### Landscape Conservation Planning - Conservation Assets:
 
 Conservation Assets (formerly known as Priority Resources) were identified by the Peninsular Florida Landscape Conservation Cooperative (PFLCC) as the set of biological, ecological, and cultural features most important for Florida’s Landscape. They represent the most significant resources, embody key landscape components, and reflect the mission, vision, common interests, and values of the PFLCC partners.
