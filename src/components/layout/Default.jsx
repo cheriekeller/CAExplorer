@@ -8,7 +8,7 @@ import { Box, Flex, Container } from 'components/Grid'
 import Sidebar from '../Sidebar'
 import MobileNavigation from './MobileNavigation'
 import Header from './Header'
-import sidebarItems from '../../../config/sidebarItems'
+import sidebarItems from '../../../config/sidebar'
 
 const SidebarToggle = styled.button`
   width: 2rem;

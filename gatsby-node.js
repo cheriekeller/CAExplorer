@@ -23,7 +23,7 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const contentTemplate = path.resolve(`src/templates/content.jsx`)
-    const sppTemplate = path.resolve(`src/templates/species.jsx`)
+    const sppTemplate = path.resolve(`src/templates/elements.jsx`)
     let template = null
     // Query for markdown nodes to use in creating pages.
     resolve(
@@ -53,7 +53,10 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter: { path: pagePath },
             },
           }) => {
-            if (pagePath.startsWith('/species')) {
+            if (
+              pagePath.startsWith('/species') ||
+              pagePath.startsWith('/habitats')
+            ) {
               template = sppTemplate
             } else {
               template = contentTemplate

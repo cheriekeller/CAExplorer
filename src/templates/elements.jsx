@@ -8,21 +8,14 @@ import styled, { themeGet } from '../util/style'
 
 const Content = styled.div`
   h1 {
-    margin-bottom: 0;
     & + h3 {
       color: ${themeGet('colors.primary.300')};
       font-weight: normal;
       font-style: italic;
+      margin-top: -1rem;
       margin-bottom: 2rem;
     }
   }
-
-  // h2,
-  // h3,
-  // h4,
-  // hr {
-  //   clear: both;
-  // }
 
   h2,
   hr {

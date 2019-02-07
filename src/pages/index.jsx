@@ -170,7 +170,7 @@ const IndexPage = ({ data: { headerImage, bodyImage1 } }) => (
         tool.
         <br />
         <br />
-        Please <a href="#">contact us</a> for assistance or to report issues.
+        Please <a href="mailto:adapt@myfwc.com">contact us</a> for assistance or to report issues.
       </p>
       <Divider />
       <h3>Credits</h3>
