@@ -50,19 +50,19 @@ export const strategies = [
         label: 'Existing Stressors',
         children: [
           {
-            path: '/strategies/crosscutting/habitat-loss',
+            path: '/strategies/crosscutting/existing/habitat-loss',
             label: 'Habitat Loss',
           },
           {
-            path: '/strategies/crosscutting/invasives',
+            path: '/strategies/crosscutting/existing/invasives',
             label: 'Invasive Species',
           },
           {
-            path: '/strategies/crosscutting/pathogens',
+            path: '/strategies/crosscutting/existing/pathogens',
             label: 'Pathogens, Pests / Parasites, Pollutants',
           },
           {
-            path: '/strategies/crosscutting/competition',
+            path: '/strategies/crosscutting/existing/competition',
             label: 'Competition and Overexploitation',
           },
         ],
