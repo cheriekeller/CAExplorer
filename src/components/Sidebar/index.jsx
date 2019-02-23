@@ -138,16 +138,15 @@ const Expander = styled.div`
 
 // WIP: make this work properly!
 const serializeScroll = () => {
-  console.log('serialize scroll')
-  const container = hasWindow
-    ? window.document.getElementById('Sidebar')
-    : null || null
-  console.log(container)
-  if (container) {
-    console.log('scrollTop', container.scrollTop)
-
-    sessionStorage.setItem(`sidebarScroll/${rootPath()}`, container.scrollTop)
-  }
+  // console.log('serialize scroll')
+  // const container = hasWindow
+  //   ? window.document.getElementById('Sidebar')
+  //   : null || null
+  // console.log(container)
+  // if (container) {
+  //   console.log('scrollTop', container.scrollTop)
+  //   sessionStorage.setItem(`sidebarScroll/${rootPath()}`, container.scrollTop)
+  // }
 }
 
 // TODO: show expanded parents
@@ -169,21 +168,22 @@ const ExpandableLink = ({
             <FaCaretRight color={expandoColor} size={expandoSize} />
           )}
         </Expander>
-        {isActive ? (
+        {/* {isActive ? (
           <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
             {label}
           </Label>
-        ) : (
-          <div onClick={serializeScroll}>
-            <SidebarLink
-              to={path}
-              isActive={isActive}
-              isActiveParent={isExpanded}
-            >
-              {label}
-            </SidebarLink>
-          </div>
-        )}
+        ) : ( */}
+        {/* <div onClick={serializeScroll}> */}
+        <div onClick={() => setExpanded(!isExpanded)}>
+          <SidebarLink
+            to={path}
+            isActive={isActive}
+            // isActiveParent={isExpanded}
+          >
+            {label}
+          </SidebarLink>
+        </div>
+        {/* )} */}
       </Flex>
       {isExpanded && <ItemList items={children} />}
     </>
@@ -206,7 +206,7 @@ const ExpandableLabel = ({ label, children, isActive = false }) => {
             <FaCaretRight color={expandoColor} size={expandoSize} />
           )}
         </Expander>
-        <Label isActive={isExpanded} onClick={() => setExpanded(!isExpanded)}>
+        <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
           {label}
         </Label>
       </Flex>
@@ -244,7 +244,10 @@ const ItemList = ({ items }) => (
             {isActive ? (
               <Label isActive={isActive}>{label}</Label>
             ) : (
-              <SidebarLink to={path} isActive={isActive}>
+              <SidebarLink
+                to={path}
+                isActive={isActive}
+              >
                 {label}
               </SidebarLink>
             )}
@@ -260,22 +263,25 @@ ItemList.propTypes = {
 }
 
 const Sidebar = ({ items, isOpen }) => {
+  console.log('incoming items', items)
   // roundtrip through immutable to force a deep copy
   const nav = fromJS(items).toJS()
 
   nav.forEach(setActiveItems)
+  console.log('set nav', nav)
 
-  useEffect(() => {
-    // scrollIntoView('ActiveSidebarLink', 'Sidebar')
-    const container = hasWindow
-      ? window.document.getElementById('Sidebar')
-      : null || null
-    if (container) {
-      const scroll = sessionStorage.getItem(`sidebarScroll/${rootPath()}`)
-      console.log('scroll now?', scroll)
-      container.scrollTop = scroll || 0
-    }
-  })
+  // TODO: re-enable
+  // useEffect(() => {
+  //   // scrollIntoView('ActiveSidebarLink', 'Sidebar')
+  //   const container = hasWindow
+  //     ? window.document.getElementById('Sidebar')
+  //     : null || null
+  //   if (container) {
+  //     const scroll = sessionStorage.getItem(`sidebarScroll/${rootPath()}`)
+  //     console.log('scroll now?', scroll)
+  //     container.scrollTop = scroll || 0
+  //   }
+  // })
 
   return (
     <SidebarContainer
