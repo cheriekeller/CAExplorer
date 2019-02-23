@@ -17,6 +17,10 @@ export const onClientEntry = () => {
   GoogleAnalytics.initialize(config.googleAnalyticsId)
 }
 
+export const onRouteUpdate = ({ location, prevLocation }) => {
+  console.log('on route update', location, prevLocation)
+}
+
 // export const wrapPageElement = ({ element, props }) => {
 //   console.log('props are', props)
 //   return (

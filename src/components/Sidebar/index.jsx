@@ -133,16 +133,16 @@ const Expander = styled.div`
 `
 
 // WIP: make this work properly!
+// TODO: in browser.js, on route change, clear out sidebarScroll if nav to different root
 const serializeScroll = () => {
   // console.log('serialize scroll')
-  // const container = hasWindow
-  //   ? window.document.getElementById('Sidebar')
-  //   : null || null
-  // console.log(container)
-  // if (container) {
-  //   console.log('scrollTop', container.scrollTop)
-  //   sessionStorage.setItem(`sidebarScroll/${rootPath()}`, container.scrollTop)
-  // }
+  const container = hasWindow
+    ? window.document.getElementById('Sidebar')
+    : null || null
+  if (container) {
+    // console.log('scrollTop', container.scrollTop)
+    sessionStorage.setItem(`sidebarScroll/${rootPath()}`, container.scrollTop)
+  }
 }
 
 // TODO: show expanded parents
@@ -164,22 +164,15 @@ const ExpandableLink = ({
             <FaCaretRight color={expandoColor} size={expandoSize} />
           )}
         </Expander>
-        {/* {isActive ? (
-          <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
-            {label}
-          </Label>
-        ) : ( */}
-        {/* <div onClick={serializeScroll}> */}
         <div onClick={() => setExpanded(!isExpanded)}>
           <SidebarLink
             to={path}
             isActive={isActive}
-            // isActiveParent={isExpanded}
+            state={{ test: 'test state' }}
           >
             {label}
           </SidebarLink>
         </div>
-        {/* )} */}
       </Flex>
       {isExpanded && <ItemList items={children} />}
     </>
@@ -240,7 +233,11 @@ const ItemList = ({ items }) => (
             {isActive ? (
               <Label isActive={isActive}>{label}</Label>
             ) : (
-              <SidebarLink to={path} isActive={isActive}>
+              <SidebarLink
+                to={path}
+                isActive={isActive}
+                state={{ test: 'test state' }}
+              >
                 {label}
               </SidebarLink>
             )}
@@ -256,25 +253,26 @@ ItemList.propTypes = {
 }
 
 const Sidebar = ({ items, isOpen }) => {
-  console.log('incoming items', items)
+  // console.log('incoming items', items)
   // roundtrip through immutable to force a deep copy
   const nav = fromJS(items).toJS()
 
   nav.forEach(setActiveItems)
-  console.log('set nav', nav)
+  // console.log('set nav', nav)
 
-  // TODO: re-enable
-  // useEffect(() => {
-  //   // scrollIntoView('ActiveSidebarLink', 'Sidebar')
-  //   const container = hasWindow
-  //     ? window.document.getElementById('Sidebar')
-  //     : null || null
-  //   if (container) {
-  //     const scroll = sessionStorage.getItem(`sidebarScroll/${rootPath()}`)
-  //     console.log('scroll now?', scroll)
-  //     container.scrollTop = scroll || 0
-  //   }
-  // })
+  useEffect(() => {
+    const container = hasWindow
+      ? window.document.getElementById('Sidebar')
+      : null || null
+    if (container) {
+      const scroll = sessionStorage.getItem(`sidebarScroll/${rootPath()}`)
+      if (scroll !== null) {
+        container.scrollTop = scroll
+      } else {
+        scrollIntoView('ActiveSidebarLink', 'Sidebar')
+      }
+    }
+  })
 
   return (
     <SidebarContainer
