@@ -4,7 +4,7 @@ import { css } from 'styled-components'
 import { setConfig } from 'react-hot-loader'
 import { Text } from 'rebass'
 import { FaCaretDown, FaCaretRight } from 'react-icons/fa'
-import { List, fromJS } from 'immutable'
+import { fromJS } from 'immutable'
 
 import { Flex } from 'components/Grid'
 
@@ -25,13 +25,6 @@ const ItemsPropType = PropTypes.arrayOf(
 const expandoColor = theme.colors.grey[500]
 const expandoSize = '1.5rem'
 
-const isActiveTerminalItem = path =>
-  hasWindow && window.location.pathname.endsWith(path)
-
-// TODO: refactor this so it works based on other things that URL alone
-const isActiveParentItem = path =>
-  hasWindow && window.location.pathname.startsWith(path)
-
 const rootPath = () => (window ? window.location.pathname.split('/')[1] : null)
 
 /**
@@ -50,14 +43,16 @@ const setActiveItems = item => {
   }
 
   if (children && children.length > 0) {
-    item.isActive = children.reduce(
-      (hasActiveChild, child) => hasActiveChild || setActiveItems(child),
-      false
-    )
+    // active if terminal currently selected parent, or has an active child
+    item.isActive =
+      window.location.pathname === path ||
+      children.reduce(
+        (hasActiveChild, child) => hasActiveChild || setActiveItems(child),
+        false
+      )
   } else {
     item.isActive = path ? window.location.pathname === path : false
   }
-
   return item.isActive
 }
 
@@ -98,26 +93,10 @@ const SidebarContainer = styled(Text)`
 `
 
 const SidebarLink = styled(Link)`
-  &::before {
-    content: '';
-    margin-top: 0.5em;
-    width: 0;
-    height: 0.5em;
-    border-radius: 0 1em 1em 0;
-    background: ${themeGet('colors.primary.800')};
-    position: absolute;
-    left: 0;
-    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
-  }
-
   &:hover {
     text-decoration: none;
     color: ${themeGet('colors.primary.800')};
     transition: color 0.5s;
-
-    // &::before {
-    //   width: 0.5em;
-    // }
   }
 
   ${({ isActive }) =>
@@ -125,12 +104,6 @@ const SidebarLink = styled(Link)`
     css`
       color: ${themeGet('colors.primary.800')};
       font-weight: bold;
-
-      // &::before {
-      //   width: 0.75em !important;
-      //   border-radius: 0 1em 1em 0 !important;
-      //   left: 0 !important;
-      // }
     `}
 
   ${({ isActiveParent }) =>
@@ -142,9 +115,14 @@ const SidebarLink = styled(Link)`
 `
 
 const Label = styled.div`
-  color: ${themeGet('colors.primary.800')};
-  font-weight: bold;
   cursor: pointer;
+
+  ${({ isActive }) =>
+    isActive &&
+    css`
+      color: ${themeGet('colors.primary.800')};
+      font-weight: bold;
+    `}
 `
 
 const Expander = styled.div`
@@ -158,6 +136,7 @@ const Expander = styled.div`
   }
 `
 
+// WIP: make this work properly!
 const serializeScroll = () => {
   console.log('serialize scroll')
   const container = hasWindow
@@ -166,12 +145,18 @@ const serializeScroll = () => {
   console.log(container)
   if (container) {
     console.log('scrollTop', container.scrollTop)
-    sessionStorage[`sidebarScroll/${rootPath()}`] = container.scrollTop
+
+    sessionStorage.setItem(`sidebarScroll/${rootPath()}`, container.scrollTop)
   }
 }
 
 // TODO: show expanded parents
-const ExpandableLink = ({ path, label, children, isActive = false }) => {
+const ExpandableLink = ({
+  path = null,
+  label,
+  children = null,
+  isActive = false,
+}) => {
   const [isExpanded, setExpanded] = useState(isActive)
 
   return (
@@ -185,16 +170,19 @@ const ExpandableLink = ({ path, label, children, isActive = false }) => {
           )}
         </Expander>
         {isActive ? (
-          <Label onClick={() => setExpanded(!isExpanded)}>{label}</Label>
-        ) : (
-          <SidebarLink
-            onClick={serializeScroll}
-            to={path}
-            isActive={isActive}
-            isActiveParent={isExpanded}
-          >
+          <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
             {label}
-          </SidebarLink>
+          </Label>
+        ) : (
+          <div onClick={serializeScroll}>
+            <SidebarLink
+              to={path}
+              isActive={isActive}
+              isActiveParent={isExpanded}
+            >
+              {label}
+            </SidebarLink>
+          </div>
         )}
       </Flex>
       {isExpanded && <ItemList items={children} />}
@@ -218,14 +206,16 @@ const ExpandableLabel = ({ label, children, isActive = false }) => {
             <FaCaretRight color={expandoColor} size={expandoSize} />
           )}
         </Expander>
-        <Label onClick={() => setExpanded(!isExpanded)}>{label}</Label>
+        <Label isActive={isExpanded} onClick={() => setExpanded(!isExpanded)}>
+          {label}
+        </Label>
       </Flex>
       {isExpanded && <ItemList items={children} />}
     </>
   )
 }
 
-ExpandableLink.propTypes = ItemsPropType.isRequired
+ExpandableLabel.propTypes = ItemsPropType.isRequired
 
 const ItemList = ({ items }) => (
   <ul>
@@ -235,25 +225,30 @@ const ItemList = ({ items }) => (
           /* eslint-disable react/no-children-prop */
           <>
             {path ? (
-              <ExpandableLink path={path} label={label} children={children} />
+              <ExpandableLink
+                path={path}
+                label={label}
+                children={children}
+                isActive={isActive}
+              />
             ) : (
-              <ExpandableLabel label={label} children={children} />
+              <ExpandableLabel
+                label={label}
+                children={children}
+                isActive={isActive}
+              />
             )}
           </>
         ) : (
-          <>
+          <div onClick={serializeScroll}>
             {isActive ? (
-              <Label>{label}</Label>
+              <Label isActive={isActive}>{label}</Label>
             ) : (
-              <SidebarLink
-                to={path}
-                isActive={isActive}
-                onClick={serializeScroll}
-              >
+              <SidebarLink to={path} isActive={isActive}>
                 {label}
               </SidebarLink>
             )}
-          </>
+          </div>
         )}
       </li>
     ))}
@@ -267,15 +262,19 @@ ItemList.propTypes = {
 const Sidebar = ({ items, isOpen }) => {
   // roundtrip through immutable to force a deep copy
   const nav = fromJS(items).toJS()
-  console.log('nav', nav)
 
   nav.forEach(setActiveItems)
-  // nav.forEach(item => {
-  //   console.log('top level', item, isActiveItem(item))
-  // })
 
   useEffect(() => {
-    scrollIntoView('ActiveSidebarLink', 'Sidebar')
+    // scrollIntoView('ActiveSidebarLink', 'Sidebar')
+    const container = hasWindow
+      ? window.document.getElementById('Sidebar')
+      : null || null
+    if (container) {
+      const scroll = sessionStorage.getItem(`sidebarScroll/${rootPath()}`)
+      console.log('scroll now?', scroll)
+      container.scrollTop = scroll || 0
+    }
   })
 
   return (
