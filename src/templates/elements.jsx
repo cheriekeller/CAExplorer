@@ -151,10 +151,7 @@ const Template = ({
 }) => (
   <Layout>
     <SEO title={title} />
-    <Content
-      className="blog-post-content"
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
+    <Content dangerouslySetInnerHTML={{ __html: html }} />
   </Layout>
 )
 
