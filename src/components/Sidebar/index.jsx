@@ -36,11 +36,7 @@ const rootPath = () => (window ? window.location.pathname.split('/')[1] : null)
 const setActiveItems = item => {
   const { path = null, children = null } = item
 
-  if (path && window.location.pathname.search(path) === -1) {
-    // path is not part of URL, stop recursion
-    item.isActive = false
-    return item.isActive
-  }
+  // Note: even if path is not active, children may be active, so we need to recurse into everything
 
   if (children && children.length > 0) {
     // active if terminal currently selected parent, or has an active child
@@ -244,10 +240,7 @@ const ItemList = ({ items }) => (
             {isActive ? (
               <Label isActive={isActive}>{label}</Label>
             ) : (
-              <SidebarLink
-                to={path}
-                isActive={isActive}
-              >
+              <SidebarLink to={path} isActive={isActive}>
                 {label}
               </SidebarLink>
             )}
