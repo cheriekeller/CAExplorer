@@ -5,7 +5,7 @@ title: 'Marine & Estuarine'
 
 # Marine & Estuarine Ecosystems
 
-
+<div class="header-photo"><img src="5000.jpg" alt="Photo for Marine & Estuarine"/></div>
 
 ## General Information
 

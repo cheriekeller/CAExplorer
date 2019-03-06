@@ -74,6 +74,10 @@ const Content = styled.div`
     }
   }
 
+  .header-photo + div {
+    max-width: 420px;
+  }
+
   .float-left {
     float: left;
     margin: 0 1em 1em 0;
