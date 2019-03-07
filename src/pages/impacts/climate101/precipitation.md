@@ -27,5 +27,5 @@ Models of the US, comparing averages from 1901-1960 with averages from 1986-2016
 ![Precipitation chart](precipitation-chart.png)
 
 <figcaption>
-Figure 5: Annual and seasonal changes in precipitation over the United States. Changes are the average for present-day (1986–2015) minus the average for the first half of the last century (1901–1960 for the contiguous United States, 1925–1960 for Alaska and Hawai‘i) divided by the average for the first half of the century. (Figure source: [top panel] adapted from Peterson et al. 2013,78 © American Meteorological Society. Used with permission; [bottom four panels] NOAA NCEI, data source: nCLIMDiv].  Figure 7.1.
+Figure 2: Annual and seasonal changes in precipitation over the United States. Changes are the average for present-day (1986–2015) minus the average for the first half of the last century (1901–1960 for the contiguous United States, 1925–1960 for Alaska and Hawai‘i) divided by the average for the first half of the century. (Figure source: [top panel] adapted from Peterson et al. 2013,78 © American Meteorological Society. Used with permission; [bottom four panels] NOAA NCEI, data source: nCLIMDiv].  Figure 7.1.
 </figcaption>
