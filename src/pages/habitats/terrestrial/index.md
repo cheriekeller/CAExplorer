@@ -5,7 +5,8 @@ title: 'Terrestrial'
 
 # Terrestrial Ecosystems
 
-
+<div><img src="1000.jpg" alt="Photo for Terrestrial"/>
+<figcaption>Photo: NPS</figcaption></div>
 
 ## General Information
 

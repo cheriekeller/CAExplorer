@@ -5,7 +5,8 @@ title: 'Freshwater'
 
 # Freshwater Ecosystems
 
-
+<div><img src="2000.jpg" alt="Photo for Freshwater"/>
+<figcaption>Photo: NPS</figcaption></div>
 
 ## General Information
 

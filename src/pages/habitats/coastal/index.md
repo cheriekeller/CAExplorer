@@ -5,7 +5,8 @@ title: 'Coastal'
 
 # Coastal Ecosystems
 
-
+<div><img src="1600.jpg" alt="Photo for Coastal"/>
+<figcaption>Photo: NPS</figcaption></div>
 
 ## General Information
 
