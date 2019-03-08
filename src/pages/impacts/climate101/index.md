@@ -7,6 +7,10 @@ title: Climate 101
 
 In recent decades, changes in the global climate impacted natural and human systems on all continents and across the oceans. Evidence of impacts from climate-change is strongest and most comprehensive for natural systems.
 
+<!-- https://www.flickr.com/photos/evergladesnps/9257922150/ -->
+
+![Everglades sunrise](9257922150_7ff85e4a3f_k.jpg 'Photo: R. Cammauf, NPS.')
+
 The main changes expected for North America include:
 
 - [sea level rise](/impacts/climate101/slr)
@@ -18,9 +22,19 @@ Increased knowledge of the risks of climate change can be a starting point for u
 
 ## Climate vs. Weather
 
-Weather varies from hour to hour and from day to day. People generally think of weather as the combination of temperature, humidity, precipitation, cloudiness, visibility, and wind.
+<div class="float-right thumbnail-medium">
+<img src="9257940598_f11bb2f03b_z.jpg" alt="Everglades summer thunderstorm" />
+<figcaption>Everglades summer thunderstorm.  Photo: NPS.</figcaption>
+<!-- https://www.flickr.com/photos/evergladesnps/9257940598/ -->
+</div>
 
-Climate is defined as the average of weather over several decades or longer. Scientists study the Earth's climate in a very similar way to weather, but with an emphasis on longer time scales. While climate can be considered at local or regional scales, scientists also study the global climate, averaging climate across the planet. Components of Earth’s climate system include the atmosphere and oceans, the land, ice, and biosphere (plant and animal life), as well as cities and other parts of the "built environment“. Scientists study climate to look for trends or cycles of variability, such as the changes in wind patterns, ocean surface temperatures and precipitation over the equatorial Pacific that result in El Niño and La Niña. Researchers also work to place cycles or other phenomena into the bigger picture of possible longer term or more permanent climate changes.
+**Weather** varies from hour to hour and from day to day. People generally think of weather as the combination of temperature, humidity, precipitation, cloudiness, visibility, and wind.
+
+**Climate** is defined as the average of weather over several decades or longer. Scientists study the Earth's climate in a very similar way to weather, but with an emphasis on longer time scales.
+
+While climate can be considered at local or regional scales, scientists also study the global climate, averaging climate across the planet. Components of Earth’s climate system include the atmosphere and oceans, the land, ice, and biosphere (plant and animal life), as well as cities and other parts of the "built environment“.
+
+Scientists study climate to look for trends or cycles of variability, such as the changes in wind patterns, ocean surface temperatures and precipitation over the equatorial Pacific that result in El Niño and La Niña. Researchers also work to place cycles or other phenomena into the bigger picture of possible longer term or more permanent climate changes.
 
 ## Forecasts vs. Projections
 
@@ -32,6 +46,15 @@ Climate projections take a much longer-term view.  These projections try to ans
 
 ## Increasing Carbon Dioxide in the Atmosphere
 
-One of the leading causes of climate change is increasing levels of atmospheric carbon dioxide (CO2). Carbon dioxide is a heat-trapping gas, which is released through natural processes such as respiration and volcanic eruptions, as well as through human activities such as deforestation and burning fossil fuels. Carbon dioxide causes about 20% of the Earth’s greenhouse (warming) effect; others include water vapor (50%), clouds (25%), and other small particles and gases (5%). The current concentration of carbon dioxide in the atmosphere is much higher than it has been at any other time, as far back as 400,000 years. Since 1970 carbon dioxide in the atmosphere has risen 24 percent. Carbon dioxide remains in the atmosphere for centuries so the impacts of emissions today will linger long into the future.
+<div class="float-right thumbnail-medium">
+<img src="co2-chart1.png" alt="Everglades summer thunderstorm" />
+<figcaption>CO2 levels during the last three glacial cycles, as reconstructed from ice cores.</figcaption>
+</div>
+
+One of the leading causes of climate change is increasing levels of atmospheric carbon dioxide (CO2). Carbon dioxide is a heat-trapping gas, which is released through natural processes such as respiration and volcanic eruptions, as well as through human activities such as deforestation and burning fossil fuels.
+
+Carbon dioxide causes about 20% of the Earth’s greenhouse (warming) effect; others include water vapor (50%), clouds (25%), and other small particles and gases (5%).
+
+The current concentration of carbon dioxide in the atmosphere is much higher than it has been at any other time, as far back as 400,000 years. Since 1970 carbon dioxide in the atmosphere has risen 24 percent. Carbon dioxide remains in the atmosphere for centuries so the impacts of emissions today will linger long into the future.
 
 [Learn more about how increased levels of carbon dioxide are affecting ecosystems](/impacts/climate101/co2).

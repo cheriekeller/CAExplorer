@@ -20,7 +20,7 @@ Explore overall impacts of climate change for major ecosystems in Florida:
 - [Marine & Estuarine Ecosystems](/impacts/habitats/coastal)
 - [Terrestrial Ecosystems](/impacts/habitats/terrestrial)
 
-This tool includes 29 habitats for these ecosystems. [Read more about specific climate change impacts for individual habitats](/habitats)
+This tool includes 29 habitats for these ecosystems. [Learn more about specific climate change impacts for individual habitats](/habitats)
 
 The state supports over 80 unique habitats including the scrub habitats of the Lake Wales Ridge, the Big Cypress Swamp, the coral reefs and tropical hardwood hammocks of the Florida Keys, mangroves, interior dry prairie, cypress domes and the Everglades. Many of Florida’s rarest and most diverse communities occur as small isolated areas, such as pine rocklands, rockland hammocks, upland glades, seepage slopes, cutthroat seeps and springs.
 

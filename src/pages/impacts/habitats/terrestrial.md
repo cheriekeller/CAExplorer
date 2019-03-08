@@ -5,6 +5,8 @@ title: 'Terrestrial Ecosystems'
 
 # Terrestrial Ecosystems
 
+![Terrestrial Ecosystems](1000.jpg 'Photo: NPS.')
+
 #### Impacts of Sea Level Rise:
 
 - Loss of beach and dune habitat where there are barriers to inland migration

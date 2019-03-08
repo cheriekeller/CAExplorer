@@ -5,6 +5,8 @@ title: 'Freshwater Ecosystems'
 
 # Freshwater Ecosystems
 
+![Freshwater Ecosystems](2000.jpg 'Photo: NPS.')
+
 #### Impacts of Sea Level Rise:
 
 - Loss of freshwater coastal dune lakes as salt water encroaches into system

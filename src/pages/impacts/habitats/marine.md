@@ -5,6 +5,8 @@ title: 'Marine & Estuarine Ecosystems'
 
 # Marine & Estuarine Ecosystems
 
+![Marine Ecosystems](5000.jpg 'Photo: NPS.')
+
 #### Impacts of Sea Level Rise:
 
 - Change in type and extent of seagrass due to increased water depth affecting sunlight penetration

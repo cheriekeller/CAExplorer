@@ -5,6 +5,8 @@ title: 'Coastal Ecosystems'
 
 # Coastal Ecosystems
 
+![Coastal Ecosystems](1600.jpg 'Photo: NPS.')
+
 #### Impacts of Sea Level Rise:
 
 - Loss of beach and dune habitat where there are barriers to inland migration

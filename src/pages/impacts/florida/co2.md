@@ -7,6 +7,10 @@ title: Changes in Water Chemistry
 
 **TODO: intro paragraph**
 
+<!-- https://www.flickr.com/photos/evergladesnps/9247497359/ -->
+
+![Taylor River, Florida](9247497359_555d0f83cc_k.jpg 'Photo: NPS')
+
 ## Water Chemistry Changes in Freshwater Ecosystems
 
 Increased CO2 will lead to pH shifts in Florida’s lakes and other freshwater systems.
@@ -16,6 +20,11 @@ Altered water chemistry can lead to community structure shifts as the systems be
 ## Ocean Acidification
 
 South Florida is likely to be impacted by ocean acidification more than any other state in the county.
+
+<div class="float-right thumbnail-medium">
+<img src="30909720004_09c718ba33_z.jpg" alt="Photo: NPS." />
+<!-- https://www.flickr.com/photos/bigcypressnps/30909720004/ -->
+</div>
 
 The Florida Reef is the only living coral barrier reef in the continental US and the third largest in the world. It is approximately 4 miles wide and extends 170 miles, with more than 6,000 individual reefs in the system.
 
