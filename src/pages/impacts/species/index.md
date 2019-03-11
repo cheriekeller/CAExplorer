@@ -10,17 +10,14 @@ Florida has more than 16,000 species of native fish, wildlife, and invertebrates
 [See species profiles for more about how climate change will impact each species](/species).
 
 <!-- https://www.flickr.com/photos/evergladesnps/9101524882/ -->
-![Ibis & Spoonbill photo](9101524882_39eb47c360_k.jpg 'Ibis & Spoonbill.  Photo: S. Zenner (NPS)')
 
+![Ibis & Spoonbill photo](9101524882_39eb47c360_k.jpg 'Ibis & Spoonbill.  Photo: S. Zenner (NPS)')
 
 ## Climate Change Impacts on Florida Species
 
 Physical environmental parameters play a major direct or indirect role in determining species distribution, survival and ecosystem sustainability. Many species of fish and wildlife in Florida have limited ranges that are determined in part by climatic conditions and their survival could be threatened by future climatic shifts. In contrast, many generalist species, such as white-tailed deer or raccoons, are likely to continue to thrive in a changing climate.
 
-
-
 Florida’s species have migrated and adapted to climate change in the past, but that ability is severely compromised now due largely to human modification of the landscape. Species, both native and exotic, with traits that assist in invading or colonizing disturbed areas (e.g., ability to change/adjust their range, phenology, and physiology) will have an advantage in a rapidly changing climate.
-
 
 <div class="float-right thumbnail-large" style="margin-right: 2rem;">
 <!-- https://www.flickr.com/photos/evergladesnps/9255116503/ -->
@@ -28,7 +25,6 @@ Florida’s species have migrated and adapted to climate change in the past, but
 </div>
 
 Climate change impacts on species will be driven by one or more climate-related factors acting in concert or synergistically. These include:
-
 
 - [altered community dynamics](/impacts/species/altered-dynamics)
 - [altered habitat suitability/geographic range](/impacts/species/altered-range)
@@ -41,12 +37,10 @@ Climate change impacts on species will be driven by one or more climate-related 
 
 Species that are likely to be most affected by climate change have:
 
-
 <div class="float-left thumbnail-large" style="margin-right: 2rem;">
 <!-- https://www.flickr.com/photos/evergladesnps/9099305573/ -->
 <img src="9099305573_29c509e6d1_k.jpg" alt="Cape sable sea side sparrow photo" />
 </div>
-
 
 - poor dispersal ability
 - long generation times
@@ -61,46 +55,42 @@ Species that are likely to be most affected by climate change have:
 
 ### Some of the most highly vulnerable species include:
 
-
-
 <div class="thumbnail-small float-left">
-<a href="/species/birds/shorebirds_seabirds/113">
+<a href="/species/birds/113">
 <img src="113_sm.jpg" alt="Cuban snowy plover photo" />
 </a>
 </div>
 
-#### [Cuban snowy plover](/species/birds/shorebirds_seabirds/113)
+#### [Cuban snowy plover](/species/birds/113)
 
-As a beach nesting species, the Cuban snowy plover is extremely vulnerable to many threats that are common in coastal areas including habitat inundation from sea level rise. Cuban snowy plover nests on the open beach are easily destroyed by extreme weather events, human disturbance and predation, all of which are likely to increase as climate change accelerates.  [Read more...](/species/birds/shorebirds_seabirds/113)
+As a beach nesting species, the Cuban snowy plover is extremely vulnerable to many threats that are common in coastal areas including habitat inundation from sea level rise. Cuban snowy plover nests on the open beach are easily destroyed by extreme weather events, human disturbance and predation, all of which are likely to increase as climate change accelerates. [Read more...](/species/birds/113)
 
 <div class="clear"></div>
 
 <br />
 
 <div class="thumbnail-small float-left">
-<a href="/species/mammals/large_mammals/119">
+<a href="/species/mammals/119">
 <img src="119_sm.jpg" alt="Key deer photo" />
 </a>
 </div>
 
-#### [Key deer](/species/mammals/large_mammals/119)
+#### [Key deer](/species/mammals/119)
 
-Florida Key deer are likely to be heavily impacted sea level rise as well as potential changes in hydrology and disturbance regimes on freshwater drinking sources. Over 95% of the species' modeled potential habitat is expected to be impacted by a 1-meter sea level rise. [Read more...](/species/mammals/large_mammals/119)
+Florida Key deer are likely to be heavily impacted sea level rise as well as potential changes in hydrology and disturbance regimes on freshwater drinking sources. Over 95% of the species' modeled potential habitat is expected to be impacted by a 1-meter sea level rise. [Read more...](/species/mammals/119)
 
 <div class="clear"></div>
 
 <br />
 
-
 <div class="thumbnail-small float-left">
-<a href="/species/reptiles/turtles/217">
+<a href="/species/reptiles/217">
 <img src="217_sm.jpg" alt="Loggerhead turtle photo" />
 </a>
 </div>
 
-#### [Loggerhead turtle](/species/reptiles/turtles/217)
+#### [Loggerhead turtle](/species/reptiles/217)
 
-Loggerhead turtles are likely to be impacted by sea level rise, anthropogenic barriers impacting the nesting habitat, and potentially incompatible human responses to climate change. Approximately 90% of the species' nesting habitat is expected to be impacted by a 1-meter sea level rise. Up to 80% of the nesting habitat is bordered by inland urban areas. [Read more...](/species/reptiles/turtles/217)
+Loggerhead turtles are likely to be impacted by sea level rise, anthropogenic barriers impacting the nesting habitat, and potentially incompatible human responses to climate change. Approximately 90% of the species' nesting habitat is expected to be impacted by a 1-meter sea level rise. Up to 80% of the nesting habitat is bordered by inland urban areas. [Read more...](/species/reptiles/217)
 
 <div class="clear"></div>
-
