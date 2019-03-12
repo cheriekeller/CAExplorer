@@ -7,7 +7,7 @@ import SEO from 'components/SEO'
 const IndexPage = () => (
   <Layout>
     <SEO title="Habitats" />
-    Habitats: TODO
+    Use the sidebar for now...
   </Layout>
 )
 
