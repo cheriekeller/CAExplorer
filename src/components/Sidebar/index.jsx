@@ -84,7 +84,7 @@ const SidebarContainer = styled(Text)`
 
   ul ul {
     margin-top: 0.5em;
-    margin-left: 1em;
+    margin-left: 1.25em;
   }
 `
 
@@ -145,14 +145,50 @@ const serializeScroll = () => {
   }
 }
 
+const getIcon = icon => {
+  if (!icon) return null
+
+  const Icon = require(`icons/${icon}.svg`)
+
+  return styled(Icon)`
+    cursor: pointer;
+    margin-right: 0.25em;
+
+    g path {
+      fill: ${themeGet('colors.primary.500')} !important;
+    }
+    #Outline {
+      stroke: ${expandoColor} !important;
+      fill: none !important;
+    }
+
+    /* g path {
+      fill: ${({ isActive }) =>
+        isActive
+          ? themeGet('colors.primary.800')
+          : themeGet('colors.secondary.800')} !important;
+    }
+
+    #Outline {
+      stroke: ${({ isActive }) =>
+        isActive
+          ? themeGet('colors.primary.800')
+          : themeGet('colors.secondary.800')} !important;
+    } */
+  `
+}
+
 // TODO: show expanded parents
 const ExpandableLink = ({
   path = null,
   label,
+  icon = null,
   children = null,
   isActive = false,
 }) => {
   const [isExpanded, setExpanded] = useState(isActive)
+
+  const Icon = getIcon(icon)
 
   return (
     <>
@@ -164,15 +200,16 @@ const ExpandableLink = ({
             <FaCaretRight color={expandoColor} size={expandoSize} />
           )}
         </Expander>
-        <div onClick={() => setExpanded(!isExpanded)}>
-          <SidebarLink
-            to={path}
-            isActive={isActive}
-            state={{ test: 'test state' }}
-          >
-            {label}
-          </SidebarLink>
-        </div>
+
+        <Flex alignItems="center" onClick={() => setExpanded(!isExpanded)}>
+          {icon ? <Icon width="2em" height="2em" isActive={isActive} /> : null}
+
+          <div onClick={() => setExpanded(!isExpanded)}>
+            <SidebarLink to={path} isActive={isActive}>
+              {label}
+            </SidebarLink>
+          </div>
+        </Flex>
       </Flex>
       {isExpanded && <ItemList items={children} />}
     </>
@@ -182,8 +219,10 @@ const ExpandableLink = ({
 ExpandableLink.propTypes = ItemsPropType.isRequired
 
 // TODO: refactor how we figure out active path and parents
-const ExpandableLabel = ({ label, children, isActive = false }) => {
+const ExpandableLabel = ({ label, icon, children, isActive = false }) => {
   const [isExpanded, setExpanded] = useState(isActive)
+
+  const Icon = getIcon(icon)
 
   return (
     <>
@@ -195,9 +234,13 @@ const ExpandableLabel = ({ label, children, isActive = false }) => {
             <FaCaretRight color={expandoColor} size={expandoSize} />
           )}
         </Expander>
-        <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
-          {label}
-        </Label>
+
+        <Flex alignItems="center" onClick={() => setExpanded(!isExpanded)}>
+          {icon ? <Icon width="2em" height="2em" /> : null}
+          <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
+            {label}
+          </Label>
+        </Flex>
       </Flex>
       {isExpanded && <ItemList items={children} />}
     </>
@@ -208,7 +251,7 @@ ExpandableLabel.propTypes = ItemsPropType.isRequired
 
 const ItemList = ({ items }) => (
   <ul>
-    {items.map(({ path, label, children, isActive = false }) => (
+    {items.map(({ path, label, icon, children, isActive = false }) => (
       <li key={path || label} id={isActive ? 'ActiveSidebarLink' : null}>
         {children && children.length > 0 ? (
           /* eslint-disable react/no-children-prop */
@@ -217,12 +260,14 @@ const ItemList = ({ items }) => (
               <ExpandableLink
                 path={path}
                 label={label}
+                icon={icon}
                 children={children}
                 isActive={isActive}
               />
             ) : (
               <ExpandableLabel
                 label={label}
+                icon={icon}
                 children={children}
                 isActive={isActive}
               />
