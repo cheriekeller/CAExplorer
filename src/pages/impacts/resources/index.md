@@ -7,14 +7,6 @@ title: 'Resources'
 
 The following resources provide you with additional information about climate impacts and vulnerability assessments.
 
-<!-- - [Scanning the Conservation Horizon: A Guide to Climate Change Vulnerability Assessment](#SCH)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
-- [](#) -->
-
 There is more information available on the [additional resources for adaptation strategies page](/strategies/resources).
 
 <hr id="SCH"></hr>

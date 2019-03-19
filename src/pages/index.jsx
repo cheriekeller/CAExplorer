@@ -170,14 +170,15 @@ const IndexPage = ({ data: { headerImage, bodyImage1 } }) => (
         tool.
         <br />
         <br />
-        Please <a href="mailto:adapt@myfwc.com">contact us</a> for assistance or to report issues.
+        Please <a href="mailto:adapt@myfwc.com">contact us</a> for assistance or
+        to report issues.
       </p>
       <Divider />
       <h3>Credits</h3>
       <p>
         Much of the content presented here is taken from{' '}
         <a
-          href="http://www.myfwc.com/media/3794360/adaptation-guide.pdf"
+          href="https://myfwc.com/media/5864/adaptation-guide.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >

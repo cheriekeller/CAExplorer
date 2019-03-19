@@ -5,12 +5,11 @@ A climate adaptation resource for Florida, including information on climate impa
 Much of the content presented here is taken from
 [A Guide to Climate Change Adaptation for Conservation: Resources and
 Tools for Climate Smart Management of Florida's Fish and Wildlife
-Species and Their Habitats](http://www.myfwc.com/media/3794360/adaptation-guide.pdf)
+Species and Their Habitats](https://myfwc.com/media/5864/adaptation-guide.pdf)
 (Florida Fish and Wildlife Conservation Commission, 2016) and the
 [Climate Change Impacts on Florida's Biodiversity and
 Ecology chapter in "Florida’s Climate: Changes, Variations
 and Impacts"](http://floridaclimateinstitute.org/docs/climatebook/Ch12-Stys.pdf) (Florida Climate Institute, 2017).
-
 
 ## Credits
 
