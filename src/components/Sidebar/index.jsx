@@ -153,12 +153,16 @@ const getIcon = icon => {
   return styled(Icon)`
     cursor: pointer;
     margin-right: 0.25em;
+    flex-shrink: 0;
 
     g path {
       fill: ${themeGet('colors.primary.500')} !important;
     }
-    #Outline {
+    #Outline, #Outline1 {
       stroke: ${expandoColor} !important;
+      fill: none !important;
+    }
+    #Inner-Outline {
       fill: none !important;
     }
 
@@ -192,7 +196,7 @@ const ExpandableLink = ({
 
   return (
     <>
-      <Flex alignItems="flex-start">
+      <Flex alignItems="center">
         <Expander onClick={() => setExpanded(!isExpanded)}>
           {isExpanded ? (
             <FaCaretDown color={expandoColor} size={expandoSize} />
@@ -201,15 +205,13 @@ const ExpandableLink = ({
           )}
         </Expander>
 
-        <Flex alignItems="center" onClick={() => setExpanded(!isExpanded)}>
-          {icon ? <Icon width="2em" height="2em" isActive={isActive} /> : null}
+        {icon ? <Icon width="2em" height="2em" isActive={isActive} /> : null}
 
-          <div onClick={() => setExpanded(!isExpanded)}>
-            <SidebarLink to={path} isActive={isActive}>
-              {label}
-            </SidebarLink>
-          </div>
-        </Flex>
+        <div onClick={() => setExpanded(!isExpanded)}>
+          <SidebarLink to={path} isActive={isActive}>
+            {label}
+          </SidebarLink>
+        </div>
       </Flex>
       {isExpanded && <ItemList items={children} />}
     </>
@@ -226,7 +228,7 @@ const ExpandableLabel = ({ label, icon, children, isActive = false }) => {
 
   return (
     <>
-      <Flex alignItems="flex-start">
+      <Flex alignItems="center">
         <Expander onClick={() => setExpanded(!isExpanded)}>
           {isExpanded ? (
             <FaCaretDown color={expandoColor} size={expandoSize} />
@@ -235,12 +237,10 @@ const ExpandableLabel = ({ label, icon, children, isActive = false }) => {
           )}
         </Expander>
 
-        <Flex alignItems="center" onClick={() => setExpanded(!isExpanded)}>
-          {icon ? <Icon width="2em" height="2em" /> : null}
-          <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
-            {label}
-          </Label>
-        </Flex>
+        {icon ? <Icon width="2em" height="2em" /> : null}
+        <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
+          {label}
+        </Label>
       </Flex>
       {isExpanded && <ItemList items={children} />}
     </>
