@@ -1,10 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import rehypeReact from 'rehype-react'
 
-import Layout from '../components/layout/Default'
-import SEO from '../components/SEO'
+import Layout from 'components/layout/Default'
+import SEO from 'components/SEO'
+import Icon from 'components/elements/Icon'
 import styled, { themeGet } from '../util/style'
+import ContentHeader from '../components/elements/ContentHeader'
 
 const Content = styled.div`
   h1 {
@@ -143,26 +146,46 @@ const Content = styled.div`
       width: 66%;
     }
   }
+
+  #MapContainer {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  #Map {
+    height: 100%;
+    width: 100%;
+  }
 `
+
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: { icon: Icon, 'content-header': ContentHeader },
+}).Compiler
 
 const Template = ({
   data: {
     markdownRemark: {
-      html,
+      htmlAst,
       frontmatter: { title },
     },
   },
 }) => (
   <Layout>
     <SEO title={title} />
-    <Content dangerouslySetInnerHTML={{ __html: html }} />
+    {/* <Content dangerouslySetInnerHTML={{ __html: html }} /> */}
+    <Content>{renderAst(htmlAst)}</Content>
   </Layout>
 )
 
 Template.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      html: PropTypes.string.isRequired,
+      htmlAst: PropTypes.object.isRequired,
     }).isRequired,
   }).isRequired,
 }
@@ -172,7 +195,7 @@ export default Template
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+      htmlAst
       frontmatter {
         path
         title

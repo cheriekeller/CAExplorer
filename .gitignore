@@ -10,3 +10,5 @@ public
 # Environment variables
 .env.*
 !.env.example
+
+tiles/*

@@ -3,7 +3,7 @@ path: '/species/amphibians'
 title: 'Amphibians'
 ---
 
-# Amphibians
+<content-header icon="amphibians" title="Amphibians"></content-header>
 
 Florida is home to approximately 54 native amphibians, including 2 federally listed and 2 state listed species. Florida’s humid tropical and subtropical climate makes an ideal home for many frogs, salamanders and newts. Unfortunately, these optimal habitat characteristics also support a large number of introduced species.
 

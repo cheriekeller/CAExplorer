@@ -3,7 +3,7 @@ path: '/species/birds'
 title: 'Birds'
 ---
 
-# Birds
+<content-header icon="birds" title="Birds"></content-header>
 
 Approximately 377 species of native birds make their home in Florida’s skyways, including 15 federally listed and 17 state listed species. Many of these species inhabit the state year-round including large populations of shorebirds, seabirds and cranes.
 

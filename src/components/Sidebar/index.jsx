@@ -7,7 +7,7 @@ import { FaCaretDown, FaCaretRight } from 'react-icons/fa'
 import { fromJS } from 'immutable'
 
 import { Flex } from 'components/Grid'
-
+import Icon from 'components/elements/Icon'
 import styled, { theme, themeGet } from 'util/style'
 import { hasWindow, scrollIntoView } from 'util/dom'
 import { Link } from 'components/Link'
@@ -132,6 +132,10 @@ const Expander = styled.div`
   }
 `
 
+const StyledIcon = styled(Icon)`
+  margin-right: 0.25em;
+`
+
 // WIP: make this work properly!
 // TODO: in browser.js, on route change, clear out sidebarScroll if nav to different root
 const serializeScroll = () => {
@@ -145,43 +149,6 @@ const serializeScroll = () => {
   }
 }
 
-const getIcon = icon => {
-  if (!icon) return null
-
-  const Icon = require(`icons/${icon}.svg`)
-
-  return styled(Icon)`
-    cursor: pointer;
-    margin-right: 0.25em;
-    flex-shrink: 0;
-
-    g path {
-      fill: ${themeGet('colors.primary.500')} !important;
-    }
-    #Outline, #Outline1 {
-      stroke: ${expandoColor} !important;
-      fill: none !important;
-    }
-    #Inner-Outline {
-      fill: none !important;
-    }
-
-    /* g path {
-      fill: ${({ isActive }) =>
-        isActive
-          ? themeGet('colors.primary.800')
-          : themeGet('colors.secondary.800')} !important;
-    }
-
-    #Outline {
-      stroke: ${({ isActive }) =>
-        isActive
-          ? themeGet('colors.primary.800')
-          : themeGet('colors.secondary.800')} !important;
-    } */
-  `
-}
-
 // TODO: show expanded parents
 const ExpandableLink = ({
   path = null,
@@ -191,8 +158,6 @@ const ExpandableLink = ({
   isActive = false,
 }) => {
   const [isExpanded, setExpanded] = useState(isActive)
-
-  const Icon = getIcon(icon)
 
   return (
     <>
@@ -205,7 +170,7 @@ const ExpandableLink = ({
           )}
         </Expander>
 
-        {icon ? <Icon width="2em" height="2em" isActive={isActive} /> : null}
+        {icon ? <StyledIcon name={icon} size="2em" /> : null}
 
         <div onClick={() => setExpanded(!isExpanded)}>
           <SidebarLink to={path} isActive={isActive}>
@@ -224,8 +189,6 @@ ExpandableLink.propTypes = ItemsPropType.isRequired
 const ExpandableLabel = ({ label, icon, children, isActive = false }) => {
   const [isExpanded, setExpanded] = useState(isActive)
 
-  const Icon = getIcon(icon)
-
   return (
     <>
       <Flex alignItems="center">
@@ -237,7 +200,7 @@ const ExpandableLabel = ({ label, icon, children, isActive = false }) => {
           )}
         </Expander>
 
-        {icon ? <Icon width="2em" height="2em" /> : null}
+        {icon ? <StyledIcon name={icon} size="2em" /> : null}
         <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
           {label}
         </Label>
