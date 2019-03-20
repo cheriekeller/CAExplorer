@@ -3,7 +3,7 @@ path: '/habitats/marine'
 title: 'Marine & Estuarine'
 ---
 
-# Marine & Estuarine Ecosystems
+<content-header icon="marine_estuarine_ecosystems" title="Marine & Estuarine Ecosystems"></content-header>
 
 Florida’s estuarine and marine ecosystems include the waters and sub-tidal zones of estuaries, semi-enclosed bays and lagoons, and open ocean, as well as seagrasses, coastal marshes, mangroves, and various types of reed such as oyster reefs, coral reefs or rocky reefs.  
 

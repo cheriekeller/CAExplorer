@@ -3,7 +3,7 @@ path: '/habitats/terrestrial'
 title: 'Terrestrial'
 ---
 
-# Terrestrial Ecosystems
+<content-header icon="terrestrial_ecosystems" title="Terrestrial Ecosystems"></content-header>
 
 Terrestrial ecosystems in Florida range from systems similar to those found in the Southeastern Coastal Plain to systems more commonly found in sub-tropical and Caribbean areas. The habitats found here are influenced by winter temperatures and other climatic factors, as well as by local factors such as fire, substrate, elevation, and species interactions.  
 

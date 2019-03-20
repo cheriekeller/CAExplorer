@@ -121,7 +121,7 @@ const Label = styled.div`
     `}
 `
 
-const Expander = styled.div`
+const Expander = styled(Flex)`
   cursor: pointer;
   margin-left: -${expandoSize};
   margin-top: -4px;
@@ -134,6 +134,7 @@ const Expander = styled.div`
 
 const StyledIcon = styled(Icon)`
   margin-right: 0.25em;
+  cursor: pointer;
 `
 
 // WIP: make this work properly!
@@ -163,14 +164,15 @@ const ExpandableLink = ({
     <>
       <Flex alignItems="center">
         <Expander onClick={() => setExpanded(!isExpanded)}>
-          {isExpanded ? (
-            <FaCaretDown color={expandoColor} size={expandoSize} />
-          ) : (
-            <FaCaretRight color={expandoColor} size={expandoSize} />
-          )}
+          <>
+            {isExpanded ? (
+              <FaCaretDown color={expandoColor} size={expandoSize} />
+            ) : (
+              <FaCaretRight color={expandoColor} size={expandoSize} />
+            )}
+            {icon ? <StyledIcon name={icon} size="2em" /> : null}
+          </>
         </Expander>
-
-        {icon ? <StyledIcon name={icon} size="2em" /> : null}
 
         <div onClick={() => setExpanded(!isExpanded)}>
           <SidebarLink to={path} isActive={isActive}>
@@ -185,7 +187,6 @@ const ExpandableLink = ({
 
 ExpandableLink.propTypes = ItemsPropType.isRequired
 
-// TODO: refactor how we figure out active path and parents
 const ExpandableLabel = ({ label, icon, children, isActive = false }) => {
   const [isExpanded, setExpanded] = useState(isActive)
 
@@ -193,14 +194,16 @@ const ExpandableLabel = ({ label, icon, children, isActive = false }) => {
     <>
       <Flex alignItems="center">
         <Expander onClick={() => setExpanded(!isExpanded)}>
-          {isExpanded ? (
-            <FaCaretDown color={expandoColor} size={expandoSize} />
-          ) : (
-            <FaCaretRight color={expandoColor} size={expandoSize} />
-          )}
+          <>
+            {isExpanded ? (
+              <FaCaretDown color={expandoColor} size={expandoSize} />
+            ) : (
+              <FaCaretRight color={expandoColor} size={expandoSize} />
+            )}
+            {icon ? <StyledIcon name={icon} size="1.5em" /> : null}
+          </>
         </Expander>
 
-        {icon ? <StyledIcon name={icon} size="2em" /> : null}
         <Label isActive={isActive} onClick={() => setExpanded(!isExpanded)}>
           {label}
         </Label>

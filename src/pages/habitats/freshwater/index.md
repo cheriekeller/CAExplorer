@@ -3,7 +3,7 @@ path: '/habitats/freshwater'
 title: 'Freshwater'
 ---
 
-# Freshwater Ecosystems
+<content-header icon="freshwater_ecosystems" title="Freshwater Ecosystems"></content-header>
 
 Florida has more than 1,700 streams and rivers, 7,800 freshwater lakes, over 1,000 springs, and 11 million acres of wetlands.  
 

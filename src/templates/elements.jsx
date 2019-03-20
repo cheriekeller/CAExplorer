@@ -146,20 +146,6 @@ const Content = styled.div`
       width: 66%;
     }
   }
-
-  #MapContainer {
-    position: absolute;
-    top: 40px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-  }
-
-  #Map {
-    height: 100%;
-    width: 100%;
-  }
 `
 
 const renderAst = new rehypeReact({

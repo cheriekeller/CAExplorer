@@ -41,7 +41,7 @@ const Logo = styled(Image).attrs({ src: SiteLogo })`
 `
 
 const Header = () => (
-  <Wrapper as="header">
+  <Wrapper as="header" id="Header">
     <Flex alignItems="center">
       <Link to="/">
         <Flex alignItems="center">

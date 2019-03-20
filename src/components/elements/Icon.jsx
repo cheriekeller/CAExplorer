@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import styled, { themeGet } from 'util/style'
+import { theme } from '../../util/style'
 
 const Icon = ({ name, size, color, borderColor, className }) => {
   /* eslint-disable-next-line */
@@ -38,8 +39,8 @@ Icon.propTypes = {
 
 Icon.defaultProps = {
   size: '1em',
-  color: themeGet('colors.primary.500'),
-  borderColor: themeGet('colors.grey.500'),
+  color: theme.colors.primary[500],
+  borderColor: theme.colors.grey[500],
   className: null,
 }
 

@@ -3,7 +3,7 @@ path: '/habitats/coastal'
 title: 'Coastal'
 ---
 
-# Coastal Ecosystems
+<content-header icon="coastal_ecosystems" title="Coastal Ecosystems"></content-header>
 
 Coastal ecosystems are the foundation upon which much of Florida's natural beauty and economy are based. Beaches, dunes, and coastal grasslands and forests are important components of the coastal ecosystem, providing breeding and foraging grounds, and cover for a wide variety of wildlife. 
 
