@@ -15,7 +15,7 @@ Seagrasses are found in protected bays, lagoons, and other shallow coastal water
 
 The Florida reef is the only living coral barrier reef in the continental US and is the third largest in the world.  It extends almost 200 miles long and has more than 6,000 individual reefs in the system.  Over 30 different kinds of corals are found in Florida waters. Coral reefs provide habitat for thousands of species of plants and animals.
 
-<div><img src="5000.jpg" alt="Photo for Marine & Estuarine"/>
+<div class=""><img src="5000.jpg" alt="Photo for Marine & Estuarine"/>
 <figcaption>Photo: NPS</figcaption></div>
 
 ## Impacts of Climate Change
