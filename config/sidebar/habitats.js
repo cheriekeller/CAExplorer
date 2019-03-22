@@ -11,6 +11,7 @@ export const habitats = [
       {
         'path': '/habitats/terrestrial/1100',
         'label': 'Hardwood Forested Uplands',
+        'icon': 'hardwood_forested_uplands',
         'children': [
           {
             'path': '/habitats/terrestrial/1130',
@@ -21,6 +22,7 @@ export const habitats = [
       {
         'path': '/habitats/terrestrial/1200',
         'label': 'High Pine and Scrub',
+        'icon': 'high_pine_scrub',
         'children': [
           {
             'path': '/habitats/terrestrial/1210',
@@ -39,6 +41,7 @@ export const habitats = [
       {
         'path': '/habitats/terrestrial/1300',
         'label': 'Pine Flatwoods and Dry Prairie',
+        'icon': 'pine_flatwoods_dry_prairie',
         'children': [
           {
             'path': '/habitats/terrestrial/1310',
@@ -65,6 +68,7 @@ export const habitats = [
       {
         'path': '/habitats/terrestrial/1830',
         'label': 'Working Lands (Disturbed)',
+        'icon': 'working_lands',
         'children': [
           {
             'path': '/habitats/terrestrial/1831',
@@ -86,6 +90,7 @@ export const habitats = [
       {
         'path': '/habitats/coastal/1601',
         'label': 'Coastal Uplands',
+        'icon': 'coastal_uplands',
         'children': [
           {
             'path': '/habitats/coastal/1610',
@@ -127,6 +132,7 @@ export const habitats = [
       {
         'path': '/habitats/freshwater/2100',
         'label': 'Freshwater Non-forested Wetlands',
+        'icon': 'freshwater_nonforested_wetlands',
         'children': [
           {
             'path': '/habitats/freshwater/2111',
@@ -157,6 +163,7 @@ export const habitats = [
       {
         'path': '/habitats/freshwater/2200',
         'label': 'Freshwater Forested Wetlands',
+        'icon': 'freshwater_forested_wetlands',
         'children': [
           {
             'path': '/habitats/freshwater/2210',
@@ -183,6 +190,7 @@ export const habitats = [
       {
         'path': '/habitats/freshwater/3100',
         'label': 'Lakes, Ponds and Reservoirs',
+        'icon': 'lakes_ponds_reservoirs',
         'children': [
           {
             'path': '/habitats/freshwater/3112',
@@ -192,11 +200,13 @@ export const habitats = [
       },
       {
         'path': '/habitats/freshwater/4000',
-        'label': 'Rivers and Streams'
+        'label': 'Rivers and Streams',
+        'icon': 'rivers_streams'
       },
       {
         'path': '/habitats/freshwater/4001',
-        'label': 'Springs'
+        'label': 'Springs',
+        'icon': 'springs'
       }
     ]
   },
@@ -208,6 +218,7 @@ export const habitats = [
       {
         'path': '/habitats/marine/5200',
         'label': 'Estuarine/Marine (system wide)',
+        'icon': 'estuarine_marine_system_wide',
         'children': [
           {
             'path': '/habitats/marine/52111',
@@ -217,19 +228,23 @@ export const habitats = [
       },
       {
         'path': '/habitats/marine/5240',
-        'label': 'Saltwater Marsh'
+        'label': 'Saltwater Marsh',
+        'icon': 'saltwater_marsh'
       },
       {
         'path': '/habitats/marine/5250',
-        'label': 'Mangrove Swamp'
+        'label': 'Mangrove Swamp',
+        'icon': 'mangrove_swamp'
       },
       {
         'path': '/habitats/marine/6100',
-        'label': 'Coral and Hardbottom'
+        'label': 'Coral and Hardbottom',
+        'icon': 'coral_hardbottom'
       },
       {
         'path': '/habitats/marine/6200',
-        'label': 'Seagrass'
+        'label': 'Seagrass',
+        'icon': 'seagrass'
       }
     ]
   }

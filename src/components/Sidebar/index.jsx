@@ -23,7 +23,7 @@ const ItemsPropType = PropTypes.arrayOf(
 )
 
 const expandoColor = theme.colors.grey[500]
-const expandoSize = '1.5rem'
+const expandoSize = '1rem'
 
 const rootPath = () => (window ? window.location.pathname.split('/')[1] : null)
 
@@ -89,35 +89,50 @@ const SidebarContainer = styled(Text)`
 `
 
 const SidebarLink = styled(Link)`
+  font-size: 0.9em;
+  border-bottom: 2px solid transparent;
+  color: ${themeGet('colors.primary.800')};
+
   &:hover {
     text-decoration: none;
-    color: ${themeGet('colors.primary.800')};
-    transition: color 0.5s;
+    /*color: ${themeGet('colors.primary.800')};*/
+    /*transition: color 0.5s;*/
   }
 
   ${({ isActive }) =>
     isActive &&
     css`
-      color: ${themeGet('colors.primary.800')};
-      font-weight: bold;
+      /*color: ${themeGet('colors.primary.800')};*/
+      /*font-weight: bold;*/
+      color: ${themeGet('colors.secondary.800')};
+      
     `}
 
-  ${({ isActiveParent }) =>
-    isActiveParent &&
-    css`
-      color: ${themeGet('colors.primary.800')};
-      font-weight: bold;
-    `}
+    ${({ isCurrent }) =>
+      isCurrent &&
+      css`
+        border-bottom-color: ${themeGet('colors.secondary.800')};
+      `}
 `
 
 const Label = styled.div`
+  font-size: 0.9em;
   cursor: pointer;
+  border-bottom: 2px solid transparent;
 
   ${({ isActive }) =>
     isActive &&
     css`
-      color: ${themeGet('colors.primary.800')};
-      font-weight: bold;
+      /*color: ${themeGet('colors.primary.800')};*/
+      color: ${themeGet('colors.secondary.800')};
+      /*border-bottom-color: ${themeGet('colors.secondary.800')};*/
+      /* font-weight: bold; */
+    `}
+
+  ${({ isCurrent }) =>
+    isCurrent &&
+    css`
+      border-bottom-color: ${themeGet('colors.secondary.800')};
     `}
 `
 
@@ -126,15 +141,28 @@ const Expander = styled(Flex)`
   margin-left: -${expandoSize};
   margin-top: -4px;
   opacity: 0.75;
+  display: flex;
+  align-items: center;
 
   &:hover {
     opacity: 1;
+  }
+
+  svg {
+    display: block;
   }
 `
 
 const StyledIcon = styled(Icon)`
   margin-right: 0.25em;
   cursor: pointer;
+`
+
+const HoverContainer = styled.div`
+  opacity: 0.75;
+  &:hover {
+    opacity: 1;
+  }
 `
 
 // WIP: make this work properly!
@@ -170,12 +198,16 @@ const ExpandableLink = ({
             ) : (
               <FaCaretRight color={expandoColor} size={expandoSize} />
             )}
-            {icon ? <StyledIcon name={icon} size="2em" /> : null}
+            {icon ? <StyledIcon name={icon} size="1.5em" /> : null}
           </>
         </Expander>
 
         <div onClick={() => setExpanded(!isExpanded)}>
-          <SidebarLink to={path} isActive={isActive}>
+          <SidebarLink
+            to={path}
+            isActive={isActive}
+            isCurrent={window.location.pathname === path}
+          >
             {label}
           </SidebarLink>
         </div>
@@ -241,17 +273,29 @@ const ItemList = ({ items }) => (
           </>
         ) : (
           <div onClick={serializeScroll}>
-            {isActive ? (
-              <Label isActive={isActive}>{label}</Label>
-            ) : (
-              <SidebarLink
-                to={path}
-                isActive={isActive}
-                state={{ test: 'test state' }}
-              >
-                {label}
-              </SidebarLink>
-            )}
+            <Flex alignItems="center">
+              {icon ? (
+                <HoverContainer>
+                  <StyledIcon name={icon} size="1.5em" />
+                </HoverContainer>
+              ) : null}
+              {isActive ? (
+                <Label
+                  isActive={isActive}
+                  isCurrent={window.location.pathname === path}
+                >
+                  {label}
+                </Label>
+              ) : (
+                <SidebarLink
+                  to={path}
+                  isActive={isActive}
+                  isCurrent={window.location.pathname === path}
+                >
+                  {label}
+                </SidebarLink>
+              )}
+            </Flex>
           </div>
         )}
       </li>
