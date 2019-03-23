@@ -19,11 +19,17 @@ import 'leaflet-zoombox/L.Control.ZoomBox.css'
 import 'leaflet-geonames/L.Control.Geonames.css'
 import 'leaflet-html-legend/dist/L.Control.HtmlLegend.css'
 
-// TODO: only load leaflet if window is defined!
+import { hasWindow } from '../../util/dom'
 
-// Make leaflet icons work properly from webpack / react context
-delete L.Icon.Default.prototype._getIconUrl
-L.Icon.Default.mergeOptions({ iconRetinaUrl, iconUrl, shadowUrl })
+if (hasWindow) {
+  // Make leaflet icons work properly from webpack / react context
+  delete L.Icon.Default.prototype._getIconUrl
+  L.Icon.Default.mergeOptions({ iconRetinaUrl, iconUrl, shadowUrl })
+} else {
+  // mock Leaflet layer constructor, otherwise we get a build error
+  // the other Leaflet components don't need mocking
+  L.tileLayer = () => {}
+}
 
 const Wrapper = styled.div`
   position: absolute;
@@ -122,6 +128,12 @@ const config = {
 }
 
 const Map = ({ id, bounds: [west, south, east, north] }) => {
+  // if there is no window, we cannot render this component
+  if (!hasWindow) {
+    console.log('no window, returning')
+    return null
+  }
+
   const layerBounds = [[south, west], [north, east]]
 
   const mapNode = useRef(null)

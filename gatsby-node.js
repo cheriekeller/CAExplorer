@@ -10,12 +10,26 @@ const path = require('path')
  *
  * See: https://github.com/alampros/gatsby-plugin-resolve-src/issues/4
  */
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
+exports.onCreateWebpackConfig = ({ actions, stage, loaders }) => {
+  const config = {
     resolve: {
       modules: [path.resolve(__dirname, 'src'), 'node_modules'],
     },
-  })
+  }
+
+  // when building HTML, window is not defined, so Leaflet causes the build to blow up
+  if (stage === 'build-html') {
+    config.module = {
+      rules: [
+        {
+          test: /leaflet/,
+          use: loaders.null(),
+        },
+      ],
+    }
+  }
+
+  actions.setWebpackConfig(config)
 }
 
 exports.createPages = ({ graphql, actions }) => {
