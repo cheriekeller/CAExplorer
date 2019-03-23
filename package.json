@@ -35,6 +35,7 @@
     "leaflet-basemaps": "^0.3.4",
     "leaflet-geonames": "^0.4.7",
     "leaflet-html-legend": "^0.3.4",
+    "leaflet-range": "^0.1.5",
     "leaflet-zoombox": "^0.5.1",
     "prop-types": "^15.6.2",
     "react": "^16.8.0-alpha.0",

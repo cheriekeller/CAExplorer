@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1130",
+    "name": "Rockland Hammock",
+    "path": "/habitats/terrestrial/1130/map",
+    "area": 7802.415,
+    "slr1": 4525.355,
+    "slr3": 7091.1,
+    "bbox": [-82.008198, 24.490742, -80.096854, 27.274106]
+  },
+  {
+    "id": "1001",
+    "name": "test1001",
+    "path": "/habitats/terrestrial/1001/map",
+    "area": 123,
+    "slr1": 3,
+    "slr3": 10,
+    "bbox": [-82, 24, -79, 20]
+  }
+]

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import styled, { themeGet } from 'util/style'
+import styled from 'util/style'
 import { theme } from '../../util/style'
 
 const Icon = ({ name, size, color, borderColor, className }) => {

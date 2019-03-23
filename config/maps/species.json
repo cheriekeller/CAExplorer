@@ -1,0 +1,20 @@
+[
+  {
+    "id": "200",
+    "name": "test100",
+    "path": "/species/amphibians/117/map",
+    "area": 123456,
+    "slr1": 34,
+    "slr3": 50,
+    "bbox": [-82, 24, -79, 20]
+  },
+  {
+    "id": "101",
+    "name": "test101",
+    "path": "/species/amphibians/128/map",
+    "area": 123,
+    "slr1": 3,
+    "slr3": 10,
+    "bbox": [-82, 24, -79, 20]
+  }
+]
