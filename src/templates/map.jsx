@@ -13,12 +13,19 @@ const Content = styled.div``
 
 const Template = ({
   data: {
-    json: { id, name, area, slr1, slr3, bbox },
+    json: { id, path, name, area, slr1, slr3, bbox },
   },
 }) => (
   <Layout>
     <SEO title={name} />
-    <MapSidebar id={id} area={area} slr1={slr1} slr3={slr3} />
+    <MapSidebar
+      id={id}
+      path={path}
+      name={name}
+      area={area}
+      slr1={slr1}
+      slr3={slr3}
+    />
     <Map id={id} bounds={bbox} />
   </Layout>
 )
@@ -37,6 +44,7 @@ export const pageQuery = graphql`
   query($id: String!) {
     json(id: { eq: $id }) {
       id
+      path
       name
       area
       slr1

@@ -1,9 +1,7 @@
 /* eslint-disable max-len, no-underscore-dangle */
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import PropTypes from 'prop-types'
-
-import styled, { themeGet } from 'util/style'
-
+import { Box } from 'rebass'
 import L from 'leaflet'
 import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png'
 import iconUrl from 'leaflet/dist/images/marker-icon.png'
@@ -19,6 +17,7 @@ import 'leaflet-zoombox/L.Control.ZoomBox.css'
 import 'leaflet-geonames/L.Control.Geonames.css'
 import 'leaflet-html-legend/dist/L.Control.HtmlLegend.css'
 
+import styled, { themeGet } from 'util/style'
 import { hasWindow } from '../../util/dom'
 
 if (hasWindow) {
@@ -31,13 +30,19 @@ if (hasWindow) {
   L.tileLayer = () => {}
 }
 
-const Wrapper = styled.div`
+const Wrapper = styled(Box)`
   position: absolute;
-  top: 40px;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 1;
+
+  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+    .leaflet-control-attribution {
+      display: none;
+    }
+  }
 
   .leaflet-container {
     font: inherit;
@@ -49,7 +54,7 @@ const Wrapper = styled.div`
 
   .leaflet-html-legend {
     h4 {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
 
       &:hover {
         background: none;
@@ -63,12 +68,9 @@ const Wrapper = styled.div`
     }
     .legend-row {
       label {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: normal;
         color: ${themeGet('colors.grey.600')};
-      }
-      & + .legend-row {
-        margin-top: 0.5em;
       }
     }
     .legend-row .symbol {
@@ -130,7 +132,6 @@ const config = {
 const Map = ({ id, bounds: [west, south, east, north] }) => {
   // if there is no window, we cannot render this component
   if (!hasWindow) {
-    console.log('no window, returning')
     return null
   }
 
@@ -158,19 +159,19 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
     L.control.zoom({ position: 'topright' }).addTo(map)
     L.control.zoomBox({ position: 'topright' }).addTo(map)
 
-    L.control
-      .geonames({
-        position: 'topright',
-        username: 'databasin.cbi',
-        maxresults: 10,
-        bbox: {
-          west: -88.615723,
-          east: -79.519043,
-          north: 31.54109,
-          south: 24.006326,
-        },
-      })
-      .addTo(map)
+    // L.control
+    //   .geonames({
+    //     position: 'topright',
+    //     username: 'databasin.cbi',
+    //     maxresults: 10,
+    //     bbox: {
+    //       west: -88.615723,
+    //       east: -79.519043,
+    //       north: 31.54109,
+    //       south: 24.006326,
+    //     },
+    //   })
+    //   .addTo(map)
 
     L.control
       .basemaps({
@@ -224,7 +225,7 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
   })
 
   return (
-    <Wrapper>
+    <Wrapper mt={['2rem', '2.5rem', '2.75rem']} ml={[0, '250px', '350px']}>
       <div ref={mapNode} style={{ width: '100%', height: '100%' }} />
     </Wrapper>
   )
