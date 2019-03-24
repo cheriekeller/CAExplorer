@@ -13,7 +13,7 @@ const Content = styled.div``
 
 const Template = ({
   data: {
-    json: { id, path, name, area, slr1, slr3, bbox },
+    json: { id, path, name, area, slr1, slr3, bounds },
   },
 }) => (
   <Layout>
@@ -26,7 +26,7 @@ const Template = ({
       slr1={slr1}
       slr3={slr3}
     />
-    <Map id={id} bounds={bbox} />
+    <Map id={id} bounds={bounds} />
   </Layout>
 )
 
@@ -49,7 +49,7 @@ export const pageQuery = graphql`
       area
       slr1
       slr3
-      bbox
+      bounds
     }
   }
 `

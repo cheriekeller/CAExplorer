@@ -61,7 +61,7 @@ exports.createPages = ({ graphql, actions }) => {
                   path
                   name
                   area
-                  bbox
+                  bounds
                   slr1
                   slr3
                 }
