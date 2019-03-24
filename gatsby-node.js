@@ -10,12 +10,26 @@ const path = require('path')
  *
  * See: https://github.com/alampros/gatsby-plugin-resolve-src/issues/4
  */
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
+exports.onCreateWebpackConfig = ({ actions, stage, loaders }) => {
+  const config = {
     resolve: {
       modules: [path.resolve(__dirname, 'src'), 'node_modules'],
     },
-  })
+  }
+
+  // when building HTML, window is not defined, so Leaflet causes the build to blow up
+  if (stage === 'build-html') {
+    config.module = {
+      rules: [
+        {
+          test: /leaflet/,
+          use: loaders.null(),
+        },
+      ],
+    }
+  }
+
+  actions.setWebpackConfig(config)
 }
 
 exports.createPages = ({ graphql, actions }) => {
@@ -24,6 +38,7 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     const contentTemplate = path.resolve(`src/templates/content.jsx`)
     const sppTemplate = path.resolve(`src/templates/elements.jsx`)
+    const mapTemplate = path.resolve('src/templates/map.jsx')
     let template = null
     // Query for markdown nodes to use in creating pages.
     resolve(
@@ -36,6 +51,19 @@ exports.createPages = ({ graphql, actions }) => {
                   frontmatter {
                     path
                   }
+                }
+              }
+            }
+            allJson {
+              edges {
+                node {
+                  id
+                  path
+                  name
+                  area
+                  bounds
+                  slr1
+                  slr3
                 }
               }
             }
@@ -65,6 +93,17 @@ exports.createPages = ({ graphql, actions }) => {
             createPage({
               path: pagePath,
               component: template,
+            })
+          }
+        )
+
+        // Create map pages for each species and habitat entry in maps/*.json
+        result.data.allJson.edges.forEach(
+          ({ node: { id, path: pagePath } }) => {
+            createPage({
+              path: pagePath,
+              context: { id },
+              component: mapTemplate,
             })
           }
         )

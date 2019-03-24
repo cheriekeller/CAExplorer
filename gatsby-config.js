@@ -44,6 +44,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `maps`,
+        path: `${__dirname}/config/maps`,
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -72,7 +79,7 @@ module.exports = {
           },
           {
             resolve: 'gatsby-remark-component',
-            options: { components: ['icon', 'content-header'] },
+            options: { components: ['icon', 'content-header', 'fa-icon'] },
           },
         ],
       },
@@ -94,6 +101,18 @@ module.exports = {
       resolve: `gatsby-plugin-lodash`,
       options: {
         disabledFeatures: [`shorthands`, `cloning`, `currying`],
+      },
+    },
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: `Json`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/config/maps`,
       },
     },
     `gatsby-plugin-catch-links`,

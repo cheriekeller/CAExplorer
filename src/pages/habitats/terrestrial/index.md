@@ -9,7 +9,7 @@ Terrestrial ecosystems in Florida range from systems similar to those found in t
 
 Many of Florida’s upland ecosystems are dependent upon fire, with the frequency, intensity, and seasonality of fire varying between communities.  Altered fire regimes or the absence of fire, along with other climatic changes, could lead to compositional changes to these habitats, potentially altering their suitability to the current suite of species.
 
-<div class=""><img src="1000.jpg" alt="Photo for Terrestrial"/>
+<div class=""><img src="1000.jpg" alt="Photo for 1000"/>
 <figcaption>Photo: NPS</figcaption></div>
 
 ## Impacts of Climate Change
