@@ -8,7 +8,6 @@ import styled, { theme, themeGet } from 'util/style'
 import { Link } from 'components/Link'
 import Donut from 'components/charts/Donut'
 import HelpText from 'components/elements/HelpText'
-import { formatNumber } from 'util/format'
 
 const DONUTSIZE = 130
 const DONUTWIDTH = 20
@@ -105,7 +104,7 @@ const Sidebar = ({ name, path, area, slr1, slr3 }) => {
 
           <Flex alignItems="center" flexWrap="wrap" justifyContent="center">
             <Donut
-              percent={formatNumber(slr1Percent, slr1Percent > 1 ? 0 : 1)}
+              percent={slr1Percent}
               color="#0D47A1"
               label="1 meter"
               donutWidth={DONUTWIDTH}
@@ -113,7 +112,7 @@ const Sidebar = ({ name, path, area, slr1, slr3 }) => {
             />
             <VerticalSpacer />
             <Donut
-              percent={formatNumber(slr3Percent, slr3Percent > 1 ? 0 : 1)}
+              percent={slr3Percent}
               color="#90CAF9"
               label="3 meters"
               donutWidth={DONUTWIDTH}
@@ -126,10 +125,7 @@ const Sidebar = ({ name, path, area, slr1, slr3 }) => {
           </Subtitle>
           <Flex justifyContent="center">
             <Donut
-              percent={formatNumber(
-                notImpactedPercent,
-                notImpactedPercent > 1 ? 0 : 1
-              )}
+              percent={notImpactedPercent}
               color="#388E3C"
               label="not impacted"
               offset={slr3Percent}

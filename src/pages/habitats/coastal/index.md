@@ -3,16 +3,17 @@ path: '/habitats/coastal'
 title: 'Coastal'
 ---
 
-<content-header icon="coastal_ecosystems" title="Coastal Ecosystems"></content-header>
+<content-header icon="coastal_ecosystems" title="Coastal Ecosystems">
+</content-header>
+
+<div class=""><img src="1600.jpg" alt="Photo for 1600"/>
+<figcaption>Photo: NPS</figcaption></div>
 
 Coastal ecosystems are the foundation upon which much of Florida's natural beauty and economy are based. Beaches, dunes, and coastal grasslands and forests are important components of the coastal ecosystem, providing breeding and foraging grounds, and cover for a wide variety of wildlife. 
 
 Beaches and dunes are home to threatened species, such as beach mice, snowy plovers, and gopher tortoises, and provide nesting sites for shorebirds and sea turtles. 
 
 Dunes are created by wind, but are held in place by grasses that trap sand grains as they are being moved across the beach. Dunes stabilized by grasses protect the coast against winds and pounding waves. The vegetation found within Florida's dunes varies and is dependent upon many factors, including storm waves, windblown sand, salt spray, soil type, and climate.
-
-<div class=""><img src="1600.jpg" alt="Photo for 1600"/>
-<figcaption>Photo: NPS</figcaption></div>
 
 ## Impacts of Climate Change
 

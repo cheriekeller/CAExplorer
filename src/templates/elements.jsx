@@ -168,7 +168,6 @@ const Template = ({
 }) => (
   <Layout>
     <SEO title={title} />
-    {/* <Content dangerouslySetInnerHTML={{ __html: html }} /> */}
     <Content>{renderAst(htmlAst)}</Content>
   </Layout>
 )

@@ -11,13 +11,14 @@ const Wrapper = styled.div`
 
 const Title = styled.h1`
   margin-top: -0.1em;
+  margin-bottom: 0 !important;
 `
 
 const Subtitle = styled.h3`
   color: ${themeGet('colors.primary.300')};
   font-weight: normal;
   font-style: italic;
-  margin-top: -1rem;
+  margin-top: 0 !important;
   margin-bottom: 0 !important;
 `
 

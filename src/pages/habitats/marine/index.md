@@ -3,7 +3,11 @@ path: '/habitats/marine'
 title: 'Marine & Estuarine'
 ---
 
-<content-header icon="marine_estuarine_ecosystems" title="Marine & Estuarine Ecosystems"></content-header>
+<content-header icon="marine_estuarine_ecosystems" title="Marine & Estuarine Ecosystems">
+</content-header>
+
+<div class=""><img src="5000.jpg" alt="Photo for 5000"/>
+<figcaption>Photo: NPS</figcaption></div>
 
 Florida’s estuarine and marine ecosystems include the waters and sub-tidal zones of estuaries, semi-enclosed bays and lagoons, and open ocean, as well as seagrasses, coastal marshes, mangroves, and various types of reed such as oyster reefs, coral reefs or rocky reefs.  
 
@@ -14,9 +18,6 @@ The most extensive salt marshes in Florida begin in northwest Florida at the mou
 Seagrasses are found in protected bays, lagoons, and other shallow coastal waters.  Seagrass communities provide feeding grounds, nursery areas, and protective cover for a diversity of marine species.  Additionally, seagrasses stabilize bottom sediments and aid in preventing erosion during storm events. 
 
 The Florida reef is the only living coral barrier reef in the continental US and is the third largest in the world.  It extends almost 200 miles long and has more than 6,000 individual reefs in the system.  Over 30 different kinds of corals are found in Florida waters. Coral reefs provide habitat for thousands of species of plants and animals.
-
-<div class=""><img src="5000.jpg" alt="Photo for 5000"/>
-<figcaption>Photo: NPS</figcaption></div>
 
 ## Impacts of Climate Change
 

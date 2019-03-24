@@ -4,13 +4,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import styled, { theme, themeGet } from 'util/style'
+import { formatNumber } from 'util/format'
 
 const Circle = styled.circle`
   fill: transparent;
-`
-
-const Text = styled.text`
-  //   : central;
 `
 
 const PercentLabel = styled.tspan`
@@ -62,7 +59,9 @@ const Donut = ({ percent, label, color, size, donutWidth, offset }) => {
           dominantBaseline: label ? '' : 'central',
         }}
       >
-        <PercentLabel>{percent}</PercentLabel>
+        <PercentLabel>
+          {formatNumber(percent, percent < 1 ? 1 : 0)}
+        </PercentLabel>
         <Percent>%</Percent>
         {label && (
           <Label x={halfsize} y={halfsize + 20}>

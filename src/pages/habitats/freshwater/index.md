@@ -3,7 +3,11 @@ path: '/habitats/freshwater'
 title: 'Freshwater'
 ---
 
-<content-header icon="freshwater_ecosystems" title="Freshwater Ecosystems"></content-header>
+<content-header icon="freshwater_ecosystems" title="Freshwater Ecosystems">
+</content-header>
+
+<div class=""><img src="2000.jpg" alt="Photo for 2000"/>
+<figcaption>Photo: NPS</figcaption></div>
 
 Florida has more than 1,700 streams and rivers, 7,800 freshwater lakes, over 1,000 springs, and 11 million acres of wetlands.  
 
@@ -16,9 +20,6 @@ A significant portion of Florida’s landscape is covered by wetlands, ranging f
 The Florida Everglades is unique in the world, combining both temperate and tropical flora in a widely shifting mosaic of habitats. 
 
 Forested wetlands are found as floodplains along major rivers systems and as large connected systems, particularly in south Florida. The Corkscrew Regional Ecosystem Watershed, Corkscrew Swamp, Okaloacoochee Slough, Fakahatchee and Picayune strands, Belle Meade, and a major portion of Big Cypress National Preserve make up more than 320,000 ha (790,720 acres) of connected wetlands.
-
-<div class=""><img src="2000.jpg" alt="Photo for 2000"/>
-<figcaption>Photo: NPS</figcaption></div>
 
 ## Impacts of Climate Change
 
