@@ -6,12 +6,22 @@ export const strategies = [
   {
     path: '/strategies/guidance',
     label: 'How to Create Strategies?',
+    icon: 'climate_101',
   },
-  { path: '/strategies/species', label: 'Species Strategies' },
-  { path: '/strategies/habitats', label: 'Habitat Strategies' },
+  {
+    path: '/strategies/species',
+    label: 'Species Strategies',
+    icon: 'shorebirds',
+  },
+  {
+    path: '/strategies/habitats',
+    label: 'Habitat Strategies',
+    icon: 'marine_estuarine_ecosystems',
+  },
   {
     path: '/strategies/crosscutting',
     label: 'Common Adaptation Strategies',
+    icon: 'coastal_ecosystems',
     children: [
       {
         path: '/strategies/crosscutting/protection',
@@ -70,5 +80,9 @@ export const strategies = [
     ],
   },
 
-  { path: '/strategies/resources', label: 'Additional Resources' },
+  {
+    path: '/strategies/resources',
+    label: 'Additional Resources',
+    icon: 'resources',
+  },
 ]
