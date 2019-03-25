@@ -3,7 +3,7 @@ path: /impacts/climate101/precipitation
 title: Changes in Precipitation
 ---
 
-# Changes in Precipitation
+<content-header icon="precipitation_change" title="Changes in Precipitation"></content-header>
 
 Potential temperature and precipitation changes will not be uniform across the earth’s surface.
 

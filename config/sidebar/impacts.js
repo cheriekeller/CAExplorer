@@ -68,6 +68,7 @@ export const impacts = [
       {
         path: '/impacts/florida/social',
         label: 'Social and Economic Impacts',
+        icon: 'social_impacts',
       },
     ],
   },

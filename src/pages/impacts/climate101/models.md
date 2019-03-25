@@ -3,7 +3,7 @@ path: /impacts/climate101/models
 title: Emission Models
 ---
 
-# Climate Models
+<content-header icon="climate_models" title="Climate Models"></content-header>
 
 Climate models, also known as general circulation models (GCMs), are very similar to weather forecast models, but with many added physical processes.
 

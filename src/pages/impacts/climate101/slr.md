@@ -3,7 +3,7 @@ path: /impacts/climate101/slr
 title: Sea Level Rise
 ---
 
-# Sea Level Rise
+<content-header icon="sea_level_rise" title="Sea Level Rise"></content-header>
 
 Oceanic warming and sea level rise are expected as a result of rising green house gas (GHG) levels and temperatures. Ocean warming is projected to be most pronounced in the surface waters of tropical and Northern Hemisphere subtropical regions. Estimates of ocean warming by the end of the 21st century are 0.6°C (RCP2.6) to 2.0°C (RCP8.5) for the top one hundred meters (IPCC 2014).
 

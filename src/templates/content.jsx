@@ -1,10 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import rehypeReact from 'rehype-react'
 
-import Layout from '../components/layout/Default'
-import SEO from '../components/SEO'
-import styled from '../util/style'
+import Layout from 'components/layout/Default'
+import SEO from 'components/SEO'
+import Icon from 'components/elements/Icon'
+import FaIcon from 'components/elements/FaIcon'
+import ContentHeader from 'components/elements/ContentHeader'
+import styled from 'util/style'
 
 const Content = styled.div`
   h2,
@@ -70,27 +74,33 @@ const Content = styled.div`
   }
 `
 
+const renderAst = new rehypeReact({
+  createElement: React.createElement,
+  components: {
+    icon: Icon,
+    'content-header': ContentHeader,
+    'fa-icon': FaIcon,
+  },
+}).Compiler
+
 const Template = ({
   data: {
     markdownRemark: {
-      html,
+      htmlAst,
       frontmatter: { title },
     },
   },
 }) => (
   <Layout>
     <SEO title={title} />
-    <Content
-      className="blog-post-content"
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
+    <Content>{renderAst(htmlAst)}</Content>
   </Layout>
 )
 
 Template.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      html: PropTypes.string.isRequired,
+      htmlAst: PropTypes.object.isRequired,
     }).isRequired,
   }).isRequired,
 }
@@ -100,7 +110,7 @@ export default Template
 export const pageQuery = graphql`
   query($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+      htmlAst
       frontmatter {
         path
         title

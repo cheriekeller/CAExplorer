@@ -3,7 +3,7 @@ path: /impacts/climate101
 title: Climate 101
 ---
 
-# Climate 101
+<content-header icon="climate_101" title="Climate 101"></content-header>
 
 In recent decades, changes in the global climate impacted natural and human systems on all continents and across the oceans. Evidence of impacts from climate-change is strongest and most comprehensive for natural systems.
 

@@ -3,7 +3,7 @@ path: /impacts/climate101/temperature
 title: Changes in Temperature
 ---
 
-# Changes in Temperature
+<content-header icon="temperature_change" title="Changes in Temperature"></content-header>
 
 Potential temperature and precipitation changes will not be uniform across the earth’s surface.
 
