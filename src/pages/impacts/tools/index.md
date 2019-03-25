@@ -3,7 +3,7 @@ path: '/impacts/tools'
 title: 'Other Tools'
 ---
 
-# Other Climate-Oriented Tools
+<content-header icon="tools" title="Other Climate-Oriented Tools"></content-header>
 
 The following tools may be useful in evaluating climate change, climate impacts, vulnerability of species and ecosystems, and informing climate-smart management practices.
 

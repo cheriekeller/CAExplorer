@@ -3,7 +3,7 @@ path: /impacts/florida/extreme-events
 title: Changes in Extreme Events
 ---
 
-# Changes in Extreme Events
+<content-header icon="extreme_events" title="Changes in Extreme Events"></content-header>
 
 There is uncertainty in how extreme events may change in Florida in the future.
 

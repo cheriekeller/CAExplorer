@@ -3,7 +3,7 @@ path: /impacts/florida/precipitation
 title: Changes in Precipitation
 ---
 
-# Changes in Precipitation
+<content-header icon="precipitation_change" title="Changes in Precipitation"></content-header>
 
 Predicting departures from annual average precipitation is more complex than projecting changing temperatures. Climate models are still evolving (particularly precipitation models), especially at these finer scales. While the future projected shifts in temperature across Florida are greater than natural variability, the projected precipitation changes may not differ greatly from the natural variability for much of Florida and that these precipitation projections should be seen as likely possibilities and not significant trends.
 

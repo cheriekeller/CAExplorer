@@ -3,7 +3,7 @@ path: '/impacts/habitats/freshwater'
 title: 'Freshwater Ecosystems'
 ---
 
-# Freshwater Ecosystems
+<content-header icon="freshwater_ecosystems" title="Freshwater Ecosystems"></content-header>
 
 ![Freshwater Ecosystems](2000.jpg 'Photo: NPS.')
 

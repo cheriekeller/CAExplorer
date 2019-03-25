@@ -3,7 +3,7 @@ path: /impacts/florida/co2
 title: Changes in Water Chemistry
 ---
 
-# Impacts from Changes in Water Chemistry
+<content-header icon="water_co2_change" title="Impacts from Changes in Water Chemistry"></content-header>
 
 **TODO: intro paragraph**
 

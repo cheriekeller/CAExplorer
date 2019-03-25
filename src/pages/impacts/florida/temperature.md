@@ -3,7 +3,7 @@ path: /impacts/florida/temperature
 title: Changes in Temperature
 ---
 
-# Changes in Temperature
+<content-header icon="temperature_change" title="Changes in Temperature"></content-header>
 
 All areas of Florida are expected to see increases in temperature by the 2080s. The mean departure from average temperatures is greater in north Florida (more change) than in south Florida. The mean departure is greater in the summer and fall than winter for all regions of the state.
 

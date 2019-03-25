@@ -3,11 +3,12 @@ path: '/impacts/florida/social'
 title: 'Social and Economic Impacts'
 ---
 
-# Social and Economic impacts of Climate Change in Florida
+<content-header icon="social_impacts" title="Social and Economic impacts of Climate Change in Florida"></content-header>
 
 Florida is well-known for its variety of outdoor activities, enjoyed by both residents and tourists. Changes in precipitation patterns, sea level rise, and an increased intensity of storms may cause a reduction in activities such as birdwatching, wildlife viewing, hunting, fishing, and other recreational opportunities. Such opportunities may be affected due to changes in the species presence, abundance, diversity and health, alterations to the species habitats, compromised habitat due to storm damages and flooding, and restricted access to waterways.
 
 <!-- https://www.flickr.com/photos/evergladesnps/9258239728/ -->
+
 ![Photography photo](9258239728_e15e2f4894_k.jpg 'Photo: R. Cammauf.')
 
 Florida may lose key elements of its floral and faunal diversity, including endemic species, many of which are the focus of wildlife viewing activities.
@@ -29,7 +30,6 @@ As with addressing other threats to Florida’s species and habitats, there will
 <img src="9258333562_1c3213d91e_k.jpg" alt="Birdwatching photo" />
 <!-- https://www.flickr.com/photos/evergladesnps/9099355261/ -->
 </div>
-
 
 Climate change impacts could lead to increased numbers of insects due to increased number of life cycles/year, increased suitable breeding conditions and sites, and/or population declines of predators (e.g., frogs), leading to an increased need to manage nuisance insects (e.g., mosquitos). Additionally, there will be costs associated with monitoring and reacting to changes in the abundance and diversity of parasites and disease vectors that may impact emergence and virility of diseases to animals and humans.
 

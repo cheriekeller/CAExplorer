@@ -3,7 +3,7 @@ path: '/impacts/habitats/terrestrial'
 title: 'Terrestrial Ecosystems'
 ---
 
-# Terrestrial Ecosystems
+<content-header icon="terrestrial_ecosystems" title="Terrestrial Ecosystems"></content-header>
 
 ![Terrestrial Ecosystems](1000.jpg 'Photo: NPS.')
 

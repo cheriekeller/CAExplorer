@@ -3,7 +3,7 @@ path: '/impacts/habitats/coastal'
 title: 'Coastal Ecosystems'
 ---
 
-# Coastal Ecosystems
+<content-header icon="coastal_ecosystems" title="Coastal Ecosystems"></content-header>
 
 ![Coastal Ecosystems](1600.jpg 'Photo: NPS.')
 

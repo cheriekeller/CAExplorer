@@ -3,7 +3,7 @@ path: '/impacts/resources'
 title: 'Resources'
 ---
 
-# Additional Resources for Climate Impacts
+<content-header icon="resources" title="Additional Resources for Climate Impacts"></content-header>
 
 The following resources provide you with additional information about climate impacts and vulnerability assessments.
 

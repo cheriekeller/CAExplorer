@@ -138,18 +138,22 @@ export const impacts = [
       {
         path: '/impacts/existing-stressors/habitat-loss',
         label: 'Habitat Loss',
+        icon: 'habitat_loss',
       },
       {
         path: '/impacts/existing-stressors/invasives',
         label: 'Invasive Species',
+        icon: 'invasive_species',
       },
       {
         path: '/impacts/existing-stressors/pathogens',
         label: 'Pathogens, Pests, Pollution',
+        icon: 'pests',
       },
       {
         path: '/impacts/existing-stressors/competition',
         label: 'Competition & Overexploitation',
+        icon: 'competition',
       },
     ],
   },

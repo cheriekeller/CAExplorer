@@ -3,7 +3,7 @@ path: /impacts/florida/slr
 title: Sea Level Rise
 ---
 
-# Sea Level Rise
+<content-header icon="sea_level_rise" title="Sea Level Rise"></content-header>
 
 One of the most direct and pronounced changes due to global climatic change is sea level rise (SLR). While SLR is not technically a climatic change itself (rather a result of major climatic changes), it is associated with specific measurable shifts that result in ecological impacts in much the same way as the other climatic changes described. Easily modeled and quantified at multiple scales, SLR is commonly used as a landscape level example of climate change. Sea level rise is often modeled in defined increments such as feet or meters.
 

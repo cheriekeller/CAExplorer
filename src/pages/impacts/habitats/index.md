@@ -3,7 +3,7 @@ path: '/impacts/habitats'
 title: "Florida's Ecosystems and Habitats"
 ---
 
-# Ecosystems and Habitats
+<content-header icon="marine_estuarine_ecosystems" title="Ecosystems and Habitats"></content-header>
 
 Florida’s unique landscape is one of the most rapidly changing and climate-vulnerable within the United States. It is extremely vulnerable to sea level rise and impacts from severe storms due to low elevation, geographic location, and landscape configuration. Many habitats and species are highly sensitive to changes in temperature and precipitation.
 
