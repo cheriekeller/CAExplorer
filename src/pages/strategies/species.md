@@ -3,7 +3,7 @@ path: '/strategies/species'
 title: 'Adaptation Strategies for Species'
 ---
 
-# Adaptation Strategies for Species
+<content-header icon="shorebirds" title="Adaptation Strategies for Species"></content-header>
 
 See the [species page](/species) to find your species of interest. The adaptation strategies for that species are available from its profile page.
 

@@ -3,7 +3,7 @@ path: '/strategies/habitats'
 title: 'Adaptation Strategies for Habitats'
 ---
 
-# Adaptation Strategies for Habitats
+<content-header icon="marine_estuarine_ecosystems" title="Adaptation Strategies for Habitats"></content-header>
 
 See the [habitats page](/habitats) to find your priority resource or habitat of interest. The adaptation strategies for that priority resource or habitat are available from its profile page.
 

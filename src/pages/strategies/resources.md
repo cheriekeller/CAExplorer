@@ -3,7 +3,7 @@ path: '/strategies/resources'
 title: 'Resources'
 ---
 
-# Additional Resources for Adaptation Strategies
+<content-header icon="resources" title="Additional Resources for Adaptation Strategies"></content-header>
 
 The following adaptation guides provide additional information and resources for creating your own adaptation strategies.
 

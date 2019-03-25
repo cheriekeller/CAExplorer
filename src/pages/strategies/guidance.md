@@ -3,7 +3,7 @@ path: '/strategies/guidance'
 title: 'Adaptation Strategy Guidance'
 ---
 
-# How to Create Adaptation Strategies?
+<content-header icon="climate_101" title="How to Create Adaptation Strategies?"></content-header>
 
 **TODO:more intro**
 

@@ -3,7 +3,7 @@ path: '/strategies/crosscutting'
 title: 'Common Adaptation Strategies'
 ---
 
-# Common Adaptation Strategies
+<content-header icon="coastal_ecosystems" title="Common Adaptation Strategies"></content-header>
 
 **TODO:intro paragraph**
 
