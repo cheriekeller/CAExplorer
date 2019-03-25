@@ -80,26 +80,32 @@ export const impacts = [
       {
         path: '/impacts/species/community-dynamics',
         label: 'Altered Community Dynamics',
+        icon: 'turtles',
       },
       {
         path: '/impacts/species/altered-range',
         label: 'Altered Habitat Suitability',
+        icon: 'perching_birds',
       },
       {
         path: '/impacts/species/altered-survival',
         label: 'Altered Survival',
+        icon: 'rodents',
       },
       {
         path: '/impacts/species/altered-phenology',
         label: 'Altered Phenology & Physiology',
+        icon: 'sea_turtles',
       },
       {
         path: '/impacts/species/disturbance',
         label: 'Altered Disturbance Regimes',
+        icon: 'disturbance',
       },
       {
         path: '/impacts/species/keystone',
         label: 'Loss of Keystone Species',
+        icon: 'coral_hardbottom',
       },
     ],
   },

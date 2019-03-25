@@ -3,7 +3,7 @@ path: '/impacts/species/keystone'
 title: 'Loss of Keystone Species'
 ---
 
-# Loss of Keystone Species
+<content-header icon="coral_hardbottom" title="Loss of Keystone Species"></content-header>
 
 A keystone species is a species that has a disproportionately large effect on its environment relative to its abundance. Such species play a critical role in maintaining the structure of an ecological community, affecting many other organisms in an ecosystem and helping to determine the types and numbers of various other species in the community.
 

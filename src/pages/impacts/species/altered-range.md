@@ -3,7 +3,7 @@ path: '/impacts/species/altered-range'
 title: 'Altered Habitat Suitability'
 ---
 
-# Altered Habitat Suitability
+<content-header icon="perching_birds" title="Altered Habitat Suitability"></content-header>
 
 The suitability of habitat may shift, as vegetative composition and other key environmental variables respond to climate change. Species distributions are influenced through species-specific temperature and precipitation thresholds and, as these thresholds are crossed, species will need to change their movement patterns, shift their ranges, or disperse further distances to reach suitable habitat as they are forced to move away from unsuitable habitat conditions. These changes may lead to habitat degradation, fragmentation or loss for some species. Of particular significance, the loss of a keystone species from a community can lead to the loss of habitat for many associated species.
 
