@@ -25,7 +25,16 @@ const Label = styled.tspan`
   fill: ${themeGet('colors.grey.700')};
 `
 
-const Donut = ({ percent, label, color, size, donutWidth, offset }) => {
+const Donut = ({
+  percent,
+  percentLabel,
+  label,
+  color,
+  size,
+  donutWidth,
+  offset,
+  isPercent,
+}) => {
   const halfsize = size * 0.5
   const radius = halfsize - donutWidth * 0.5
   const circumference = 2 * Math.PI * radius
@@ -60,9 +69,13 @@ const Donut = ({ percent, label, color, size, donutWidth, offset }) => {
         }}
       >
         <PercentLabel>
-          {formatNumber(percent, percent < 1 ? 1 : 0)}
+          {percentLabel !== null
+            ? percentLabel
+            : formatNumber(percent, percent < 1 ? 1 : 0)}
         </PercentLabel>
-        <Percent>%</Percent>
+
+        {isPercent && <Percent>%</Percent>}
+
         {label && (
           <Label x={halfsize} y={halfsize + 20}>
             {label}
@@ -75,19 +88,23 @@ const Donut = ({ percent, label, color, size, donutWidth, offset }) => {
 
 Donut.propTypes = {
   percent: PropTypes.number.isRequired, // percent, preferably integer
+  percentLabel: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   label: PropTypes.string, // label placed below percent in middle of donut
   donutWidth: PropTypes.number, // width of donut
   color: PropTypes.string, // color of the indicator on the donut
   size: PropTypes.number, // width of the chart
   offset: PropTypes.number, // additional percentage to rotate the indicator (e.g., sum of percents of preceding charts in a series)
+  isPercent: PropTypes.bool,
 }
 
 Donut.defaultProps = {
+  percentLabel: null,
   label: null,
   donutWidth: 26,
   color: theme.colors.primary[300],
   size: 200,
   offset: 0,
+  isPercent: true,
 }
 
 export default Donut

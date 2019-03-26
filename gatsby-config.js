@@ -46,8 +46,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `maps`,
-        path: `${__dirname}/config/maps`,
+        name: `data`,
+        path: `${__dirname}/config/data`,
       },
     },
     {
@@ -65,21 +65,21 @@ module.exports = {
             },
           },
           {
-            resolve: 'gatsby-remark-external-links',
+            resolve: `gatsby-remark-external-links`,
             options: {
-              target: '_blank',
-              rel: 'noopener noreferrer',
+              target: `_blank`,
+              rel: `noopener noreferrer`,
             },
           },
           {
-            resolve: 'gatsby-remark-copy-linked-files',
+            resolve: `gatsby-remark-copy-linked-files`,
             options: {
-              destinationDir: 'media',
+              destinationDir: `media`,
             },
           },
           {
-            resolve: 'gatsby-remark-component',
-            options: { components: ['icon', 'content-header', 'fa-icon'] },
+            resolve: `gatsby-remark-component`,
+            options: { components: [`icon`, `content-header`, `fa-icon`] },
           },
         ],
       },
@@ -109,12 +109,6 @@ module.exports = {
         typeName: `Json`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/config/maps`,
-      },
-    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sitemap`,
     {
@@ -139,7 +133,7 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     {
-      resolve: 'gatsby-plugin-react-svg',
+      resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {
           include: /icons/,

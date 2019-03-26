@@ -58,12 +58,18 @@ exports.createPages = ({ graphql, actions }) => {
               edges {
                 node {
                   id
+                  itemType
                   path
+                  icon
                   name
+                  name2
+                  group
+                  subgroup
                   area
                   bounds
                   slr1
                   slr3
+                  vulnerability
                 }
               }
             }
@@ -71,6 +77,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
       ).then(result => {
         if (result.errors) {
+          console.error(result.errors)
           reject(result.errors)
         }
 
@@ -101,7 +108,7 @@ exports.createPages = ({ graphql, actions }) => {
         result.data.allJson.edges.forEach(
           ({ node: { id, path: pagePath } }) => {
             createPage({
-              path: pagePath,
+              path: `${pagePath}/map`,
               context: { id },
               component: mapTemplate,
             })
