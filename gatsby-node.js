@@ -106,7 +106,9 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create map pages for each species and habitat entry in maps/*.json
         result.data.allJson.edges.forEach(
-          ({ node: { id, path: pagePath } }) => {
+          ({ node: { id, path: pagePath, bounds } }) => {
+            if (bounds === null || bounds === undefined) return
+
             createPage({
               path: `${pagePath}/map`,
               context: { id },

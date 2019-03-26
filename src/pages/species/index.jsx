@@ -95,7 +95,6 @@ const IndexPage = ({
   },
 }) => {
   const [selectedLevels, setSelected] = useState(Set())
-  window.s = selectedLevels
 
   const handleDonutClick = level => {
     setSelected(
@@ -104,8 +103,6 @@ const IndexPage = ({
         : selectedLevels.add(level)
     )
   }
-
-  window.items = items
 
   // group species by vulnerability
   // take the highest vulnerability assigned to each species
@@ -121,7 +118,6 @@ const IndexPage = ({
     }
     grouped[level].push(item)
   })
-  window.grouped = grouped
 
   // sort in descending order
   const levels = Object.keys(grouped)
