@@ -85,7 +85,7 @@ const Sidebar = ({ name, path, area, slr1, slr3 }) => {
   return (
     <SidebarContainer
       mt={['2rem', '2.5rem', '2.75rem']}
-      width={['100%', '250px', '350px']}
+      width={['100%', '12rem', '16rem', '18rem']}
       isOpen
     >
       <Flex flexDirection="column" style={{ height: '100%' }}>

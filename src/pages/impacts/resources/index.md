@@ -9,6 +9,20 @@ The following resources provide you with additional information about climate im
 
 There is more information available on the [additional resources for adaptation strategies page](/strategies/resources).
 
+<hr id="FWC"></hr>
+
+## [A Guide to Climate Change Adaptation for Conservation: Resources and Tools for Climate Smart Management of Florida&apos;s Fish and Wildlife Species and Their Habitats](https://myfwc.com/media/5864/adaptation-guide.pdf)
+
+by: Florida Fish and Wildlife Conservation Commission. 2016. Tallahassee, FL.
+
+<div class="float-left thumbnail-small">
+<img src="resources-fwc.png"></img>
+</div>
+
+This adaptation guide provides a starting point from which to address the predicted impacts of climate change on Florida’s fish, wildlife, and ecosystems. The guide is intended to help the development of adaptation strategies that would be implemented by the Florida Fish and Wildlife Conservation Commission (FWC) and other natural resource management agencies and groups interested in managing natural resources in a changing climate.
+
+<div class="clear"></div>
+
 <hr id="SCH"></hr>
 
 ## [Scanning the Conservation Horizon: A Guide to Climate Change Vulnerability Assessment](https://www.nwf.org/~/media/pdfs/global-warming/climate-smart-conservation/nwfscanningtheconservationhorizonfinal92311.ashx)

@@ -67,7 +67,7 @@ const Layout = ({ children }) => {
           <Sidebar items={items} isOpen={isSidebarOpen} />
           <ContentContainer
             isOpen={!isSidebarOpen}
-            pl={[0, '12rem', '12rem', '16rem']}
+            pl={[0, '12rem', '16rem', '18rem']}
           >
             <Container px={3}>{children}</Container>
           </ContentContainer>

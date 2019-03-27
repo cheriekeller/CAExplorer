@@ -44,6 +44,12 @@ export const impacts = [
         path: '/impacts/florida/slr',
         label: 'Sea Level Rise',
         icon: 'sea_level_rise',
+        children: [
+          {
+            path: '/impacts/florida/slr_map',
+            label: 'Sea Level Rise Map',
+          },
+        ],
       },
       {
         path: '/impacts/florida/temperature',

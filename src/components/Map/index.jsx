@@ -1,5 +1,5 @@
 /* eslint-disable max-len, no-underscore-dangle */
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
 import { Box } from 'rebass'
 import L from 'leaflet'
@@ -19,6 +19,7 @@ import 'leaflet-html-legend/dist/L.Control.HtmlLegend.css'
 
 import styled, { themeGet } from 'util/style'
 import { hasWindow } from '../../util/dom'
+import { FLORIDA_BOUNDS } from '../../../config/constants'
 
 if (hasWindow) {
   // Make leaflet icons work properly from webpack / react context
@@ -29,6 +30,8 @@ if (hasWindow) {
   // the other Leaflet components don't need mocking
   L.tileLayer = () => {}
 }
+
+const [flWest, flSouth, flEast, flNorth] = FLORIDA_BOUNDS
 
 const Wrapper = styled(Box)`
   position: absolute;
@@ -41,6 +44,9 @@ const Wrapper = styled(Box)`
   @media screen and (max-width: ${themeGet('breakpoints.0')}) {
     .leaflet-control-attribution {
       display: none;
+    }
+    .leaflet-bottom {
+      bottom: 3rem;
     }
   }
 
@@ -136,6 +142,7 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
   }
 
   const layerBounds = [[south, west], [north, east]]
+  const slrOpacity = id !== null ? 0.2 : 0.75
 
   const mapNode = useRef(null)
   let map = null
@@ -145,16 +152,114 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
     map.fitBounds(layerBounds)
     window.map = map
 
-    // add habitat
-    const habitatLayer = L.tileLayer(
-      `https://tiles.climateadaptationexplorer.org/services/${id}/tiles/{z}/{x}/{y}.png`,
+    const slrLayer = L.tileLayer(
+      'https://tiles.climateadaptationexplorer.org/services/slr/tiles/{z}/{x}/{y}.png',
       {
+        opacity: slrOpacity,
         maxNativeZoom: 14,
-        bounds: layerBounds,
+        bounds: [[flSouth, flWest], [flNorth, flEast]],
         zIndex: 2,
       }
     )
-    map.addLayer(habitatLayer)
+    map.addLayer(slrLayer)
+
+    // add habitat
+    if (id !== null) {
+      const habitatLayer = L.tileLayer(
+        `https://tiles.climateadaptationexplorer.org/services/${id}/tiles/{z}/{x}/{y}.png`,
+        {
+          maxNativeZoom: 14,
+          bounds: layerBounds,
+          zIndex: 3,
+        }
+      )
+      map.addLayer(habitatLayer)
+
+      L.control
+        .htmllegend({
+          position: 'topleft',
+          legends: [
+            {
+              name: 'Sea Level Rise Impacts',
+              layer: habitatLayer,
+              elements: [
+                {
+                  label: 'Impacted by 1 meter',
+                  html: null,
+                  style: { 'background-color': '#0D47A1' },
+                },
+                {
+                  label: 'Impacted by 3 meters',
+                  html: null,
+                  style: { 'background-color': '#90CAF9' },
+                },
+                {
+                  label: 'Not impacted by up to 3 meters',
+                  html: null,
+                  style: { 'background-color': '#388E3C' },
+                },
+                {
+                  label: '1 meter (outside habitat)',
+                  html: '',
+                  style: {
+                    'background-color': `rgba(13, 71, 161, ${slrOpacity})`,
+                  },
+                },
+                {
+                  label: '3 meter (outside habitat)',
+                  html: '',
+                  style: {
+                    'background-color': `rgba(144, 202, 249, ${slrOpacity})`,
+                  },
+                },
+              ],
+            },
+          ],
+          defaultOpacity: 0.75,
+          visibleIcon: 'icon icon-eye',
+          hiddenIcon: 'icon icon-eye-slash',
+          toggleIcon: null,
+          updateOpacity: (layer, opacity) => {
+            layer.setOpacity(opacity)
+          },
+        })
+        .addTo(map)
+    } else {
+      L.control
+        .htmllegend({
+          position: 'topleft',
+          legends: [
+            {
+              name: 'Sea Level Rise Impacts',
+              layer: slrLayer,
+              elements: [
+                {
+                  label: 'Impacted by 1 meter',
+                  html: '',
+                  style: {
+                    'background-color': `rgba(13, 71, 161, ${slrOpacity})`,
+                  },
+                },
+                {
+                  label: 'Impacted by 3 meters',
+                  html: '',
+                  style: {
+                    'background-color': `rgba(144, 202, 249, ${slrOpacity})`,
+                  },
+                },
+              ],
+            },
+          ],
+          defaultOpacity: slrOpacity,
+          visibleIcon: 'icon icon-eye',
+          hiddenIcon: 'icon icon-eye-slash',
+          toggleIcon: null,
+          updateOpacity: (layer, opacity) => {
+            layer.setOpacity(opacity)
+          },
+        })
+        .addTo(map)
+    }
 
     L.control.zoom({ position: 'topright' }).addTo(map)
     L.control.zoomBox({ position: 'topright' }).addTo(map)
@@ -183,59 +288,28 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
       })
       .addTo(map)
 
-    L.control
-      .htmllegend({
-        position: 'bottomright',
-        legends: [
-          {
-            name: 'Sea Level Rise Impacts',
-            layer: habitatLayer,
-            elements: [
-              {
-                label: 'Impacted by 1 meter',
-                html: null,
-                style: { 'background-color': '#0D47A1' },
-              },
-              {
-                label: 'Impacted by 3 meters',
-                html: null,
-                style: { 'background-color': '#90CAF9' },
-              },
-              {
-                label: 'Not impacted by up to 3 meters',
-                html: null,
-                style: { 'background-color': '#388E3C' },
-              },
-            ],
-          },
-        ],
-        defaultOpacity: 1,
-        visibleIcon: 'icon icon-eye',
-        hiddenIcon: 'icon icon-eye-slash',
-        toggleIcon: null,
-        updateOpacity: (layer, opacity) => {
-          layer.setOpacity(opacity)
-        },
-      })
-      .addTo(map)
-
     return () => {
       map.remove()
     }
   })
 
   return (
-    <Wrapper mt={['2rem', '2.5rem', '2.75rem']} ml={[0, '250px', '350px']}>
+    <Wrapper
+      mt={['2rem', '2.5rem', '2.75rem']}
+      ml={[0, '12rem', '16rem', '18rem']}
+    >
       <div ref={mapNode} style={{ width: '100%', height: '100%' }} />
     </Wrapper>
   )
 }
 
 Map.propTypes = {
-  id: PropTypes.string.isRequired,
   bounds: PropTypes.arrayOf(PropTypes.number).isRequired,
+  id: PropTypes.string,
 }
 
-Map.defaultProps = {}
+Map.defaultProps = {
+  id: null,
+}
 
 export default Map

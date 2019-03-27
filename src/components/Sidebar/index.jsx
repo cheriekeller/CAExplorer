@@ -333,7 +333,7 @@ const Sidebar = ({ items, isOpen }) => {
     <SidebarContainer
       id="Sidebar"
       isOpen={isOpen}
-      width={['100%', '12rem', '12rem', '16rem']}
+      width={['100%', '12rem', '16rem', '18rem']}
     >
       <ItemList items={nav} />
     </SidebarContainer>
