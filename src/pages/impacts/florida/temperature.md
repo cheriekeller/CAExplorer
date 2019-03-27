@@ -5,13 +5,82 @@ title: Changes in Temperature
 
 <content-header icon="temperature_change" title="Changes in Temperature"></content-header>
 
-All areas of Florida are expected to see increases in temperature by the 2080s. The mean departure from average temperatures is greater in north Florida (more change) than in south Florida. The mean departure is greater in the summer and fall than winter for all regions of the state.
+Based on available emission scenarios and the ensemble of climatic circulation models, annual average temperatures across the state are projected to markedly increase toward the end of the century. All areas of Florida are expected to see increases in temperature by the 2080s.
 
-Based on available emission scenarios and the ensemble of climatic circulation models, annual average temperatures across the state are projected to markedly increase toward the end of the century. These departures from the 1961-1990 average temperatures are projected to be more severe in the northern portions of the state, gradually decreasing in severity to the south.
+On average across the state, average annual temperatures are expected to increase by more than 6.5°F by the end of the 21st century.
 
-Impacts caused by changes in temperature will vary based on ecosystem type; Coastal and Terrestrial, Freshwater, and Estuarine/Marine.
+### Warmer Average Temperatures
 
-**TODO: table of regions and projections**
+The degree of change in temperature will vary across the state. Average annual temperatures are expected to increase more in north Florida (more change) than in south Florida.
+
+<br />
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Panhandle</th>
+<th>North Peninsula</th>
+<th>Central</th>
+<th>South</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2050 annual</td>
+<td>+3.5°F</td>
+<td>+3.4°F</td>
+<td>+3.1°F</td>
+<td>+2.9°F</td>
+</tr>
+
+<tr>
+<td>2080 annual</td>
+<td>+5.2°F</td>
+<td>+5.0°F</td>
+<td>+4.7°F</td>
+<td>+4.3°F</td>
+</tr>
+</tbody>
+</table>
+
+<br />
+<br />
+
+### Hotter Summers
+
+The difference in temperature compared to historical averages is expected to be greater in the summer and fall than winter for all regions of the state.
+
+<br />
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Panhandle</th>
+<th>North Peninsula</th>
+<th>Central</th>
+<th>South</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2050 summer</td>
+<td>+4°F</td>
+<td>+3.7°F</td>
+<td>+3.5°F</td>
+<td>+3.1°F</td>
+</tr>
+
+<tr>
+<td>2080 summer</td>
+<td>+5.8°F</td>
+<td>+5.5°F</td>
+<td>+5.1°F</td>
+<td>+4.6°F</td>
+</tr>
+</tbody>
+</table>
 
 Changes such as the number of extremely hot days or fewer days with below freezing temperatures are likely to be more important than average temperature changes and will cause impacts to species and habitats.
 

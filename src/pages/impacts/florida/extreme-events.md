@@ -20,5 +20,3 @@ Other extreme events such as floods and droughts can also be difficult to predic
 </div>
 
 Although the overall projection for changes in Florida’s precipitation ranges from minimal increases to moderate decreases, if the pattern of the precipitation changes so that most of the annual precipitation comes in fewer but more significant precipitation events, there could be an increase in flood events. Drought may be more likely to occur, particularly in south Florida, given the projections for moderate precipitation decreases. Decreased precipitation coupled with increased temperatures will increase the rate of evapotranspiration, reducing the amount of time water is on the ground.
-
-Impacts caused by increased extreme events will vary based on ecosystem type; Coastal, Terrestrial, Freshwater, and Estuarine/Marine.
