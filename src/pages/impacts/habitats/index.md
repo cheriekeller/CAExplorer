@@ -47,20 +47,26 @@ Conservation Assets (formerly known as Priority Resources) were identified by th
 
 Conservation assets include:
 
-- High Pine and Scrub
-- Pine Flatwoods and Dry Prairie
-- Hardwood Forested Uplands
-- Coastal Uplands
-- Freshwater Forested Wetlands
-- Freshwater Non-forested Wetlands
-- Rivers and Streams
-- Lakes, Ponds, and Reservoirs
-- Springs
-- Mangrove Swamp
-- Saltwater Marsh
-- Seagrass
-- Coral Reef / Hardbottom
-- Marine / Estuarine System (inlets, bays, open ocean)
-- Working Lands
+#### Coastal and Terrestrial Ecosystems:
 
-**TODO:crosslinks**
+- [Coastal Uplands](/habitats/coastal/1601)
+- [Hardwood Forested Uplands](/habitats/terrestrial/1100)
+- [High Pine and Scrub](/habitats/terrestrial/1200)
+- [Pine Flatwoods and Dry Prairie](/habitats/terrestrial/1300)
+- [Working Lands](/habitats/terrestrial/1830)
+
+#### Freshwater Ecosystems:
+
+- [Freshwater Non-forested Wetlands](/habitats/freshwater/2100)
+- [Freshwater Forested Wetlands](/habitats/freshwater/2200)
+- [Lakes, Ponds, and Reservoirs](/habitats/freshwater/3100)
+- [Rivers and Streams](/habitats/freshwater/4000)
+- [Springs](/habitats/freshwater/4001)
+
+#### Marine & Estuarine Ecosystems:
+
+- [Marine / Estuarine System (inlets, bays, open ocean)](/habitats/marine/5200)
+- [Saltwater Marsh](/habitats/marine/5240)
+- [Mangrove Swamp](/habitats/marine/5250)
+- [Coral Reef and Hardbottom](/habitats/marine/6100)
+- [Seagrass](/habitats/marine/6200)
