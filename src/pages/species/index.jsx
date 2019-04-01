@@ -73,7 +73,7 @@ const ListItemWrapper = styled(Box).attrs({
   flex: '0 1 14em',
 })``
 
-const ListItem = ({ icon, name, path, level }) => (
+const ListItem = ({ icon, commonName: name, path, level }) => (
   <ListItemWrapper>
     <Flex>
       <InlineIcon
@@ -195,13 +195,13 @@ export const pageQuery = graphql`
           id
           icon
           path
-          name
-          name2
+          commonName
+          scientificName
           group
           subgroup
           area
-          slr1
-          slr3
+          slr1m
+          slr3m
           bounds
           vulnerability
         }

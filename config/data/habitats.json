@@ -19,9 +19,8 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/bigcypressnps/31599616877/",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "ecosystem",
-    "name": "Terrestrial",
-    "name2": null,
     "path": "/habitats/terrestrial",
     "icon": "terrestrial_ecosystems",
     "bounds": null,
@@ -48,9 +47,8 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/bigcypressnps/31752020315/",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "conservation asset",
-    "name": "Hardwood Forested Uplands",
-    "name2": null,
     "path": "/habitats/terrestrial/1100",
     "icon": "hardwood_forested_uplands",
     "bounds": [-87.613, 24.489, -79.879, 31.039],
@@ -77,9 +75,50 @@
     "photoCredit": "Gary Knight, FNAI",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Provide education and incentives for neighboring landowners to reduce critical invasive plants and assist in detection of new species.",
+        "Work with volunteers to control invasive species.",
+        "Work with communities and landowners to choose native vegetation in favor of non-native vegetation.",
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash."
+      ],
+      "Monitoring": [
+        "Monitor for shifting phenology \u2013 and potential phenological mismatches as species alter the timing of events such as breeding, flowering, migration.",
+        "Conduct surveys to detect new infestations of invasive species and presence of new species.",
+        "Monitor status of indicator species to guide or inform adaptive management.",
+        "Monitor species diversity and habitat transition over time in response to sea level rise and changing climatological conditions."
+      ],
+      "Planning": [
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens.",
+        "Reduce roadway and paved area construction near sensitive systems to maintain natural hydrology.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Plan timing of restoration activities to avoid impacts on rare species during critical life history phases and during times of increased stress due to impacts from climate change.",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans."
+      ],
+      "Policy": [
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Revise zoning codes to protect areas from adverse impacts from development.",
+        "Reduce public access to areas as they become stressed/impacted by climate change and more susceptible to non-climate stressors."
+      ],
+      "Protection": [
+        "Preserve remaining rockland hammock and buffers.",
+        "Identify and prioritize protection of corridors between rockland hammock and other natural habitats that will promote species migration corridors.",
+        "Limit the amount of ground water that can be withdrawn, especially in times of decreased precipitation or drought.",
+        "Reduce or eliminate mosquito spraying on and adjacent to rockland hammock.",
+        "Consider relocating rare species to higher elevation areas when critical populations may be affected by impacts from sea level rise (e.g., increased soil salinity).",
+        "Reduce or eliminate pesticide spray and dust from adjacent agricultural and commercial operations.",
+        "Develop ex-situ living collections of unique/endemic plant species with partners such as botanic gardens and arboreta.",
+        "Eliminate use of herbicide adjacent to sources of freshwater (e.g., sinkholes)."
+      ],
+      "Restoration": [
+        "Prioritize restoration activities on areas of higher elevation (more secure from sea level rise).",
+        "Remove roads within protected areas.",
+        "Use plant stock that will be resilient in response to climate change, e.g., species with similar structure and function but with higher salt tolerance.",
+        "Remove new invasive species before they become established."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Rockland Hammock",
-    "name2": "Hardwood Forested Uplands",
     "path": "/habitats/terrestrial/1130",
     "icon": "hardwood_forested_uplands",
     "bounds": [-82.008, 24.491, -80.097, 27.274],
@@ -106,9 +145,8 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "conservation asset",
-    "name": "High Pine and Scrub",
-    "name2": null,
     "path": "/habitats/terrestrial/1200",
     "icon": "high_pine_scrub",
     "bounds": [-87.631, 24.524, -79.879, 31.042],
@@ -135,9 +173,57 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Expand prescribed fire training opportunities for both public and private land managers.",
+        "Educate planners on importance of habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts.",
+        "Work with partners at landscape scales to strengthen and maximize use of existing conservation programs, particularly conservation easement tax incentives, the private lands programs focused on endangered species, and other federal and state private lands incentive programs to conserve private lands of high conservation value, to enhance habitat values and maintain working landscapes under climate change.",
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash.",
+        "Work with volunteers to control invasive species.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Develop education materials for recreational users on the importance of phenology factors, how they may change over time given climate change impacts, and how they relate to regulations/closures."
+      ],
+      "Monitoring: ": [
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Monitor invasive plants and animals.",
+        "Evaluate the effectiveness of various land management practices in reducing the impact of climate change.",
+        "Document changes in vegetation structure and composition to track climate change effects.",
+        "Monitor for changes in the number, size, configuration of sandy openings within scrub."
+      ],
+      "Planning": [
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Determine how to minimize impacts from potential increased use of mechanical treatments, as they become the best management option when prescribed fire is no longer an option.",
+        "Incorporate fire risk into land use planning.",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans.",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens.",
+        "Conduct a predictive assessment of current and potential invasive species ranges and impacts."
+      ],
+      "Policy": [
+        "Create a moratorium on developing in undisturbed areas of endemic habitats, focusing development in previously developed and/or abandoned areas.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions."
+      ],
+      "Protection:  ": [
+        "Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridor habitats that will provide connectivity under current and future conditions.",
+        "Maintain habitat quality to enhance the resilience of scrub to changing conditions.",
+        "Preserve scrub areas and buffers that are not yet impacted by human development.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Protect and maintain high quality native seed sources including identifying areas for seed collection across latitudinal ranges of target species.",
+        "Seed bank, develop, and deploy as appropriate plant materials for restoration that will be resilient in response to climate change."
+      ],
+      "Restoration": [
+        "Connect existing areas of protected scrub by acquiring lands for conservation between them.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Remove new species of invasive plants before they become established.",
+        "Restore native understory plant communities, using stock that is more likely to persist in future climatic conditions.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats.",
+        "Allow for shifting plant species composition in response to changes in precipitation, especially in areas that may become wetter.",
+        "Remove roads within scrub areas and restore fire break ditches, only use temporary firebreaks, as needed.",
+        "Increase acreage of scrub communities in maintenance condition class."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Scrub",
-    "name2": "High Pine and Scrub",
     "path": "/habitats/terrestrial/1210",
     "icon": "high_pine_scrub",
     "bounds": [-87.575, 24.524, -79.881, 30.994],
@@ -164,9 +250,54 @@
     "photoCredit": "USFWS",
     "photoUrl": "https://www.flickr.com/photos/usfwssoutheast/33877629955/",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with volunteers to control invasive species.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts.",
+        "Work with partners at landscape scales to strengthen and maximize use of existing conservation programs, particularly conservation easement tax incentives, the private lands programs focused on endangered species, and other federal and state private lands incentive programs to conserve private lands of high conservation value, to enhance habitat values and maintain working landscapes under climate change.",
+        "Implement outreach to increase public understanding of the benefits of prescribed fire and the increased wildfire risks due to climate change.",
+        "Expand prescribed fire training opportunities for both public and private land managers."
+      ],
+      "Monitoring: ": [
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor for signs of beetle outbreaks.",
+        "Document changes in vegetation structure and composition to track climate change effects.",
+        "Evaluate the effectiveness of various land management practices in reducing the impact of climate change."
+      ],
+      "Planning": [
+        "Incorporate fire risk into land use planning.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans.",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens.",
+        "Conduct a predictive assessment of current and potential invasive species ranges and impacts."
+      ],
+      "Policy": [
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions."
+      ],
+      "Protection:  ": [
+        "Maintain habitat quality to enhance the resilience of upland pine areas to changing conditions.",
+        "Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridor habitats that will provide connectivity under current and future conditions.",
+        "Seed bank, develop, and deploy as appropriate plant materials for restoration that will be resilient in response to climate change.",
+        "Protect and maintain high quality native seed sources including identifying areas for seed collection across latitudinal ranges of target species.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Preserve upland pines and their buffers that are not yet impacted by human development."
+      ],
+      "Restoration": [
+        "Restore native understory plant communities, using stock that is more likely to persist in future climatic conditions.",
+        "Remove new species of invasive plants before they become established.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Increase acreage of upland pine communities in maintenance condition class.",
+        "Eliminate hydrologic barriers/conveyances.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Upland Pine",
-    "name2": "High Pine and Scrub",
     "path": "/habitats/terrestrial/1231",
     "icon": "high_pine_scrub",
     "bounds": [-87.631, 27.191, -80.576, 31.042],
@@ -193,9 +324,61 @@
     "photoCredit": "Randy Kautz",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Educate private landowners about the multiple advantages of longleaf pine restoration can yield and the benefits for the climate and the economy.",
+        "Provide training concerning the re-establishment and management of longleaf pine ecosystems, especially on how to incorporate healthy fire regimes.",
+        "Expand prescribed fire training opportunities for both public and private land managers.",
+        "Develop education materials for recreational users on the importance of phenology factors, how they may change over time given climate change impacts, and how they relate to regulations/closures.",
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash.",
+        "Work with partners at landscape scales to strengthen and maximize use of existing conservation programs, particularly conservation easement tax incentives, the private lands programs focused on endangered species, and other federal and state private lands incentive programs to conserve private lands of high conservation value, to enhance habitat values and maintain working landscapes under climate change.",
+        "Work with volunteers to control invasive species.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Educate planners on importance of habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts."
+      ],
+      "Monitoring: ": [
+        "Monitor invasive plants and animals.",
+        "Evaluate the effectiveness of various land management practices in reducing the impact of climate change.",
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Document changes in vegetation structure and composition to track climate change effects.",
+        "Monitor for signs of beetle outbreaks."
+      ],
+      "Planning": [
+        "Incorporate fire risk into land use planning.",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Build upon and implement key components of the 2009 Range-wide Conservation Plan for Longleaf Pine.",
+        "Work with the Longleaf Partnership Council on identified strategic priorities and actions.",
+        "Conduct a predictive assessment of current and potential invasive species ranges and impacts.",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens."
+      ],
+      "Policy": [
+        "Develop expanded cost-share payments for private landowners through state and federal cooperative forest programs for reforestation of longleaf pine.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Modify the Conservation Reserve Program to create stronger incentives for longleaf pine restoration."
+      ],
+      "Protection:  ": [
+        "Maintain habitat quality to enhance the resilience of sandhill to changing conditions.",
+        "Preserve sandhill areas and buffers that are not yet impacted by human development.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Protect and maintain high quality native seed sources including identifying areas for seed collection across latitudinal ranges of target species.",
+        "Seed bank, develop, and deploy as appropriate plant materials for restoration that will be resilient in response to climate change.",
+        "Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridor habitats that will provide connectivity under current and future conditions."
+      ],
+      "Restoration": [
+        "Increase acreage of sandhill communities in maintenance condition class.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Eliminate hydrologic barriers/conveyances.",
+        "Restore and expand healthy longleaf pine forests \u2013 longleaf pine may be better suited to thrive in the coming decades than other southern pine species.",
+        "Restore mixed stand forests with a longleaf component to longleaf-dominated stands.",
+        "Restore native understory plant communities, using stock that is more likely to persist in future climatic conditions.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats.",
+        "Remove new species of invasive plants before they become established."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Sandhill",
-    "name2": "High Pine and Scrub",
     "path": "/habitats/terrestrial/1240",
     "icon": "high_pine_scrub",
     "bounds": [-87.471, 27.129, -80.283, 31.015],
@@ -222,9 +405,8 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "conservation asset",
-    "name": "Pine Flatwoods and Dry Prairie",
-    "name2": null,
     "path": "/habitats/terrestrial/1300",
     "icon": "pine_flatwoods_dry_prairie",
     "bounds": [-87.583, 24.626, -79.89, 31.038],
@@ -251,9 +433,51 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Expand prescribed fire training opportunities for both public and private land managers.",
+        "Develop education materials for recreational users on the importance of phenology factors, how they may change over time given climate change impacts, and how they relate to regulations/closures.",
+        "Educate planners on importance of habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts.",
+        "Work with partners at landscape scales to strengthen and maximize use of existing conservation programs, particularly conservation easement tax incentives, the private lands programs focused on endangered species, and other federal and state private lands incentive programs to conserve private lands of high conservation value, to enhance habitat values and maintain working landscapes under climate change.",
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash"
+      ],
+      "Monitoring: ": [
+        "Monitor for signs of beetle outbreaks.",
+        "Monitor invasive plants and animals.",
+        "Document changes in vegetation structure and composition to track climate change effects.",
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Evaluate the effectiveness of various land management practices in reducing the impact of climate change."
+      ],
+      "Planning": [
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation",
+        "Incorporate fire risk into land use planning.",
+        "Conduct a predictive assessment of current and potential invasive species ranges and impacts",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans"
+      ],
+      "Policy": [
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Develop expanded cost-share payments for private landowners through state and federal cooperative forest programs for reforestation.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Identify overused areas and limit recreational trails/roads and OHV use."
+      ],
+      "Protection:  ": [
+        "Expand protected areas to increase the representation of pinelands and minimize risk of loss across the landscape.",
+        "Preserve pineland systems and buffers that are not yet impacted by human development.",
+        "Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridor habitats that will provide connectivity under current and future conditions.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Identify important (and potentially resilient) pineland systems to serve as refugia, prioritize inclusion in land protection planning efforts."
+      ],
+      "Restoration": [
+        "Increase acreage of pinelands in maintenance condition class.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Remove new species of invasive plants before they become established.",
+        "Restore native understory plant communities, using stock that is more likely to persist in future climatic conditions.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats.",
+        "Eliminate hydrologic barriers/conveyances."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Dry Flatwoods",
-    "name2": "Pine Flatwoods and Dry Prairie",
     "path": "/habitats/terrestrial/1310",
     "icon": "pine_flatwoods_dry_prairie",
     "bounds": [-87.583, 25.93, -79.89, 31.038],
@@ -280,9 +504,50 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Expand prescribed fire training opportunities for both public and private land managers.",
+        "Develop education materials for recreational users on the importance of phenology factors, how they may change over time given climate change impacts, and how they relate to regulations/closures.",
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash",
+        "Work with partners at landscape scales to strengthen and maximize use of existing conservation programs, particularly conservation easement tax incentives, the private lands programs focused on endangered species, and other federal and state private lands incentive programs to conserve private lands of high conservation value, to enhance habitat values and maintain working landscapes under climate change",
+        "Educate planners on importance of habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts."
+      ],
+      "Monitoring: ": [
+        "Monitor invasive plants and animals.",
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Evaluate the effectiveness of various land management practices in reducing the impact of climate change.",
+        "Document changes in vegetation structure and composition to track sea level rise and climate change effects."
+      ],
+      "Planning": [
+        "Incorporate fire risk into land use planning.",
+        "Review, evaluate and revise grazing policies on conservation lands, as needed in response to impacts to the system due to climate change.",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Conduct a predictive assessment of current and potential invasive species ranges and impacts",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens"
+      ],
+      "Policy": [
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions."
+      ],
+      "Protection:  ": [
+        "Expand protected areas to increase the representation of mesic flatwoods and minimize risk of loss across the landscape.",
+        "Identify important (and potentially resilient) mesic flatwoods to serve as refugia, prioritize inclusion in land protection planning efforts.",
+        "Preserve mesic flatwoods and buffers that are not yet impacted by human development.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridor habitats that will provide connectivity under current and future conditions."
+      ],
+      "Restoration": [
+        "Increase acreage of fire-dependent communities to maintenance condition class",
+        "Eliminate hydrologic barriers/conveyances",
+        "Remove new species of invasive plants before they become established.",
+        "Restore native understory plant communities \u2013 seed transfer and/or commercial production of native understory plant material",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible)"
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Mesic Flatwoods",
-    "name2": "Pine Flatwoods and Dry Prairie",
     "path": "/habitats/terrestrial/1311",
     "icon": "pine_flatwoods_dry_prairie",
     "bounds": [-87.583, 25.93, -79.895, 31.038],
@@ -309,9 +574,52 @@
     "photoCredit": "Paul Russo",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Expand prescribed fire training opportunities for both public and private land managers.",
+        "Provide educational materials to residents in adjacent neighborhoods on the use and need of prescribed fire in these systems, the impacts of climate change on prescribed fire, and the benefits to the human community of prescribed fire (e.g., fuel reduction to minimize wildfires).",
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash",
+        "Work with partners at landscape scales to strengthen and maximize use of existing conservation programs, particularly conservation easement tax incentives, the private lands programs focused on endangered species, and other federal and state private lands incentive programs to conserve private lands of high conservation value, to enhance habitat values and maintain working landscapes under climate change"
+      ],
+      "Monitoring: ": [
+        "Evaluate the effectiveness of various land management practices in reducing the impact of climate change.",
+        "Monitor invasive plants and animals.",
+        "Document changes in vegetation structure and composition to track sea level rise and climate change effects.",
+        "Monitor for stressed pine trees and increased impacts from southern pine beetle, especially during droughts.",
+        "Monitor and correct for any point source or non-point source pollution."
+      ],
+      "Planning": [
+        "Incorporate fire risk into land use planning.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans.",
+        "Conduct a predictive assessment of current and potential invasive species ranges and impacts",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens"
+      ],
+      "Policy": [
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions."
+      ],
+      "Protection:  ": [
+        "Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridor habitats that will provide connectivity under current and future conditions.",
+        "Reduce and remove fuel through hardwood thinning to protect areas from wildfires",
+        "Expand protected areas to increase the representation of scrubby flatwoods and minimize risk of loss across the landscape.",
+        "Preserve scrubby flatwoods and buffers that are not yet impacted by human development.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Identify important (and potentially resilient) scrubby flatwoods to serve as refugia, prioritize inclusion in land protection planning efforts."
+      ],
+      "Restoration": [
+        "Increase acreage of community in maintenance condition class for prescribed fire.",
+        "Eliminate hydrologic barriers/conveyances",
+        "Remove new species of invasive plants before they become established.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats",
+        "Use plant stock that will be resilient in response to climate change, e.g., species with similar structure and function but more tolerant to future conditions (e.g., drier, wetter, warmer)",
+        "Reduce the susceptibility of pines to increased pine beetle infestations by reducing hardwoods and other underbrush (reducing competition and overall stress of pines)",
+        "Use more longleaf pine in restoration activates due to its higher tolerance to increased temperatures and lower susceptibility to pine beetles.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible)"
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Scrubby Flatwoods",
-    "name2": "Pine Flatwoods and Dry Prairie",
     "path": "/habitats/terrestrial/1312",
     "icon": "pine_flatwoods_dry_prairie",
     "bounds": [-87.447, 25.952, -79.891, 31.016],
@@ -338,9 +646,63 @@
     "photoCredit": "USFWS",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with partners at landscape scales to strengthen and maximize use of existing conservation programs, particularly conservation easement tax incentives, the private lands programs focused on endangered species, and other federal and state private lands incentive programs to conserve private lands of high conservation value, to enhance habitat values and maintain working landscapes under climate change.",
+        "Expand prescribed fire training opportunities for both public and private land managers.",
+        "Implement outreach to increase public understanding of the increased wildfire risks due to climate change.",
+        "Develop education materials for recreational users on the importance of phenology factors, how they may change over time given climate change impacts, and how they relate to regulations/closures.",
+        "Educate planners on importance of habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts.",
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Work with communities and landowners to choose native vegetation in favor of non-native vegetation.",
+        "Work with volunteers to control invasive species."
+      ],
+      "Monitoring": [
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Monitor species diversity and habitat transition over time in response to sea level rise and changing climatological conditions.",
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Establish early detection and rapid response to potentially invasive species.",
+        "Inventory culverts and other barriers to flow.",
+        "Monitor pollutants.",
+        "Monitor quality and quantity of embedded sources of freshwater.",
+        "Monitor status of indicator species to guide or inform adaptive management."
+      ],
+      "Planning": [
+        "Plan timing of restoration activities to avoid impacts on rare species during critical life history phases and during times of increased stress due to impacts from climate change.",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Reduce roadway and paved area construction near sensitive systems to maintain natural hydrology.",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens."
+      ],
+      "Policy": [
+        "Develop policies and incentives for decreasing impervious surfaces.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Encourage the passage of state regulations to strengthen protection of pine rocklands.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Reduce public access to areas as they become stressed/impacted by climate change and more susceptible to non-climate stressors.",
+        "Centralize recreation impacts to easy-access areas."
+      ],
+      "Protection": [
+        "Preserve remaining pine rockland and buffers.",
+        "Identify and prioritize protection of corridors between pine rockland and other natural habitats that will promote species migration corridors.",
+        "Limit the amount of ground water that can be withdrawn, especially in times of decreased precipitation or drought.",
+        "Reduce or eliminate mosquito spraying on and adjacent to pine rocklands.",
+        "Reduce or eliminate pesticide spray and dust from adjacent agricultural and commercial operations.",
+        "Develop ex-situ living collections of unique/endemic plant species with partners such as botanic gardens and arboreta.",
+        "Consider relocating rare species to higher elevation areas when critical populations may be affected by impacts from sea level rise (e.g., increased soil salinity).",
+        "Eliminate use of herbicide adjacent to sources of freshwater (e.g., sinkholes)."
+      ],
+      "Restoration": [
+        "Remove new invasive species before they become established.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Remove roads within protected areas.",
+        "Restore firebreak ditches, creating temporary firebreaks as needed.",
+        "Use plant stock that will be resilient in response to climate change, e.g., species with similar structure and function but with higher salt tolerance.",
+        "Prioritize restoration activities on areas of higher elevation (more secure from sea level rise)."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Pine Rockland",
-    "name2": "Pine Flatwoods and Dry Prairie",
     "path": "/habitats/terrestrial/1320",
     "icon": "pine_flatwoods_dry_prairie",
     "bounds": [-81.556, 24.631, -80.275, 25.768],
@@ -367,9 +729,50 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash.",
+        "Work with partners at landscape scales to strengthen and maximize use of existing conservation programs, particularly conservation easement tax incentives, the private lands programs focused on endangered species, and other federal and state private lands incentive programs to conserve private lands of high conservation value, to enhance habitat values and maintain working landscapes under climate change",
+        "Expand prescribed fire training opportunities for both public and private land managers."
+      ],
+      "Monitoring: ": [
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Monitor invasive plants and animals.",
+        "Document changes in vegetation structure and composition to track sea level rise and climate change effects."
+      ],
+      "Planning": [
+        "Review, evaluate and revise grazing policies on conservation lands, as needed in response to impacts to the system due to climate change.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans.",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens.",
+        "Conduct a predictive assessment of current and potential invasive species ranges and impacts.",
+        "Incorporate fire risk into land use planning."
+      ],
+      "Policy": [
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Create stronger incentives for dry prairie restoration."
+      ],
+      "Protection:  ": [
+        "Expand protected areas to increase the representation of dry prairie and minimize risk of loss across the landscape.",
+        "Identify important (and potentially resilient) areas of dry prairie to serve as refugia, prioritize inclusion in land protection planning efforts.",
+        "Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridor habitats that will provide connectivity under current and future conditions.",
+        "Protect and maintain high quality native seed sources including identifying areas for seed collection across latitudinal ranges of target species.",
+        "Seed bank, develop, and deploy as appropriate plant materials for restoration that will be resilient in response to climate change.",
+        "Preserve dry prairie and buffers that are not yet impacted by human development.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base."
+      ],
+      "Restoration": [
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats.",
+        "Restore native understory plant communities \u2013 seed transfer and/or commercial production of native understory plant material.",
+        "Remove invasive plants.",
+        "Eliminate hydrologic barriers/conveyances.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Increase acreage of dry prairie to maintenance condition class."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Dry Prairie",
-    "name2": "Pine Flatwoods and Dry Prairie",
     "path": "/habitats/terrestrial/1330",
     "icon": "pine_flatwoods_dry_prairie",
     "bounds": [-82.356, 26.755, -80.823, 28.149],
@@ -396,9 +799,8 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/evergladesnps/9099277339/",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "ecosystem",
-    "name": "Coastal",
-    "name2": null,
     "path": "/habitats/coastal",
     "icon": "coastal_ecosystems",
     "bounds": null,
@@ -425,9 +827,8 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/evergladesnps/30723302738/in/album-72157634250596196/",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "conservation asset",
-    "name": "Coastal Uplands",
-    "name2": null,
     "path": "/habitats/coastal/1601",
     "icon": "coastal_uplands",
     "bounds": [-87.532, 24.481, -79.884, 30.739],
@@ -454,9 +855,57 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Promote \u201ckeeping cats indoors\u201d to protect beach nesting activities.",
+        "Educate landowners and planners on benefits of structural walkways over a dune rather than pedestrian pathways through dunes.",
+        "Educate planners on importance of a healthy resilient coastal systems to protect against coastal hazards.",
+        "Work with communities and landowners to choose native vegetation in favor of non-native vegetation.",
+        "Provide education on the benefits of soft shoreline stabilization methods.",
+        "Work with local communities to remove dumped and washed up debris and garbage.",
+        "Work with communities and landowners to choose vegetation, living shorelines, oyster reef restoration, or hybrid approaches in favor of traditional hard armoring."
+      ],
+      "Monitoring": [
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Monitor phenology.",
+        "Encourage periodic bioblitz events to capture comprehensive inventories, repeat periodically (5 to 10 years).",
+        "Monitor, map  and research shifts in communities; identify sensitive and resilient species.",
+        "Develop a monitoring program to track dune health."
+      ],
+      "Planning": [
+        "Coordinate with County staff to incorporate sea level rise adaptation strategies into comprehensive plans and post-storm redevelopment activities.",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans.",
+        "Modify conservation management priorities to include species and habitat adaptation to the effects of climate change.",
+        "Incorporate altered or restricted points of access into plans to accommodate impacts from climate change."
+      ],
+      "Policy": [
+        "Centralize recreation impacts to easy-access areas.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Institute or strengthen building codes in flood- and erosion-prone areas to reduce erosion to the dunes.",
+        "Implement restrictions on the use of hardened shoreline protection structures.",
+        "Zone development away from sensitive and hazard-prone areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions."
+      ],
+      "Protection": [
+        "Preserve undeveloped and vulnerable shoreline.",
+        "Maintain corridors and linkages between undeveloped areas.",
+        "Identify and protect locations where native species may shift or lose habitat due to climate change impacts.",
+        "Develop conservation easements  to protect climate-vulnerable areas.",
+        "Protect coastal vegetation to reduce the impact of increased disturbance events (intense storms, increased erosion) and encourage aeolian sand capture. Create setbacks or rolling easements."
+      ],
+      "Restoration": [
+        "Create dunes along backshore of beach; includes planting dune grasses and sand fencing to induce settling of wind-blown sands.",
+        "Replace impervious surfaces with permeable pavement to allow runoff to flow through and be temporarily stored prior to discharge, in areas adjacent to wetlands.",
+        "Reduce impacts from points of access (e.g., paths, boardwalks).",
+        "Remove shoreline hardening structures such as bulkheads, dikes, and other engineered structures to allow for shoreline migration.",
+        "Develop corridors and linkages between undeveloped areas.",
+        "Replace shoreline armoring with living shorelines \u2013 through beach nourishment, planting vegetation, etc.",
+        "Restore coastal vegetation to reduce the impact of increased disturbance events (intense storms, increased erosion) and encourage aeolian sand capture.",
+        "Restore coastal vegetation to improve habitat for species that require early successional habitat.",
+        "Remove invasive plants."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Beach Dune",
-    "name2": "Coastal Uplands",
     "path": "/habitats/coastal/1610",
     "icon": "coastal_uplands",
     "bounds": [-87.523, 24.483, -79.888, 30.728],
@@ -483,9 +932,55 @@
     "photoCredit": "Randy Grau, FNAI",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Educate landowners and planners on benefits of structural walkways over vegetation rather than pedestrian pathways through vegetation/dunes.",
+        "Educate planners on importance of a healthy resilient coastal systems to protect against coastal hazards.",
+        "Work with communities and landowners to choose vegetation, living shorelines, oyster reef restoration, or hybrid approaches in favor of traditional hard armoring.",
+        "Work with communities and landowners to choose native vegetation in favor of non-native vegetation.",
+        "Promote \u201ckeeping cats indoors\u201d to protect beach nesting activities ."
+      ],
+      "Monitoring": [
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Monitor phenology.",
+        "Monitor, map  and research shifts in communities; identify sensitive and resilient species.",
+        "Encourage periodic bioblitz events to capture comprehensive inventories, repeat periodically (5 to 10 years)."
+      ],
+      "Planning": [
+        "Coordinate with County staff to incorporate sea level rise adaptation strategies into comprehensive plans and post-storm redevelopment activities",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Modify conservation management priorities to include species and habitat adaptation to the effects of climate change.",
+        "Incorporate altered or restricted points of access into plans to accommodate impacts from climate change."
+      ],
+      "Policy": [
+        "Consider restrictions on other human activities (e.g., mechanical beach cleaning, armoring) that pose a threat to species through disturbance and/or habitat degradation",
+        "Restrict development and other land uses that alter disturbance processes in sensitive areas",
+        "Centralize recreation impacts to easy-access areas.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Zone development away from sensitive and hazard-prone areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Institute or strengthen building codes in flood- and erosion-prone areas to reduce erosion."
+      ],
+      "Protection": [
+        "Protect potential refugia, corridors, and relocation sites.",
+        "Protect coastal vegetation to reduce the impact of increased disturbance events (intense storms, increased erosion) and encourage aeolian sand capture.",
+        "Create setbacks or rolling easements.",
+        "Preserve undeveloped and vulnerable shoreline.",
+        "Identify and protect locations where native species may shift or lose habitat due to climate change impacts.",
+        "Develop conservation easements  to protect climate-vulnerable areas.",
+        "Maintain corridors and linkages between undeveloped areas."
+      ],
+      "Restoration": [
+        "Restore and/or protect coastal vegetation to reduce the impact of increased disturbance events (intense storms, increased erosion) and encourage aeolian sand capture",
+        "Develop corridors and linkages between undeveloped areas.",
+        "Reduce impacts from points of access (e.g., paths, boardwalks).",
+        "Remove invasive plants and prevent new species from becoming established.",
+        "Restore native plant communities, using stock that is more likely to persist in future climatic conditions.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats.",
+        "Restore coastal vegetation to improve habitat for species that require early successional habitat."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Coastal Berm",
-    "name2": "Coastal Uplands",
     "path": "/habitats/coastal/1620",
     "icon": "coastal_uplands",
     "bounds": [-84.188, 24.493, -80.126, 30.105],
@@ -512,9 +1007,55 @@
     "photoCredit": "Ann F. Johnson, FNAI",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Educate landowners and planners on benefits of structural walkways over vegetation rather than pedestrian pathways through vegetation/dunes.",
+        "Educate planners on importance of a healthy resilient coastal systems to protect against coastal hazards.",
+        "Work with communities and landowners to choose native vegetation in favor of non-native vegetation.",
+        "Work with communities and landowners to choose vegetation, living shorelines, oyster reef restoration, or hybrid approaches in favor of traditional hard armoring.",
+        "Promote \u201ckeeping cats indoors\u201d to protect beach nesting activities ."
+      ],
+      "Monitoring": [
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Monitor phenology.",
+        "Monitor, map  and research shifts in communities; identify sensitive and resilient species.",
+        "Encourage periodic bioblitz events to capture comprehensive inventories, repeat periodically (5 to 10 years)."
+      ],
+      "Planning": [
+        "Coordinate with County staff to incorporate sea level rise adaptation strategies into comprehensive plans and post-storm redevelopment activities",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Modify conservation management priorities to include species and habitat adaptation to the effects of climate change.",
+        "Incorporate altered or restricted points of access into plans to accommodate impacts from climate change."
+      ],
+      "Policy": [
+        "Consider restrictions on other human activities (e.g., mechanical beach cleaning, armoring) that pose a threat to species through disturbance and/or habitat degradation",
+        "Restrict development and other land uses that alter disturbance processes in sensitive areas",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Zone development away from sensitive and hazard-prone areas.",
+        "Institute or strengthen building codes in flood- and erosion-prone areas to reduce erosion."
+      ],
+      "Protection": [
+        "Protect potential refugia, corridors, and relocation sites.",
+        "Protect coastal vegetation to reduce the impact of increased disturbance events (intense storms, increased erosion) and encourage aeolian sand capture.",
+        "Create setbacks or rolling easements.",
+        "Develop conservation easements  to protect climate-vulnerable areas.",
+        "Preserve undeveloped and vulnerable shoreline.",
+        "Identify and protect locations where native species may shift or lose habitat due to climate change impacts.",
+        "Maintain corridors and linkages between undeveloped areas."
+      ],
+      "Restoration": [
+        "Restore coastal vegetation to improve habitat for species that require early successional habitat.",
+        "Restore and/or protect coastal vegetation to reduce the impact of increased disturbance events (intense storms, increased erosion) and encourage aeolian sand capture",
+        "Develop corridors and linkages between undeveloped areas.",
+        "Reduce impacts from points of access (e.g., paths, boardwalks).",
+        "Remove invasive plants and prevent new species from becoming established.",
+        "Restore native plant communities, using stock that is more likely to persist in future climatic conditions.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Coastal Grassland",
-    "name2": "Coastal Uplands",
     "path": "/habitats/coastal/1630",
     "icon": "coastal_uplands",
     "bounds": [-87.414, 24.484, -79.942, 30.727],
@@ -541,9 +1082,58 @@
     "photoCredit": "Randy Kautz",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with communities and landowners to choose native vegetation in favor of non-native vegetation.",
+        "Work with communities and landowners to choose vegetation, living shorelines, oyster reef restoration, or hybrid approaches in favor of traditional hard armoring.",
+        "Promote \u201ckeeping cats indoors\u201d to protect beach nesting activities .",
+        "Educate planners on importance of a healthy resilient coastal systems to protect against coastal hazards.",
+        "Educate landowners and planners on benefits of structural walkways over vegetation rather than pedestrian pathways through vegetation/dunes."
+      ],
+      "Monitoring": [
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Monitor phenology.",
+        "Encourage periodic bioblitz events to capture comprehensive inventories, repeat periodically (5 to 10 years).",
+        "Monitor, map  and research shifts in communities; identify sensitive and resilient species."
+      ],
+      "Planning": [
+        "Coordinate with County staff to incorporate sea level rise adaptation strategies into comprehensive plans and post-storm redevelopment activities",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Modify conservation management priorities to include species and habitat adaptation to the effects of climate change.",
+        "Incorporate altered or restricted points of access into plans to accommodate impacts from climate change."
+      ],
+      "Policy": [
+        "Consider restrictions on other human activities (e.g., mechanical beach cleaning, armoring) that pose a threat to species through disturbance and/or habitat degradation",
+        "Restrict development and other land uses that alter disturbance processes in sensitive areas",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Zone development away from sensitive and hazard-prone areas.",
+        "Implement restrictions on the use of hardened shoreline protection structures.",
+        "Institute or strengthen building codes in flood- and erosion-prone areas to reduce erosion."
+      ],
+      "Protection": [
+        "Identify areas connected to coastal terrestrial habitats that could receive protection through Florida forever and similar funding mechanisms.",
+        "Protect coastal vegetation to reduce the impact of increased disturbance events (intense storms, increased erosion) and encourage aeolian sand capture.",
+        "Create setbacks or rolling easements.",
+        "Develop conservation easements  to protect climate-vulnerable areas.",
+        "Preserve undeveloped and vulnerable shoreline.",
+        "Identify and protect locations where native species may shift or lose habitat due to climate change impacts.",
+        "Maintain corridors and linkages between undeveloped areas.",
+        "Protect potential refugia, corridors, and relocation sites."
+      ],
+      "Restoration": [
+        "Reduce impacts from points of access (e.g., paths, boardwalks).",
+        "Restore native plant communities, using stock that is more likely to persist in future climatic conditions.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats.",
+        "Develop corridors and linkages between undeveloped areas.",
+        "Remove shoreline hardening structures such as bulkheads, dikes, and other engineered structures to allow for shoreline migration.",
+        "Restore and/or protect coastal vegetation to reduce the impact of increased disturbance events (intense storms, increased erosion) and encourage aeolian sand capture.",
+        "Replace shoreline armoring with living shorelines \u2013 through beach nourishment, planting vegetation, etc.",
+        "Restore coastal vegetation to improve habitat for species that require early successional habitat."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Coastal Strand",
-    "name2": "Coastal Uplands",
     "path": "/habitats/coastal/1640",
     "icon": "coastal_uplands",
     "bounds": [-87.499, 24.6, -79.887, 30.725],
@@ -570,9 +1160,68 @@
     "photoCredit": "Jessica Therriault, FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Work with communities to reduce stormwater runoff and improve water quality.",
+        "Implement outreach to increase public understanding of the increased wildfire risks due to climate change.",
+        "Develop educational materials for private landowners on appropriate use fertilizers and pesticides and impacts on water quality, include potential incentives to reduce use.",
+        "Develop training on the use of existing and emerging tools for managing systems under climate change (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management).",
+        "Work with volunteers to control invasive species."
+      ],
+      "Monitoring": [
+        "Establish early detection and rapid response to potentially invasive species.",
+        "Monitor species diversity and habitat transition over time in response to sea level rise and changing climatological conditions.",
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor vegetation as density and distributions shift with environmental changes.",
+        "Monitor natural community range shifts.",
+        "Monitor pollutants.",
+        "Inventory culverts and other barriers to flow.",
+        "Monitor status of indicator species to guide or inform adaptive management."
+      ],
+      "Planning": [
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Incorporate climate change considerations into new and future revisions of area management plans.",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens.",
+        "Reduce roadway and paved area construction near sensitive systems to maintain natural hydrology.",
+        "Collaborate with other agencies to ensure new water control structures have consideration for future conditions."
+      ],
+      "Policy": [
+        "Encourage the passage of state regulations to strengthen protection of maritime hammock.",
+        "Develop policies and incentives for decreasing impervious surfaces.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Centralize recreation impacts to easy-access areas."
+      ],
+      "Protection": [
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Preserve maritime hammock and their buffers that are not yet impacted by human development.",
+        "Maintain habitat quality to enhance the resilience of hydric hammocks to changing conditions.",
+        "Identify and prioritize protection of corridors between maritime hammock and adjacent natural areas to enhance species movement and migration.",
+        "Protect critical areas that are naturally positioned to be more resistant to climate change.",
+        "Purchase inland development rights or property rights.",
+        "Preserve the structural complexity and biodiversity of vegetation.",
+        "Protect buffer zones to allow for future inland migration.",
+        "Establish protections for transitional habitats that will provide for range shifts and serve as potential climate refugia."
+      ],
+      "Restoration": [
+        "Plant with a mix of species that can survive in a diverse range of future climate conditions.",
+        "Improve habitat quality to enhance the resilience of maritime hammocks to changing conditions.",
+        "Cultivate multiple age classes of tree and understory species to protect stands from pests or diseases that may be more virulent to specific life stages or specific species.",
+        "Implement management practices that accommodate shifts in the timing of the rainy season and eliminate or reduce application of pesticides during this period.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads.",
+        "Eliminate hydrologic barriers/conveyances.",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Remove new species of invasive plants before they become established.",
+        "Control invasive plants and animals including feral cats.",
+        "Remove ditches to deter saltwater intrusion and restore natural water flow.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats.",
+        "Select native plant species for restoration efforts that are expected to be better adapted to future climate conditions."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Maritime Hammock",
-    "name2": "Coastal Uplands",
     "path": "/habitats/coastal/1650",
     "icon": "coastal_uplands",
     "bounds": [-87.499, 24.633, -79.892, 30.728],
@@ -599,9 +1248,50 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Promote \u201ckeeping cats indoors\u201d to protect beach nesting activities .",
+        "Educate landowners and planners on impacts from human use of beach areas, including pets, pollution/littering, lighting, and noise.",
+        "Work with communities and landowners to choose vegetation, living shorelines, oyster reef restoration, or hybrid approaches in favor of traditional hard armoring.",
+        "Educate planners on importance of a healthy resilient coastal systems to protect against coastal hazards."
+      ],
+      "Monitoring": [
+        "Monitor phenology.",
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Encourage periodic bioblitz events to capture comprehensive inventories, repeat periodically (5 to 10 years).",
+        "Monitor, map  and research shifts in communities; identify sensitive and resilient species."
+      ],
+      "Planning": [
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Coordinate with County staff to incorporate sea level rise adaptation strategies into comprehensive plans and post-storm redevelopment activities",
+        "Modify conservation management priorities to include species and habitat adaptation to the effects of climate change.",
+        "Incorporate altered or restricted points of access into plans to accommodate impacts from climate change."
+      ],
+      "Policy": [
+        "Restrict development and other land uses that alter disturbance processes in sensitive areas",
+        "Consider restrictions on other human activities (e.g., mechanical beach cleaning, armoring) that pose a threat to species through disturbance and/or habitat degradation",
+        "Institute or strengthen building codes in flood- and erosion-prone areas to reduce erosion.",
+        "Zone development away from sensitive and hazard-prone areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Identify overused areas and limit recreational trails/roads and OHV use."
+      ],
+      "Protection": [
+        "Identify and protect locations where native species may shift or lose habitat due to climate change impacts.",
+        "Maintain linkages between undeveloped areas.",
+        "Create setbacks or rolling easements.",
+        "Preserve undeveloped and vulnerable shoreline."
+      ],
+      "Restoration": [
+        "Reduce/eliminate access to critical breeding, nesting, foraging and wintering areas as they become more stressed due to impacts from climate change.",
+        "Implement living shorelines to reduce erosion from storm events.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats.",
+        "Develop corridors between undeveloped areas.",
+        "Restore and/or protect coastal vegetation to reduce the impact of increased disturbance events (intense storms, increased erosion) and encourage aeolian sand capture",
+        "Reduce impacts from points of access (e.g., paths, boardwalks)."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Beach and Surf Zone",
-    "name2": "Coastal Uplands",
     "path": "/habitats/coastal/1670",
     "icon": "coastal_uplands",
     "bounds": [-87.532, 24.481, -79.884, 30.74],
@@ -628,9 +1318,38 @@
     "photoCredit": "Keith Bradley, FNAI",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with volunteers to control invasive species.",
+        "Work with communities and landowners to choose native vegetation in favor of non-native vegetation.",
+        "Provide education and incentives for neighboring landowners to reduce critical invasive plants and assist in detection of new species.",
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash."
+      ],
+      "Monitoring": [
+        "Conduct surveys to detect new infestations of invasive species and presence of new species.",
+        "Monitor species diversity and habitat transition over time in response to sea level rise and changing climatological conditions."
+      ],
+      "Planning": [
+        "Incorporate climate change considerations into new and future revisions of species and area management plans.",
+        "Plan timing of restoration activities to avoid impacts on rare species during critical life history phases and during times of increased stress due to impacts from climate change.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation."
+      ],
+      "Policy": [
+        "Reduce public access to areas as they become stressed/impacted by climate change and more susceptible to non-climate stressors.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions."
+      ],
+      "Protection": [
+        "Develop ex-situ living collections of unique/endemic plant species with partners such as botanic gardens and arboreta.",
+        "Consider relocating rare species to higher elevation areas when critical populations may be affected by impacts from sea level rise (e.g., inundation, increased soil salinity).",
+        "Reduce or eliminate mosquito spraying on and adjacent to keys cactus barrens..",
+        "Preserve remaining keys cactus barrens and buffers that will enhance species migration corridors."
+      ],
+      "Restoration": [
+        "Remove existing invasive species.",
+        "Remove new invasive species before they become established."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Keys Cactus Barren",
-    "name2": "Coastal Uplands",
     "path": "/habitats/coastal/1740",
     "icon": "coastal_uplands",
     "bounds": [-81.394, 24.61, -80.808, 24.844],
@@ -657,9 +1376,8 @@
     "photoCredit": "Arlo Kane, FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "conservation asset",
-    "name": "Working Lands (Disturbed)",
-    "name2": null,
     "path": "/habitats/terrestrial/1830",
     "icon": "working_lands",
     "bounds": [-87.635, 24.71, -79.897, 31.042],
@@ -686,9 +1404,56 @@
     "photoCredit": "USDA",
     "photoUrl": "https://www.flickr.com/photos/usdagov/8043677121/",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with entities such as resource conservation districts, cooperative extensions, and other silvicultural/agricultural organizations to introduce adaptation techniques.",
+        "Increase coordination between the private sector and local to federal governmental agencies on drought planning and drought-related policies.",
+        "Work with landowners to reduce stormwater runoff/erosion.",
+        "Educate landowners on importance of habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts.",
+        "Develop education materials for landowners on the importance of phenology factors, how they may change over time given climate change impacts, and how they relate to regulations/closures.",
+        "Actively engage with landowners to minimize urban encroachment and amount/placement of impervious surfaces."
+      ],
+      "Monitoring": [
+        "Monitor for signs of beetle outbreaks.",
+        "Enhance invasive species monitoring.",
+        "Monitor for increases in pests/diseases.",
+        "Document changes in vegetation structure and composition to track climate change effects.",
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Evaluate the effectiveness of various land management practices in reducing the impact of climate change."
+      ],
+      "Planning": [
+        "Incorporate fire risk into land use planning.",
+        "Incorporate climate change considerations into new and future revisions of land management plans.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Conduct a predictive assessment of current and potential invasive species ranges and impacts.",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens."
+      ],
+      "Policy": [
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Manage water demand (through water reuse, recycling, rainwater harvesting, desalination, etc.).",
+        "Prevent or limit groundwater extraction from aquifers during periods of drought.",
+        "Develop expanded cost-share payments for private landowners through state and federal cooperative forest programs for reforestation."
+      ],
+      "Protection": [
+        "Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridors that will provide connectivity under current and future conditions.",
+        "Maintain habitat quality to enhance the resilience to changing conditions.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Leave riparian corridors natural."
+      ],
+      "Restoration": [
+        "Increase water storage capacity.",
+        "Remove or minimize invasive species.",
+        "Switch to more heat/drought/salinity tolerant species.",
+        "Reduce forest density.",
+        "Evaluate fire management techniques, adjust in response to climate change impacts.",
+        "Restore/enhance riparian corridors.",
+        "Promote forest and ranchland management practices that reduce erosion.",
+        "Restore hydrology and embedded wetlands (promote water retention on-site).",
+        "Minimize use of herbicides/pesticides near wetlands and water bodies.",
+        "Manage fuel loads to reduce fire severity."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Working Lands - Low Intensity",
-    "name2": "Working Lands (Disturbed)",
     "path": "/habitats/terrestrial/1831",
     "icon": "working_lands",
     "bounds": [-87.635, 24.711, -79.91, 31.043],
@@ -715,9 +1480,59 @@
     "photoCredit": "Marty Folk, FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with entities such as resource conservation districts, cooperative extensions, and other agricultural organizations to introduce adaptation techniques.",
+        "Develop education materials for landowners on the importance of phenology factors, how they may change over time given climate change impacts, and how they relate to regulations/closures.",
+        "Actively engage with landowners to minimize urban encroachment and amount/placement of impervious surfaces.",
+        "Educate landowners on importance of habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts.",
+        "Evaluate alternate income sources, such as ecotourism, carbon management, alternative energy sources.",
+        "Increase coordination between the private sector and local to federal governmental agencies on drought planning and drought-related policies.",
+        "Work with landowners to reduce stormwater runoff and improve water quality."
+      ],
+      "Monitoring": [
+        "Monitor and correct for any point source or non-point source pollution.",
+        "Document changes in vegetation structure and composition to track climate change effects.",
+        "Monitor for increases in pests/diseases.",
+        "Enhance invasive species monitoring.",
+        "Evaluate the effectiveness of various land management practices in reducing the impact of climate change."
+      ],
+      "Planning": [
+        "Support alternative irrigation techniques (e.g., subsurface drip irrigation) to reduce water use and encourage use of climate-sensitive water supplies.",
+        "Evaluate the use of drought-resistant species in forage/crop planting.",
+        "For ranching: Consider conservation stocking: extend forage supply, reduce feed costs, and assist with ecological restoration; Consider grazing season: match forage quality and supply with animal requirements;  Evaluate cow size: smaller animals require less intake and have higher feed efficiency; Evaluate livestock breed: some breeds tolerate heat/drought better.",
+        "Consider shift in livestock species, from cattle to sheep or goats (more heat tolerant, require less water, consume a wider variety of forage)."
+      ],
+      "Policy": [
+        "Prevent or limit groundwater extraction from aquifers during periods of drought.",
+        "Manage water demand (through water reuse, recycling, rainwater harvesting, desalination, etc.).",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Develop expanded cost-share payments for private landowners through state and federal cooperative forest programs for reforestation."
+      ],
+      "Protection": [
+        "Leave riparian corridors natural.",
+        "Consider risk-coping production systems such as crop rotations, agroforestry, crop-livestock associations, crop-fish systems, and the use of hedges or vegetative strips (erosion control).",
+        "Increase soil organic matter by use of low tillage and maintenance of permanent soil cover.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Maintain habitat quality to enhance the resilience to changing conditions.",
+        "Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridors that will provide connectivity under current and future conditions."
+      ],
+      "Restoration": [
+        "Shift planting dates in response to changes in temperature and precipitation.",
+        "Restore/enhance riparian corridors.",
+        "Minimize use of herbicides/pesticides near wetlands and water bodies.",
+        "Restore hydrology and embedded wetlands (promote water retention on-site).",
+        "Promote ranchland/cropland management practices that reduce erosion.",
+        "Increase water storage capacity.",
+        "Switch to more heat/drought/salinity tolerant species (crop and livestock).",
+        "Install shade areas for livestock.",
+        "Evaluate fire management techniques, adjust in response to climate change impacts.",
+        "Remove or minimize invasive species.",
+        "Increase soil organic matter by use of low tillage and maintenance of permanent soil cover.",
+        "Manage fuel loads to reduce fire severity."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Working Lands - Moderate Intensity",
-    "name2": "Working Lands (Disturbed)",
     "path": "/habitats/terrestrial/1833",
     "icon": "working_lands",
     "bounds": [-87.61, 25.377, -79.897, 31.042],
@@ -744,9 +1559,8 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/bigcypressnps/31635896181/",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "ecosystem",
-    "name": "Freshwater",
-    "name2": null,
     "path": "/habitats/freshwater",
     "icon": "freshwater_ecosystems",
     "bounds": null,
@@ -773,9 +1587,8 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/evergladesnps/40513101205/",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "conservation asset",
-    "name": "Freshwater Non-forested Wetlands",
-    "name2": null,
     "path": "/habitats/freshwater/2100",
     "icon": "freshwater_nonforested_wetlands",
     "bounds": [-87.621, 24.504, -79.903, 31.042],
@@ -802,9 +1615,59 @@
     "photoCredit": "Randy Kautz",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach: ": [
+        "Develop training on the use of existing and emerging tools for managing wetlands under climate change (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management).",
+        "Develop focused outreach efforts and materials aimed at local, state, tribal, and federal government authorities involved in water management.",
+        "Collaborate with EPA, Corps of Engineers, Water Management Districts, Department of Environmental Protection to define and address regulatory concerns. Some wetlands may need added protection in light of climate change.",
+        "Collaborate with water managers, including floodplain programs, drinking water programs, and drain engineers and others to consider wetland options for climate strategies."
+      ],
+      "Monitoring": [
+        "Establish wetland reference sites to track changes in wetlands due to climate change.",
+        "Evaluate the effectiveness of various land and water management practices in reducing the impact of climate change on wetlands, adapting wetlands to such impacts, or compensating for losses of  acreage or function.",
+        "Monitor water quality.",
+        "Monitor groundwater table.",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor disease prevalence and occurrence (spatially and temporally)."
+      ],
+      "Planning": [
+        "Incorporate wetland and climate change ecosystem protection goals into watershed management, water planning, and comprehensive land planning including smart growth, and infrastructure development programs.",
+        "Expand the planning horizons of land use planning to incorporate longer climate predictions.",
+        "Develop adaptive stormwater management plans (e.g., promoting natural buffers, adequate culvert sizing, remove impervious surfaces).",
+        "Beginning with existing management plans, determine the processes and actions needed to increase the resiliency of wetlands and watersheds in the face of climate change.",
+        "Study and better understand and address invasive species in climate-stressed wetlands."
+      ],
+      "Policy": [
+        "Create permitting rules that constrain locations for landfills, hazardous waste dumps, mine tailings, and toxic chemical facilities.",
+        "Manage water demand (through water reuse, recycling, rainwater harvesting, desalination, etc.).",
+        "Prevent or limit groundwater extraction from aquifers during periods of drought.",
+        "Increase regulatory protection for wetlands most threatened by climate change to reduce stresses, provide opportunity for wetlands to migrate, and protect carbon stores.",
+        "Strengthen control of drainage of wetlands."
+      ],
+      "Protection": [
+        "Identify and protect ecologically significant areas such as breeding/nesting sites, wintering sites, and areas of high species diversity that will continue to serve these functions under climate change.",
+        "Preserve the structural complexity and biodiversity of vegetation.",
+        "Protect areas that are naturally positioned to be more resistant/resilient to climate change.",
+        "Facilitate wetland migration through setbacks, easements, or purchase.",
+        "Protect aquatic corridors.",
+        "Acquire and protect wetlands with the largest carbon stores.",
+        "Install water control structures at the outlets of freshwater wetlands to better manage water levels during dry periods.",
+        "Protect buffer zones to allow for future system shifts/migration through easements, acquisition or purchase of development rights."
+      ],
+      "Restoration": [
+        "Replace impervious surfaces with permeable pavement to allow runoff to flow through and be temporarily stored prior to discharge, in areas adjacent to wetlands.",
+        "Replicate habitat types in multiple areas to spread risks associated with climate change.",
+        "Control invasive species in climate-stressed wetlands.",
+        "Practice prescribed fire management to maintain natural conditions.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Implement management practices that accommodate shifts in the timing of the rainy season and eliminate or reduce application of pesticides during this period.",
+        "Develop adaptive stormwater management practices (e.g., promoting natural buffers, adequate culvert sizing).",
+        "Restore hydrologic connections, implementing designs that will accommodate both increased and decreased flow.",
+        "Promote restoration to fill gaps in wetland corridors."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Wet Prairie",
-    "name2": "Freshwater Non-forested Wetlands",
     "path": "/habitats/freshwater/2111",
     "icon": "freshwater_nonforested_wetlands",
     "bounds": [-87.602, 25.494, -79.92, 31.042],
@@ -831,9 +1694,60 @@
     "photoCredit": "Amy Jenkins, FNAI",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach: ": [
+        "Collaborate with EPA, Corps of Engineers, Water Management Districts, Department of Environmental Protection to define and address regulatory concerns. Some wetlands may need added protection in light of climate change.",
+        "Collaborate with water managers, including floodplain programs, drinking water programs, and drain engineers and others to consider wetland options for climate strategies.",
+        "Develop focused outreach efforts and materials aimed at local, state, tribal, and federal government authorities involved in water management.",
+        "Develop training on the use of existing and emerging tools for managing wetlands under climate change (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management)."
+      ],
+      "Monitoring": [
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor groundwater table.",
+        "Monitor water quality.",
+        "Evaluate the effectiveness of various land and water management practices in reducing the impact of climate change on wetlands, adapting wetlands to such impacts, or compensating for losses of  acreage or function.",
+        "Establish wetland reference sites to track changes in wetlands due to climate change."
+      ],
+      "Planning": [
+        "Identify (map, identify through GIS) wetlands and wetland species most at risk from climate change within a locality, state, or particular region.",
+        "Beginning with existing management plans, determine the processes and actions needed to increase the resiliency of wetlands and watersheds in the face of climate change.",
+        "Expand the planning horizons of land use planning to incorporate longer climate predictions.",
+        "Incorporate wetland and climate change ecosystem protection goals into watershed management, water planning, and comprehensive land planning including smart growth, and infrastructure development programs.",
+        "Develop adaptive stormwater management plans (e.g., promoting natural buffers, adequate culvert sizing, remove impervious surfaces).",
+        "Study and better understand and address invasive species in climate-stressed wetlands."
+      ],
+      "Policy": [
+        "Strengthen control of drainage of wetlands.",
+        "Increase regulatory protection for wetlands most threatened by climate change to reduce stresses, provide opportunity for wetlands to migrate, and protect carbon stores.",
+        "Prevent or limit groundwater extraction from aquifers during periods of drought.",
+        "Manage water demand (through water reuse, recycling, rainwater harvesting, desalination, etc.).",
+        "Create permitting rules that constrain locations for landfills, hazardous waste dumps, mine tailings, and toxic chemical facilities."
+      ],
+      "Protection": [
+        "Facilitate wetland migration through setbacks, easements, or purchase.",
+        "Acquire and protect wetlands with the largest carbon stores.",
+        "Protect aquatic corridors.",
+        "Protect areas that are naturally positioned to be more resistant/resilient to climate change.",
+        "Preserve the structural complexity and biodiversity of vegetation.",
+        "Protect buffer zones to allow for future system shifts/migration through easements, acquisition or purchase of development rights.",
+        "Identify and protect ecologically significant areas such as breeding/nesting sites, wintering sites, and areas of high species diversity that will continue to serve these functions under climate change.",
+        "Install water control structures at the outlets of freshwater wetlands to better manage water levels during dry periods."
+      ],
+      "Restoration": [
+        "Restore hydrologic connections, implementing designs that will accommodate both increased and decreased flow.",
+        "Implement management practices that accommodate shifts in the timing of the rainy season and eliminate or reduce application of pesticides during this period.",
+        "Develop adaptive stormwater management practices (e.g., promoting natural buffers, adequate culvert sizing).",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Practice prescribed fire management to maintain natural conditions.",
+        "Control invasive species in climate-stressed wetlands.",
+        "Promote restoration to fill gaps in wetland corridors.",
+        "Replicate habitat types in multiple areas to spread risks associated with climate change.",
+        "Replace impervious surfaces with permeable pavement to allow runoff to flow through and be temporarily stored prior to discharge, in areas adjacent to wetlands.",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Marl Prairie",
-    "name2": "Freshwater Non-forested Wetlands",
     "path": "/habitats/freshwater/2113",
     "icon": "freshwater_nonforested_wetlands",
     "bounds": [-81.637, 25.271, -80.524, 26.969],
@@ -860,9 +1774,58 @@
     "photoCredit": "Gary E. Schultz, FNAI",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach: ": [
+        "Develop training on the use of existing and emerging tools for managing wetlands under climate change (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management).",
+        "Develop focused outreach efforts and materials aimed at local, state, tribal, and federal government authorities involved in water management.",
+        "Collaborate with water managers, including floodplain programs, drinking water programs, and drain engineers and others to consider wetland options for climate strategies.",
+        "Collaborate with EPA, Corps of Engineers, Water Management Districts, Department of Environmental Protection to define and address regulatory concerns. Some wetlands may need added protection in light of climate change."
+      ],
+      "Monitoring": [
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Establish wetland reference sites to track changes in wetlands due to climate change.",
+        "Evaluate the effectiveness of various land and water management practices in reducing the impact of climate change on wetlands, adapting wetlands to such impacts, or compensating for losses of  acreage or function.",
+        "Monitor water quality.",
+        "Monitor groundwater table.",
+        "Monitor for introductions/increases in invasive species."
+      ],
+      "Planning": [
+        "Expand the planning horizons of land use planning to incorporate longer climate predictions.",
+        "Incorporate wetland and climate change ecosystem protection goals into watershed management, water planning, and comprehensive land planning including smart growth, and infrastructure development programs.",
+        "Develop adaptive stormwater management plans (e.g., promoting natural buffers, adequate culvert sizing, remove impervious surfaces).",
+        "Beginning with existing management plans, determine the processes and actions needed to increase the resiliency of wetlands and watersheds in the face of climate change.",
+        "Study and better understand and address invasive species in climate-stressed wetlands."
+      ],
+      "Policy": [
+        "Create permitting rules that constrain locations for landfills, hazardous waste dumps, mine tailings, and toxic chemical facilities.",
+        "Manage water demand (through water reuse, recycling, rainwater harvesting, desalination, etc.).",
+        "Prevent or limit groundwater extraction from aquifers during periods of drought.",
+        "Increase regulatory protection for wetlands most threatened by climate change to reduce stresses, provide opportunity for wetlands to migrate, and protect carbon stores.",
+        "Strengthen control of drainage of wetlands."
+      ],
+      "Protection": [
+        "Acquire and protect wetlands with the largest carbon stores.",
+        "Protect buffer zones to allow for future system shifts/migration through easements, acquisition or purchase of development rights.",
+        "Preserve the structural complexity and biodiversity of vegetation.",
+        "Protect areas that are naturally positioned to be more resistant/resilient to climate change.",
+        "Facilitate wetland migration through setbacks, easements, or purchase.",
+        "Protect aquatic corridors.",
+        "Identify and protect ecologically significant areas such as breeding/nesting sites, wintering sites, and areas of high species diversity that will continue to serve these functions under climate change.",
+        "Install water control structures at the outlets of freshwater wetlands to better manage water levels during dry periods.",
+        "Establish rolling easements, especially in those areas that will allow for plant migration."
+      ],
+      "Restoration": [
+        "Restore hydrologic connections, implementing designs that will accommodate both increased and decreased flow.",
+        "Promote restoration to fill gaps in wetland corridors.",
+        "Control invasive species in climate-stressed wetlands.",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Implement management practices that accommodate shifts in the timing of the rainy season and eliminate or reduce application of pesticides during this period.",
+        "Develop adaptive stormwater management practices (e.g., promoting natural buffers, adequate culvert sizing).",
+        "Replace impervious surfaces with permeable pavement to allow runoff to flow through and be temporarily stored prior to discharge, in areas adjacent to wetlands.",
+        "Replicate habitat types in multiple areas to spread risks associated with climate change."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Coastal Interdunal Swale",
-    "name2": "Freshwater Non-forested Wetlands",
     "path": "/habitats/freshwater/2122",
     "icon": "freshwater_nonforested_wetlands",
     "bounds": [-87.483, 26.816, -80.466, 30.726],
@@ -889,9 +1852,63 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/evergladesnps/9250283012/in/album-72157634249397028/",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach: ": [
+        "Collaborate with EPA, Corps of Engineers, Water Management Districts, Department of Environmental Protection to define and address regulatory concerns. Some wetlands may need added protection in light of climate change.",
+        "Collaborate with water managers, including floodplain programs, drinking water programs, and drain engineers and others to consider wetland options for climate strategies.",
+        "Develop focused outreach efforts and materials aimed at local, state, tribal, and federal government authorities involved in water management.",
+        "Develop training on the use of existing and emerging tools for managing wetlands under climate change (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management)."
+      ],
+      "Monitoring": [
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor water quality.",
+        "Evaluate the effectiveness of various land and water management practices in reducing the impact of climate change on wetlands, adapting wetlands to such impacts, or compensating for losses of  acreage or function.",
+        "Establish wetland reference sites to track changes in wetlands due to climate change.",
+        "Monitor groundwater table."
+      ],
+      "Planning": [
+        "Study and better understand and address invasive species in climate-stressed wetlands.",
+        "Beginning with existing management plans, determine the processes and actions needed to increase the resiliency of wetlands and watersheds in the face of climate change.",
+        "Develop adaptive stormwater management plans (e.g., promoting natural buffers, adequate culvert sizing, remove impervious surfaces).",
+        "Incorporate wetland and climate change ecosystem protection goals into watershed management, water planning, and comprehensive land planning including smart growth, and infrastructure development programs.",
+        "Expand the planning horizons of land use planning to incorporate longer climate predictions."
+      ],
+      "Policy": [
+        "Create permitting rules that constrain locations for landfills, hazardous waste dumps, mine tailings, and toxic chemical facilities.",
+        "Manage water demand (through water reuse, recycling, rainwater harvesting, desalination, etc.).",
+        "Strengthen control of drainage of wetlands.",
+        "Increase regulatory protection for wetlands most threatened by climate change to reduce stresses, provide opportunity for wetlands to migrate, and protect carbon stores.",
+        "Prevent or limit groundwater extraction from aquifers during periods of drought."
+      ],
+      "Protection": [
+        "Establish rolling easements, especially in those areas that will allow for plant migration.",
+        "Protect buffer zones to allow for future system shifts/migration through easements, acquisition or purchase of development rights.",
+        "Identify and protect ecologically significant areas such as breeding/nesting sites, wintering sites, and areas of high species diversity that will continue to serve these functions under climate change.",
+        "Preserve the structural complexity and biodiversity of vegetation.",
+        "Install water control structures at the outlets of freshwater wetlands to better manage water levels during dry periods.",
+        "Protect areas that are naturally positioned to be more resistant/resilient to climate change.",
+        "Facilitate wetland migration through setbacks, easements, or purchase.",
+        "Protect aquatic corridors.",
+        "Acquire and protect wetlands with the largest carbon stores."
+      ],
+      "Restoration": [
+        "Remove non-native species.",
+        "Select native plant species for restoration efforts that are expected to be better adapted to future climate conditions.",
+        "Improve connectivity by removing restrictions between rivers and  floodplain marshes (e.g., removing dams and culvert modification).",
+        "Improve habitat quality to enhance the resilience of floodplain marsh to changing conditions.",
+        "Replicate habitat types in multiple areas to spread risks associated with climate change.",
+        "Promote restoration to fill gaps in wetland corridors.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Restore hydrologic connections, implementing designs that will accommodate both increased and decreased flow.",
+        "Replace impervious surfaces with permeable pavement to allow runoff to flow through and be temporarily stored prior to discharge, in areas adjacent to wetlands.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads.",
+        "Implement management practices that accommodate shifts in the timing of the rainy season and eliminate or reduce application of pesticides during this period.",
+        "Practice prescribed fire management to maintain natural conditions."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Floodplain Marsh",
-    "name2": "Freshwater Non-forested Wetlands",
     "path": "/habitats/freshwater/2123",
     "icon": "freshwater_nonforested_wetlands",
     "bounds": [-87.459, 26.832, -80.404, 31.023],
@@ -918,9 +1935,59 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/evergladesnps/42295786392/",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach: ": [
+        "Collaborate with water managers, including floodplain programs, drinking water programs, and drain engineers and others to consider wetland options for climate strategies.",
+        "Develop focused outreach efforts and materials aimed at local, state, tribal, and federal government authorities involved in water management.",
+        "Develop training on the use of existing and emerging tools for managing wetlands under climate change (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management).",
+        "Collaborate with EPA, Corps of Engineers, Water Management Districts, Department of Environmental Protection to define and address regulatory concerns. Some wetlands may need added protection in light of climate change."
+      ],
+      "Monitoring": [
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor groundwater table.",
+        "Monitor water quality.",
+        "Evaluate the effectiveness of various land and water management practices in reducing the impact of climate change on wetlands, adapting wetlands to such impacts, or compensating for losses of  acreage or function.",
+        "Establish wetland reference sites to track changes in wetlands due to climate change."
+      ],
+      "Planning": [
+        "Study and better understand and address invasive species in climate-stressed wetlands.",
+        "Beginning with existing management plans, determine the processes and actions needed to increase the resiliency of wetlands and watersheds in the face of climate change.",
+        "Develop adaptive stormwater management plans (e.g., promoting natural buffers, adequate culvert sizing, remove impervious surfaces).",
+        "Incorporate wetland and climate change ecosystem protection goals into watershed management, water planning, and comprehensive land planning including smart growth, and infrastructure development programs.",
+        "Expand the planning horizons of land use planning to incorporate longer climate predictions."
+      ],
+      "Policy": [
+        "Create permitting rules that constrain locations for landfills, hazardous waste dumps, mine tailings, and toxic chemical facilities.",
+        "Manage water demand (through water reuse, recycling, rainwater harvesting, desalination, etc.).",
+        "Prevent or limit groundwater extraction from aquifers during periods of drought.",
+        "Increase regulatory protection for wetlands most threatened by climate change to reduce stresses, provide opportunity for wetlands to migrate, and protect carbon stores.",
+        "Strengthen control of drainage of wetlands."
+      ],
+      "Protection": [
+        "Identify and protect ecologically significant areas such as breeding/nesting sites, wintering sites, and areas of high species diversity that will continue to serve these functions under climate change.",
+        "Protect buffer zones to allow for future system shifts/migration through easements, acquisition or purchase of development rights.",
+        "Preserve the structural complexity and biodiversity of vegetation.",
+        "Protect areas that are naturally positioned to be more resistant/resilient to climate change.",
+        "Facilitate wetland migration through setbacks, easements, or purchase.",
+        "Protect aquatic corridors.",
+        "Acquire and protect wetlands with the largest carbon stores.",
+        "Install water control structures at the outlets of freshwater wetlands to better manage water levels during dry periods."
+      ],
+      "Restoration": [
+        "Replicate habitat types in multiple areas to spread risks associated with climate change.",
+        "Promote restoration to fill gaps in wetland corridors.",
+        "Control invasive species in climate-stressed wetlands.",
+        "Practice prescribed fire management to maintain natural conditions.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Implement management practices that accommodate shifts in the timing of the rainy season and eliminate or reduce application of pesticides during this period.",
+        "Restore hydrologic connections, implementing designs that will accommodate both increased and decreased flow.",
+        "Replace impervious surfaces with permeable pavement to allow runoff to flow through and be temporarily stored prior to discharge, in areas adjacent to wetlands.",
+        "Develop adaptive stormwater management practices (e.g., promoting natural buffers, adequate culvert sizing)."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Glades Marsh",
-    "name2": "Freshwater Non-forested Wetlands",
     "path": "/habitats/freshwater/2125",
     "icon": "freshwater_nonforested_wetlands",
     "bounds": [-81.839, 24.651, -80.172, 28.08],
@@ -947,9 +2014,53 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach: ": [
+        "Collaborate with EPA, Corps of Engineers, Water Management Districts, Department of Environmental Protection to define and address regulatory concerns. Some wetlands may need added protection in light of climate change.",
+        "Collaborate with water managers, including floodplain programs, drinking water programs, and drain engineers and others to consider wetland options for climate strategies.",
+        "Develop focused outreach efforts and materials aimed at local, state, tribal, and federal government authorities involved in water management.",
+        "Develop training on the use of existing and emerging tools for managing wetlands under climate change (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management)."
+      ],
+      "Monitoring": [
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor groundwater table.",
+        "Monitor water quality.",
+        "Establish wetland reference sites to track changes in wetlands due to climate change.",
+        "Evaluate the effectiveness of various land and water management practices in reducing the impact of climate change on wetlands, adapting wetlands to such impacts, or compensating for losses of  acreage or function."
+      ],
+      "Planning": [
+        "Beginning with existing management plans, determine the processes and actions needed to increase the resiliency of wetlands and watersheds in the face of climate change.",
+        "Incorporate wetland and climate change ecosystem protection goals into watershed management, water planning, and comprehensive land planning including smart growth, and infrastructure development programs.",
+        "Expand the planning horizons of land use planning to incorporate longer climate predictions.",
+        "Study and better understand and address invasive species in climate-stressed wetlands."
+      ],
+      "Policy": [
+        "Manage water demand (through water reuse, recycling, rainwater harvesting, desalination, etc.).",
+        "Create permitting rules that constrain locations for landfills, hazardous waste dumps, mine tailings, and toxic chemical facilities.",
+        "Strengthen control of drainage of wetlands.",
+        "Increase regulatory protection for wetlands most threatened by climate change to reduce stresses, provide opportunity for wetlands to migrate, and protect carbon stores.",
+        "Prevent or limit groundwater extraction from aquifers during periods of drought."
+      ],
+      "Protection": [
+        "Protect buffer zones to allow for future system shifts/migration through easements, acquisition or purchase of development rights.",
+        "Protect critical areas that are naturally positioned to be more resistant/resilient to climate change.",
+        "Preserve the structural complexity and biodiversity of vegetation.",
+        "Identify and protect ecologically significant areas such as breeding/nesting sites, wintering sites, and areas of high species diversity that will continue to serve these functions under climate change."
+      ],
+      "Restoration": [
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Replicate habitat types in multiple areas to spread risks associated with climate change.",
+        "Control invasive species in climate-stressed wetlands.",
+        "Practice prescribed fire management to maintain natural conditions.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads.",
+        "Implement management practices that accommodate shifts in the timing of the rainy season and eliminate or reduce application of pesticides during this period.",
+        "Replace impervious surfaces with permeable pavement to allow runoff to flow through and be temporarily stored prior to discharge, in areas adjacent to wetlands.",
+        "Install pond liners to aid in water retention."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Ephemeral Ponds and Wetlands",
-    "name2": "Freshwater Non-forested Wetlands",
     "path": "/habitats/freshwater/2160",
     "icon": "freshwater_nonforested_wetlands",
     "bounds": null,
@@ -976,9 +2087,8 @@
     "photoCredit": "USFWS",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "conservation asset",
-    "name": "Freshwater Forested Wetlands",
-    "name2": null,
     "path": "/habitats/freshwater/2200",
     "icon": "freshwater_forested_wetlands",
     "bounds": [-87.639, 24.72, -79.889, 31.043],
@@ -1005,9 +2115,61 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/bigcypressnps/40022587194/",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with communities to reduce stormwater runoff and improve water quality.",
+        "Implement outreach to increase public understanding of the increased wildfire risks due to climate change.",
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts.",
+        "Develop educational materials for private landowners on appropriate use fertilizers and pesticides and impacts on water quality, include potential incentives to reduce use.",
+        "Enhance outreach efforts to correlate water quality and habitat health to improve public stewardship and support actions to improve water quality.",
+        "Work with volunteers to control invasive species.",
+        "Actively engage with communities to minimize urban encroachment."
+      ],
+      "Monitoring": [
+        "Monitor vegetation as density and distributions shift with environmental changes.",
+        "Inventory culverts and other barriers to flow.",
+        "Monitor pollutants.",
+        "Monitor natural community range shifts.",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor disease prevalence and occurrence (spatially and temporally)."
+      ],
+      "Planning": [
+        "Reduce roadway and paved area construction near sensitive systems to maintain natural hydrology.",
+        "Collaborate with other agencies to ensure new water control structures have consideration for future conditions."
+      ],
+      "Policy": [
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Develop policies and incentives for decreasing impervious surfaces.",
+        "Encourage the passage of state regulations to strengthen protection of forested wetlands."
+      ],
+      "Protection": [
+        "Maintain habitat quality to enhance the resilience of cypress swamps to changing conditions.",
+        "Maintain floodplains as undeveloped areas.",
+        "Protect interior forested wetlands for floodwater storage.",
+        "Identify and prioritize protection of corridors between forested wetland areas and associated upland habitats to enhance species movement and migration.",
+        "Identify important (and potentially resilient) cypress swamps to serve as refugia and provide opportunities for range shifts, prioritize inclusion in land protection planning efforts.",
+        "Preserve cypress swamps and their buffers that are not yet impacted by human development.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Land exchange programs \u2013 owners exchange property in the floodplain for land outside of the floodplain."
+      ],
+      "Restoration": [
+        "Remove non-native species.",
+        "Restore riparian areas to increase water retention and uptake of soil retention and reduce impacts of flood events, erosion, and sedimentation.",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads.",
+        "Implement management practices that eliminate or reduce application of pesticides in the rainy season.",
+        "Remove ditches to deter saltwater intrusion and restore natural water flow.",
+        "Improve habitat quality to enhance the resilience of cypress swamp to changing conditions.",
+        "Improve connectivity by removing restrictions between rivers and floodplains (e.g., removing dams and culvert modification).",
+        "Select native plant species for restoration efforts that are expected to be better adapted to future climate conditions.",
+        "Practice prescribed fire management to maintain fuel loads and natural conditions.",
+        "Remove barriers to allow inland shifts of coastal forested wetland habitats affected by increased salinity and sea level rise."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Cypress Swamp",
-    "name2": "Freshwater Forested Wetlands",
     "path": "/habitats/freshwater/2210",
     "icon": "freshwater_forested_wetlands",
     "bounds": [-87.629, 24.721, -79.921, 31.037],
@@ -1034,9 +2196,58 @@
     "photoCredit": "Gary Knight, FNAI",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Enhance outreach efforts to correlate water quality and habitat health to improve public stewardship and support actions to improve water quality.",
+        "Implement outreach to increase public understanding of the increased wildfire risks due to climate change.",
+        "Work with communities to reduce stormwater runoff and improve water quality.",
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Develop educational materials for private landowners on appropriate use fertilizers and pesticides and impacts on water quality, include potential incentives to reduce use.",
+        "Work with volunteers to control invasive species."
+      ],
+      "Monitoring": [
+        "Inventory culverts and other barriers to flow.",
+        "Monitor pollutants.",
+        "Monitor natural community range shifts.",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor vegetation as density and distributions shift with environmental changes.",
+        "Monitor disease prevalence and occurrence (spatially and temporally)."
+      ],
+      "Planning": [
+        "Reduce roadway and paved area construction near sensitive systems to maintain natural hydrology.",
+        "Collaborate with other agencies to ensure new water control structures have consideration for future conditions."
+      ],
+      "Policy": [
+        "Encourage the passage of state regulations with supporting local level zoning and planning ordinances to strengthen protection of forested wetlands.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Develop policies and incentives for decreasing impervious surfaces."
+      ],
+      "Protection: ": [
+        "Maintain floodplains as undeveloped areas.",
+        "Protect interior forested wetlands for floodwater storage.",
+        "Identify and prioritize protection of corridors between forested wetland areas and associated upland habitats to enhance species movement and migration.",
+        "Identify important (and potentially resilient) strand swamps to serve as refugia and provide opportunities for range shifts, prioritize inclusion in land protection planning efforts.",
+        "Preserve strand swamps and their buffers that are not yet impacted by human development.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Land exchange programs \u2013 owners exchange property in the floodplain for land outside of the floodplain.",
+        "Maintain habitat quality to enhance the resilience of strand swamps to changing conditions."
+      ],
+      "Restoration": [
+        "Remove non-native species.",
+        "Improve connectivity by removing restrictions between rivers and floodplains (e.g., removing dams and culvert modification).",
+        "Select native plant species for restoration efforts that are expected to be better adapted to future climate conditions.",
+        "Practice prescribed fire management to maintain fuel loads and natural conditions.",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads.",
+        "Implement management practices that eliminate or reduce application of pesticides in the rainy season.",
+        "Remove ditches to deter saltwater intrusion and restore natural water flow.",
+        "Remove barriers to allow inland shifts of coastal forested wetland habitats affected by increased salinity and sea level rise.",
+        "Improve habitat quality to enhance the resilience of strand swamp to changing conditions.",
+        "Restore riparian areas to increase water retention and uptake of soil retention and reduce impacts of flood events, erosion, and sedimentation."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Strand Swamp",
-    "name2": "Freshwater Forested Wetlands",
     "path": "/habitats/freshwater/2214",
     "icon": "freshwater_forested_wetlands",
     "bounds": [-82.673, 24.721, -80.009, 28.676],
@@ -1063,9 +2274,61 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Implement outreach to increase public understanding of the increased wildfire risks due to climate change.",
+        "Work with volunteers to control invasive species.",
+        "Develop educational materials for private landowners on appropriate use fertilizers and pesticides and impacts on water quality, include potential incentives to reduce use.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts.",
+        "Work with communities to reduce stormwater runoff and improve water quality.",
+        "Enhance outreach efforts to correlate water quality and habitat health to improve public stewardship and support actions to improve water quality."
+      ],
+      "Monitoring": [
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor vegetation as density and distributions shift with environmental changes.",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor pollutants.",
+        "Inventory culverts and other barriers to flow.",
+        "Monitor natural community range shifts."
+      ],
+      "Planning": [
+        "Collaborate with other agencies to ensure new water control structures have consideration for future conditions.",
+        "Reduce roadway and paved area construction near sensitive systems to maintain natural hydrology."
+      ],
+      "Policy": [
+        "Encourage the passage of state regulations with supporting local level zoning and planning ordinances to strengthen protection of forested wetlands.",
+        "Develop policies and incentives for decreasing impervious surfaces.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions."
+      ],
+      "Protection: ": [
+        "Land exchange programs \u2013 owners exchange property in the floodplain for land outside of the floodplain.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Preserve floodplain swamps and their buffers that are not yet impacted by human development.",
+        "Maintain habitat quality to enhance the resilience of floodplain swamps to changing conditions.",
+        "Identify important (and potentially resilient) floodplain swamps to serve as refugia and provide opportunities for range shifts, prioritize inclusion in land protection planning efforts.",
+        "Identify and prioritize protection of corridors between forested wetland areas and associated upland habitats to enhance species movement and migration.",
+        "Protect interior forested wetlands for floodwater storage.",
+        "Maintain floodplains as undeveloped areas."
+      ],
+      "Restoration": [
+        "Remove ditches to deter saltwater intrusion and restore natural water flow.",
+        "Remove barriers to allow inland shifts of coastal forested wetland habitats affected by increased salinity and sea level rise.",
+        "Improve habitat quality to enhance the resilience of floodplain swamp to changing conditions.",
+        "Select native plant species for restoration efforts that are expected to be better adapted to future climate conditions.",
+        "Implement management practices that eliminate or reduce application of pesticides in the rainy season.",
+        "Remove non-native species.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads.",
+        "Improve connectivity by removing restrictions between rivers and floodplains (e.g., removing dams and culvert modification).",
+        "Practice prescribed fire management to maintain fuel loads and natural conditions.",
+        "Restore riparian areas to increase water retention and uptake of soil retention and reduce impacts of flood events, erosion, and sedimentation.",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Floodplain Swamp",
-    "name2": "Freshwater Forested Wetlands",
     "path": "/habitats/freshwater/2215",
     "icon": "freshwater_forested_wetlands",
     "bounds": [-87.639, 26.85, -80.043, 31.034],
@@ -1092,9 +2355,64 @@
     "photoCredit": "Katy NeSmith, FNAI",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Develop educational materials for private landowners on appropriate use fertilizers and pesticides and impacts on water quality, include potential incentives to reduce use.",
+        "Develop training on the use of existing and emerging tools for managing wetlands under climate change (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management).",
+        "Enhance outreach efforts to correlate water quality and habitat health to improve public stewardship and support actions to improve water quality.",
+        "Work with communities to reduce stormwater runoff and improve water quality.",
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Work with volunteers to control invasive species.",
+        "Implement outreach to increase public understanding of the increased wildfire risks due to climate change."
+      ],
+      "Monitoring": [
+        "Monitor pollutants.",
+        "Inventory culverts and other barriers to flow.",
+        "Monitor natural community range shifts.",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor vegetation as density and distributions shift with environmental changes.",
+        "Monitor disease prevalence and occurrence (spatially and temporally)."
+      ],
+      "Planning": [
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Incorporate climate change considerations into new and future revisions of area management plans.",
+        "Collaborate with other agencies to ensure new water control structures have consideration for future conditions.",
+        "Reduce roadway and paved area construction near sensitive systems to maintain natural hydrology.",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens."
+      ],
+      "Policy": [
+        "Encourage the passage of state regulations to strengthen protection of flatwoods.",
+        "Develop policies and incentives for decreasing impervious surfaces.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions."
+      ],
+      "Protection: ": [
+        "Identify and prioritize protection of corridors between hydric hammock and other natural areas to enhance species movement and migration.",
+        "Identify important (and potentially resilient) wet flatwoods to serve as refugia and provide opportunities for range shifts, prioritize inclusion in land protection planning efforts.",
+        "Maintain habitat quality to enhance the resilience of wet flatwoods to changing conditions.",
+        "Preserve wet flatwoods and their buffers that are not yet impacted by human development.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base."
+      ],
+      "Restoration": [
+        "Plant with a mix of species that can survive in a diverse range of future climate conditions.",
+        "Practice prescribed fire management to maintain fuel loads and natural conditions, increase acreage of wet flatwoods in maintenance condition class.",
+        "Review and revise techniques to maintain or mimic natural disturbance regimes (e.g., what techniques should be used when prescribed fire is no longer feasible).",
+        "Cultivate multiple age classes of tree and understory species to protect stands from pests or diseases that may be more virulent to specific life stages or specific species.",
+        "Eliminate hydrologic barriers/conveyances",
+        "Remove invasive plants.",
+        "Redesign or mitigate existing physical barriers or structures that impede movement and dispersal within and among habitats.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads.",
+        "Implement management practices that eliminate or reduce application of pesticides in the rainy season.",
+        "Remove ditches to deter saltwater intrusion and restore natural water flow.",
+        "Improve habitat quality to enhance the resilience of wet flatwoods to changing conditions.",
+        "Select native plant species for restoration efforts that are expected to be better adapted to future climate conditions.",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Wet Flatwoods",
-    "name2": "Freshwater Forested Wetlands",
     "path": "/habitats/freshwater/2221",
     "icon": "freshwater_forested_wetlands",
     "bounds": [-87.636, 25.321, -79.903, 31.041],
@@ -1121,9 +2439,67 @@
     "photoCredit": "Ann Johnson",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Implement outreach to increase public understanding of the increased wildfire risks due to climate change.",
+        "Develop educational materials for private landowners on appropriate use fertilizers and pesticides and impacts on water quality, include potential incentives to reduce use.",
+        "Develop training on the use of existing and emerging tools for managing wetlands under climate change (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management).",
+        "Work with communities to reduce stormwater runoff and improve water quality.",
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts.",
+        "Work with volunteers to control invasive species.",
+        "Actively engage with communities to minimize urban encroachment."
+      ],
+      "Monitoring": [
+        "Inventory culverts and other barriers to flow.",
+        "Monitor pollutants.",
+        "Monitor natural community range shifts.",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor vegetation as density and distributions shift with environmental changes.",
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor for changes in recruitment of mast producing trees and amount of mast production."
+      ],
+      "Planning": [
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Assess and take steps to reduce risks of facilitating movement of \u201cnew\u201d undesirable non-native species, pests, and pathogens.",
+        "Incorporate climate change considerations into new and future revisions of area management plans.",
+        "Collaborate with other agencies to ensure new water control structures have consideration for future conditions.",
+        "Reduce roadway and paved area construction near sensitive systems to maintain natural hydrology."
+      ],
+      "Policy": [
+        "Develop policies and incentives for decreasing impervious surfaces.",
+        "Identify overused areas and limit recreational trails/roads and OHV use.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Encourage the passage of state regulations to strengthen protection of hydric hammock."
+      ],
+      "Protection: ": [
+        "Protect critical areas that are naturally positioned to be more resistant to climate change.",
+        "Identify and prioritize protection of corridors between hydric hammock and adjacent natural areas to enhance species movement and migration.",
+        "Preserve the structural complexity and biodiversity of vegetation.",
+        "Establish protections for transitional habitats that will provide for range shifts and serve as potential climate refugia.",
+        "Maintain habitat quality to enhance the resilience of hydric hammocks to changing conditions.",
+        "Preserve hydric hammock and their buffers that are not yet impacted by human development.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase habitat base.",
+        "Protect buffer zones to allow for future inland migration.",
+        "Purchase inland development rights or property rights."
+      ],
+      "Restoration": [
+        "Improve habitat quality to enhance the resilience of hydric hammocks to changing conditions.",
+        "Cultivate multiple age classes of tree and understory species to protect stands from pests or diseases that may be more virulent to specific life stages or specific species.",
+        "Plant mast producing trees that are more heat tolerant.",
+        "Restore the structural complexity and biodiversity of vegetation.",
+        "Replace culverts with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Remove invasive plants.",
+        "Eliminate hydrologic barriers/conveyances.",
+        "Plant with a mix of species that can survive in a diverse range of future climate conditions.",
+        "Select native plant species for restoration efforts that are expected to be better adapted to future climate conditions.",
+        "Remove ditches to deter saltwater intrusion and restore natural water flow.",
+        "Implement management practices that accommodate shifts in the timing of the rainy season and eliminate or reduce application of pesticides during this period.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Hydric Hammock",
-    "name2": "Freshwater Forested Wetlands",
     "path": "/habitats/freshwater/2232",
     "icon": "freshwater_forested_wetlands",
     "bounds": [-86.223, 25.873, -79.929, 30.795],
@@ -1150,9 +2526,60 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with small municipalities and counties to address unpaved road sediment impacts on ephemeral wetlands.",
+        "Ensure that the public knows how to report disease occurrences for fish and game.",
+        "Encourage citizen scientists to track phenology and contribute to national efforts.",
+        "Work with volunteers to control invasive species.",
+        "Engage hunting and angling communities to support water conservation efforts.",
+        "Promote proper use of pesticides.",
+        "Enhance outreach regarding impacts of fertilizer which contribute to increased nutrient loads.",
+        "Work with communities to improve stormwater runoff and encourage groundwater recharge options through low impact development and retrofits."
+      ],
+      "Monitoring": [
+        "Analyze fisheries surveys for shifting populations as a result of changing habitat parameters.",
+        "Track flooding frequency and extent to inform capital projects (e.g., road improvements, culvert replacements).",
+        "Monitor disease prevalence and occurrence (spatially and temporally.",
+        "Monitor isolated waters for introductions/increases in invasive species.",
+        "Monitor groundwater table."
+      ],
+      "Planning": [
+        "Re-evaluate fishery management, habitat management and water quality standards where doing so could increase recruitment.",
+        "Create, maintain and enforce minimum flows to prevent harmful drawdown of groundwater and allow recharge during periods of decreased precipitation or drought.",
+        "Reduce roadway and paved area construction near aquatic systems.",
+        "Develop timber harvest plans that reduce or avoid timber harvest near shoreline in favor of harvesting methods that maintain a greater canopy cover (e.g., patch/selection cuts).",
+        "Develop strategies to deal with changes in lake access points for various future conditions.",
+        "Consider allowing for shifts in community composition."
+      ],
+      "Policy": [
+        "Work with small municipalities, counties and industry to address unpaved road sediment and stormwater runoff issues.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Promote water use and allocation measures to protect critical habitats",
+        "Redefine flood hazard zones to match projected expansion of flooding frequency and extent.",
+        "Encourage the passage of state regulations to strengthen protection of riparian areas.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase protection of riparian areas."
+      ],
+      "Protection": [
+        "Identify and prioritize protection of corridors between aquatic systems and between associated upland habitats to promote species migration corridors.",
+        "Increase protection of water bodies that are most vulnerable to climate change.",
+        "Preserve aquatic systems and buffers that are not yet impacted by human development.",
+        "Maintain habitat quality to enhance the resilience of isolated waters to changing conditions.",
+        "Identify and protect important and potentially resilient lakes and ponds and associated wetland areas and ensure that a variety of these habitats are included in land protection planning.",
+        "Maintain floodplains as undeveloped areas and protect associated wetlands for floodwater storage.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads."
+      ],
+      "Restoration": [
+        "Reconnect fragmented habitat.",
+        "Improve habitat quality to enhance the resilience of isolated waters to changing conditions.",
+        "Modify water management (timing & amount of releases from water control structures) in response to expected water level changes due to climate change.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads impacting species and habitats.",
+        "Select native plant species for restoration efforts that are expected to be better adapted to future climate conditions.",
+        "Conduct hydrological restoration of disturbed areas to slow runoff and increase water retention and increase hydroperiod.",
+        "Restore riparian areas to increase water retention and uptake of soil retention and reduce impacts of flood events, erosion, and sedimentation."
+      ]
+    },
     "habitatType": "conservation asset",
-    "name": "Lakes, Ponds and Reservoirs",
-    "name2": null,
     "path": "/habitats/freshwater/3100",
     "icon": "lakes_ponds_reservoirs",
     "bounds": null,
@@ -1179,9 +2606,54 @@
     "photoCredit": "FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with communities to improve stormwater runoff and encourage groundwater recharge options through low impact development and retrofits.",
+        "Encourage citizen scientists to track phenology and contribute to national efforts.",
+        "Work with volunteers to control invasive species.",
+        "Work with small municipalities and counties to address unpaved road sediment impacts on ephemeral wetlands.",
+        "Promote proper use of pesticides.",
+        "Enhance outreach regarding impacts of fertilizer which contribute to increased nutrient loads."
+      ],
+      "Monitoring": [
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Track flooding frequency and extent to inform capital projects (e.g., road improvements, culvert replacements).",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor groundwater table."
+      ],
+      "Planning": [
+        "Develop strategies to deal with changes in lake access points for various future conditions.",
+        "Reduce/eliminate future roadway and paved area construction near lakes.",
+        "Create, maintain and enforce minimum flows to prevent harmful drawdown of groundwater and allow recharge during periods of decreased precipitation or drought.",
+        "Consider allowing for shifts in community composition."
+      ],
+      "Policy": [
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Centralize recreation impacts to easy-access areas.",
+        "Identify overused areas and limit recreational trails use.",
+        "Develop policies and incentives for decreasing impervious surfaces.",
+        "Redefine flood hazard zones to match projected expansion of flooding frequency and extent.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Promote water use and allocation measures to protect critical habitats",
+        "Work with small municipalities, counties and industry to address unpaved road sediment and stormwater runoff issues."
+      ],
+      "Protection": [
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads.",
+        "Protect remaining unprotected coastal dune lakes, associated wetland areas, and adjacent upland buffers.",
+        "Maintain habitat quality to enhance the resilience of lakes to changing conditions.",
+        "Identify and prioritize protection of corridors between lakes and associated upland habitats to promote species migration corridors.",
+        "Implement living shorelines along coast adjacent to coastal dune lakes to reduce impacts from tides and storm events."
+      ],
+      "Restoration": [
+        "Restore adjacent upland areas to increase water retention and uptake of soil retention and reduce impacts of flood events, erosion, and sedimentation.",
+        "Select native plant species for restoration efforts that are expected to be better adapted to future climate conditions.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads impacting species and habitats.",
+        "Modify water management (timing & amount of releases from water control structures) in response to expected water level changes due to climate change.",
+        "Conduct hydrological restoration of disturbed areas.",
+        "Reconnect fragmented habitat."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Coastal Dune Lake",
-    "name2": "Lakes, Ponds and Reservoirs",
     "path": "/habitats/freshwater/3112",
     "icon": "lakes_ponds_reservoirs",
     "bounds": [-87.322, 29.635, -84.702, 30.512],
@@ -1208,9 +2680,59 @@
     "photoCredit": "David Moynahan, FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with communities to reduce stormwater runoff and improve water quality.",
+        "Educate planners on importance of habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts.",
+        "Work with volunteers to control invasive species.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Develop education materials for recreational users on the importance of phenology factors, how they may change over time given climate change impacts, and how they relate to regulations/closures.",
+        "Educate and work with fisheries participants to recognize and report irregularities in phenology indicators."
+      ],
+      "Monitoring": [
+        "Monitor disease prevalence and occurrence.",
+        "Increase the number of river/stream monitoring stations (e.g., water levels, water temperature).",
+        "Participate in High Water Mark Initiative efforts after flooding events (https://www.fema.gov/high-water-mark-initiative).",
+        "Track flooding frequency and extent to inform capital projects (e.g., road improvements, culvert replacements).",
+        "Analyze fisheries surveys for shifting populations as a result of changing habitat parameters.",
+        "Monitor salt wedge intrusion in rivers.",
+        "Monitor community movements (e.g. Vallisneria americana beds moving with salinity shifts).",
+        "Monitor aquatic systems for introductions/increases in invasive species.",
+        "Increase monitoring of pollutants in the systems and identify sources."
+      ],
+      "Planning": [
+        "Develop strategies to deal with changes in river access points, especially during periods of drought.",
+        "Develop timber harvest plans that reduce or avoid timber harvest near shoreline in favor of harvesting methods that maintain a greater canopy cover (e.g., patch/selection cuts).",
+        "Re-evaluate fishery management and water quality standards where doing so could increase recruitment."
+      ],
+      "Policy": [
+        "Redefine riverine flood hazard zones to match projected expansion of flooding frequency and extent.",
+        "Encourage the passage of state regulations to strengthen protection of riparian areas.",
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Encourage landowner cost share programs and enrollment in conservation easements to increase protection of riparian areas."
+      ],
+      "Protection": [
+        "Identify important (and potentially resilient) aquatic systems and wetland areas to serve as refugia, prioritize inclusion in land protection planning efforts.",
+        "Maintain floodplains as undeveloped areas.",
+        "Identify and prioritize protection of corridors between aquatic systems and associated upland habitats that will promote species migration corridors.",
+        "Limit the amount of water that can be withdrawn from streams for irrigation or other purposes, especially in times of high temperatures and low stream flow.",
+        "Preserve aquatic systems and buffers that are not yet impacted by human development.",
+        "Expand protected areas to increase the representation of connected waters and minimize risk of loss across the landscape."
+      ],
+      "Restoration": [
+        "Replace stream crossing structures with those designed to accommodate future flow conditions and allow for fish and wildlife passage.",
+        "Restore/modify channels to create habitat diversity.",
+        "Reconnect rivers to floodplains by modifying or removing barriers (e.g., dams, culverts, berms).",
+        "Implement best management practices to reduce current and future sources of land-based pollutant and nutrient loads impacting species and habitats.",
+        "Restore riparian buffers to reduce erosion and pollution, reduce stream temperature, and allow migration of plants and animals.",
+        "Remove/restore ditches in coastal areas to deter saltwater intrusion and restore natural water flow.",
+        "Create refugia for periods of drought and warming water conditions.",
+        "Implement management practices that eliminate or reduce application of pesticides in the rainy season.",
+        "Reduce bare ground adjacent to flowing waters.",
+        "Improve habitat quality to enhance the resilience of aquatic habitats to changing conditions."
+      ]
+    },
     "habitatType": "conservation asset",
-    "name": "Rivers and Streams",
-    "name2": null,
     "path": "/habitats/freshwater/4000",
     "icon": "rivers_streams",
     "bounds": null,
@@ -1237,9 +2759,57 @@
     "photoCredit": "Joe Davis, FWC",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts.",
+        "Develop educational materials for private landowners on appropriate use of fertilizers and pesticides and impacts on water quality.",
+        "Work with volunteers to control invasive species.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Encourage citizen scientists to track phenology and contribute to national efforts.",
+        "Ensure public know how to report new disease occurrences for fish and game.",
+        "Work with communities to improve stormwater runoff and encourage groundwater recharge options through low impact development and retrofits."
+      ],
+      "Monitoring": [
+        "Increase the number of spring monitoring stations (water levels, water temperature).",
+        "Increase monitoring of pollutants.",
+        "Monitor water quality.",
+        "Monitor groundwater table.",
+        "Monitor salt wedge intrusion into springs.",
+        "Monitor accessibility to springs by manatees.",
+        "Monitor for introductions/increases in invasive species.",
+        "Monitor community composition.",
+        "Monitor disease prevalence and occurrence (spatially and temporally)."
+      ],
+      "Planning": [
+        "Reduce future roadway and paved area construction near aquatic systems to maintain natural drainage patterns.",
+        "Develop strategies to deal with increased demands for recreational use.",
+        "Create, maintain and enforce minimum flows to prevent harmful drawdown of groundwater and allow recharge during periods of decreased precipitation or drought."
+      ],
+      "Policy": [
+        "Review and update Best Management Practices to accommodate current and future conditions.",
+        "Develop policies and incentives for reducing impervious surface and encouraging low impact development to increase groundwater recharge.",
+        "Promote water use and allocation measures, adjusted for more variable conditions, to protect critical habitats.",
+        "Develop incentives for private landowners to reduce fertilizer and pesticide use."
+      ],
+      "Protection": [
+        "Maintain habitat quality to enhance the resilience of springs to changing conditions.",
+        "Maintain canopy cover near spring runs to reduce thermal stress and evaporation.",
+        "Protect riparian buffers to reduce stormwater runoff from adjacent development.",
+        "Restrict development and other land uses that alter disturbance processes in and around springs and spring runs."
+      ],
+      "Restoration": [
+        "Improve habitat quality to enhance the resilience of springs to changing conditions.",
+        "Restore local habitats and microhabitats especially for aquatic caves (e.g., remove or prevent the growth of harmful algae).",
+        "Manage access to springs and spring runs for all species, remove physical barriers to fish movement.",
+        "Replace impervious surfaces with permeable pavement to allow runoff to flow through.",
+        "Enhance access to springs by manatees for future conditions.",
+        "Reduce bare ground adjacent to water flowing into springs.",
+        "Reduce point and nonpoint sources of pollutants and nutrients (e.g., Nitrogen, Phosphorous, toxins) from agricultural and residential land use activities.",
+        "Restore riparian areas to increase water retention and uptake of soil retention and reduce impacts of flood events, erosion, and sedimentation.",
+        "Implement management practices that eliminate or reduce application of pesticides in the rainy season."
+      ]
+    },
     "habitatType": "conservation asset",
-    "name": "Springs",
-    "name2": null,
     "path": "/habitats/freshwater/4001",
     "icon": "springs",
     "bounds": null,
@@ -1266,9 +2836,8 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/evergladesnps/9250055066/",
     "hasPhoto": true,
+    "strategies": null,
     "habitatType": "ecosystem",
-    "name": "Marine & Estuarine",
-    "name2": null,
     "path": "/habitats/marine",
     "icon": "marine_estuarine_ecosystems",
     "bounds": null,
@@ -1295,9 +2864,58 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/evergladesnps/9247501763/",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with communities to reduce stormwater runoff negatively impacted natural habitats.",
+        "Enhance outreach regarding impacts of fertilizer on water quality.",
+        "Work with volunteers to control invasive species.",
+        "Work with local fishing, boating and diving industries to reduce impacts of habitat use activities.",
+        "Encourage oyster shell recycling efforts."
+      ],
+      "Monitoring": [
+        "Monitor phenology.",
+        "Monitor abundance and presence of invasive species.",
+        "Monitor shifting migration patterns of species.",
+        "Monitor changes in population demographics of commercially and recreationally important species attributable to climate change.",
+        "Monitor, map and research shifts in communities; identify sensitive and resilient species."
+      ],
+      "Planning": [
+        "Work with neighboring states/countries on species with large ranges and migratory pathways.",
+        "Develop invasive species control plans, addressing synergistic effects of climate change and invasive species.",
+        "Develop coordinated foreshore habitat management plans that establish a connected network of protected areas across the entire Florida shoreline.",
+        "Evaluate alternate/cyclical/rotational use of habitats for recreational and commercial activities.",
+        "Design estuaries with dynamic boundaries and buffers."
+      ],
+      "Policy": [
+        "Limit coastal urban sprawl development.",
+        "Develop incentives/programs for water farming for discharge as needed for high salinity events.",
+        "Adjust harvest limits (commercial and recreational) as needed to address shifting population dynamics.",
+        "Require coastal counties address foreshore habitat conservation and adaptation in all comprehensive planning activities.",
+        "Adjust no-take zones, ensuring that climate refugia sites are included."
+      ],
+      "Protection": [
+        "Adapt protections of important biogeochemical zones and critical habitats as the locations of these areas change with climate.",
+        "Protect remaining natural shorelines.",
+        "Include critical migratory pathways in protection plans.",
+        "Adjust boundaries of existing marine protected areas in response to impacts from climate change.",
+        "Provide protection to areas identified as climate refugia."
+      ],
+      "Restoration": [
+        "Use natural breakwaters of oysters (or install other natural breakwaters) to dissipate wave action and protect shorelines.",
+        "Recover impacted shoreline habitats with species adapted to changing conditions.",
+        "Restore or create new bivalve or annelid reefs.",
+        "Provide aeration.",
+        "Eliminate artificial features that minimize water circulation.",
+        "Divert cooler deep water to coastal areas.",
+        "Replace hardened shorelines with living shorelines.",
+        "Increase vegetation cover along shoreline and tributaries to provide shade.",
+        "Reduce groundwater withdrawal in watersheds.",
+        "Plant shoreline cover to reduce evapotranspiration.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads impacting species and habitats.",
+        "Collect freshwater for discharge during high salinity events."
+      ]
+    },
     "habitatType": "conservation asset",
-    "name": "Estuarine/Marine (system wide)",
-    "name2": null,
     "path": "/habitats/marine/5200",
     "icon": "estuarine_marine_system_wide",
     "bounds": null,
@@ -1324,9 +2942,53 @@
     "photoCredit": "Randy Kautz",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Enhance outreach regarding impacts of fertilizer on water quality.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Work with communities and landowners to choose vegetation, living shorelines, oyster reef restoration, or hybrid approaches in favor of traditional hard armoring.",
+        "Enhance outreach efforts to correlate water quality and habitat health to improve public stewardship and support actions to improve water quality.",
+        "Work with volunteers to control invasive species.",
+        "Work with communities to reduce stormwater runoff.",
+        "Work with local fishing, boating and diving industries to reduce impacts of habitat use activities."
+      ],
+      "Monitoring": [
+        "Install Surface Elevation Tables in sensitive areas to improve future modeling efforts and monitor ability of critical habitats to maintain elevation with sea level rise.",
+        "Monitor levels of pollutants.",
+        "Monitor community range shifts.",
+        "Monitor, map and research shifts in communities; identify sensitive and resilient species.",
+        "Encourage periodic bioblitz events to capture comprehensive inventories, repeat periodically (5 to 10 years).",
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor phenology.",
+        "Monitor sediment dynamics.",
+        "Establish wetland reference sites to monitor the impact of climate change and determine the effectiveness of management and adjustment strategies."
+      ],
+      "Planning": [
+        "Study and better understand species that are expected to migrate upslope in order to determine which ones are most likely to support wetland functions and values given climate change.",
+        "Undertake long term wetland planning with the goal of protecting and increasing the resiliency and adaptability of wetland ecosystems in the face of climate change.",
+        "Develop coordinated foreshore habitat management plans that establish a connected network of protected areas across the entire Florida shoreline.",
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts."
+      ],
+      "Policy": [
+        "Establish slow speed/no wake zones to reduce shoreline erosion.",
+        "Establish rolling easements.",
+        "Incentivize natural shorelines."
+      ],
+      "Protection": [
+        "Purchase upslope development rights or property rights.",
+        "Preserve and restore the structural complexity and biodiversity of vegetation.",
+        "Establish protections for transitional habitats that will provide for range shifts and serve as potential climate refugia.",
+        "Use SLAMM outputs to identify and preserve priority migratory pathways for salt marsh habitats, remove barriers when feasible."
+      ],
+      "Restoration": [
+        "Undertake restoration, creation, enhancement for wetlands most threatened by climate change in contexts where restored, created, or enhanced wetlands may also be sustainable.",
+        "Remove barriers to inland migration.",
+        "Restore hydrology by filling mosquito ditches, removing roads, and replacing culverts with types/sizes that will accommodate future flows.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads impacting species and habitats.",
+        "Install rock sills and other artificial breakwaters (using natural materials) in front of marshes to dissipate wave action and protect shoreline."
+      ]
+    },
     "habitatType": "conservation asset",
-    "name": "Saltwater Marsh",
-    "name2": null,
     "path": "/habitats/marine/5240",
     "icon": "saltwater_marsh",
     "bounds": [-87.513, 24.484, -79.929, 30.773],
@@ -1353,9 +3015,54 @@
     "photoCredit": "NPS",
     "photoUrl": "https://www.flickr.com/photos/evergladesnps/9101023477/",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with communities and landowners to choose vegetation, living shorelines, oyster reef restoration, or hybrid approaches in favor of traditional hard armoring.",
+        "Work with volunteers to control invasive species.",
+        "Enhance outreach regarding impacts of fertilizer on water quality.",
+        "Actively engage with communities to minimize urban encroachment.",
+        "Educate planners on importance of coastal habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts.",
+        "Work with communities to reduce stormwater runoff."
+      ],
+      "Monitoring": [
+        "Monitor levels of pollutants.",
+        "Monitor community range shifts.",
+        "Encourage periodic bioblitz events to capture comprehensive inventories, repeat periodically (5 to 10 years).",
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor phenology.",
+        "Monitor, map  and research shifts in communities; identify sensitive and resilient species.",
+        "Install Surface Elevation Tables in sensitive areas to improve future modeling efforts and monitor ability of critical habitats to maintain elevation with sea level rise.",
+        "Continue and expand disturbance monitoring activities with the goal of establishing early warning systems and management responses to address impacts on mangroves.",
+        "Monitor sediment dynamics."
+      ],
+      "Planning": [
+        "Develop coordinated foreshore habitat management plans that establish a connected network of protected areas across the entire Florida shoreline.",
+        "Work with counties, local municipalities and regional planning councils to incorporate natural resources adaptation strategies in comprehensive plans and hazard planning efforts."
+      ],
+      "Policy": [
+        "Establish rolling easements.",
+        "Eliminate/reduce mangrove thinning/pruning.",
+        "Incentivize natural shorelines."
+      ],
+      "Protection": [
+        "Preserve and restore the structural complexity and biodiversity of vegetation.",
+        "Protect buffer zones landward of shore to allow for future upslope migration.",
+        "Purchase upland development rights or property rights.",
+        "Protect critical areas that are naturally positioned to be more resistant to climate change.",
+        "Protect mangrove forests with abundant mature trees producing a healthy supply of seeds and propagules.",
+        "Protect mangrove areas that demonstrate persistence over time \u2013 areas with a range of small young and large old trees or mangrove roots with dense epibiont communities such as oysters, sponges, tunicates and corals.",
+        "Establish protections for transitional habitats that will provide for range shifts and serve as potential climate refugia.",
+        "Protect mangrove areas where they benefit adjacent ecosystems by filtering sediments and pollutants or providing nursery habitats."
+      ],
+      "Restoration": [
+        "Restore mangrove communities that are most likely to withstand climate change impacts if other threats are removed (non-climate stressors).",
+        "Replace hardened shorelines with natural vegetated shorelines.",
+        "Remove impediments/barriers to upslope habitat movement.",
+        "Restore hydrology by filling mosquito ditches, removing roads, and replacing culverts with types/sizes that will accommodate future flows.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads impacting species and habitats."
+      ]
+    },
     "habitatType": "conservation asset",
-    "name": "Mangrove Swamp",
-    "name2": null,
     "path": "/habitats/marine/5250",
     "icon": "mangrove_swamp",
     "bounds": [-83.203, 24.483, -79.898, 30.582],
@@ -1382,9 +3089,51 @@
     "photoCredit": "USGS",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Evaluate adopt-a-species programs at all educational and public levels.",
+        "Empower local communities to participate at the appropriate stages of MPA development decision-making processes.",
+        "Work with local fishing, boating, and diving industries to report changes or impacts to the system.",
+        "Engage volunteers for reef restoration, protection and stewardship efforts.",
+        "Enhance outreach efforts to correlate water quality and habitat health to improve public stewardship and support actions to improve water quality, especially nutrients.",
+        "Educate recreational users on the importance of phenology factors and how they relate to regulations/closures.",
+        "Educate planners on importance of coastal habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts."
+      ],
+      "Monitoring": [
+        "Continue and expand disturbance monitoring activities with the goal of establishing early warning systems and management responses to address impacts on nearshore coastal habitats.",
+        "Monitor levels of pollutants.",
+        "Monitor phenology.",
+        "Monitor disease prevalence and occurrence.",
+        "Encourage periodic bioblitz events to capture comprehensive inventories, repeat periodically (5 to 10 years).",
+        "Analyze fisheries surveys for shifting populations.",
+        "Monitor, map, and research shifts in communities; identify sensitive and resilient species."
+      ],
+      "Planning": [
+        "Restrict development and other land uses that alter disturbance processes in sensitive areas, set up buffer reserves and management areas.",
+        "Develop coordinated foreshore habitat management plans that establish a connected network of protected areas across the entire Florida shoreline.",
+        "Evaluate alternate/cyclical/rotational use of habitats for recreational and commercial activities."
+      ],
+      "Policy": [
+        "Require coastal counties to address foreshore habitat conservation and adaptation in all comprehensive planning activities.",
+        "Re-direct or limit boating or other recreational and commercial pressures at sensitive sites where intense use could further reduce habitat cover."
+      ],
+      "Protection": [
+        "Provide shading or screening of corals that reduces the effects of harmful levels of UV-radiation.",
+        "Protect areas that have exhibited resistance to bleaching and may have low vulnerability to future bleaching.",
+        "Minimize risk and increase resilience through additional marine protections.",
+        "Protect coastal vegetation and upland buffers to reduce the impact of increased disturbance events on reef systems (stormwater runoff and sediment transport).",
+        "Protect areas that contain large and resistant colonies that produce large amounts of healthy larvae and display high biodiversity with fast-and slow-growing species."
+      ],
+      "Restoration": [
+        "Restore nearshore habitats.",
+        "Implement best management practices to reduce sources of land-based pollutant and nutrient loads impacting species and habitats that are highly vulnerable to climate change.",
+        "Restore coastal vegetation and upland buffers to reduce the impact of increased disturbance events on reef systems (stormwater runoff and sediment transport).",
+        "Re-evaluate restoration and enhancement activities to address need for broader coverage at different spatial and temporal scales at the community level rather than species.",
+        "Recover impacted shoreline habitats with species adapted to changing conditions.",
+        "Restore or create new bivalve or annelid reefs."
+      ]
+    },
     "habitatType": "conservation asset",
-    "name": "Coral and Hardbottom",
-    "name2": null,
     "path": "/habitats/marine/6100",
     "icon": "coral_hardbottom",
     "bounds": null,
@@ -1411,9 +3160,49 @@
     "photoCredit": "NOAA",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with local fishing, boating and diving industries to share information on systems and impacts from climate change and other stressors.",
+        "Enhance outreach efforts to correlate water quality and habitat health to improve public stewardship and support actions to improve water quality.",
+        "Educate planners on importance of coastal habitat preservation (including serving as hazard buffers), climate change and incorporation into long range planning efforts.",
+        "Enhance outreach regarding impacts of fertilizer on water quality.",
+        "Work with communities and landowners to choose vegetation, living shorelines, oyster reef restoration, or hybrid approaches in favor of traditional hard armoring.",
+        "Work with communities to reduce stormwater runoff."
+      ],
+      "Monitoring": [
+        "Continue and expand disturbance monitoring activities with the goal of establishing early warning systems and management responses to address impacts on seagrass.",
+        "Monitor community range shifts.",
+        "Monitor, map and research shifts in communities; identify sensitive and resilient species.",
+        "Monitor restoration and management projects to provide feedback on results and determine if they need to be adapted to meet their goals.",
+        "Monitor disease prevalence and occurrence (spatially and temporally).",
+        "Monitor phenology.",
+        "Encourage periodic bioblitz events to capture comprehensive inventories, repeat periodically (5 to 10 years).",
+        "Monitor toxic levels of pollutants."
+      ],
+      "Planning": [
+        "Develop baseline maps of seagrass meadows to allow for monitoring of changes in distribution and abundance.",
+        "Identify patterns of connectivity between seagrass beds and adjacent habitats to improve the design of marine protected area networks."
+      ],
+      "Policy": [
+        "Re-direct or limit boating or other recreational and commercial pressures at sensitive sites where intense use could further reduce habitat cover.",
+        "Implement codes of conduct for fishing and boat anchoring to reduce disturbances and damage."
+      ],
+      "Protection": [
+        "Preserve the structural complexity and biodiversity of vegetation (e.g., species diversity, genetic diversity, trophic diversity).",
+        "Fully protect seagrass communities that are at low risk of succumbing to climate change and anthropogenic impacts (areas to serve as refugia).",
+        "Protect multiple sites of the full range of seagrass communities and from a wide geographical range.",
+        "Establish coastal buffer zones to limit soil, nutrient and pollutant runoff.",
+        "Protect seagrass communities that are producing a healthy supply of seeds/propagules (protect supply sources of seeds to repopulate following disturbances).",
+        "Protect seagrass communities that are of important ecological significance (high species diversity, nursery habitat) and essential to the livelihoods of local communities (human)."
+      ],
+      "Restoration": [
+        "Restore the structural complexity and biodiversity of vegetation (e.g., species diversity, genetic diversity, trophic diversity).",
+        "Reduce surface water runoff in order to minimize impacts on sensitive Submerged Aquatic Vegetation (SAV).",
+        "Introduce founder populations (pioneering species), followed by transplantation of other species.",
+        "Restore critical seagrass communities that are most likely to withstand climate change impacts if other threats are removed (non-climate stressors)."
+      ]
+    },
     "habitatType": "conservation asset",
-    "name": "Seagrass",
-    "name2": null,
     "path": "/habitats/marine/6200",
     "icon": "seagrass",
     "bounds": null,
@@ -1440,9 +3229,38 @@
     "photoCredit": "Kimberely Gulledge, FNAI",
     "photoUrl": "",
     "hasPhoto": true,
+    "strategies": {
+      "Education/Outreach": [
+        "Work with volunteers to control invasive species.",
+        "Work with communities and landowners to choose native vegetation in favor of non-native vegetation.",
+        "Provide education and incentives for neighboring landowners to reduce critical invasive plants and assist in detection of new species.",
+        "Work with local communities to remove dumped debris, e.g., construction materials, landscape debris, automobile parts, trash."
+      ],
+      "Monitoring": [
+        "Conduct surveys to detect new infestations of invasive species and presence of new species.",
+        "Monitor species diversity and habitat transition over time in response to sea level rise and changing climatological conditions."
+      ],
+      "Planning": [
+        "Plan timing of restoration activities to avoid impacts on rare species during critical life history phases and during times of increased stress due to impacts from climate change.",
+        "Identify areas particularly vulnerable to loss or transition under climate change and develop management strategies and approaches for adaptation.",
+        "Incorporate climate change considerations into new and future revisions of species and area management plans."
+      ],
+      "Policy": [
+        "Provide greater regulation and enforcement of recreational use and access restrictions.",
+        "Reduce public access to areas as they become stressed/impacted by climate change and more susceptible to non-climate stressors."
+      ],
+      "Protection": [
+        "Develop ex-situ living collections of unique/endemic plant species with partners such as botanic gardens and arboreta.",
+        "Consider relocating rare species to higher elevation areas when critical populations may be affected by impacts from sea level rise (e.g., inundation).",
+        "Preserve remaining keys tidal rock barrens and buffers that will enhance species migration corridors.",
+        "Reduce or eliminate mosquito spraying on and adjacent to keys tidal rock barrens.."
+      ],
+      "Restoration": [
+        "Remove existing invasive species.",
+        "Remove new invasive species before they become established."
+      ]
+    },
     "habitatType": "habitat",
-    "name": "Keys Tidal Rock Barren",
-    "name2": "Estuarine/Marine (system wide)",
     "path": "/habitats/marine/52111",
     "icon": "estuarine_marine_system_wide",
     "bounds": [-82.002, 24.496, -80.28, 25.343],

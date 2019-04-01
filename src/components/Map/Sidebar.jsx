@@ -77,9 +77,9 @@ const VerticalSpacer = styled.div`
   width: 1rem;
 `
 
-const Sidebar = ({ name, path, area, slr1, slr3 }) => {
-  const slr1Percent = (100 * slr1) / area
-  const slr3Percent = (100 * slr3) / area
+const Sidebar = ({ name, path, area, slr1m, slr3m }) => {
+  const slr1Percent = (100 * slr1m) / area
+  const slr3Percent = (100 * slr3m) / area
   const notImpactedPercent = 100 - slr3Percent // by definition, everything impacted by 3m was also impacted at 1m
 
   return (
@@ -149,13 +149,13 @@ Sidebar.propTypes = {
   name: PropTypes.string.isRequired,
   path: PropTypes.string.isRequired,
   area: PropTypes.number.isRequired,
-  slr1: PropTypes.number,
-  slr3: PropTypes.number,
+  slr1m: PropTypes.number,
+  slr3m: PropTypes.number,
 }
 
 Sidebar.defaultProps = {
-  slr1: 0,
-  slr3: 0,
+  slr1m: 0,
+  slr3m: 0,
 }
 
 export default Sidebar

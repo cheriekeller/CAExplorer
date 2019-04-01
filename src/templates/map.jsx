@@ -7,28 +7,39 @@ import SEO from 'components/SEO'
 import Map from 'components/Map'
 import MapSidebar from 'components/Map/Sidebar'
 
-import styled from '../util/style'
-
-const Content = styled.div``
-
 const Template = ({
   data: {
-    json: { id, path, name, area, slr1, slr3, bounds },
+    json: {
+      id,
+      path,
+      itemType,
+      commonName,
+      habitat,
+      conservationAsset,
+      area,
+      slr1m,
+      slr3m,
+      bounds,
+    },
   },
-}) => (
-  <Layout>
-    <SEO title={name} />
-    <MapSidebar
-      id={id}
-      path={path}
-      name={name}
-      area={area}
-      slr1={slr1}
-      slr3={slr3}
-    />
-    <Map id={id} bounds={bounds} />
-  </Layout>
-)
+}) => {
+  const name =
+    itemType === 'species' ? commonName : habitat || conservationAsset
+  return (
+    <Layout>
+      <SEO title={name} />
+      <MapSidebar
+        id={id}
+        path={path}
+        name={name}
+        area={area}
+        slr1m={slr1m}
+        slr3m={slr3m}
+      />
+      <Map id={id} bounds={bounds} />
+    </Layout>
+  )
+}
 
 Template.propTypes = {
   data: PropTypes.shape({
@@ -45,10 +56,13 @@ export const pageQuery = graphql`
     json(id: { eq: $id }) {
       id
       path
-      name
+      itemType
+      commonName
+      habitat
+      conservationAsset
       area
-      slr1
-      slr3
+      slr1m
+      slr3m
       bounds
     }
   }

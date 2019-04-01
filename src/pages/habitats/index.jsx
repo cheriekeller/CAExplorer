@@ -73,7 +73,14 @@ const ListItemWrapper = styled(Box).attrs({
   flex: '0 1 14em',
 })``
 
-const ListItem = ({ icon, name, path, level }) => (
+const ListItem = ({
+  icon,
+  habitat,
+  conservationAsset,
+  ecosystem,
+  path,
+  level,
+}) => (
   <ListItemWrapper>
     <Flex>
       <InlineIcon
@@ -83,7 +90,7 @@ const ListItem = ({ icon, name, path, level }) => (
         borderColor={VULNERABILITY_COLORS[level]}
       />
       <div>
-        <Link to={path}>{name}</Link>
+        <Link to={path}>{habitat || conservationAsset || ecosystem}</Link>
       </div>
     </Flex>
   </ListItemWrapper>
@@ -197,12 +204,12 @@ export const pageQuery = graphql`
           id
           icon
           path
-          name
-          ca
+          habitat
+          conservationAsset
           ecosystem
           area
-          slr1
-          slr3
+          slr1m
+          slr3m
           bounds
           vulnerability
         }

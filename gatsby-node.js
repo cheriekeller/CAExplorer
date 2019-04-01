@@ -60,16 +60,7 @@ exports.createPages = ({ graphql, actions }) => {
                   id
                   itemType
                   path
-                  icon
-                  name
-                  name2
-                  group
-                  subgroup
-                  area
                   bounds
-                  slr1
-                  slr3
-                  vulnerability
                 }
               }
             }
