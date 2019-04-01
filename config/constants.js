@@ -1,7 +1,7 @@
 import { theme } from 'util/style'
 
 export const VULNERABILITY = {
-  0: 'Unknown', // 'Not Assessed',
+  0: 'Not Assessed',
   1: 'Very Low',
   2: 'Low',
   3: 'Moderate',
