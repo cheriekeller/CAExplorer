@@ -12,7 +12,8 @@ const Circle = styled.circle`
 
 const PercentLabel = styled.tspan`
   font-size: 30px;
-  fill: ${themeGet('colors.grey.800')};
+  fill: ${({ isActive }) =>
+    isActive ? themeGet('colors.secondary.800') : themeGet('colors.grey.800')};
 `
 
 const Percent = styled.tspan`
@@ -34,6 +35,9 @@ const Donut = ({
   donutWidth,
   offset,
   isPercent,
+  active,
+  className,
+  onClick,
 }) => {
   const halfsize = size * 0.5
   const radius = halfsize - donutWidth * 0.5
@@ -42,7 +46,12 @@ const Donut = ({
     90} ${halfsize},${halfsize})`
 
   return (
-    <svg width={`${size}px`} height={`${size}`} className="donutchart">
+    <svg
+      width={`${size}px`}
+      height={`${size}`}
+      className={className}
+      onClick={onClick}
+    >
       <Circle
         r={radius}
         cx={halfsize}
@@ -68,7 +77,7 @@ const Donut = ({
           dominantBaseline: label ? '' : 'central',
         }}
       >
-        <PercentLabel>
+        <PercentLabel isActive={active}>
           {percentLabel !== null
             ? percentLabel
             : formatNumber(percent, percent < 1 ? 1 : 0)}
@@ -82,6 +91,16 @@ const Donut = ({
           </Label>
         )}
       </text>
+
+      {active ? (
+        <Circle
+          r={halfsize - 2}
+          cx={halfsize}
+          cy={halfsize}
+          stroke={theme.colors.primary[200]}
+          strokeWidth={4}
+        />
+      ) : null}
     </svg>
   )
 }
@@ -95,6 +114,9 @@ Donut.propTypes = {
   size: PropTypes.number, // width of the chart
   offset: PropTypes.number, // additional percentage to rotate the indicator (e.g., sum of percents of preceding charts in a series)
   isPercent: PropTypes.bool,
+  active: PropTypes.bool,
+  className: PropTypes.string,
+  onClick: PropTypes.func,
 }
 
 Donut.defaultProps = {
@@ -105,6 +127,9 @@ Donut.defaultProps = {
   size: 200,
   offset: 0,
   isPercent: true,
+  active: false,
+  className: null,
+  onClick: () => {},
 }
 
 export default Donut

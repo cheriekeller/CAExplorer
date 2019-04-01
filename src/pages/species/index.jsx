@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { Set } from 'immutable'
 
@@ -13,8 +14,14 @@ import styled, { themeGet } from 'util/style'
 import { VULNERABILITY, VULNERABILITY_COLORS } from '../../../config/constants'
 
 const itemSort = (
-  { node: { level: leftLevel, name: leftName, group: leftGroup } },
-  { node: { level: rightLevel, name: rightName, group: rightGroup } }
+  { node: { vulnerabilityLevel: leftLevel, name: leftName, group: leftGroup } },
+  {
+    node: {
+      vulnerabilityLevel: rightLevel,
+      name: rightName,
+      group: rightGroup,
+    },
+  }
 ) => {
   if (leftLevel === rightLevel) {
     if (leftGroup === rightGroup) {
@@ -30,30 +37,13 @@ const Spacer = styled.div`
   flex-shrink: 0;
 `
 
-const DonutWrapper = styled.div`
+const StyledDonut = styled(Donut)`
   margin-top: 1rem;
   cursor: pointer;
-  border-bottom: 2px solid
-    ${({ active }) =>
-      active ? themeGet('colors.secondary.800') : 'transparent'};
-
-  &:hover {
-    border-bottom-color: ${({ active }) =>
-      active ? themeGet('colors.secondary.800') : themeGet('colors.grey.500')};
-  }
 `
 
 // TODO: make this a vulnerabilty block instead
 const ListHeader = styled.h3``
-
-// const ListItemWrapper = styled(Flex).attrs({
-//   alignItems: 'center',
-//   flexWrap: 'wrap',
-// })`
-//   width: 300px;
-//   padding: 1rem;
-//   flex: 0 0 auto;
-// `
 
 const NoItemsBlock = styled.h4`
   margin: 2rem 0;
@@ -73,14 +63,14 @@ const ListItemWrapper = styled(Box).attrs({
   flex: '0 1 14em',
 })``
 
-const ListItem = ({ icon, commonName: name, path, level }) => (
+const ListItem = ({ icon, commonName: name, path, vulnerabilityLevel }) => (
   <ListItemWrapper>
     <Flex>
       <InlineIcon
         name={icon}
         size="1.5rem"
-        color={VULNERABILITY_COLORS[level]}
-        borderColor={VULNERABILITY_COLORS[level]}
+        color={VULNERABILITY_COLORS[vulnerabilityLevel]}
+        borderColor={VULNERABILITY_COLORS[vulnerabilityLevel]}
       />
       <div>
         <Link to={path}>{name}</Link>
@@ -88,6 +78,13 @@ const ListItem = ({ icon, commonName: name, path, level }) => (
     </Flex>
   </ListItemWrapper>
 )
+
+ListItem.propTypes = {
+  icon: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
+  vulnerabilityLevel: PropTypes.number.isRequired,
+  commonName: PropTypes.string.isRequired,
+}
 
 const IndexPage = ({
   data: {
@@ -110,13 +107,13 @@ const IndexPage = ({
   items.forEach(({ node: item }) => {
     const { vulnerability } = item
 
-    const level = (vulnerability || [0]).slice(-1)[0]
-    item.level = level
+    const vulnerabilityLevel = (vulnerability || [0]).slice(-1)[0]
+    item.vulnerabilityLevel = vulnerabilityLevel
 
-    if (!grouped[level]) {
-      grouped[level] = []
+    if (!grouped[vulnerabilityLevel]) {
+      grouped[vulnerabilityLevel] = []
     }
-    grouped[level].push(item)
+    grouped[vulnerabilityLevel].push(item)
   })
 
   // sort in descending order
@@ -128,7 +125,7 @@ const IndexPage = ({
   const numItems = items.length
 
   const selectedItems = items
-    .filter(({ node: item }) => selectedLevels.has(item.level))
+    .filter(({ node: item }) => selectedLevels.has(item.vulnerabilityLevel))
     .sort(itemSort)
 
   return (
@@ -151,19 +148,16 @@ const IndexPage = ({
           return (
             <>
               {i > 0 ? <Spacer /> : null}
-              <DonutWrapper
+              <StyledDonut
+                percent={(100 * count) / numItems}
+                percentLabel={count}
+                color={VULNERABILITY_COLORS[level]}
+                label={VULNERABILITY[level]}
+                isPercent={false}
+                size={150}
                 active={selectedLevels.has(level)}
                 onClick={() => handleDonutClick(level)}
-              >
-                <Donut
-                  percent={(100 * count) / numItems}
-                  percentLabel={count}
-                  color={VULNERABILITY_COLORS[level]}
-                  label={VULNERABILITY[level]}
-                  isPercent={false}
-                  size={150}
-                />
-              </DonutWrapper>
+              />
             </>
           )
         })}
@@ -183,6 +177,24 @@ const IndexPage = ({
       )}
     </Layout>
   )
+}
+
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    allJson: PropTypes.shape({
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            id: PropTypes.string.isRequired,
+            icon: PropTypes.string.isRequired,
+            path: PropTypes.string.isRequired,
+            vulnerability: PropTypes.arrayOf(PropTypes.number),
+            commonName: PropTypes.string.isRequired,
+          }),
+        }).isRequired
+      ).isRequired,
+    }).isRequired,
+  }).isRequired,
 }
 
 export default IndexPage

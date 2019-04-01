@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { Set } from 'immutable'
 
@@ -13,8 +14,14 @@ import styled, { themeGet } from 'util/style'
 import { VULNERABILITY, VULNERABILITY_COLORS } from '../../../config/constants'
 
 const itemSort = (
-  { node: { level: leftLevel, name: leftName, group: leftGroup } },
-  { node: { level: rightLevel, name: rightName, group: rightGroup } }
+  { node: { vulnerabilityLevel: leftLevel, name: leftName, group: leftGroup } },
+  {
+    node: {
+      vulnerabilityLevel: rightLevel,
+      name: rightName,
+      group: rightGroup,
+    },
+  }
 ) => {
   if (leftLevel === rightLevel) {
     if (leftGroup === rightGroup) {
@@ -30,30 +37,13 @@ const Spacer = styled.div`
   flex-shrink: 0;
 `
 
-const DonutWrapper = styled.div`
+const StyledDonut = styled(Donut)`
   margin-top: 1rem;
   cursor: pointer;
-  border-bottom: 2px solid
-    ${({ active }) =>
-      active ? themeGet('colors.secondary.800') : 'transparent'};
-
-  &:hover {
-    border-bottom-color: ${({ active }) =>
-      active ? themeGet('colors.secondary.800') : themeGet('colors.grey.500')};
-  }
 `
 
 // TODO: make this a vulnerabilty block instead
 const ListHeader = styled.h3``
-
-// const ListItemWrapper = styled(Flex).attrs({
-//   alignItems: 'center',
-//   flexWrap: 'wrap',
-// })`
-//   width: 300px;
-//   padding: 1rem;
-//   flex: 0 0 auto;
-// `
 
 const NoItemsBlock = styled.h4`
   margin: 2rem 0;
@@ -79,15 +69,15 @@ const ListItem = ({
   conservationAsset,
   ecosystem,
   path,
-  level,
+  vulnerabilityLevel,
 }) => (
   <ListItemWrapper>
     <Flex>
       <InlineIcon
         name={icon}
         size="1.5rem"
-        color={VULNERABILITY_COLORS[level]}
-        borderColor={VULNERABILITY_COLORS[level]}
+        color={VULNERABILITY_COLORS[vulnerabilityLevel]}
+        borderColor={VULNERABILITY_COLORS[vulnerabilityLevel]}
       />
       <div>
         <Link to={path}>{habitat || conservationAsset || ecosystem}</Link>
@@ -95,6 +85,21 @@ const ListItem = ({
     </Flex>
   </ListItemWrapper>
 )
+
+ListItem.propTypes = {
+  icon: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
+  vulnerabilityLevel: PropTypes.number.isRequired,
+  habitat: PropTypes.string,
+  conservationAsset: PropTypes.string,
+  ecosystem: PropTypes.string,
+}
+
+ListItem.defaultProps = {
+  habitat: null,
+  conservationAsset: null,
+  ecosystem: null,
+}
 
 const IndexPage = ({
   data: {
@@ -111,7 +116,10 @@ const IndexPage = ({
     )
   }
 
-  const items = edges.filter(({ node: { ca } }) => ca !== null)
+  const items = edges.filter(
+    ({ node: { habitat, conservationAsset, vulnerability } }) =>
+      habitat || (conservationAsset && vulnerability !== null)
+  )
 
   // group species by vulnerability
   // take the highest vulnerability assigned to each species
@@ -119,13 +127,13 @@ const IndexPage = ({
   items.forEach(({ node: item }) => {
     const { vulnerability } = item
 
-    const level = (vulnerability || [0]).slice(-1)[0]
-    item.level = level
+    const vulnerabilityLevel = (vulnerability || [0]).slice(-1)[0]
+    item.vulnerabilityLevel = vulnerabilityLevel
 
-    if (!grouped[level]) {
-      grouped[level] = 0
+    if (!grouped[vulnerabilityLevel]) {
+      grouped[vulnerabilityLevel] = 0
     }
-    grouped[level] += 1
+    grouped[vulnerabilityLevel] += 1
   })
 
   // sort in descending order
@@ -137,43 +145,34 @@ const IndexPage = ({
   const numItems = items.length
 
   const selectedItems = items
-    .filter(({ node: item }) => selectedLevels.has(item.level))
+    .filter(({ node: item }) => selectedLevels.has(item.vulnerabilityLevel))
     .sort(itemSort)
 
   return (
     <Layout>
       <SEO title="Habitats" />
       <h1>Climate Impacts and Adaptation Strategies for Florida Habitats</h1>
-      {/* <p>
-        <b>This tool includes species profile for 138 species.</b>
-        <br />
-        <br /> Species were chosen based if they were federally or state listed,
-        had a state management plan (State Species Action Plan, State Management
-        Plan, State Imperiled Species Management Plan), had habitat models, or
-        had a vulnerability score.
-      </p> */}
 
       <h3>Select habitats based on vulnerability level:</h3>
+
       <Flex flexWrap="wrap">
         {levels.map((level, i) => {
           const count = grouped[level]
           return (
-            <>
+            <React.Fragment key={level}>
               {i > 0 ? <Spacer /> : null}
-              <DonutWrapper
+
+              <StyledDonut
+                percent={(100 * count) / numItems}
+                percentLabel={count}
+                color={VULNERABILITY_COLORS[level]}
+                label={VULNERABILITY[level]}
+                isPercent={false}
+                size={150}
                 active={selectedLevels.has(level)}
                 onClick={() => handleDonutClick(level)}
-              >
-                <Donut
-                  percent={(100 * count) / numItems}
-                  percentLabel={count}
-                  color={VULNERABILITY_COLORS[level]}
-                  label={VULNERABILITY[level]}
-                  isPercent={false}
-                  size={150}
-                />
-              </DonutWrapper>
-            </>
+              />
+            </React.Fragment>
           )
         })}
       </Flex>
@@ -181,7 +180,7 @@ const IndexPage = ({
       {selectedItems.length > 0 ? (
         <Flex flexWrap="wrap" style={{ marginTop: '2rem' }}>
           {selectedItems.map(item => (
-            <ListItem {...item.node} />
+            <ListItem key={item.node.id} {...item.node} />
           ))}
         </Flex>
       ) : (
@@ -194,11 +193,33 @@ const IndexPage = ({
   )
 }
 
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    allJson: PropTypes.shape({
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            id: PropTypes.string.isRequired,
+            icon: PropTypes.string.isRequired,
+            path: PropTypes.string.isRequired,
+            vulnerability: PropTypes.arrayOf(PropTypes.number),
+            habitat: PropTypes.string,
+            conservationAsset: PropTypes.string,
+            ecosystem: PropTypes.string,
+          }),
+        }).isRequired
+      ).isRequired,
+    }).isRequired,
+  }).isRequired,
+}
+
 export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    allJson(filter: { itemType: { eq: "habitats" } }) {
+    allJson(
+      filter: { itemType: { eq: "habitats" }, habitatType: { ne: "ecosystem" } }
+    ) {
       edges {
         node {
           id

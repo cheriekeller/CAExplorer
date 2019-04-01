@@ -54,11 +54,10 @@ exports.createPages = ({ graphql, actions }) => {
                 }
               }
             }
-            allJson {
+            allJson(filter: { bounds: { ne: null } }) {
               edges {
                 node {
                   id
-                  itemType
                   path
                   bounds
                 }
