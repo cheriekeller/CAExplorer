@@ -50,12 +50,13 @@ const Wrapper = styled(Box)`
     }
   }
 
-  .leaflet-container {
-    font: inherit;
-  }
-
-  .leaflet-geonames-search form {
-    margin-bottom: 0;
+  .leaflet-geonames-search {
+    form {
+      margin-bottom: 0;
+      input {
+        padding-top: 3px;
+      }
+    }
   }
 
   .leaflet-html-legend {
@@ -77,6 +78,9 @@ const Wrapper = styled(Box)`
         font-size: 0.7rem;
         font-weight: normal;
         color: ${themeGet('colors.grey.600')};
+      }
+      & + .legend-row {
+        margin-top: 0.5em;
       }
     }
     .legend-row .symbol {
@@ -264,19 +268,19 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
     L.control.zoom({ position: 'topright' }).addTo(map)
     L.control.zoomBox({ position: 'topright' }).addTo(map)
 
-    // L.control
-    //   .geonames({
-    //     position: 'topright',
-    //     username: 'databasin.cbi',
-    //     maxresults: 10,
-    //     bbox: {
-    //       west: -88.615723,
-    //       east: -79.519043,
-    //       north: 31.54109,
-    //       south: 24.006326,
-    //     },
-    //   })
-    //   .addTo(map)
+    L.control
+      .geonames({
+        position: 'topright',
+        username: 'databasin.cbi',
+        maxresults: 10,
+        bbox: {
+          west: -88.615723,
+          east: -79.519043,
+          north: 31.54109,
+          south: 24.006326,
+        },
+      })
+      .addTo(map)
 
     L.control
       .basemaps({
@@ -291,7 +295,7 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
     return () => {
       map.remove()
     }
-  })
+  }, [])
 
   return (
     <Wrapper
