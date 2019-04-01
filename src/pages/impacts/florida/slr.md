@@ -30,6 +30,8 @@ Sea level rise will not impact the coastal areas of Florida to the same degree. 
 
 Barriers to inland migration include anthropogenic structures such as seawalls, dikes, and coastal development, as well as natural biophysical factors such as different soils or available groundwater. These barriers may make it difficult or impossible for species and habitats to migrate inland with increasing sea levels.
 
+<br />
+
 ## Impacts to Ecosystems
 
 Impacts caused by changes in water and soil salinity will vary based on ecosystem type; Coastal, Terrestrial, and Freshwater, and Estuarine/Marine.
