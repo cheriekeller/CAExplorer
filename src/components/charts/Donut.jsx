@@ -8,6 +8,7 @@ import { formatNumber } from 'util/format'
 
 const Circle = styled.circle`
   fill: transparent;
+  transition: stroke-dasharray 0.5s;
 `
 
 const PercentLabel = styled.tspan`
@@ -97,7 +98,7 @@ const Donut = ({
           r={halfsize - 2}
           cx={halfsize}
           cy={halfsize}
-          stroke={theme.colors.primary[200]}
+          stroke={theme.colors.primary[600]}
           strokeWidth={4}
         />
       ) : null}

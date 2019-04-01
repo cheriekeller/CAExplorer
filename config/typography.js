@@ -14,7 +14,7 @@ theme.googleFonts = [
 theme.baseFontSize = '20px'
 theme.overrideThemeStyles = () => ({
   html: {
-    overflowY: 'auto',
+    overflowY: 'scroll',
     height: '100%',
   },
   body: {

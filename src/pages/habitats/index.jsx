@@ -10,18 +10,20 @@ import { Flex, Box } from 'components/Grid'
 import Icon from 'components/elements/Icon'
 import Donut from 'components/charts/Donut'
 import styled, { themeGet } from 'util/style'
+import { toggleSetItem } from 'util/set'
 
 import { VULNERABILITY, VULNERABILITY_COLORS } from '../../../config/constants'
 
+const ecosystems = [
+  'Terrestrial',
+  'Coastal',
+  'Freshwater',
+  'Marine & Estuarine',
+]
+
 const itemSort = (
-  { node: { vulnerabilityLevel: leftLevel, name: leftName, group: leftGroup } },
-  {
-    node: {
-      vulnerabilityLevel: rightLevel,
-      name: rightName,
-      group: rightGroup,
-    },
-  }
+  { vulnerabilityLevel: leftLevel, name: leftName, group: leftGroup },
+  { vulnerabilityLevel: rightLevel, name: rightName, group: rightGroup }
 ) => {
   if (leftLevel === rightLevel) {
     if (leftGroup === rightGroup) {
@@ -42,8 +44,9 @@ const StyledDonut = styled(Donut)`
   cursor: pointer;
 `
 
-// TODO: make this a vulnerabilty block instead
-const ListHeader = styled.h3``
+const Header = styled.h3`
+  margin-top: 3rem;
+`
 
 const NoItemsBlock = styled.h4`
   margin: 2rem 0;
@@ -106,46 +109,61 @@ const IndexPage = ({
     allJson: { edges },
   },
 }) => {
-  const [selectedLevels, setSelected] = useState(Set())
+  const [selectedLevels, setLevel] = useState(Set())
+  const [selectedEcosystems, setEcosystems] = useState(Set())
 
-  const handleDonutClick = level => {
-    setSelected(
-      selectedLevels.has(level)
-        ? selectedLevels.remove(level)
-        : selectedLevels.add(level)
-    )
+  const handleLevelClick = level => {
+    setLevel(toggleSetItem(selectedLevels, level))
   }
 
-  const items = edges.filter(
-    ({ node: { habitat, conservationAsset, vulnerability } }) =>
-      habitat || (conservationAsset && vulnerability !== null)
-  )
+  const handleEcosystemClick = level => {
+    setEcosystems(toggleSetItem(selectedEcosystems, level))
+  }
 
-  // group species by vulnerability
-  // take the highest vulnerability assigned to each species
-  const grouped = {}
-  items.forEach(({ node: item }) => {
-    const { vulnerability } = item
+  const items = edges
+    // .filter(
+    //   ({ node: { habitat, conservationAsset, vulnerability } }) =>
+    //     habitat || (conservationAsset && vulnerability !== null)
+    // )
+    .map(({ node: item }) => ({
+      // take the highest vulnerability assigned to each species
+      vulnerabilityLevel: (item.vulnerability || [0]).slice(-1)[0],
+      ...item,
+    }))
 
-    const vulnerabilityLevel = (vulnerability || [0]).slice(-1)[0]
-    item.vulnerabilityLevel = vulnerabilityLevel
-
-    if (!grouped[vulnerabilityLevel]) {
-      grouped[vulnerabilityLevel] = 0
-    }
-    grouped[vulnerabilityLevel] += 1
-  })
-
-  // sort in descending order
-  const levels = Object.keys(grouped)
-    .map(k => parseInt(k, 10))
+  // sort in descending order from highest to lowest vulnerability
+  const levels = Set(items.map(({ vulnerabilityLevel }) => vulnerabilityLevel))
+    .toJS()
     .sort()
     .reverse()
 
-  const numItems = items.length
+  // apply filters and regenerate counts
+  const ecoGroups = {}
+  const vulnerabilityGroups = {}
+  ecosystems.forEach(e => {
+    ecoGroups[e] = 0
+  })
+  levels.forEach(l => {
+    vulnerabilityGroups[l] = 0
+  })
 
-  const selectedItems = items
-    .filter(({ node: item }) => selectedLevels.has(item.vulnerabilityLevel))
+  const filteredItems = items
+    .filter(({ ecosystem, vulnerabilityLevel }) => {
+      const hasLevel =
+        selectedLevels.size > 0 ? selectedLevels.has(vulnerabilityLevel) : true
+      const hasEco =
+        selectedEcosystems.size > 0 ? selectedEcosystems.has(ecosystem) : true
+
+      // to mimic crossfilter effect, only filter according to the OTHER criterion
+      if (hasLevel) {
+        ecoGroups[ecosystem] += 1
+      }
+      if (hasEco) {
+        vulnerabilityGroups[vulnerabilityLevel] += 1
+      }
+
+      return hasLevel && hasEco
+    })
     .sort(itemSort)
 
   return (
@@ -153,40 +171,84 @@ const IndexPage = ({
       <SEO title="Habitats" />
       <h1>Climate Impacts and Adaptation Strategies for Florida Habitats</h1>
 
-      <h3>Select habitats based on vulnerability level:</h3>
+      <p>
+        <b>
+          This tool includes profiles for 31 habitats, grouped into 15
+          conservation assets.
+        </b>
+        <br />
+        <br />
+        Conservation Assets were identified by the Peninsular Florida Landscape
+        Conservation Cooperative (PFLCC) as the set of biological, ecological,
+        and cultural features most important for Florida’s Landscape. They
+        represent the most significant resources, embody key landscape
+        components, and reflect the mission, vision, common interests, and
+        values of the PFLCC partners.
+      </p>
 
+      <Header>Select habitats based on ecosystem:</Header>
       <Flex flexWrap="wrap">
-        {levels.map((level, i) => {
-          const count = grouped[level]
+        {ecosystems.map((ecosystem, i) => {
+          const count = ecoGroups[ecosystem]
           return (
-            <React.Fragment key={level}>
+            <React.Fragment key={ecosystem}>
               {i > 0 ? <Spacer /> : null}
-
               <StyledDonut
-                percent={(100 * count) / numItems}
+                percent={(100 * count) / items.length}
                 percentLabel={count}
-                color={VULNERABILITY_COLORS[level]}
-                label={VULNERABILITY[level]}
+                label={ecosystem}
                 isPercent={false}
                 size={150}
-                active={selectedLevels.has(level)}
-                onClick={() => handleDonutClick(level)}
+                active={selectedEcosystems.has(ecosystem)}
+                onClick={() => handleEcosystemClick(ecosystem)}
               />
             </React.Fragment>
           )
         })}
       </Flex>
 
-      {selectedItems.length > 0 ? (
-        <Flex flexWrap="wrap" style={{ marginTop: '2rem' }}>
-          {selectedItems.map(item => (
-            <ListItem key={item.node.id} {...item.node} />
-          ))}
-        </Flex>
+      <Header>Select habitats based on vulnerability level:</Header>
+
+      <Flex flexWrap="wrap">
+        {levels.map((level, i) => {
+          const count = vulnerabilityGroups[level]
+          return (
+            <React.Fragment key={level}>
+              {i > 0 ? <Spacer /> : null}
+
+              <StyledDonut
+                percent={(100 * count) / items.length}
+                percentLabel={count}
+                color={VULNERABILITY_COLORS[level]}
+                label={VULNERABILITY[level]}
+                isPercent={false}
+                size={150}
+                active={selectedLevels.has(level)}
+                onClick={() => handleLevelClick(level)}
+              />
+            </React.Fragment>
+          )
+        })}
+      </Flex>
+
+      {selectedLevels.size > 0 || selectedEcosystems.size > 0 ? (
+        <>
+          {filteredItems.length > 0 ? (
+            <Flex flexWrap="wrap" style={{ marginTop: '2rem' }}>
+              {filteredItems.map(item => (
+                <ListItem {...item} />
+              ))}
+            </Flex>
+          ) : (
+            <NoItemsBlock>
+              No habitats meet your selected criteria.
+            </NoItemsBlock>
+          )}
+        </>
       ) : (
         <NoItemsBlock>
-          Click on one or more of the vulnerability levels above to select
-          habitats.
+          Click on one or more of the ecosystems or vulnerability levels above
+          to select habitats.
         </NoItemsBlock>
       )}
     </Layout>
