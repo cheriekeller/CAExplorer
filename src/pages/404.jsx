@@ -14,7 +14,7 @@ const NotFoundPage = ({ data: { headerImage } }) => (
 
     <FluidImage
       image={headerImage.childImageSharp.fluid}
-      height="80vh"
+      height="70vh"
       credits={{
         url: 'https://unsplash.com/photos/ap3VOzPnliQ',
         author: 'Ray Hennessy',
