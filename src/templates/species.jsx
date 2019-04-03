@@ -9,17 +9,19 @@ import { Flex } from 'components/Grid'
 import { Link, OutboundLink } from 'components/Link'
 import Layout from 'components/layout/Default'
 import SEO from 'components/SEO'
-import Icon from 'components/elements/Icon'
-import FaIcon from 'components/elements/FaIcon'
 import styled, { themeGet } from 'util/style'
 import { formatNumber } from 'util/format'
 import ContentHeader from 'components/elements/ContentHeader'
 import Vulnerability from 'components/charts/Vulnerability'
+import Donut from 'components/charts/Donut'
 import {
   VULNERABILITY,
   VULNERABILITY_COLORS,
   CONSERVATION_STATUS,
 } from '../../config/constants'
+
+const DONUTSIZE = 130
+const DONUTWIDTH = 20
 
 const Content = styled.div``
 
@@ -33,7 +35,6 @@ const Section = styled.section`
 `
 
 const HeaderImage = styled(Img)`
-  // max-width: 480px;
   min-width: 290px;
   flex: 1 0 auto;
 
@@ -42,9 +43,16 @@ const HeaderImage = styled(Img)`
   }
 
   @media (min-width: ${themeGet('breakpoints.0')}) {
-    // width: 480px;
-    // margin: 0 1rem 1rem 0;
     flex-grow: 0 !important;
+  }
+`
+
+const MapImage = styled(Img)`
+  min-width: 290px;
+  flex: 1 0 auto;
+
+  img {
+    margin-bottom: 0.5rem;
   }
 `
 
@@ -66,7 +74,8 @@ const SubHeader = styled.h3`
 const MinorHeader = styled.h4``
 
 const OtherVulnerabilityLevel = styled.div`
-margin-left: 2rem;`
+  margin-left: 2rem;
+`
 
 const Template = ({
   data: {
@@ -97,6 +106,7 @@ const Template = ({
       bounds,
     },
     photo,
+    map,
   },
 }) => (
   <Layout>
@@ -126,30 +136,6 @@ const Template = ({
             <Vulnerability vulnerability={vulnerability} />
           )}
 
-          {area && bounds && (
-            <>
-              <SubHeader>
-                Habitat area:
-                {/* TODO: display better */}
-                <a href={`${path}/map`}>
-                  <FaIcon name="map" />
-                  explore on map
-                </a>
-              </SubHeader>
-              <ul>
-                <li>{formatNumber(area)} hectares within Florida (modeled)</li>
-                {protectedArea ? (
-                  <li>
-                    {formatNumber(protectedArea)} hectares (
-                    {formatNumber((100 * protectedArea) / area)}%) is located on
-                    public lands
-                  </li>
-                ) : (
-                  <li>No habitat is located on public lands</li>
-                )}
-              </ul>
-            </>
-          )}
           <SubHeader>Conservation status:</SubHeader>
           {conservationStatus
             ? CONSERVATION_STATUS[conservationStatus]
@@ -166,6 +152,57 @@ const Template = ({
     <Section>
       <SectionHeader>Habitat Requirements</SectionHeader>
       <p>{habitatDescription}</p>
+
+      {area && bounds && (
+        <>
+          <MinorHeader>Habitat area:</MinorHeader>
+          <Flex>
+            <Box>
+              <a href={`${path}/map`}>
+                <MapImage sizes={map.childImageSharp.sizes} />
+              </a>
+              <PhotoCaption>Basemap: © Mapbox</PhotoCaption>
+            </Box>
+            <Box>
+              <ul>
+                <li>{formatNumber(area)} hectares within Florida (modeled)</li>
+                {protectedArea ? (
+                  <li>
+                    {formatNumber(protectedArea)} hectares (
+                    {formatNumber((100 * protectedArea) / area)}%) is located on
+                    public lands
+                  </li>
+                ) : (
+                  <li>No habitat is located on public lands</li>
+                )}
+              </ul>
+
+              <MinorHeader>Habitat impacted by up to 3 meters sea level rise:</MinorHeader>
+              <Donut
+                percent={formatNumber(100 - (100 * slr3m) / area)}
+                color="#388E3C"
+                label="not impacted"
+                donutWidth={DONUTWIDTH}
+                size={DONUTSIZE}
+              />
+              <Donut
+                percent={formatNumber((100 * slr1m) / area)}
+                color="#0D47A1"
+                label="1 meter"
+                donutWidth={DONUTWIDTH}
+                size={DONUTSIZE}
+              />
+              <Donut
+                percent={formatNumber((100 * slr3m) / area)}
+                color="#90CAF9"
+                label="3 meters"
+                donutWidth={DONUTWIDTH}
+                size={DONUTSIZE}
+              />
+            </Box>
+          </Flex>
+        </>
+      )}
     </Section>
 
     <Section>
@@ -216,9 +253,10 @@ const Template = ({
               </Link>
             </MinorHeader>
             <OtherVulnerabilityLevel>
-            Vulnerability: <b>{ccvi}</b>
-            <br/><br/>
-            {ccviNotes && <p>{ccviNotes}</p>}
+              Vulnerability: <b>{ccvi}</b>
+              <br />
+              <br />
+              {ccviNotes && <p>{ccviNotes}</p>}
             </OtherVulnerabilityLevel>
           </>
         )}
@@ -231,9 +269,10 @@ const Template = ({
               </Link>
             </MinorHeader>
             <OtherVulnerabilityLevel>
-            Vulnerability: <b>{gcva}</b>
-            <br/><br/>
-            {gcvaNotes && <p>{gcvaNotes}</p>}
+              Vulnerability: <b>{gcva}</b>
+              <br />
+              <br />
+              {gcvaNotes && <p>{gcvaNotes}</p>}
             </OtherVulnerabilityLevel>
           </>
         )}
@@ -242,13 +281,14 @@ const Template = ({
           <>
             <MinorHeader>
               <Link to="/impacts/vulnerability/sivva/species">
-              Standardized Index of Vulnerability and Value Assessment
+                Standardized Index of Vulnerability and Value Assessment
               </Link>
             </MinorHeader>
             <OtherVulnerabilityLevel>
-            Vulnerability: <b>{sivva}</b>
-            <br/><br/>
-            {sivvaNotes && <p>{sivvaNotes}</p>}
+              Vulnerability: <b>{sivva}</b>
+              <br />
+              <br />
+              {sivvaNotes && <p>{sivvaNotes}</p>}
             </OtherVulnerabilityLevel>
           </>
         )}
@@ -300,6 +340,8 @@ Template.defaultProps = {
   data: {
     json: {
       protectedArea: 0,
+      slr1m: 0,
+      slr3m: 0,
       vulnerability: [0],
     },
   },
@@ -308,7 +350,7 @@ Template.defaultProps = {
 export default Template
 
 export const pageQuery = graphql`
-  query($id: String!, $imgSrc: String!) {
+  query($id: String!, $imgSrc: String!, $mapImgSrc: String!) {
     json(id: { eq: $id }) {
       id
       path
@@ -342,6 +384,13 @@ export const pageQuery = graphql`
       bounds
     }
     photo: file(relativePath: { eq: $imgSrc }) {
+      childImageSharp {
+        sizes(maxWidth: 960) {
+          ...GatsbyImageSharpSizes_withWebp
+        }
+      }
+    }
+    map: file(relativePath: { eq: $mapImgSrc }) {
       childImageSharp {
         sizes(maxWidth: 960) {
           ...GatsbyImageSharpSizes_withWebp

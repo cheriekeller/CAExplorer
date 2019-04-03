@@ -101,10 +101,12 @@ exports.createPages = ({ graphql, actions }) => {
           ({ node: { id, itemType, path: pagePath, bounds } }) => {
             let profileTemplate = null
             let imgSrc = null
+            let mapImgSrc = null
 
             if (itemType === 'species') {
               profileTemplate = speciesTemplate
               imgSrc = `${pagePath.replace('/species/', '')}.jpg`
+              mapImgSrc = imgSrc.replace('.jpg', '_map.png')
             } else {
               // TODO: switch on habitatType
             }
@@ -113,7 +115,7 @@ exports.createPages = ({ graphql, actions }) => {
             if (profileTemplate !== null) {
               createPage({
                 path: `/test${pagePath}/`,
-                context: { id, imgSrc },
+                context: { id, imgSrc, mapImgSrc },
                 component: profileTemplate,
               })
             }
