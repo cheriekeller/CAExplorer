@@ -32,9 +32,9 @@ const Section = styled.section`
   }
 `
 
-const HeaderSection = styled.div`
-  max-width: 420px;
-`
+// const HeaderSection = styled.div`
+//   max-width: 420px;
+// `
 
 const HeaderImage = styled(Img)`
   // max-width: 480px;
@@ -107,7 +107,11 @@ const Template = ({
         />
         <Flex flexWrap="wrap">
           {photo ? (
-            <Box width={['100%', '100%', '100%', 480]} mr={[0, 0, 0, '1rem']}>
+            <Box
+              width={['100%', '100%', '100%', '60%']}
+              mr={[0, 0, 0, '1rem']}
+              mb={['3rem', '3rem', '3rem', 0]}
+            >
               <HeaderImage sizes={photo.childImageSharp.sizes} />
               {photoCredit ? (
                 <PhotoCaption>Photo: {photoCredit}</PhotoCaption>
@@ -115,7 +119,7 @@ const Template = ({
             </Box>
           ) : null}
 
-          <HeaderSection>
+          <Box width={['100%', '100%', '66%', photo ? '30%' : 400]}>
             <SubHeader>Overall vulnerability: </SubHeader>
 
             {vulnerability === [0] ? (
@@ -154,7 +158,7 @@ const Template = ({
             {conservationStatus
               ? CONSERVATION_STATUS[conservationStatus]
               : 'Not Listed'}
-          </HeaderSection>
+          </Box>
         </Flex>
 
         <Section>

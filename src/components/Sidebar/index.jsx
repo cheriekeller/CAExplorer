@@ -25,6 +25,16 @@ const ItemsPropType = PropTypes.arrayOf(
 const expandoColor = theme.colors.grey[500]
 const expandoSize = '1rem'
 
+const CaretDown = styled(FaCaretDown).attrs({ color: expandoColor })`
+  width: ${expandoSize};
+  height: ${expandoSize};
+`
+
+const CaretRight = styled(FaCaretRight).attrs({ color: expandoColor })`
+  width: ${expandoSize};
+  height: ${expandoSize};
+`
+
 const rootPath = () => (window ? window.location.pathname.split('/')[1] : null)
 
 /**
@@ -165,15 +175,11 @@ const HoverContainer = styled.div`
   }
 `
 
-// WIP: make this work properly!
-// TODO: in browser.js, on route change, clear out sidebarScroll if nav to different root
 const serializeScroll = () => {
-  // console.log('serialize scroll')
   const container = hasWindow
     ? window.document.getElementById('Sidebar')
     : null || null
   if (container) {
-    // console.log('scrollTop', container.scrollTop)
     sessionStorage.setItem(`sidebarScroll/${rootPath()}`, container.scrollTop)
   }
 }
@@ -193,11 +199,7 @@ const ExpandableLink = ({
       <Flex alignItems="center">
         <Expander onClick={() => setExpanded(!isExpanded)}>
           <>
-            {isExpanded ? (
-              <FaCaretDown color={expandoColor} size={expandoSize} />
-            ) : (
-              <FaCaretRight color={expandoColor} size={expandoSize} />
-            )}
+            {isExpanded ? <CaretDown /> : <CaretRight />}
             {icon ? <StyledIcon name={icon} size="1.5em" /> : null}
           </>
         </Expander>
@@ -227,11 +229,7 @@ const ExpandableLabel = ({ label, icon, children, isActive = false }) => {
       <Flex alignItems="center">
         <Expander onClick={() => setExpanded(!isExpanded)}>
           <>
-            {isExpanded ? (
-              <FaCaretDown color={expandoColor} size={expandoSize} />
-            ) : (
-              <FaCaretRight color={expandoColor} size={expandoSize} />
-            )}
+            {isExpanded ? <CaretDown /> : <CaretRight />}
             {icon ? <StyledIcon name={icon} size="1.5em" /> : null}
           </>
         </Expander>
