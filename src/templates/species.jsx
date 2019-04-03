@@ -32,10 +32,6 @@ const Section = styled.section`
   }
 `
 
-// const HeaderSection = styled.div`
-//   max-width: 420px;
-// `
-
 const HeaderImage = styled(Img)`
   // max-width: 480px;
   min-width: 290px;
@@ -69,6 +65,9 @@ const SubHeader = styled.h3`
 
 const MinorHeader = styled.h4``
 
+const OtherVulnerabilityLevel = styled.div`
+margin-left: 2rem;`
+
 const Template = ({
   data: {
     json: {
@@ -84,6 +83,12 @@ const Template = ({
       habitatDescription,
       impacts,
       strategies,
+      ccvi,
+      ccviNotes,
+      gcva,
+      gcvaNotes,
+      sivva,
+      sivvaNotes,
       resources,
       area,
       protectedArea,
@@ -93,164 +98,195 @@ const Template = ({
     },
     photo,
   },
-}) => {
-  const vulnerabilityLevel = (vulnerability || [0]).slice(-1)[0]
-
-  return (
-    <Layout>
-      <SEO title={commonName} />
-      <Content>
-        <ContentHeader
-          icon={icon}
-          title={commonName}
-          subtitle={scientificName}
-        />
-        <Flex flexWrap="wrap">
-          {photo ? (
-            <Box
-              width={['100%', '100%', '100%', '60%']}
-              mr={[0, 0, 0, '1rem']}
-              mb={['3rem', '3rem', '3rem', 0]}
-            >
-              <HeaderImage sizes={photo.childImageSharp.sizes} />
-              {photoCredit ? (
-                <PhotoCaption>Photo: {photoCredit}</PhotoCaption>
-              ) : null}
-            </Box>
-          ) : null}
-
-          <Box width={['100%', '100%', '66%', photo ? '30%' : 400]}>
-            <SubHeader>Overall vulnerability: </SubHeader>
-
-            {vulnerability === [0] ? (
-              <p>This species was not assessed for vulnerability</p>
-            ) : (
-              <Vulnerability vulnerability={vulnerability} />
-            )}
-
-            {area && bounds && (
-              <>
-                <SubHeader>
-                  Habitat area:
-                  {/* TODO: */}
-                  <a href={`${path}/map`}>
-                    <FaIcon name="map" />
-                    explore on map
-                  </a>
-                </SubHeader>
-                <ul>
-                  <li>
-                    {formatNumber(area)} hectares within Florida (modeled)
-                  </li>
-                  {protectedArea ? (
-                    <li>
-                      {formatNumber(protectedArea)} hectares (
-                      {formatNumber((100 * protectedArea) / area)}%) is located
-                      on public lands
-                    </li>
-                  ) : (
-                    <li>No habitat is located on public lands</li>
-                  )}
-                </ul>
-              </>
-            )}
-            <SubHeader>Conservation status:</SubHeader>
-            {conservationStatus
-              ? CONSERVATION_STATUS[conservationStatus]
-              : 'Not Listed'}
+}) => (
+  <Layout>
+    <SEO title={commonName} />
+    <Content>
+      <ContentHeader icon={icon} title={commonName} subtitle={scientificName} />
+      <Flex flexWrap="wrap">
+        {photo ? (
+          <Box
+            width={['100%', '100%', '100%', '60%']}
+            mr={[0, 0, 0, '1rem']}
+            mb={['3rem', '3rem', '3rem', 0]}
+          >
+            <HeaderImage sizes={photo.childImageSharp.sizes} />
+            {photoCredit ? (
+              <PhotoCaption>Photo: {photoCredit}</PhotoCaption>
+            ) : null}
           </Box>
-        </Flex>
+        ) : null}
 
-        <Section>
-          <SectionHeader>General Information</SectionHeader>
-          <p>{description}</p>
-        </Section>
-      </Content>
+        <Box width={['100%', '100%', '66%', photo ? '30%' : 400]}>
+          <SubHeader>Overall vulnerability: </SubHeader>
+
+          {vulnerability === [0] ? (
+            <p>This species was not assessed for vulnerability</p>
+          ) : (
+            <Vulnerability vulnerability={vulnerability} />
+          )}
+
+          {area && bounds && (
+            <>
+              <SubHeader>
+                Habitat area:
+                {/* TODO: display better */}
+                <a href={`${path}/map`}>
+                  <FaIcon name="map" />
+                  explore on map
+                </a>
+              </SubHeader>
+              <ul>
+                <li>{formatNumber(area)} hectares within Florida (modeled)</li>
+                {protectedArea ? (
+                  <li>
+                    {formatNumber(protectedArea)} hectares (
+                    {formatNumber((100 * protectedArea) / area)}%) is located on
+                    public lands
+                  </li>
+                ) : (
+                  <li>No habitat is located on public lands</li>
+                )}
+              </ul>
+            </>
+          )}
+          <SubHeader>Conservation status:</SubHeader>
+          {conservationStatus
+            ? CONSERVATION_STATUS[conservationStatus]
+            : 'Not Listed'}
+        </Box>
+      </Flex>
 
       <Section>
-        <SectionHeader>Habitat Requirements</SectionHeader>
-        <p>{habitatDescription}</p>
+        <SectionHeader>General Information</SectionHeader>
+        <p>{description}</p>
       </Section>
+    </Content>
 
+    <Section>
+      <SectionHeader>Habitat Requirements</SectionHeader>
+      <p>{habitatDescription}</p>
+    </Section>
+
+    <Section>
+      <SectionHeader>Climate Impacts</SectionHeader>
+      <p>
+        {impacts}
+        <br />
+        <br />
+        <Link to="/impacts/species">
+          More information about general climate impacts to species in Florida.
+        </Link>
+      </p>
+      {area && slr3m ? (
+        <>
+          <MinorHeader style={{ marginTop: '3rem' }}>
+            This species is expected to be impacted by sea level rise:
+          </MinorHeader>
+          <ul>
+            <li>
+              3 meters of sea level rise: {formatNumber((100 * slr3m) / area)}%
+              of area ({formatNumber(slr3m)} ha)
+            </li>
+            <li>
+              1 meter of sea level rise: {formatNumber((100 * slr1m) / area)}%
+              of area ({formatNumber(slr1m)} ha)
+            </li>
+          </ul>
+          <p>
+            <Link to={`${path}/map`}>Explore sea level rise impacts map.</Link>
+          </p>
+        </>
+      ) : null}
+    </Section>
+
+    {vulnerability !== [0] && (
       <Section>
-        <SectionHeader>Climate Impacts</SectionHeader>
+        <SectionHeader>Vulnerability Assessment(s)</SectionHeader>
         <p>
-          {impacts}
-          <br />
-          <br />
-          <Link to="/impacts/species">
-            More information about general climate impacts to species in
-            Florida.
+          The overall vulnerability level was based on the following
+          assessment(s):
+        </p>
+
+        {ccvi && (
+          <>
+            <MinorHeader>
+              <Link to="/impacts/vulnerability/ccvi">
+                Climate Change Vulnerability Index
+              </Link>
+            </MinorHeader>
+            <OtherVulnerabilityLevel>
+            Vulnerability: <b>{ccvi}</b>
+            <br/><br/>
+            {ccviNotes && <p>{ccviNotes}</p>}
+            </OtherVulnerabilityLevel>
+          </>
+        )}
+
+        {gcva && (
+          <>
+            <MinorHeader>
+              <Link to="/impacts/vulnerability/gcva">
+                Gulf Coast Vulnerability Assessment
+              </Link>
+            </MinorHeader>
+            <OtherVulnerabilityLevel>
+            Vulnerability: <b>{gcva}</b>
+            <br/><br/>
+            {gcvaNotes && <p>{gcvaNotes}</p>}
+            </OtherVulnerabilityLevel>
+          </>
+        )}
+
+        {sivva && (
+          <>
+            <MinorHeader>
+              <Link to="/impacts/vulnerability/sivva/species">
+              Standardized Index of Vulnerability and Value Assessment
+              </Link>
+            </MinorHeader>
+            <OtherVulnerabilityLevel>
+            Vulnerability: <b>{sivva}</b>
+            <br/><br/>
+            {sivvaNotes && <p>{sivvaNotes}</p>}
+            </OtherVulnerabilityLevel>
+          </>
+        )}
+      </Section>
+    )}
+
+    {strategies && strategies.All && (
+      <Section>
+        <SectionHeader>Adaptation Strategies</SectionHeader>
+        <ul>
+          {strategies.All.map(strategy => (
+            <li key={strategy}>{strategy}</li>
+          ))}
+        </ul>
+        <p>
+          <Link to="/strategies">
+            More information about adaptation strategies.
           </Link>
         </p>
-        {area && slr3m ? (
-          <>
-            <MinorHeader style={{ marginTop: '3rem' }}>
-              This species is expected to be impacted by sea level rise:
-            </MinorHeader>
-            <ul>
-              <li>
-                3 meters of sea level rise: {formatNumber((100 * slr3m) / area)}
-                % of area ({formatNumber(slr3m)} ha)
-              </li>
-              <li>
-                1 meter of sea level rise: {formatNumber((100 * slr1m) / area)}%
-                of area ({formatNumber(slr1m)} ha)
-              </li>
-            </ul>
-            <p>
-              <Link to={`${path}/map`}>
-                Explore sea level rise impacts map.
-              </Link>
-            </p>
-          </>
-        ) : null}
       </Section>
+    )}
 
-      {vulnerabilityLevel !== 0 && (
-        <Section>
-          <SectionHeader>Vulnerability Assessment(s)</SectionHeader>
-          <p>
-            The overall vulnerability level was based on the following
-            assessment(s):
-          </p>
-          TODO
-        </Section>
-      )}
-
-      {strategies && strategies.All && (
-        <Section>
-          <SectionHeader>Adaptation Strategies</SectionHeader>
-          <ul>
-            {strategies.All.map(strategy => (
-              <li key={strategy}>{strategy}</li>
-            ))}
-          </ul>
-          <p>
-            <Link to="/strategies">
-              More information about adaptation strategies.
-            </Link>
-          </p>
-        </Section>
-      )}
-
-      {resources && (
-        <Section>
-          <SectionHeader>Additional Resources</SectionHeader>
-          <ul>
-            {resources.map(({ label, url }) => (
-              <li key={url}>
-                <OutboundLink from={path} to={url} target="_blank">
-                  {label}
-                </OutboundLink>
-              </li>
-            ))}
-          </ul>
-        </Section>
-      )}
-    </Layout>
-  )
-}
+    {resources && (
+      <Section>
+        <SectionHeader>Additional Resources</SectionHeader>
+        <ul>
+          {resources.map(({ label, url }) => (
+            <li key={url}>
+              <OutboundLink from={path} to={url} target="_blank">
+                {label}
+              </OutboundLink>
+            </li>
+          ))}
+        </ul>
+      </Section>
+    )}
+  </Layout>
+)
 
 Template.propTypes = {
   data: PropTypes.shape({
@@ -289,6 +325,12 @@ export const pageQuery = graphql`
       strategies {
         All
       }
+      ccvi
+      ccviNotes
+      gcva
+      gcvaNotes
+      sivva
+      sivvaNotes
       resources {
         label
         url
