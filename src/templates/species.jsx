@@ -13,7 +13,8 @@ import Icon from 'components/elements/Icon'
 import FaIcon from 'components/elements/FaIcon'
 import styled, { themeGet } from 'util/style'
 import { formatNumber } from 'util/format'
-import ContentHeader from '../components/elements/ContentHeader'
+import ContentHeader from 'components/elements/ContentHeader'
+import Vulnerability from 'components/charts/Vulnerability'
 import {
   VULNERABILITY,
   VULNERABILITY_COLORS,
@@ -116,13 +117,13 @@ const Template = ({
 
           <HeaderSection>
             <SubHeader>Overall vulnerability: </SubHeader>
-            {/* TODO */}
-            {vulnerabilityLevel === 0 ? (
+
+            {vulnerability === [0] ? (
               <p>This species was not assessed for vulnerability</p>
             ) : (
-              vulnerabilityLevel
+              <Vulnerability vulnerability={vulnerability} />
             )}
-            {/* TODO: only if has area and bounds */}
+
             {area && bounds && (
               <>
                 <SubHeader>
@@ -255,13 +256,14 @@ Template.propTypes = {
   }).isRequired,
 }
 
-// Template.defaultProps = {
-//   data: {
-//     json: {
-//       protectedArea: 0,
-//     },
-//   },
-// }
+Template.defaultProps = {
+  data: {
+    json: {
+      protectedArea: 0,
+      vulnerability: [0],
+    },
+  },
+}
 
 export default Template
 
