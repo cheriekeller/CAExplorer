@@ -48,13 +48,65 @@ const HeaderImage = styled(Img)`
 `
 
 const MapImage = styled(Img)`
-  min-width: 290px;
   flex: 1 0 auto;
+
+  &:after,
+  &:before {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+
+  &:before {
+    position: absolute;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    content: 'Explore interactive map';
+    width: 100%;
+    color: #fff;
+    z-index: 1;
+    top: calc(50% - 1rem);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  &:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  &:hover {
+    &:before,
+    &:after {
+      opacity: 1;
+    }
+  }
 
   img {
     margin-bottom: 0.5rem;
   }
 `
+
+const DonutWrapper = styled(Flex)`
+height: 100%;
+  @media (min-width: ${themeGet('breakpoints.3')}) {
+    
+  }
+`
+
+
 
 const PhotoCaption = styled.figcaption`
   font-size: smaller;
@@ -77,7 +129,7 @@ const OtherVulnerabilityLevel = styled.div`
   margin-left: 2rem;
 `
 
-const Template = ({
+const SpeciesTemplate = ({
   data: {
     json: {
       id,
@@ -130,13 +182,17 @@ const Template = ({
         <Box width={['100%', '100%', '66%', photo ? '30%' : 400]}>
           <SubHeader>Overall vulnerability: </SubHeader>
 
-          {vulnerability === [0] ? (
+          {vulnerability === null ||
+          vulnerability === undefined ||
+          vulnerability === [0] ? (
             <p>This species was not assessed for vulnerability</p>
           ) : (
             <Vulnerability vulnerability={vulnerability} />
           )}
 
-          <SubHeader>Conservation status:</SubHeader>
+          <SubHeader style={{ marginTop: '3rem' }}>
+            Conservation status:
+          </SubHeader>
           {conservationStatus
             ? CONSERVATION_STATUS[conservationStatus]
             : 'Not Listed'}
@@ -155,16 +211,8 @@ const Template = ({
 
       {area && bounds && (
         <>
-          <MinorHeader>Habitat area:</MinorHeader>
-          <Flex>
-            <Box>
-              <a href={`${path}/map`}>
-                <MapImage sizes={map.childImageSharp.sizes} />
-              </a>
-              <PhotoCaption>Basemap: © Mapbox</PhotoCaption>
-            </Box>
-            <Box>
-              <ul>
+          <SubHeader>Habitat area:</SubHeader>
+          <ul>
                 <li>{formatNumber(area)} hectares within Florida (modeled)</li>
                 {protectedArea ? (
                   <li>
@@ -177,28 +225,42 @@ const Template = ({
                 )}
               </ul>
 
-              <MinorHeader>Habitat impacted by up to 3 meters sea level rise:</MinorHeader>
+          
+              <MinorHeader>
+                Habitat impacted by up to 3 meters sea level rise:
+              </MinorHeader>
+
+          <Flex flexWrap="wrap">
+            <Box width={['100%', '100%', '100%', '50%']} mr='1rem' mb={['1rem', '1rem', '1rem', 0]}>
+              <a href={`${path}/map`}>
+                <MapImage sizes={map.childImageSharp.sizes} />
+              </a>
+            </Box>
+            <Box width={['100%', '100%', '100%', 200]}>
+              <DonutWrapper justifyContent="space-evenly" flexWrap="wrap">
+              
               <Donut
-                percent={formatNumber(100 - (100 * slr3m) / area)}
-                color="#388E3C"
-                label="not impacted"
-                donutWidth={DONUTWIDTH}
-                size={DONUTSIZE}
-              />
-              <Donut
-                percent={formatNumber((100 * slr1m) / area)}
+                percent={(100 * slr1m) / area}
                 color="#0D47A1"
                 label="1 meter"
                 donutWidth={DONUTWIDTH}
                 size={DONUTSIZE}
               />
               <Donut
-                percent={formatNumber((100 * slr3m) / area)}
+                percent={(100 * slr3m) / area}
                 color="#90CAF9"
                 label="3 meters"
                 donutWidth={DONUTWIDTH}
                 size={DONUTSIZE}
               />
+              <Donut
+                percent={100 - (100 * slr3m) / area}
+                color="#388E3C"
+                label="not impacted"
+                donutWidth={DONUTWIDTH}
+                size={DONUTSIZE}
+              />
+              </DonutWrapper>
             </Box>
           </Flex>
         </>
@@ -215,29 +277,9 @@ const Template = ({
           More information about general climate impacts to species in Florida.
         </Link>
       </p>
-      {area && slr3m ? (
-        <>
-          <MinorHeader style={{ marginTop: '3rem' }}>
-            This species is expected to be impacted by sea level rise:
-          </MinorHeader>
-          <ul>
-            <li>
-              3 meters of sea level rise: {formatNumber((100 * slr3m) / area)}%
-              of area ({formatNumber(slr3m)} ha)
-            </li>
-            <li>
-              1 meter of sea level rise: {formatNumber((100 * slr1m) / area)}%
-              of area ({formatNumber(slr1m)} ha)
-            </li>
-          </ul>
-          <p>
-            <Link to={`${path}/map`}>Explore sea level rise impacts map.</Link>
-          </p>
-        </>
-      ) : null}
     </Section>
 
-    {vulnerability !== [0] && (
+    {vulnerability && vulnerability !== [0] && (
       <Section>
         <SectionHeader>Vulnerability Assessment(s)</SectionHeader>
         <p>
@@ -328,7 +370,7 @@ const Template = ({
   </Layout>
 )
 
-Template.propTypes = {
+SpeciesTemplate.propTypes = {
   data: PropTypes.shape({
     json: PropTypes.shape({
       id: PropTypes.string.isRequired,
@@ -336,18 +378,16 @@ Template.propTypes = {
   }).isRequired,
 }
 
-Template.defaultProps = {
+SpeciesTemplate.defaultProps = {
   data: {
     json: {
       protectedArea: 0,
       slr1m: 0,
       slr3m: 0,
-      vulnerability: [0],
+      vulnerability: null,
     },
   },
 }
-
-export default Template
 
 export const pageQuery = graphql`
   query($id: String!, $imgSrc: String!, $mapImgSrc: String!) {
@@ -400,4 +440,4 @@ export const pageQuery = graphql`
   }
 `
 
-// TODO: try GatsbyImageSharpSizes_tracedSVG
+export default SpeciesTemplate

@@ -106,7 +106,7 @@ exports.createPages = ({ graphql, actions }) => {
             if (itemType === 'species') {
               profileTemplate = speciesTemplate
               imgSrc = `${pagePath.replace('/species/', '')}.jpg`
-              mapImgSrc = imgSrc.replace('.jpg', '_map.png')
+              mapImgSrc = `maps/${id}.png`
             } else {
               // TODO: switch on habitatType
             }
