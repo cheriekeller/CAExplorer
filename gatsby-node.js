@@ -40,6 +40,7 @@ exports.createPages = ({ graphql, actions }) => {
     const elementsTemplate = path.resolve(`src/templates/elements.jsx`)
     const mapTemplate = path.resolve(`src/templates/map.jsx`)
     const speciesTemplate = path.resolve(`src/templates/species.jsx`)
+    const habitatTemplate = path.resolve(`src/templates/habitat.jsx`)
     let template = null
     // Query for markdown nodes to use in creating pages.
     resolve(
@@ -61,6 +62,7 @@ exports.createPages = ({ graphql, actions }) => {
                   id
                   path
                   itemType
+                  habitatType
                   bounds
                 }
               }
@@ -81,7 +83,7 @@ exports.createPages = ({ graphql, actions }) => {
             },
           }) => {
             if (
-              pagePath.startsWith('/species') ||
+              pagePath.startsWith('/habitats') ||
               pagePath.startsWith('/habitats')
             ) {
               template = elementsTemplate
@@ -98,23 +100,37 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create map pages for each species and habitat entry in maps/*.json
         result.data.allJson.edges.forEach(
-          ({ node: { id, itemType, path: pagePath, bounds } }) => {
+          ({ node: { id, path: pagePath, itemType, habitatType, bounds } }) => {
             let profileTemplate = null
-            let imgSrc = null
-            let mapImgSrc = null
+            const imgSrc = `profiles/${id}.jpg`
+            const mapImgSrc = `maps/${id}.png`
 
             if (itemType === 'species') {
               profileTemplate = speciesTemplate
-              imgSrc = `${pagePath.replace('/species/', '')}.jpg`
-              mapImgSrc = `maps/${id}.png`
-            } else {
+            } else if (habitatType) {
               // TODO: switch on habitatType
+              switch (habitatType) {
+                case 'ecosystem': {
+                  break
+                }
+                case 'conservation asset': {
+                  profileTemplate = habitatTemplate
+                  break
+                }
+                case 'habitat': {
+                  profileTemplate = habitatTemplate
+                  break
+                }
+                default: {
+                  break
+                }
+              }
             }
 
             // create profile pages
             if (profileTemplate !== null) {
               createPage({
-                path: `/test${pagePath}/`,
+                path: pagePath,
                 context: { id, imgSrc, mapImgSrc },
                 component: profileTemplate,
               })
