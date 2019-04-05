@@ -16,38 +16,35 @@ import {
   Map,
   PhotoCaption,
   Section,
+  Subsection,
   SectionHeader,
   SubHeader,
   MinorHeader,
-  VulnerabilityList,
   DonutWrapper,
 } from 'components/Profile'
 import Vulnerability from 'components/charts/Vulnerability'
 import Donut from 'components/charts/Donut'
-import { CONSERVATION_STATUS } from '../../config/constants'
+import { splitLines } from 'util/dom'
 
 const HabitatTemplate = ({
   data: {
     json: {
       path,
       habitatType,
-      ecosystem,
       conservationAsset,
       habitat,
+      components,
+      species,
       vulnerability,
+      vulnerabilityNotes,
       icon,
       photoCredit,
       description,
-      habitatDescription,
       impacts,
+      sppImpacts,
+      threats,
       strategies,
-      ccvi,
-      ccviNotes,
-      gcva,
-      gcvaNotes,
-      sivva,
-      sivvaNotes,
-      resources,
+      link,
       area,
       protectedArea,
       slr1m,
@@ -61,6 +58,8 @@ const HabitatTemplate = ({
   const name = habitatType === 'habitat' ? habitat : conservationAsset
   const subtitle =
     habitatType === 'habitat' ? `within ${conservationAsset}` : null
+
+  const strategyGroups = strategies ? Object.keys(strategies).sort() : []
 
   return (
     <Layout>
@@ -96,13 +95,26 @@ const HabitatTemplate = ({
 
       <Section>
         <SectionHeader>General Information</SectionHeader>
-        <p>{description}</p>
+        <p>
+          {splitLines(description)}
+
+          {components && (
+            <>
+              <br />
+              <br />
+              {components}
+            </>
+          )}
+        </p>
       </Section>
 
-      <Section>
-        <SectionHeader>Habitat Requirements</SectionHeader>
-        <p>{habitatDescription}</p>
-      </Section>
+      {species && (
+        <Section>
+          <SectionHeader>Example species</SectionHeader>
+          <p>{species}</p>
+        </Section>
+      )}
+
       {area && bounds && (
         <Section>
           <SectionHeader>Habitat area:</SectionHeader>
@@ -162,108 +174,103 @@ const HabitatTemplate = ({
         </Section>
       )}
 
-      <Section>
-        <SectionHeader>Climate Impacts</SectionHeader>
-        <p>
-          {impacts}
-          <br />
-          <br />
-          <Link to="/impacts/habitats">
-            More information about general climate impacts to habitats in
-            Florida.
-          </Link>
-        </p>
-      </Section>
-
-      {vulnerability && vulnerability !== [0] && (
+      {impacts && (
         <Section>
-          <SectionHeader>Vulnerability Assessment(s)</SectionHeader>
+          <SectionHeader>Climate Impacts</SectionHeader>
           <p>
-            The overall vulnerability level was based on the following
-            assessment(s):
+            {splitLines(impacts)}
+            <br />
+            <br />
+            <Link to="/impacts/habitats">
+              More information about general climate impacts to habitats in
+              Florida.
+            </Link>
           </p>
-
-          {ccvi || gcva || sivva ? (
-            <VulnerabilityList>
-              {ccvi && (
-                <li>
-                  <MinorHeader>
-                    <Link to="/impacts/vulnerability/ccvi">
-                      Climate Change Vulnerability Index
-                    </Link>
-                  </MinorHeader>
-                  <div>
-                    Vulnerability: <b>{ccvi}</b>
-                    <br />
-                    <br />
-                    {ccviNotes && <p>{ccviNotes}</p>}
-                  </div>
-                </li>
-              )}
-
-              {gcva && (
-                <li>
-                  <MinorHeader>
-                    <Link to="/impacts/vulnerability/gcva">
-                      Gulf Coast Vulnerability Assessment
-                    </Link>
-                  </MinorHeader>
-                  <div>
-                    Vulnerability: <b>{gcva}</b>
-                    <br />
-                    <br />
-                    {gcvaNotes && <p>{gcvaNotes}</p>}
-                  </div>
-                </li>
-              )}
-
-              {sivva && (
-                <li>
-                  <MinorHeader>
-                    <Link to="/impacts/vulnerability/sivva/natcom">
-                      Standardized Index of Vulnerability and Value Assessment
-                    </Link>
-                  </MinorHeader>
-                  <div>
-                    Vulnerability: <b>{sivva}</b>
-                    <br />
-                    <br />
-                    {sivvaNotes && <p>{sivvaNotes}</p>}
-                  </div>
-                </li>
-              )}
-            </VulnerabilityList>
-          ) : null}
         </Section>
       )}
 
-      {strategies && strategies.All && (
+      {sppImpacts && (
+        <Section>
+          <SectionHeader>Climate Impacts to Species</SectionHeader>
+          <p>
+            {splitLines(sppImpacts)}
+            <br />
+            <br />
+            <Link to="/impacts/species">
+              More information about general climate impacts to species in
+              Florida.
+            </Link>
+          </p>
+        </Section>
+      )}
+
+      {threats && (
+        <Section>
+          <SectionHeader>Other Non-climate Threats</SectionHeader>
+          <p>
+            {/* TODO: convert to list form and split in JSON */}
+            {threats}
+            <br />
+            <br />
+            <Link to="/impacts/existing-stressors">
+              More information about climate change interactions with existing
+              threats and stressors in Florida.
+            </Link>
+          </p>
+        </Section>
+      )}
+
+      {vulnerability && vulnerability !== [0] && (
+        <Section>
+          <SectionHeader>Vulnerability Assessment Details</SectionHeader>
+          <p>
+            TODO: more info about vulnerability assessment based on spreadsheet
+            info
+            {vulnerabilityNotes && (
+              <>
+                <br />
+                <br />
+                {vulnerabilityNotes}.
+              </>
+            )}
+          </p>
+        </Section>
+      )}
+
+      {strategyGroups.length > 0 ? (
         <Section>
           <SectionHeader>Adaptation Strategies</SectionHeader>
-          <ul>
-            {strategies.All.map(strategy => (
-              <li key={strategy}>{strategy}</li>
+          <div>
+            {strategyGroups.map(group => (
+              <Subsection key={group}>
+                <MinorHeader>{group}</MinorHeader>
+                <ul>
+                  {strategies[group].map((strategy, i) => (
+                    /* eslint-disable react/no-array-index-key */
+                    <li key={i}>{strategy}</li>
+                  ))}
+                </ul>
+              </Subsection>
             ))}
-          </ul>
+          </div>
+
           <p>
             <Link to="/strategies">
               More information about adaptation strategies.
             </Link>
           </p>
         </Section>
-      )}
+      ) : null}
 
-      {resources && (
+      {link && (
         <Section>
           <SectionHeader>Additional Resources</SectionHeader>
           <ul>
-            {resources.map(({ label, url }) => (
-              <li key={url}>
-                <OutboundLink from={path} to={url} target="_blank">
-                  {label}
-                </OutboundLink>
-              </li>
-            ))}
+            <li>
+              <OutboundLink from={path} to={link} target="_blank">
+                Florida Natural Areas Inventory Profile
+              </OutboundLink>
+            </li>
           </ul>
         </Section>
       )}
@@ -273,9 +280,7 @@ const HabitatTemplate = ({
 
 HabitatTemplate.propTypes = {
   data: PropTypes.shape({
-    json: PropTypes.shape({
-      id: PropTypes.string.isRequired,
-    }).isRequired,
+    json: PropTypes.object.isRequired,
   }).isRequired,
 }
 
@@ -285,28 +290,26 @@ export const pageQuery = graphql`
       path
       icon
       habitatType
-      ecosystem
       conservationAsset
       habitat
+      components
+      species
       vulnerability
+      vulnerabilityNotes
       photoCredit
       photoUrl
       description
-      habitatDescription
       impacts
+      sppImpacts
+      threats
       strategies {
-        All
+        Monitoring
+        Planning
+        Policy
+        Protection
+        Restoration
       }
-      ccvi
-      ccviNotes
-      gcva
-      gcvaNotes
-      sivva
-      sivvaNotes
-      resources {
-        label
-        url
-      }
+      link
       area
       protectedArea
       slr1m

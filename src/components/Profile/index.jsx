@@ -118,3 +118,9 @@ export const DonutWrapper = styled(Flex)`
   @media (min-width: ${themeGet('breakpoints.3')}) {
   }
 `
+
+export const Subsection = styled.div`
+&:not(:first-child) {
+    margin-top: 2rem;
+}
+`

@@ -14,7 +14,7 @@ import Vulnerability from 'components/charts/Vulnerability'
 import Donut from 'components/charts/Donut'
 import {DONUTSIZE, DONUTWIDTH, Photo, Map, PhotoCaption, Section, SectionHeader, SubHeader, MinorHeader, VulnerabilityList, DonutWrapper} from 'components/Profile'
 import { CONSERVATION_STATUS } from '../../config/constants'
-
+import {splitLines} from 'util/dom'
 
 const SpeciesTemplate = ({
   data: {
@@ -87,13 +87,14 @@ const SpeciesTemplate = ({
 
     <Section>
       <SectionHeader>General Information</SectionHeader>
-      <p>{description}</p>
+      <p>{splitLines(description)}</p>
     </Section>
 
     <Section>
       <SectionHeader>Habitat Requirements</SectionHeader>
-      <p>{habitatDescription}</p>
+      <p>{splitLines(habitatDescription)}</p>
     </Section>
+
     {area && bounds && (
       <Section>
         <SectionHeader>Habitat area:</SectionHeader>
