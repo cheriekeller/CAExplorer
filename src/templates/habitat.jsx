@@ -21,7 +21,6 @@ import {
   SubHeader,
   MinorHeader,
   DonutWrapper,
-  Note,
 } from 'components/Profile'
 import Vulnerability from 'components/charts/Vulnerability'
 import Donut from 'components/charts/Donut'
@@ -30,9 +29,8 @@ import {
   ADAPTATION_STRATEGIES,
   ADAPTATION_STRATEGY_LABELS,
   HABITAT_VULNERABILITY_CRITERIA,
-  VULNERABILITY_LEVELS
+  VULNERABILITY_LEVELS,
 } from '../../config/constants'
-
 
 const HabitatTemplate = ({
   data: {
@@ -95,7 +93,10 @@ const HabitatTemplate = ({
 
           {maxVulnerability ? (
             <>
-              <Vulnerability vulnerability={vulnerability} levels={VULNERABILITY_LEVELS.slice(1)}/>
+              <Vulnerability
+                vulnerability={vulnerability}
+                levels={VULNERABILITY_LEVELS.slice(1)}
+              />
             </>
           ) : (
             <p>This {habitatType} was not assessed for vulnerability</p>
@@ -120,14 +121,14 @@ const HabitatTemplate = ({
 
       {species && (
         <Section>
-          <SectionHeader>Example species</SectionHeader>
+          <SectionHeader>Example Species</SectionHeader>
           <p>{species}</p>
         </Section>
       )}
 
       {area && bounds && (
         <Section>
-          <SectionHeader>Habitat area:</SectionHeader>
+          <SectionHeader>Area</SectionHeader>
           <ul>
             <li>{formatNumber(area)} hectares within Florida (modeled)</li>
             {protectedArea ? (
@@ -137,12 +138,12 @@ const HabitatTemplate = ({
                 public lands
               </li>
             ) : (
-              <li>No habitat is located on public lands</li>
+              <li>No area occurs on public lands</li>
             )}
           </ul>
 
           <SubHeader style={{ margin: '2rem 0 1rem' }}>
-            Habitat impacted by up to 3 meters sea level rise:
+            Area impacted by up to 3 meters sea level rise:
           </SubHeader>
 
           <Flex flexWrap="wrap">
@@ -234,39 +235,39 @@ const HabitatTemplate = ({
         </p>
       </Section>
 
-
-          {maxVulnerability && (
-            <Section>
-              <SectionHeader>
-                Vulnerability Assessment Details
-              </SectionHeader>
-              <p>
-                This habitat was assessed as part of the <Link to="/impacts/vulnerability/sivva/natcom">Standardized Index of Vulnerability and Value Assessment - Natural Communities</Link> (SIVVA).
+      {maxVulnerability && (
+        <Section>
+          <SectionHeader>Vulnerability Assessment Details</SectionHeader>
+          <p>
+            This {habitatType} was assessed as part of the{' '}
+            <Link to="/impacts/vulnerability/sivva/natcom">
+              Standardized Index of Vulnerability and Value Assessment - Natural
+              Communities
+            </Link>{' '}
+            (SIVVA).
+            <br />
+            <br />
+            This {habitatType}{' '}
+            {HABITAT_VULNERABILITY_CRITERIA[maxVulnerability]}
+            <br />
+            <br />
+            <Link to="/impacts/vulnerability/sivva/natcom">
+              Read more information about SIVVA natural communities.
+            </Link>
+            {vulnerabilityNotes && (
+              <>
                 <br />
-                <br/>
-                This {habitatType}{' '}
-                {HABITAT_VULNERABILITY_CRITERIA[maxVulnerability]}
                 <br />
-                <br/>
-                <Link to="/impacts/vulnerability/sivva/natcom">
-                  Read more information about SIVVA natural communities.
-                </Link>
-                {vulnerabilityNotes && (
-                  <>
-                    <br />
-                    <br />
-                    
-                      This {habitatType} was{' '}
-                      {`${vulnerabilityNotes[0].toLowerCase()}${vulnerabilityNotes.slice(
-                        1
-                      )}`}
-                      .
-                    
-                  </>
-                )}
-              </p>
-            </Section>
-          )}
+                This {habitatType} was{' '}
+                {`${vulnerabilityNotes[0].toLowerCase()}${vulnerabilityNotes.slice(
+                  1
+                )}`}
+                .
+              </>
+            )}
+          </p>
+        </Section>
+      )}
 
       {strategies ? (
         <Section>
@@ -275,7 +276,7 @@ const HabitatTemplate = ({
             {ADAPTATION_STRATEGIES.filter(group => strategies[group]).map(
               group => (
                 <Subsection key={group}>
-                  <MinorHeader>{ADAPTATION_STRATEGY_LABELS[group]}</MinorHeader>
+                  <SubHeader>{ADAPTATION_STRATEGY_LABELS[group]}</SubHeader>
                   <ul>
                     {strategies[group].map((strategy, i) => (
                       /* eslint-disable react/no-array-index-key */

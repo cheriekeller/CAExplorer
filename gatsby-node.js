@@ -41,6 +41,7 @@ exports.createPages = ({ graphql, actions }) => {
     const mapTemplate = path.resolve(`src/templates/map.jsx`)
     const speciesTemplate = path.resolve(`src/templates/species.jsx`)
     const habitatTemplate = path.resolve(`src/templates/habitat.jsx`)
+    const ecosystemTemplate = path.resolve(`src/templates/ecosystem.jsx`)
     let template = null
     // Query for markdown nodes to use in creating pages.
     resolve(
@@ -101,24 +102,23 @@ exports.createPages = ({ graphql, actions }) => {
         // Create map pages for each species and habitat entry in maps/*.json
         result.data.allJson.edges.forEach(
           ({ node: { id, path: pagePath, itemType, habitatType, bounds } }) => {
-            let profileTemplate = null
             const imgSrc = `profiles/${id}.jpg`
             const mapImgSrc = `maps/${id}.png`
 
             if (itemType === 'species') {
-              profileTemplate = speciesTemplate
+              template = speciesTemplate
             } else if (habitatType) {
-              // TODO: switch on habitatType
               switch (habitatType) {
                 case 'ecosystem': {
+                  template = ecosystemTemplate
                   break
                 }
                 case 'conservation asset': {
-                  profileTemplate = habitatTemplate
+                  template = habitatTemplate
                   break
                 }
                 case 'habitat': {
-                  profileTemplate = habitatTemplate
+                  template = habitatTemplate
                   break
                 }
                 default: {
@@ -128,13 +128,11 @@ exports.createPages = ({ graphql, actions }) => {
             }
 
             // create profile pages
-            if (profileTemplate !== null) {
-              createPage({
-                path: pagePath,
-                context: { id, imgSrc, mapImgSrc },
-                component: profileTemplate,
-              })
-            }
+            createPage({
+              path: pagePath,
+              context: { id, imgSrc, mapImgSrc },
+              component: template,
+            })
 
             // Create map pages
             if (bounds !== null && bounds !== undefined) {
