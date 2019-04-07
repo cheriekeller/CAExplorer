@@ -47,9 +47,9 @@ const setActiveItems = item => {
   const { path = null, children = null } = item
 
   // Note: even if path is not active, children may be active, so we need to recurse into everything
-
   if (children && children.length > 0) {
     // active if terminal currently selected parent, or has an active child
+    /* eslint-disable no-param-reassign */
     item.isActive =
       window.location.pathname === path ||
       children.reduce(
@@ -105,15 +105,11 @@ const SidebarLink = styled(Link)`
 
   &:hover {
     text-decoration: none;
-    /*color: ${themeGet('colors.primary.800')};*/
-    /*transition: color 0.5s;*/
   }
 
   ${({ isActive }) =>
     isActive &&
     css`
-      /*color: ${themeGet('colors.primary.800')};*/
-      /*font-weight: bold;*/
       color: ${themeGet('colors.secondary.800')};
       
     `}
@@ -133,10 +129,7 @@ const Label = styled.div`
   ${({ isActive }) =>
     isActive &&
     css`
-      /*color: ${themeGet('colors.primary.800')};*/
       color: ${themeGet('colors.secondary.800')};
-      /*border-bottom-color: ${themeGet('colors.secondary.800')};*/
-      /* font-weight: bold; */
     `}
 
   ${({ isCurrent }) =>
@@ -184,7 +177,6 @@ const serializeScroll = () => {
   }
 }
 
-// TODO: show expanded parents
 const ExpandableLink = ({
   path = null,
   label,
@@ -196,15 +188,15 @@ const ExpandableLink = ({
 
   return (
     <>
-      <Flex alignItems="center">
-        <Expander onClick={() => setExpanded(!isExpanded)}>
+      <Flex alignItems="center" onClick={() => setExpanded(!isExpanded)}>
+        <Expander>
           <>
             {isExpanded ? <CaretDown /> : <CaretRight />}
             {icon ? <StyledIcon name={icon} size="1.5em" /> : null}
           </>
         </Expander>
 
-        <div onClick={() => setExpanded(!isExpanded)}>
+        <div>
           <SidebarLink
             to={path}
             isActive={isActive}

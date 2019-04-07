@@ -3,7 +3,8 @@ path: '/species/reptiles'
 title: 'Reptiles'
 ---
 
-<content-header icon="reptiles" title="Reptiles"></content-header>
+<content-header icon="reptiles" title="Reptiles">
+</content-header>
 
 Florida supports a diverse assemblage of approximately 89 native reptiles, including 11 federally listed and 9 state listed species. Turtles, snakes, lizards, and the state’s famed crocodilians are included in this mix. Florida’s warm, ectotherm-friendly climate has allowed an exceptional number of nonnative reptiles, popular in the exotic pet trade, to thrive as well.
 

@@ -3,7 +3,8 @@ path: '/species/fish'
 title: 'Fish'
 ---
 
-<content-header icon="fish" title="Fish"></content-header>
+<content-header icon="fish" title="Fish">
+</content-header>
 
 Approximately 1,177 native fishes swim in Florida’s waterways, including 5 federally listed and 7 state listed species. Fish comprise an essential part of freshwater, estuarine and marine ecosystems in the state and form the backbone of critical commercial and recreational fisheries.
 

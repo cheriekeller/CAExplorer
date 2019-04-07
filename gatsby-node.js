@@ -36,8 +36,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   return new Promise((resolve, reject) => {
-    const contentTemplate = path.resolve(`src/templates/content.jsx`)
-    const elementsTemplate = path.resolve(`src/templates/elements.jsx`)
+    const contentTemplate = path.resolve(`src/templates/content.jsx`)\
     const mapTemplate = path.resolve(`src/templates/map.jsx`)
     const speciesTemplate = path.resolve(`src/templates/species.jsx`)
     const habitatTemplate = path.resolve(`src/templates/habitat.jsx`)
@@ -83,18 +82,9 @@ exports.createPages = ({ graphql, actions }) => {
               frontmatter: { path: pagePath },
             },
           }) => {
-            if (
-              pagePath.startsWith('/habitats') ||
-              pagePath.startsWith('/habitats')
-            ) {
-              template = elementsTemplate
-            } else {
-              template = contentTemplate
-            }
-
             createPage({
               path: pagePath,
-              component: template,
+              component: contentTemplate,
             })
           }
         )

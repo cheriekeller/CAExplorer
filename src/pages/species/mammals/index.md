@@ -3,7 +3,8 @@ path: '/species/mammals'
 title: 'Mammals'
 ---
 
-<content-header icon="mammals" title="Mammals"></content-header>
+<content-header icon="mammals" title="Mammals">
+</content-header>
 
 Florida provides native habitat for a diverse menagerie of approximately 54 mammals from beach mice to manatees to bats. Many Florida mammals are subspecies or rare endemics, resulting in a substantial number of species of conservation concern, including 24 federally listed and 6 state listed species.
 
