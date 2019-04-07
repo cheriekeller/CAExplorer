@@ -21,10 +21,18 @@ import {
   SubHeader,
   MinorHeader,
   DonutWrapper,
+  Note,
 } from 'components/Profile'
 import Vulnerability from 'components/charts/Vulnerability'
 import Donut from 'components/charts/Donut'
 import { splitLines } from 'util/dom'
+import {
+  ADAPTATION_STRATEGIES,
+  ADAPTATION_STRATEGY_LABELS,
+  HABITAT_VULNERABILITY_CRITERIA,
+  VULNERABILITY_LEVELS
+} from '../../config/constants'
+
 
 const HabitatTemplate = ({
   data: {
@@ -59,7 +67,9 @@ const HabitatTemplate = ({
   const subtitle =
     habitatType === 'habitat' ? `within ${conservationAsset}` : null
 
-  const strategyGroups = strategies ? Object.keys(strategies).sort() : []
+  /* eslint-disable prefer-const */
+  let [minVulnerability, maxVulnerability] = vulnerability || [0]
+  maxVulnerability = maxVulnerability || minVulnerability
 
   return (
     <Layout>
@@ -81,14 +91,14 @@ const HabitatTemplate = ({
         ) : null}
 
         <Box width={['100%', '100%', '66%', photo ? '30%' : 400]}>
-          <SubHeader>Overall vulnerability: </SubHeader>
+          <SubHeader>Vulnerability: </SubHeader>
 
-          {vulnerability === null ||
-          vulnerability === undefined ||
-          vulnerability === [0] ? (
-            <p>This habitat was not assessed for vulnerability</p>
+          {maxVulnerability ? (
+            <>
+              <Vulnerability vulnerability={vulnerability} levels={VULNERABILITY_LEVELS.slice(1)}/>
+            </>
           ) : (
-            <Vulnerability vulnerability={vulnerability} />
+            <p>This {habitatType} was not assessed for vulnerability</p>
           )}
         </Box>
       </Flex>
@@ -180,7 +190,6 @@ const HabitatTemplate = ({
           <p>
             {splitLines(impacts)}
             <br />
-            <br />
             <Link to="/impacts/habitats">
               More information about general climate impacts to habitats in
               Florida.
@@ -195,7 +204,6 @@ const HabitatTemplate = ({
           <p>
             {splitLines(sppImpacts)}
             <br />
-            <br />
             <Link to="/impacts/species">
               More information about general climate impacts to species in
               Florida.
@@ -204,54 +212,79 @@ const HabitatTemplate = ({
         </Section>
       )}
 
-      {threats && (
-        <Section>
-          <SectionHeader>Other Non-climate Threats</SectionHeader>
+      <Section>
+        <SectionHeader>Other Non-climate Threats</SectionHeader>
+        {threats && threats.length > 0 ? (
+          <ul>
+            {threats.map(threat => (
+              <li key={threat}>{threat}</li>
+            ))}
+          </ul>
+        ) : (
           <p>
-            {/* TODO: convert to list form and split in JSON */}
-            {threats}
-            <br />
-            <br />
-            <Link to="/impacts/existing-stressors">
-              More information about climate change interactions with existing
-              threats and stressors in Florida.
-            </Link>
+            Non-climate threats have not been assessed for this {habitatType}.
           </p>
-        </Section>
-      )}
+        )}
 
-      {vulnerability && vulnerability !== [0] && (
-        <Section>
-          <SectionHeader>Vulnerability Assessment Details</SectionHeader>
-          <p>
-            TODO: more info about vulnerability assessment based on spreadsheet
-            info
-            {vulnerabilityNotes && (
-              <>
-                <br />
-                <br />
-                {vulnerabilityNotes}.
-              </>
-            )}
-          </p>
-        </Section>
-      )}
+        <p>
+          <Link to="/impacts/existing-stressors">
+            More information about climate change interactions with existing
+            threats and stressors in Florida.
+          </Link>
+        </p>
+      </Section>
 
-      {strategyGroups.length > 0 ? (
+
+          {maxVulnerability && (
+            <Section>
+              <SectionHeader>
+                Vulnerability Assessment Details
+              </SectionHeader>
+              <p>
+                This habitat was assessed as part of the <Link to="/impacts/vulnerability/sivva/natcom">Standardized Index of Vulnerability and Value Assessment - Natural Communities</Link> (SIVVA).
+                <br />
+                <br/>
+                This {habitatType}{' '}
+                {HABITAT_VULNERABILITY_CRITERIA[maxVulnerability]}
+                <br />
+                <br/>
+                <Link to="/impacts/vulnerability/sivva/natcom">
+                  Read more information about SIVVA natural communities.
+                </Link>
+                {vulnerabilityNotes && (
+                  <>
+                    <br />
+                    <br />
+                    
+                      This {habitatType} was{' '}
+                      {`${vulnerabilityNotes[0].toLowerCase()}${vulnerabilityNotes.slice(
+                        1
+                      )}`}
+                      .
+                    
+                  </>
+                )}
+              </p>
+            </Section>
+          )}
+
+      {strategies ? (
         <Section>
           <SectionHeader>Adaptation Strategies</SectionHeader>
           <div>
-            {strategyGroups.map(group => (
-              <Subsection key={group}>
-                <MinorHeader>{group}</MinorHeader>
-                <ul>
-                  {strategies[group].map((strategy, i) => (
-                    /* eslint-disable react/no-array-index-key */
-                    <li key={i}>{strategy}</li>
-                  ))}
-                </ul>
-              </Subsection>
-            ))}
+            {ADAPTATION_STRATEGIES.filter(group => strategies[group]).map(
+              group => (
+                <Subsection key={group}>
+                  <MinorHeader>{ADAPTATION_STRATEGY_LABELS[group]}</MinorHeader>
+                  <ul>
+                    {strategies[group].map((strategy, i) => (
+                      /* eslint-disable react/no-array-index-key */
+                      <li key={i}>{strategy}</li>
+                    ))}
+                  </ul>
+                </Subsection>
+              )
+            )}
           </div>
 
           <p>
@@ -303,11 +336,12 @@ export const pageQuery = graphql`
       sppImpacts
       threats
       strategies {
-        Monitoring
-        Planning
-        Policy
-        Protection
-        Restoration
+        education
+        monitoring
+        planning
+        policy
+        protection
+        restoration
       }
       link
       area

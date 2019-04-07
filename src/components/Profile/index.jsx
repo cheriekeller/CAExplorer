@@ -124,3 +124,8 @@ export const Subsection = styled.div`
     margin-top: 2rem;
 }
 `
+
+export const Note = styled.span`
+color: ${themeGet('colors.grey.500')};
+font-size: smaller;
+`

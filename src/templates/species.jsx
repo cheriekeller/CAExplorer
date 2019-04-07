@@ -13,8 +13,9 @@ import ContentHeader from 'components/elements/ContentHeader'
 import Vulnerability from 'components/charts/Vulnerability'
 import Donut from 'components/charts/Donut'
 import {DONUTSIZE, DONUTWIDTH, Photo, Map, PhotoCaption, Section, SectionHeader, SubHeader, MinorHeader, VulnerabilityList, DonutWrapper} from 'components/Profile'
-import { CONSERVATION_STATUS } from '../../config/constants'
 import {splitLines} from 'util/dom'
+import { CONSERVATION_STATUS, VULNERABILITY_LEVELS } from '../../config/constants'
+
 
 const SpeciesTemplate = ({
   data: {
@@ -73,7 +74,7 @@ const SpeciesTemplate = ({
         vulnerability === [0] ? (
           <p>This species was not assessed for vulnerability</p>
         ) : (
-          <Vulnerability vulnerability={vulnerability} />
+          <Vulnerability vulnerability={vulnerability} levels={VULNERABILITY_LEVELS}/>
         )}
 
         <SubHeader style={{ marginTop: '3rem' }}>
