@@ -36,7 +36,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   return new Promise((resolve, reject) => {
-    const contentTemplate = path.resolve(`src/templates/content.jsx`)\
+    const contentTemplate = path.resolve(`src/templates/content.jsx`)
     const mapTemplate = path.resolve(`src/templates/map.jsx`)
     const speciesTemplate = path.resolve(`src/templates/species.jsx`)
     const habitatTemplate = path.resolve(`src/templates/habitat.jsx`)
