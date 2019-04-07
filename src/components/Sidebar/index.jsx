@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useLayoutEffect, useState } from 'react'
 import PropTypes from 'prop-types'
 import { css } from 'styled-components'
 import { setConfig } from 'react-hot-loader'
@@ -111,14 +111,13 @@ const SidebarLink = styled(Link)`
     isActive &&
     css`
       color: ${themeGet('colors.secondary.800')};
-      
     `}
 
-    ${({ isCurrent }) =>
-      isCurrent &&
-      css`
-        border-bottom-color: ${themeGet('colors.secondary.800')};
-      `}
+  ${({ isCurrent }) =>
+    isCurrent &&
+    css`
+      border-bottom-color: ${themeGet('colors.secondary.800')};
+    `}
 `
 
 const Label = styled.div`
@@ -262,6 +261,7 @@ const ItemList = ({ items }) => (
             )}
           </>
         ) : (
+          /* eslint-disable-next-line */
           <div onClick={serializeScroll}>
             <Flex alignItems="center">
               {icon ? (
@@ -298,14 +298,12 @@ ItemList.propTypes = {
 }
 
 const Sidebar = ({ items, isOpen }) => {
-  // console.log('incoming items', items)
   // roundtrip through immutable to force a deep copy
   const nav = fromJS(items).toJS()
 
   nav.forEach(setActiveItems)
-  // console.log('set nav', nav)
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const container = hasWindow
       ? window.document.getElementById('Sidebar')
       : null || null
