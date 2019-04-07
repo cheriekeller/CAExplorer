@@ -37,8 +37,11 @@ exports.createPages = ({ graphql, actions }) => {
 
   return new Promise((resolve, reject) => {
     const contentTemplate = path.resolve(`src/templates/content.jsx`)
-    const sppTemplate = path.resolve(`src/templates/elements.jsx`)
-    const mapTemplate = path.resolve('src/templates/map.jsx')
+    const elementsTemplate = path.resolve(`src/templates/elements.jsx`)
+    const mapTemplate = path.resolve(`src/templates/map.jsx`)
+    const speciesTemplate = path.resolve(`src/templates/species.jsx`)
+    const habitatTemplate = path.resolve(`src/templates/habitat.jsx`)
+    const ecosystemTemplate = path.resolve(`src/templates/ecosystem.jsx`)
     let template = null
     // Query for markdown nodes to use in creating pages.
     resolve(
@@ -54,11 +57,13 @@ exports.createPages = ({ graphql, actions }) => {
                 }
               }
             }
-            allJson(filter: { bounds: { ne: null } }) {
+            allJson(filter: { itemType: { ne: null } }) {
               edges {
                 node {
                   id
                   path
+                  itemType
+                  habitatType
                   bounds
                 }
               }
@@ -79,10 +84,10 @@ exports.createPages = ({ graphql, actions }) => {
             },
           }) => {
             if (
-              pagePath.startsWith('/species') ||
+              pagePath.startsWith('/habitats') ||
               pagePath.startsWith('/habitats')
             ) {
-              template = sppTemplate
+              template = elementsTemplate
             } else {
               template = contentTemplate
             }
@@ -96,14 +101,47 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create map pages for each species and habitat entry in maps/*.json
         result.data.allJson.edges.forEach(
-          ({ node: { id, path: pagePath, bounds } }) => {
-            if (bounds === null || bounds === undefined) return
+          ({ node: { id, path: pagePath, itemType, habitatType, bounds } }) => {
+            const imgSrc = `profiles/${id}.jpg`
+            const mapImgSrc = `maps/${id}.png`
 
+            if (itemType === 'species') {
+              template = speciesTemplate
+            } else if (habitatType) {
+              switch (habitatType) {
+                case 'ecosystem': {
+                  template = ecosystemTemplate
+                  break
+                }
+                case 'conservation asset': {
+                  template = habitatTemplate
+                  break
+                }
+                case 'habitat': {
+                  template = habitatTemplate
+                  break
+                }
+                default: {
+                  break
+                }
+              }
+            }
+
+            // create profile pages
             createPage({
-              path: `${pagePath}/map`,
-              context: { id },
-              component: mapTemplate,
+              path: pagePath,
+              context: { id, imgSrc, mapImgSrc },
+              component: template,
             })
+
+            // Create map pages
+            if (bounds !== null && bounds !== undefined) {
+              createPage({
+                path: `${pagePath}/map`,
+                context: { id },
+                component: mapTemplate,
+              })
+            }
           }
         )
       })

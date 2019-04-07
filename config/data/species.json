@@ -15,10 +15,16 @@
         "Additional research aimed at better understanding and modeling expected changes to vegetation and mangrove habitat will improve conservationists\u2019 ability to prioritize key areas on which to focus efforts as climate change accelerates."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/alligator/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/alligator/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Moderately vulnerable",
@@ -58,12 +64,24 @@
         "Increase understanding and modeling of expected changes to habitat including expected patterns of inland marsh migration as a tool to prioritize and inform conservation efforts."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/american-oystercatcher/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273253/American-oystercatcher-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720106/Imperiled-Beach-Nesting-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/american-oystercatcher/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273253/American-oystercatcher-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720106/Imperiled-Beach-Nesting-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA, GCVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -102,10 +120,16 @@
         "As sea level rise may eventually become too great a threat for the Anastasia Island beach mouse in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this island endemic subspecies."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/anastasia-island-beach-mouse/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/930923b.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/anastasia-island-beach-mouse/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/930923b.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -145,10 +169,16 @@
         "Given the risk of genetic swamping if the Atlantic salt marsh snake begins to overlap with other subspecies, assisted migration to a more isolated area or developing a captive breeding population could be considered to preserve genetic integrity."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/atlantic-salt-marsh-snake/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/atlantic-salt-marsh-snake/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Highly to Extremely vulnerable",
@@ -187,10 +217,16 @@
         "Monitoring natural community shifts may inform conservationist\u2019s ability to identify trends and prioritize key habitat patches in a future climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/crested-caracara/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/crested-caracara/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -230,12 +266,24 @@
         "The Big Cypress fox squirrel\u2019s tolerance of suburban habitat may be an adaptation advantage as climate change begins to drive shifts in human development patterns.  Connecting patches of suitable suburban habitat is another possible strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/big-cypress-fox-squirrel/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273259/Big-Cypress-Fox-Squirrel-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738253/Big-Cypress-Fox-Squirrel-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/big-cypress-fox-squirrel/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273259/Big-Cypress-Fox-Squirrel-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738253/Big-Cypress-Fox-Squirrel-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -274,9 +322,12 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring ideal black rail habitat can be conserved in a future climate.  Since the bird\u2019s preferred habitat type may shift northward for plants to be successful as climate change accelerates, monitoring can help conservationists get ahead of natural shifts and understand where to best focus their efforts."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "http://legacy.myfwc.com/bba/docs/bba_blra.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "http://legacy.myfwc.com/bba/docs/bba_blra.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -315,12 +366,24 @@
         "Conserving healthy future coastal habitat as sea levels rise and human communities begin to shift is important for this species."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/black-skimmer/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273268/Black-Skimmer-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720106/Imperiled-Beach-Nesting-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/black-skimmer/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273268/Black-Skimmer-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720106/Imperiled-Beach-Nesting-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA, GCVA",
     "ccvi": null,
     "sivva": "Moderately to Highly vulnerable",
@@ -359,9 +422,12 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring ideal black-whiskered vireo habitat can be protected in a future climate.  Since the bird\u2019s preferred habitat is likely to change along with the climate, monitoring can help conservationists get ahead of natural shifts and understand where to best focus their efforts."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "http://legacy.myfwc.com/bba/docs/bba_BWVI.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "http://legacy.myfwc.com/bba/docs/bba_BWVI.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -399,12 +465,24 @@
         "Protecting important areas of current habitat from human encroachment is a good first step for the burrowing owl.  Controlling the existing threats of excessive predation by non-native species and human activity will help increase the health of burrowing owl populations and therefore, their resilience to adapt to a changing climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/owls/burrowing-owl/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273286/FL-Burrowing-Owl-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720097/Burrowing-Owl-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/owls/burrowing-owl/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273286/FL-Burrowing-Owl-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720097/Burrowing-Owl-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -442,7 +520,7 @@
         "Given the risk of genetic swamping if the Cedar Key mole skink begins to overlap with other subspecies, assisted migration to a more isolated area or developing a captive breeding population may be the best adaptation strategy for this species if sea level rise poses too great a threat to the island populations."
       ]
     },
-    "links": {},
+    "resources": [],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -481,10 +559,16 @@
         "As sea level rise poses a grave threat to the long-term success of the Choctawhatchee beach mouse, assisted migration and development of a captive breeding program are long-term strategies to consider."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/choctawhatchee-beach-mouse/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/870812.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/choctawhatchee-beach-mouse/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/870812.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -523,9 +607,12 @@
         "Preserving conservation lands that allow for migratory pathways across the landscape is important to facilitate movement for species that are able, such as the Cooper\u2019s hawk and other birds."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "http://legacy.myfwc.com/bba/docs/bba_COHA.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "http://legacy.myfwc.com/bba/docs/bba_COHA.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -565,12 +652,24 @@
         "Assisted migration or facilitation of inland movement is a possible long-term adaptation strategy for the Cuban snowy plover.  Elsewhere in North America, these birds have established a small number of successful inland nesting colonies."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/snowy-plover/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273403/Snowy-Plover-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720106/Imperiled-Beach-Nesting-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/snowy-plover/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273403/Snowy-Plover-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720106/Imperiled-Beach-Nesting-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -609,10 +708,16 @@
         "Preserving corridors of connected habitat is critical for the eastern indigo so that it can move freely during various stages of its life cycle and adapt to any changes to its habitat stemming from climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/eastern-indigo-snake/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/eastern-indigo-snake/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly to Moderately vulnerable",
@@ -651,10 +756,16 @@
         "Given the possibility for northward habitat migration, protection of habitat corridors that allow the Everglade snail kite to move with its habitat and prey is a priority adaptation strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/everglade-snail-kite/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/everglade-snail-kite/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -692,10 +803,16 @@
         "Preserving large, connected patches of suitable habitat allowing bears to move freely to find the most suitable habitat in a changing landscape is the most important adaptation strategy for the Florida black bear."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/black-bear/",
-      "FWC Management Plan": "http://www.myfwc.com/media/2612908/bear-management-plan.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/black-bear/"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/2612908/bear-management-plan.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -734,12 +851,24 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring bog frog habitat can be conserved in a future climate.  Since sea level rise may cause salination of many current areas of freshwater habitat, monitoring can help conservationists get ahead of climate-driven shifts and understand where to best focus their efforts."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/amphibians/florida-bog-frog/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273292/Florida-Bog-Frog-BSR.pdf",
-      "FWC Species Action Plan": "http://www.myfwc.com/media/2738259/Florida-Bog-Frog-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/amphibians/florida-bog-frog/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273292/Florida-Bog-Frog-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://www.myfwc.com/media/2738259/Florida-Bog-Frog-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -779,10 +908,16 @@
         "Given the extreme vulnerability of this species to extinction from a natural disturbance event as climate change accelerates, more extreme strategies such as development of a captive breeding program and assisted migration may warrant consideration."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/florida-grasshopper-sparrow/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/florida-grasshopper-sparrow/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -822,10 +957,16 @@
         "As a subspecies inhabiting an island location highly vulnerable to sea level rise, assisted migration to an area where interbreeding with mainland whitetail deer is not possible or establishment of a captive breeding program is a long-term adaptation strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/key-deer/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/key-deer/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Highly vulnerable",
     "sivva": "Extremely vulnerable",
@@ -865,14 +1006,32 @@
         "Like many species endemic to the Florida Keys, this species is extremely vulnerable to long-term sea level rise. As such, development of a captive breeding program may be a necessary long-term adaptation strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/florida-keys-mole-skink/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273301/Florida-Keys-Mole-Skink-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738265/Florida-Keys-Mole-Skink-Species-Action-Plan-Final-Draft.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/4105883/Final-Florida-Keys-mole-skink-Species-Guidelines-2016.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/florida-keys-mole-skink/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273301/Florida-Keys-Mole-Skink-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738265/Florida-Keys-Mole-Skink-Species-Action-Plan-Final-Draft.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/4105883/Final-Florida-Keys-mole-skink-Species-Guidelines-2016.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -912,12 +1071,24 @@
         "Controlling existing threats not directly related to climate change, such as habitat loss and fragmentation, is an important first-step adaptation strategy for the Florida mouse."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-mouse/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273304/Florida-Mouse-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738819/Florida-Mouse-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-mouse/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273304/Florida-Mouse-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738819/Florida-Mouse-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -956,11 +1127,20 @@
         "Monitoring and maintaining healthy panther populations throughout the cat\u2019s current range to bolster resilience is an important first step in adapting to a changing climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-panther/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/081218.pdf",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-panther/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/081218.pdf"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": "Extremely vulnerable",
@@ -1000,12 +1180,24 @@
         "Controlling existing threats not directly related to climate change, such as habitat loss and fragmentation, and predation by non-native species such as feral hogs, is an important first-step adaptation strategy for the Florida pine snake."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/florida-pine-snake/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273307/Florida-Pine-Snake-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738822/Florida-Pine-Snake-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/florida-pine-snake/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273307/Florida-Pine-Snake-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738822/Florida-Pine-Snake-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1044,9 +1236,12 @@
         "As sea level rise may eventually become too great a threat for the Florida salt marsh vole in its current habitat and range, developing and maintaining a captive breeding population and assisted migration to a new location are strategies to consider for this endangered species."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-salt-marsh-vole/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-salt-marsh-vole/"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -1085,13 +1280,28 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring Florida sandhill crane habitat can be conserved in a future climate.  As locations of prime crane habitat are likely to shift under climate change, monitoring can help conservationists get ahead of natural shifts and understand where to best focus their efforts.  This strategy is also important to mitigate extensive habitat loss from altered human land use patterns in a changing climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/cranes/sandhill-crane/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273310/Florida-Sandhill-Crane-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738849/Florida-Sandhill-Crane-Species-Action-Plan-Final-Draft.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/4105886/Final-Florida-Sandhill-Crane-Species-Guidelines-2016.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/cranes/sandhill-crane/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273310/Florida-Sandhill-Crane-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738849/Florida-Sandhill-Crane-Species-Action-Plan-Final-Draft.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/4105886/Final-Florida-Sandhill-Crane-Species-Guidelines-2016.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1130,11 +1340,20 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring optimal Florida scrub jay habitat can be conserved in a future climate.  Locations of optimal habitat type may shift due to changes in temperature and precipitation and getting ahead of these shifts is necessary to plan for conservation in a future climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/florida-scrub-jay/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/900509.pdf",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/florida-scrub-jay/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/900509.pdf"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -1173,10 +1392,16 @@
         "Monitoring population levels and hydrological conditions is important for this species.  Strategies such as lining breeding ponds and wetland areas to maintain hydration in the event of a significant period of drought and drop of the water table, may help the frosted flatwoods salamander adapt to harsh conditions triggered by climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/amphibians/frosted-flatwoods-salamander/",
-      "FWC Management Plan": "http://www.myfwc.com/media/214298/Flatwoods_salamander_management_plan.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/amphibians/frosted-flatwoods-salamander/"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/214298/Flatwoods_salamander_management_plan.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -1216,12 +1441,24 @@
         "Applying an adequate fire regime to gopher frog breeding habitat at present is a critical first step in getting ahead of the challenges brought on by climate change.  If future conditions make regular prescribed burning too difficult, other habitat maintenance techniques such as mechanical thinning and removal may need to be employed."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/amphibians/gopher-frog/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273319/Gopher-Frog-BSR.pdf",
-      "FWC Species Action Plan": "http://www.myfwc.com/media/2738828/Gopher-Frog-Draft-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/amphibians/gopher-frog/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273319/Gopher-Frog-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://www.myfwc.com/media/2738828/Gopher-Frog-Draft-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Highly vulnerable",
     "sivva": "Slightly vulnerable",
@@ -1261,10 +1498,16 @@
         "Controlling threats not directly related to climate change, such as predation, is an important first-step adaptation strategy to ensure gopher tortoise populations are healthy as climate change begins to accelerate.  As a keystone species, the gopher tortoise may help other species adapt to changing conditions so maintaining a healthy tortoise population in Florida is extremely important."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/gopher-tortoise/",
-      "FWC Management Plan": "http://www.myfwc.com/media/2286685/GT-Management-Plan.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/gopher-tortoise/"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/2286685/GT-Management-Plan.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -1303,10 +1546,16 @@
         "Protecting current habitat is an important first step to ensure maximum population health and resilience in a changing climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/gray-bat/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/820701.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/gray-bat/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/820701.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1346,9 +1595,12 @@
         "Given the risk of genetic swamping if the Gulf salt marsh snake begins to overlap with other subspecies, assisted migration to a more isolated area or developing a captive breeding population could be considered to preserve genetic integrity."
       ]
     },
-    "links": {
-      "Other Species Profile": "https://www.floridamuseum.ufl.edu/herpetology/fl-snakes/list/nerodia-clarkii-clarkii/"
-    },
+    "resources": [
+      {
+        "label": "Other Species Profile",
+        "url": "https://www.floridamuseum.ufl.edu/herpetology/fl-snakes/list/nerodia-clarkii-clarkii/"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Highly vulnerable",
     "sivva": "Highly vulnerable",
@@ -1387,12 +1639,24 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring limpkin habitat can be conserved in a future climate.  As locations of prime limpkin habitat are likely to shift under climate change, monitoring can help conservationists get ahead of natural shifts and understand where to best focus their efforts.  This strategy is also important to mitigate extensive habitat loss from altered human land use patterns in a changing climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/limpkin/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273340/Limpkin-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2718855/Limpkin-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/limpkin/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273340/Limpkin-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2718855/Limpkin-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "CCVI",
     "ccvi": "Moderately vulnerable",
     "sivva": null,
@@ -1431,12 +1695,24 @@
         "Protection of habitat corridors that allow the little blue heron to move within patches of suitable habitat as natural climate-driven shifts occur may help this species adapt."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/little-blue-heron/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273343/Little-blue-heron-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/little-blue-heron/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273343/Little-blue-heron-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1476,9 +1752,12 @@
         "Protecting migratory corridors if salt marsh habitat migrates inland is an important adaptation strategy for the Louisiana seaside sparrow.  Although a significant portion of current habitat is expected to be lost to sea level rise, new areas of suitable habitat may emerge inland if conservation efforts support their natural transition."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "http://legacy.myfwc.com/bba/docs/bba_sesp.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "http://legacy.myfwc.com/bba/docs/bba_sesp.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -1517,10 +1796,16 @@
         "Protecting migratory corridors if forested freshwater wetlands migrate inland in an important adaptation strategy for the Louisiana waterthrush.  Although a significant portion of current habitat is expected to be impacted sea level rise, new areas of suitable habitat may emerge inland if conservation efforts support their natural transition."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "http://legacy.myfwc.com/bba/docs/bba_LOWA.pdf",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "http://legacy.myfwc.com/bba/docs/bba_LOWA.pdf"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1561,10 +1846,16 @@
         "As sea level rise may eventually become too great a threat for this species in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this island endemic."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/lower-keys-rabbit/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/lower-keys-rabbit/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Extremely vulnerable",
@@ -1604,9 +1895,12 @@
         "Protecting migratory corridors if salt marsh habitat migrates inland in an important adaptation strategy for this seaside sparrow.  Although a significant portion of current habitat is expected to be lost to sea level rise, new areas of suitable habitat may emerge inland if conservation efforts support their natural transition."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "http://legacy.myfwc.com/bba/docs/bba_sesp.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "http://legacy.myfwc.com/bba/docs/bba_sesp.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -1646,9 +1940,12 @@
         "Protecting migratory corridors if mangrove habitat migrates inland and northward is an important adaptation strategy for this species.  Assisted migration to optimal mangrove habitat northward from the bird\u2019s current range in a future climate is a possible strategy."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Coccyzus_minor.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Coccyzus_minor.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Moderately vulnerable to Presumed stable",
     "sivva": "Highly vulnerable",
@@ -1687,9 +1984,12 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring duck habitat can be conserved in a future climate.  As locations of prime duck habitat are likely to shift under climate change, monitoring can help conservationists get ahead of natural shifts and understand where to best focus their efforts.  This strategy is also important to mitigate extensive habitat loss from altered human land use patterns in a changing climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/waterfowl/mottled-ducks/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterfowl/mottled-ducks/"
+      }
+    ],
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -1729,9 +2029,12 @@
         "Monitoring and addressing current threats is an important first step, \u201cno regrets\u201d adaptation strategy for this species.  Painted buntings are targeted by the black-market pet trade and preyed upon by nonnative predators.  Controlling these and other threats would help the population increase resilience at the onset of climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/painted-bunting/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/painted-bunting/"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1771,11 +2074,20 @@
         "Development of a captive breeding program for this species may warrant consideration.  If the population is wiped out by a major hurricane or storm surge event, a captive population could be used to repopulate the area."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/panama-city-crayfish/",
-      "FWC Biological Status Review": "http://myfwc.com/media/1355347/PCC_BSR.pdf",
-      "FWC Management Plan": "http://myfwc.com/media/1355365/Revised_Draft_PCC_Plan.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/panama-city-crayfish/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/1355347/PCC_BSR.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://myfwc.com/media/1355365/Revised_Draft_PCC_Plan.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1815,12 +2127,24 @@
         "Applying an adequate fire regime to gopher frog breeding habitat at present is a critical first step in getting ahead of the challenges brought on by climate change.  If future conditions make regular prescribed burning too difficult, other habitat maintenance techniques such as mechanical thinning and removal may need to be employed."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/amphibians/pine-barrens-treefrog/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273364/Pine-Barrens-Tree-Frog-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2718858/Pine-Barrens-Treefrog-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/amphibians/pine-barrens-treefrog/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273364/Pine-Barrens-Tree-Frog-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2718858/Pine-Barrens-Treefrog-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1861,12 +2185,24 @@
         "Creating artificial woodpecker nesting cavities in living trees is one strategy that can be considered if suitable habitat becomes further limited or degraded due to climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/woodpeckers/red-cockaded-woodpecker/",
-      "Federal Recovery Plan": "https://www.fws.gov/rcwrecovery/files/RecoveryPlan/finalrecoveryplan.pdf",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/214360/RCW.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/woodpeckers/red-cockaded-woodpecker/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://www.fws.gov/rcwrecovery/files/RecoveryPlan/finalrecoveryplan.pdf"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/214360/RCW.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -1905,12 +2241,24 @@
         "Monitoring natural shifts in ecological communities to prioritize areas for conservation in a changing climate is an important first step.  Restoring coastal vegetation and protecting natural buffers against runoff and sediment transport at priority conservation locations is a good strategy to increase egret habitat resilience as climate change begins to intensify."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/reddish-egret/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "www.myfwc.com/media/2273367/Reddish-egret-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/reddish-egret/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "www.myfwc.com/media/2273367/Reddish-egret-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -1950,10 +2298,16 @@
         "An appropriate prescribed fire regime will maintain natural conditions are reduce the risk of wild fire elevated by climate change.  Regular fire maintenance also reduces vegetation encroachment that can dehydrate wetland habitat critical to amphibians such as the reticulated flatwoods salamander."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/amphibians/reticulated-flatwoods-salamander/",
-      "FWC Management Plan": "http://www.myfwc.com/media/214298/Flatwoods_salamander_management_plan.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/amphibians/reticulated-flatwoods-salamander/"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/214298/Flatwoods_salamander_management_plan.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Slightly vulnerable",
@@ -1993,13 +2347,28 @@
         "As sea level rise may eventually become too great a threat for this species in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this snake."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/rim-rock-crowned-snake/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273373/Rim-Rock-Crowned-Snake-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738843/Rim-Rock-Crowned-Snake-Species-Action-Plan-Final-Draft.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/4105892/Final-Rim-rock-crowned-snake-Species-Guidelines-2016.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/rim-rock-crowned-snake/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273373/Rim-Rock-Crowned-Snake-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738843/Rim-Rock-Crowned-Snake-Species-Action-Plan-Final-Draft.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/4105892/Final-Rim-rock-crowned-snake-Species-Guidelines-2016.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -2038,12 +2407,24 @@
         "Monitoring natural shifts in ecological communities to prioritize areas for conservation in a changing climate is an important first step.  Restoring coastal vegetation and protecting natural buffers against runoff and sediment transport at priority conservation locations is a good strategy to increase spoonbill habitat resilience as climate change begins to intensify."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/roseate-spoonbill/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273376/Roseate-Spoonbill-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/roseate-spoonbill/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273376/Roseate-Spoonbill-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA, GCVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -2082,10 +2463,16 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring optimal sand skink habitat can be conserved in a future climate.  Locations of optimal habitat type may shift due to changes in temperature and precipitation and getting ahead of these shifts is necessary to plan for conservation in a future climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sand-skink/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sand-skink/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2125,12 +2512,24 @@
         "Controlling existing threats such as feral cats is an important first-step in increasing rice rat population resilience and ability to adapt."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/sanibel-island-rice-rat/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273382/Sanibel-Island-Rice-Rat-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2718861/Sanibel-Island-Rice-Rat-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/sanibel-island-rice-rat/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273382/Sanibel-Island-Rice-Rat-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2718861/Sanibel-Island-Rice-Rat-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -2169,9 +2568,12 @@
         "Monitoring population levels and hydrological conditions is important for this species."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Cordulegaster_sayi.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Cordulegaster_sayi.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2211,12 +2613,24 @@
         "Protecting migratory corridors if salt marsh habitat migrates inland is an important adaptation strategy for the Scott\u2019s seaside sparrow.  Although a significant portion of current habitat is expected to be lost to sea level rise, new areas of suitable habitat may emerge inland if conservation efforts support their natural transition."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/scotts-seaside-sparrow/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273388/Scotts-Seaside-Sparrow-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738837/Saltmarsh-Songbird-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/scotts-seaside-sparrow/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273388/Scotts-Seaside-Sparrow-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738837/Saltmarsh-Songbird-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -2255,9 +2669,12 @@
         "Preserving connected patches of suitable habitat allowing salamanders to move to find the most suitable habitat in a changing landscape is important for this species."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Desmognathus_monticola.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Desmognathus_monticola.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2296,13 +2713,28 @@
         "Given the high degree of habitat fragmentation already present within the squirrel\u2019s range, protecting connected patches of habitat wherever possible should be prioritized."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "https://www.fnai.org/FieldGuide/pdf/Sciurus_niger_shermani.pdf",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273391/Shermans-Fox-Squirrel-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738277/Shermans-Fox-Squirrel-Species-Action-Plan-Final.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/4105895/Final-Shermans-Fox-squirrel-Species-Guidelines-2016.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "https://www.fnai.org/FieldGuide/pdf/Sciurus_niger_shermani.pdf"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273391/Shermans-Fox-Squirrel-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738277/Shermans-Fox-Squirrel-Species-Action-Plan-Final.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/4105895/Final-Shermans-Fox-squirrel-Species-Guidelines-2016.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -2342,9 +2774,12 @@
         "Preserving conservation lands that allow for migratory pathways across the landscape is important to facilitate movement for species that are able, such as the short-tailed hawk and other birds."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Buteo_brachyurus.PDF"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Buteo_brachyurus.PDF"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Moderately vulnerable (winter range)",
     "sivva": "Slightly vulnerable",
@@ -2384,12 +2819,24 @@
         "Controlling existing threats not directly related to climate change, such as habitat loss and fragmentation, and predation by nonnative species is an important first-step adaptation strategy for the short-tailed snake."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/short-tailed-snake/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273397/Short-tailed-Snake-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738855/Short-Tailed-Snake-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/short-tailed-snake/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273397/Short-tailed-Snake-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738855/Short-Tailed-Snake-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2429,10 +2876,16 @@
         "Controlling existing threats such as feral cats is an important first-step in increasing rice rat population resilience and ability to adapt."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/rice-rat/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/rice-rat/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -2471,12 +2924,24 @@
         "Monitoring natural shifts in ecological communities to prioritize areas for conservation in a changing climate is an important first step.  Restoring coastal vegetation and protecting natural buffers against runoff and sediment transport at priority conservation locations is a good strategy to increase egret habitat resilience as climate change begins to intensify."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/snowy-egret/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273400/Snowy-Egret-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/snowy-egret/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273400/Snowy-Egret-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2519,12 +2984,24 @@
         "Southeastern American kestrels have been known to successfully use nesting boxes in place of tree cavities.  This is a good strategy to continue and increase if traditional nesting sites become rarer due to climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/american-kestrel/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273406/Southeastern-American-Kestrel-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738858/Southeastern-American-Kestrel-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/american-kestrel/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273406/Southeastern-American-Kestrel-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738858/Southeastern-American-Kestrel-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2564,9 +3041,12 @@
         "As Southeastern bats will colonize bat houses and other humanmade structures, creation of artificial shelter is a possible adaptation strategy for this species should natural habitat decline significantly in a future climate."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Myotis_austroriparius.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Myotis_austroriparius.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2605,11 +3085,20 @@
         "As sea level rise may eventually become too great a threat for the Southeastern beach mouse in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this coastal endemic subspecies."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/southeastern-beach-mouse/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/930923b.pdf",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/southeastern-beach-mouse/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/930923b.pdf"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -2649,11 +3138,20 @@
         "Preserving conservation lands that allow for migratory pathways across the landscape is important to facilitate movement for species that are able, such as the bald eagle and other birds."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/bald-eagle/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/427567/eagle_plan_april_2008.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/bald-eagle/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/427567/eagle_plan_april_2008.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2693,9 +3191,12 @@
         "Controlling existing threats not directly related to climate change, such as habitat loss and fragmentation, and predation by nonnative species is an important first-step adaptation strategy for the southern hognose."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Heterodon_simus.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Heterodon_simus.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2734,10 +3235,16 @@
         "As sea level rise may eventually become too great a threat for the St. Andrew beach mouse in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this coastal endemic subspecies."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/st-andrew-beach-mouse/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/20110104_SABM_recov_plan_FINAL.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/st-andrew-beach-mouse/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/20110104_SABM_recov_plan_FINAL.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately to Highly vulnerable",
@@ -2776,12 +3283,24 @@
         "If nesting becomes degraded or sex ratios are impacted by rising temperatures, artificially created or altered nesting habitat to maintain nesting success and optimal sex ratios is a possible adaptation strategy.  For example, shade structures could be added to nesting sites to improve the likelihood of achieving balanced sex ratios or humanmade freshwater sources could be protected."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/freshwater-turtles/striped-mud-turtle/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273346/Lower-Keys-Striped-Mud-Turtle-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738283/Striped-Mud-Turtle-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/freshwater-turtles/striped-mud-turtle/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273346/Lower-Keys-Striped-Mud-Turtle-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738283/Striped-Mud-Turtle-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -2821,9 +3340,12 @@
         "An appropriate prescribed fire regime will maintain natural conditions are reduce the risk of wild fire elevated by climate change.  Regular fire maintenance also reduces vegetation encroachment that can dehydrate wetland habitat critical to amphibians such as the striped newt."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Notophthalmus_perstriatus.PDF"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Notophthalmus_perstriatus.PDF"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -2862,9 +3384,12 @@
         "Preserving conservation lands that allow for migratory pathways across the landscape is important to facilitate movement for species that are able, such as the swallow-tailed kite and other birds."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/swallow-tailed-kite/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/swallow-tailed-kite/"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2904,9 +3429,12 @@
         "An appropriate prescribed fire regime will maintain natural conditions are reduce the risk of wild fire elevated by climate change.  Regular fire maintenance also reduces vegetation encroachment that can dehydrate wetland habitat critical to amphibians such as the tiger salamander."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Ambystoma_tigrinum.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Ambystoma_tigrinum.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2945,12 +3473,24 @@
         "Protection of habitat corridors that allow the tricolored heron to move within patches of suitable habitat as natural climate-driven shifts occur may help this species adapt."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/tricolored-heron/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273415/Tricolored-Heron-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/tricolored-heron/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273415/Tricolored-Heron-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -2989,11 +3529,20 @@
         "Protection of habitat corridors that allow the wood stork to move within patches of suitable habitat as natural climate-driven shifts occur may help this species adapt."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/wood-stork/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/wood-stork/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -3032,13 +3581,28 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring ideal white-crowned pigeon habitat can be protected in a future climate.  Since the bird\u2019s preferred habitat is likely to change along with the climate, monitoring can help conservationists get ahead of natural shifts and understand where to best focus their efforts."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/white-crowned-pigeon/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273421/White-crowned-Pigeon-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738292/White-Crowned-Pigeon-Species-Action-Plan-Final-Draft.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/4105898/Final-White-crowned-pigeon-Species-Guidelines-2016.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/white-crowned-pigeon/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273421/White-crowned-Pigeon-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738292/White-Crowned-Pigeon-Species-Action-Plan-Final-Draft.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/4105898/Final-White-crowned-pigeon-Species-Guidelines-2016.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -3077,12 +3641,24 @@
         "Protection of habitat corridors that allow the white ibis to move within patches of suitable habitat as natural climate-driven shifts occur may help this species adapt."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/white-ibis/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273424/White-Ibis-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterbirds/white-ibis/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273424/White-Ibis-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738289/Wading-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -3122,9 +3698,12 @@
         "Preserving large, connected patches of suitable habitat allowing turkeys to move freely to find the most suitable habitat in a changing landscape will be critical as climate-driven shifts in habitat quality and composition intensify."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/game-birds/wild-turkeys/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/game-birds/wild-turkeys/"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -3163,9 +3742,12 @@
         "Monitoring blue crab population levels and range shifts to gain knowledge on how changing conditions may be impacting crab populations is a useful first-step adaptation strategy for this species."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/fishing/saltwater/recreational/blue-crab/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/fishing/saltwater/recreational/blue-crab/"
+      }
+    ],
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -3203,9 +3785,12 @@
         "As an invasive species representing a serious current and future threat to native wildlife, the goal is to reduce and ultimately eradicate Burmese pythons from Florida rather than to help the species adapt to a changing climate.  Python removal efforts should be aggressively pursued with the goal of reducing the python population within the snake\u2019s current range and preventing any future expansion."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/nonnatives/reptiles/snakes/burmese-python/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/nonnatives/reptiles/snakes/burmese-python/"
+      }
+    ],
     "ccva": "CCVI",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": null,
@@ -3245,9 +3830,12 @@
         "Restoring high elevation marsh areas, including following a major storm or disturbance event, is an important aspect of protecting clapper rail nesting habitat."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "http://legacy.myfwc.com/bba/docs/bba_clra.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "http://legacy.myfwc.com/bba/docs/bba_clra.pdf"
+      }
+    ],
     "ccva": "CCVI, GCVA",
     "ccvi": "Highly vulnerable",
     "sivva": null,
@@ -3287,9 +3875,12 @@
         "If barriers to natural migration are too great as sea level rise accelerates, assisted migration may be considered for this species."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Malaclemys_terrapin.PDF"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Malaclemys_terrapin.PDF"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Moderately vulnerable",
@@ -3328,9 +3919,12 @@
         "Living shorelines that create artificial oyster reef habitat using recycled shells or other materials is an adaptation strategy that offers multiple benefits.  In addition to providing habitat for the Eastern oyster, living shorelines support numerous other coastal wildlife species and offer protection against sea level rise, coastal erosion and storm surge events intensified by climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/media/12470/51-eastern-oyster-2016.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/media/12470/51-eastern-oyster-2016.pdf"
+      }
+    ],
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -3370,11 +3964,20 @@
         "As Florida bonneted bats have been documented to colonize bat houses and other humanmade structures, creation of artificial shelter is a possible adaptation strategy for this species should natural habitat decline significantly in a future climate.  This strategy should be further explored for the Florida bonneted bat."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-bonneted-bat/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273295/Florida-Bonneted-Bat-BSR.pdf",
-      "FWC Species Action Plan": "http://www.myfwc.com/media/2738262/Florida-Bonneted-Bat-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-bonneted-bat/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273295/Florida-Bonneted-Bat-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://www.myfwc.com/media/2738262/Florida-Bonneted-Bat-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Moderately vulnerable to Presumed stable",
     "sivva": "Highly vulnerable",
@@ -3414,9 +4017,12 @@
         "Implementing an optimal burning regime is important habitat maintenance for the Florida prairie warbler.  As controlled burning becomes more challenging in a changing climate, other habitat management strategies such as mechanical thinning may need to be pursued to maintain habitat quality for this species."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "http://legacy.myfwc.com/bba/docs/bba_PRWA.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "http://legacy.myfwc.com/bba/docs/bba_PRWA.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -3456,13 +4062,28 @@
         "Controlling existing threats, such as invasive fire ants, is an important first-step adaptation strategy to increase the resilience of the Florida tree snail before climate change accelerates."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/florida-tree-snail/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273313/Florida-Tree-Snail-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738268/Florida-Tree-Snail-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/florida-tree-snail/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273313/Florida-Tree-Snail-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738268/Florida-Tree-Snail-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -3500,9 +4121,12 @@
         "As a nonnative and potentially harmful, invasive species, the goal is to eradicate Gambian pouched rats from Florida rather than to help the species adapt to a changing climate.  Strict efforts to remove wild rats from Grassy Key and prevent their spread to other areas should be continued."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/nonnatives/mammals/rodents/gambian-pouched-rat/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/nonnatives/mammals/rodents/gambian-pouched-rat/"
+      }
+    ],
     "ccva": "CCVI",
     "ccvi": "Moderately vulnerable",
     "sivva": null,
@@ -3541,10 +4165,16 @@
         "If nesting habitat becomes degraded or sex ratios are impacted by rising temperatures, artificially created or altered nesting habitat to maintain nesting success and optimal sex ratios is a possible adaptation strategy.  For example, shade structures could be added to nesting sites to improve the likelihood of achieving balanced sex ratios.  Programs focused on collecting eggs, incubating them in a controlled setting and releasing hatchlings are a possible strategy for achieving balanced sex ratios and improving reproductive outcomes and hatchling survivorship in increasingly challenging conditions."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/hawksbill/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/hawksbill/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -3584,10 +4214,16 @@
         "If nesting habitat becomes degraded or sex ratios are impacted by rising temperatures, artificially created or altered nesting habitat to maintain nesting success and optimal sex ratios is a possible adaptation strategy.  For example, shade structures could be added to nesting sites to improve the likelihood of achieving balanced sex ratios.  Programs focused on collecting eggs, incubating them in a controlled setting and releasing hatchlings are a possible strategy for achieving balanced sex ratios and improving reproductive outcomes and hatchling survivorship in increasingly challenging conditions."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/kemps-ridley/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/kemps-ridley/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -3626,10 +4262,16 @@
         "As sea level rise may eventually become too great a threat for the Key Largo cotton mouse in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this endemic subspecies."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/key-largo-cotton-mouse/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/key-largo-cotton-mouse/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -3668,10 +4310,16 @@
         "As sea level rise may eventually become too great a threat for the Key Largo woodrat in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this endemic subspecies."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/key-largo-woodrat/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/key-largo-woodrat/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -3712,13 +4360,28 @@
         "As sea level rise may eventually become too great a threat for this species in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this island endemic."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/key-ringneck-snake/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273328/Key-Ringneck-Snake-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2718849/Key-Ringneck-Snake-Species-Action-Plan-Final-Draft.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/4105889/Final-Key-ringneck-snake-Species-Guidelines-2016.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/key-ringneck-snake/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273328/Key-Ringneck-Snake-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2718849/Key-Ringneck-Snake-Species-Action-Plan-Final-Draft.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/4105889/Final-Key-ringneck-snake-Species-Guidelines-2016.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -3757,7 +4420,7 @@
         "As sea level rise may eventually become too great a threat for the Key Vaca raccoon in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this endemic subspecies."
       ]
     },
-    "links": {},
+    "resources": [],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -3797,12 +4460,24 @@
         "Restoration of existing nesting and foraging habitat and protection of new habitat as the climate changes will afford the least tern a better chance at adapting gracefully to a changing climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/least-tern/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273337/Least-Tern-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720106/Imperiled-Beach-Nesting-Birds-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/least-tern/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273337/Least-Tern-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720106/Imperiled-Beach-Nesting-Birds-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Highly vulnerable",
     "sivva": "Slightly vulnerable",
@@ -3843,10 +4518,16 @@
         "If nesting habitat becomes degraded or sex ratios are impacted by rising temperatures, artificially created or altered nesting habitat to maintain nesting success and optimal sex ratios is a possible adaptation strategy.  For example, shade structures could be added to nesting sites to improve the likelihood of achieving balanced sex ratios.  Programs focused on collecting eggs, incubating them in a controlled setting and releasing hatchlings are a possible strategy for achieving balanced sex ratios and improving reproductive outcomes and hatchling survivorship in increasingly challenging conditions."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/leatherback-turtle/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/leatherback-turtle/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -3886,10 +4567,16 @@
         "If nesting habitat becomes degraded or sex ratios are impacted by rising temperatures, artificially created or altered nesting habitat to maintain nesting success and optimal sex ratios is a possible adaptation strategy.  For example, shade structures could be added to nesting sites to improve the likelihood of achieving balanced sex ratios.  Programs focused on collecting eggs, incubating them in a controlled setting and releasing hatchlings are a possible strategy for achieving balanced sex ratios and improving reproductive outcomes and hatchling survivorship in increasingly challenging conditions."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/loggerhead-turtle/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/loggerhead-turtle/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Extremely vulnerable",
@@ -3929,9 +4616,12 @@
         "If preserving the genetic integrity of this subspecies is a priority, assisted migration to an isolated location where mangrove clapper rails are likely to remain separate from other clapper rail populations may be considered."
       ]
     },
-    "links": {
-      "Other Species Profile": "https://www.allaboutbirds.org/guide/Clapper_Rail/overview"
-    },
+    "resources": [
+      {
+        "label": "Other Species Profile",
+        "url": "https://www.allaboutbirds.org/guide/Clapper_Rail/overview"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -3971,9 +4661,12 @@
         "If barriers to natural migration are too great as sea level rise accelerates, assisted migration to an isolated area where interbreeding with other diamondback terrapins or development of a captive breeding program may be considered for this species."
       ]
     },
-    "links": {
-      "Florida Natural Areas Inventory Profile": "http://www.fnai.org/FieldGuide/pdf/Malaclemys_terrapin.PDF"
-    },
+    "resources": [
+      {
+        "label": "Florida Natural Areas Inventory Profile",
+        "url": "http://www.fnai.org/FieldGuide/pdf/Malaclemys_terrapin.PDF"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4011,9 +4704,12 @@
         "Conservation and restoration of existing wetland habitat is critical to increase habitat and species health and resilience at the onset of intensifying climate change."
       ]
     },
-    "links": {
-      "Other Species Profile": "https://www.floridamuseum.ufl.edu/herpetology/fl-snakes/list/storeria-dekayi-limnetes/"
-    },
+    "resources": [
+      {
+        "label": "Other Species Profile",
+        "url": "https://www.floridamuseum.ufl.edu/herpetology/fl-snakes/list/storeria-dekayi-limnetes/"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -4053,9 +4749,12 @@
         "Protecting migratory corridors if mangrove habitat migrates inland and northward is an important adaptation strategy for this species.  Assisted migration to optimal habitat removed from the rabbit\u2019s range in a future climate is a possible strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/marsh-rabbit/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/marsh-rabbit/"
+      }
+    ],
     "ccva": "CCVI",
     "ccvi": "Moderately vulnerable",
     "sivva": null,
@@ -4094,10 +4793,16 @@
         "As an endangered species on an island location highly vulnerable to sea level rise, establishment of a captive breeding program is a long-term adaptation strategy for the Miami blue."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/miami-blue-butterfly/",
-      "FWC Management Plan": "http://www.myfwc.com/media/1349003/MiamiBlueButterflyManagementPlanRevised.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/miami-blue-butterfly/"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/1349003/MiamiBlueButterflyManagementPlanRevised.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4135,10 +4840,16 @@
         "Prioritize key stream systems that are less vulnerable to climate change.   As this species is dependent on high water quality, focusing restoration and conservation efforts on the sites with the with the highest likelihood of resilience in a future climate may be an effective strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/freshwater/okaloosa-darter/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/970407.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/freshwater/okaloosa-darter/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/970407.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -4178,12 +4889,24 @@
         "As sea level rise may eventually become too great a threat for this species in its current habitat, developing and maintaining a captive breeding population is a strategy to consider if maintaining a distinct Florida Keys population of this species is a goal."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/peninsula-ribbon-snake/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273358/Peninsula-Ribbon-Snake-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738271/Peninsula-Ribbon-Snake-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/peninsula-ribbon-snake/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273358/Peninsula-Ribbon-Snake-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738271/Peninsula-Ribbon-Snake-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -4222,10 +4945,16 @@
         "As sea level rise may eventually become too great a threat for the Perdido Key beach mouse in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this island endemic subspecies."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/perdido-key-beach-mouse/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/870812.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/perdido-key-beach-mouse/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/870812.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4263,9 +4992,12 @@
         "As a nonnative species representing a potential threat to native wildlife, the goal is to reduce and ultimately eradicate purple swamphens from Florida rather than to help the species adapt to a changing climate."
       ]
     },
-    "links": {
-      "Other Species Profile": "http://ufdcimages.uflib.ufl.edu/IR/00/00/34/26/00001/UW31500.pdf"
-    },
+    "resources": [
+      {
+        "label": "Other Species Profile",
+        "url": "http://ufdcimages.uflib.ufl.edu/IR/00/00/34/26/00001/UW31500.pdf"
+      }
+    ],
     "ccva": "CCVI",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": null,
@@ -4304,9 +5036,12 @@
         "Conservation and restoration of existing marsh habitat including nature-based shoreline protection methods is important to increase habitat and species health and resilience at the onset of intensifying climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/saltwater/drums/red-drum/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/saltwater/drums/red-drum/"
+      }
+    ],
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -4345,9 +5080,12 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring river otter habitat can be conserved in a future climate.  Since sea level rise may cause salination of many current areas of freshwater habitat, monitoring can help conservationists get ahead of climate-driven shifts and understand where to best focus their efforts."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/aquatic/river-otter/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/aquatic/river-otter/"
+      }
+    ],
     "ccva": "CCVI",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": null,
@@ -4386,10 +5124,16 @@
         "As an endangered subspecies in an isolated location highly vulnerable to sea level rise, establishment of a captive breeding program is a long-term adaptation strategy for this butterfly."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/schaus-swallowtail-butterfly/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/schaus-swallowtail-butterfly/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4427,12 +5171,24 @@
         "Conservation of existing habitat will allow this shrew the best chance of recovering and maintaining a healthy population as climate change begins to accelerate.  This includes controlling existing stressors, such as reducing populations of non-native predators."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/shermans-short-tailed-shrew/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273394/Shermans-Short-tailed-Shrew-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738852/Shermans-Short-Tailed-Shrew-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/shermans-short-tailed-shrew/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273394/Shermans-Short-tailed-Shrew-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738852/Shermans-Short-Tailed-Shrew-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly to Moderately vulnerable",
@@ -4470,7 +5226,12 @@
         "Conservation and restoration of existing coastal habitat is critical to increase habitat and species health and resilience at the onset of intensifying climate change."
       ]
     },
-    "links": { "Other Species Profile": "http://www.fishbase.se/summary/3863" },
+    "resources": [
+      {
+        "label": "Other Species Profile",
+        "url": "http://www.fishbase.se/summary/3863"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -4509,9 +5270,12 @@
         "Conservation and restoration of existing habitat including nature-based shoreline protection methods is important to increase habitat and species health and resilience at the onset of intensifying climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/saltwater/drums/spotted-seatrout/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/saltwater/drums/spotted-seatrout/"
+      }
+    ],
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -4551,9 +5315,12 @@
         "Applying an adequate fire regime to gopher frog breeding habitat at present is a critical first step in getting ahead of the challenges brought on by climate change.  If future conditions make regular prescribed burning too difficult, other habitat maintenance techniques such as mechanical thinning and removal may need to be employed."
       ]
     },
-    "links": {
-      "Other Species Profile": "http://ufwildlife.ifas.ufl.edu/frogs/squirreltreefrog.shtml"
-    },
+    "resources": [
+      {
+        "label": "Other Species Profile",
+        "url": "http://ufwildlife.ifas.ufl.edu/frogs/squirreltreefrog.shtml"
+      }
+    ],
     "ccva": "CCVI, SIVVA",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": "Slightly vulnerable",
@@ -4592,10 +5359,16 @@
         "As efforts to recover whooping crane populations in Florida have been relatively unsuccessful thus far, controlling existing threats such as predation by nonnative species may be a critical first step to improve outcomes for this species."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/cranes/whooping-cranes/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/070604_v4.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/cranes/whooping-cranes/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/070604_v4.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4635,9 +5408,12 @@
         "Controlling nonnative predators such as rat and feral cat populations is likely to benefit this species under the increasing stress of climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "http://legacy.myfwc.com/bba/docs/bba_WIPL.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "http://legacy.myfwc.com/bba/docs/bba_WIPL.pdf"
+      }
+    ],
     "ccva": "SIVVA, GCVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -4677,12 +5453,24 @@
         "If nesting habitat becomes degraded or sex ratios are impacted by rising temperatures, artificially created or altered nesting habitat to maintain nesting success and optimal sex ratios is a possible adaptation strategy.  For example, shade structures could be added to nesting sites to improve the likelihood of achieving balanced sex ratios."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/freshwater-turtles/alligator-snapping-turtle/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273250/Alligator-Snapping-Turtle-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720085/Alligator-Snapping-Turtle-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/freshwater-turtles/alligator-snapping-turtle/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273250/Alligator-Snapping-Turtle-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720085/Alligator-Snapping-Turtle-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -4720,9 +5508,12 @@
         "If nesting and nursery habitat becomes degraded or sex ratios are impacted by rising temperatures, artificially created or altered nesting or nursery habitat to maintain nesting success and optimal sex ratios is a possible adaptation strategy.  For example, shade structures could be added to nesting sites to improve the likelihood of achieving balanced sex ratios."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/alligator/"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/alligator/"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -4762,12 +5553,24 @@
         "If nesting habitat becomes degraded or sex ratios are impacted by rising temperatures, artificially created or altered nesting habitat to maintain nesting success and optimal sex ratios is a possible adaptation strategy.  For example, shade structures could be added to nesting sites to improve the likelihood of achieving balanced sex ratios."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/freshwater-turtles/barbours-map-turtle/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273256/Barbours-Map-Turtle-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738250/Barbours-Map-Turtle-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/freshwater-turtles/barbours-map-turtle/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273256/Barbours-Map-Turtle-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738250/Barbours-Map-Turtle-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -4807,12 +5610,24 @@
         "Development of a captive breeding program for this species may warrant consideration.  If the population is wiped out by a major hurricane or storm surge event, a captive population could be used to repopulate the area."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/black-creek-crayfish/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273262/Black-Creek-Crayfish-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2718846/Black-Creek-Crayfish-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/black-creek-crayfish/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273262/Black-Creek-Crayfish-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2718846/Black-Creek-Crayfish-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -4851,12 +5666,24 @@
         "Prioritize key habitat areas that are used by the fish and are less vulnerable to climate change.   As this species is dependent on water quality and temperature, focusing restoration and conservation efforts on the sites with the with the highest likelihood of resilience in a future climate may be an effective strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/freshwater/blackmouth-shiner/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273265/Blackmouth-Shiner-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738810/Blackmouth-Shiner-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/freshwater/blackmouth-shiner/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273265/Blackmouth-Shiner-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738810/Blackmouth-Shiner-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -4895,12 +5722,24 @@
         "Prioritize key habitat areas that are used by the fish and are less vulnerable to climate change.   As this species is dependent on water quality and temperature, focusing restoration and conservation efforts on the sites with the with the highest likelihood of resilience in a future climate may be an effective strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/freshwater/bluenose-shiner/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273271/Bluenose-Shiner-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738813/Bluenose-Shiner-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/freshwater/bluenose-shiner/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273271/Bluenose-Shiner-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738813/Bluenose-Shiner-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -4940,10 +5779,16 @@
         "Controlling existing threats not directly related to climate change, such as habitat loss and fragmentation, and predation by non-native species such as feral hogs, is an important first-step adaptation strategy for this skink."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/bluetail-mole-skink/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/bluetail-mole-skink/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -4983,12 +5828,24 @@
         "Limiting coastal development and shoreline hardening will benefit this species as climate change accelerates."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/brown-pelican/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273274/Brown-Pelican-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720094/Brown-Pelican-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/brown-pelican/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273274/Brown-Pelican-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720094/Brown-Pelican-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -5026,12 +5883,24 @@
         "Prioritize key stream systems that are less vulnerable to climate change.   As this species is dependent on high water quality, focusing restoration and conservation efforts on the sites with the with the highest likelihood of resilience in a future climate may be an effective strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/freshwater/crystal-darter/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273277/Crystal-Darter-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720100/Crystal-Darter-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/freshwater/crystal-darter/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273277/Crystal-Darter-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720100/Crystal-Darter-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5070,13 +5939,28 @@
         "As sea level rise may eventually become too great a threat for the Everglades mink in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this endemic subspecies."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/everglades-mink/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273283/Everglades-Mink-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738256/Everglades-Mink-Species-Action-Plan-Final-Draft.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/4105877/Final-Everglades-Mink-Species-Guidelines-2016.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/everglades-mink/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273283/Everglades-Mink-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738256/Everglades-Mink-Species-Action-Plan-Final-Draft.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/4105877/Final-Everglades-Mink-Species-Guidelines-2016.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly to Moderately vulnerable",
@@ -5116,13 +6000,28 @@
         "Conservation of existing habitat including partnering with other organizations to reach mutual goals in restoration efforts is an important step in maintaining a healthy population as climate change begins to accelerate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/florida-brown-snake/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273298/Florida-Brown-Snake-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738816/Florida-Brown-Snake-Species-Action-Plan-Final-Draft.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/4105880/Final-Florida-brown-snake-Species-Guidelines-2016.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/florida-brown-snake/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273298/Florida-Brown-Snake-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738816/Florida-Brown-Snake-Species-Action-Plan-Final-Draft.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/4105880/Final-Florida-brown-snake-Species-Guidelines-2016.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5161,12 +6060,24 @@
         "Given the small range and fragility of this cave-dwelling species, developing a captive breeding program for possible reintroduction in the event of local extirpation should be considered for this species."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/amphibians/georgia-blind-salamander/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273316/Georgia-blind-salamander-BSR.pdf",
-      "FWC Species Action Plan": "http://www.myfwc.com/media/2738825/Georgia-Blind-Salamander-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/amphibians/georgia-blind-salamander/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273316/Georgia-blind-salamander-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://www.myfwc.com/media/2738825/Georgia-Blind-Salamander-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5206,10 +6117,16 @@
         "If nesting habitat becomes degraded or sex ratios are impacted by rising temperatures, artificially created or altered nesting habitat to maintain nesting success and optimal sex ratios is a possible adaptation strategy.  For example, shade structures could be added to nesting sites to improve the likelihood of achieving balanced sex ratios.  Programs focused on collecting eggs, incubating them in a controlled setting and releasing hatchlings are a possible strategy for achieving balanced sex ratios and improving reproductive outcomes and hatchling survivorship in increasingly challenging conditions."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/green-sea-turtle/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/sea-turtles/green-sea-turtle/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -5247,12 +6164,24 @@
         "Prioritize key stream systems that are less vulnerable to climate change.   As this species is dependent on high water quality, focusing restoration and conservation efforts on the sites with the with the highest likelihood of resilience in a future climate may be an effective strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/freshwater/harlequin-darter/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273322/Harlequin-Darter-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738831/Harlequin-Darter-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/freshwater/harlequin-darter/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273322/Harlequin-Darter-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738831/Harlequin-Darter-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5291,12 +6220,24 @@
         "Research aimed at increasing knowledge of optimal Homosassa shrew habitat will help conservation practitioners prioritize their efforts in the context climate change."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/homosassa-shrew/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273325/Homosassa-shrew-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738834/Homosassa-Shrew-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/homosassa-shrew/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273325/Homosassa-shrew-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738834/Homosassa-Shrew-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -5335,12 +6276,24 @@
         "Avoiding shoreline hardening methods in favor of nature-based solutions for shoreline protection such as living shorelines may benefit this species."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/freshwater/key-silverside/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273331/Key-Silverside-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2718852/Key-Silverside-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/freshwater/key-silverside/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273331/Key-Silverside-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2718852/Key-Silverside-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -5379,12 +6332,24 @@
         "Prioritize key habitat areas that are used by the fish and are less vulnerable to climate change.   As this species is dependent on water quality and temperature, focusing restoration and conservation efforts on the sites with the with the highest likelihood of resilience in a future climate may be an effective strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/freshwater/lake-eustis-pupfish/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273334/Lake-Eustis-pupfish-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720109/Lake-Eustis-Pupfish-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/freshwater/lake-eustis-pupfish/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273334/Lake-Eustis-pupfish-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720109/Lake-Eustis-Pupfish-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5424,12 +6389,24 @@
         "Protecting migratory corridors if mangrove habitat migrates inland and northward is an important adaptation strategy for this species.  Assisted migration to optimal mangrove habitat northward from the fish\u2019s current range in a future climate is a possible strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/saltwater/mangrove-rivulus/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273349/Mangrove-rivulus-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2720112/Mangrove-Rivulus-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/saltwater/mangrove-rivulus/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273349/Mangrove-rivulus-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2720112/Mangrove-Rivulus-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5468,12 +6445,24 @@
         "Protecting salt marsh migration corridors will allow the wren to more easily move inland as sea level rise occurs.  Areas further from coastal development where the Marian\u2019s marsh wren has the highest chance of success should be prioritized."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/marians-marsh-wren/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273352/Marians-Marsh-Wren-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738837/Saltmarsh-Songbird-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/marians-marsh-wren/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273352/Marians-Marsh-Wren-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738837/Saltmarsh-Songbird-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -5513,10 +6502,16 @@
         "Monitoring efforts including mapping the existing populations of pillar corals and conducting health assessments is an important first step to improve baseline knowledge."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/pillar-coral/",
-      "FWC Species Action Plan": "http://www.myfwc.com/media/2720118/Pillar-Coral-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/pillar-coral/"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://www.myfwc.com/media/2720118/Pillar-Coral-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5554,11 +6549,20 @@
         "Restoration and protection of existing coastal habitat is important for the piping plover.  As climate change begins to accelerate, protecting areas of future habitat allowing for natural coastal migration not impeded by human development may benefit this species."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/piping-plover/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/960502.pdf",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/piping-plover/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/960502.pdf"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -5598,12 +6602,24 @@
         "As sea level rise may eventually become too great a threat for this population in its current habitat, developing and maintaining a captive breeding population is a strategy to consider for this island endemic, if a goal is to maintain genetic integrity in the Lower Keys population."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/red-rat-snake/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273370/Red-Rat-Snake-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738840/Red-Rat-Snake-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/snakes/red-rat-snake/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273370/Red-Rat-Snake-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738840/Red-Rat-Snake-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -5643,10 +6659,16 @@
         "Restoration of existing nesting and foraging habitat and protection of new habitat as the climate changes will afford the roseate tern a better chance at adapting gracefully to a changing climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/roseate-tern/",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/shorebirdsseabirds/roseate-tern/"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -5685,12 +6707,24 @@
         "Protecting salt marsh migration corridors may allow the minnow to migrate inland with marsh habitat as sea level rise occurs.  Areas further from coastal development where marsh migration has the highest chance of success should be prioritized."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/saltwater/saltmarsh-topminnow/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273379/Saltmarsh-Topminnow-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738846/Saltmarsh-Topminnow-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/saltwater/saltmarsh-topminnow/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273379/Saltmarsh-Topminnow-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738846/Saltmarsh-Topminnow-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -5729,12 +6763,24 @@
         "Identifying and targeting conservation efforts in priority habitats areas that are at lower risk of being impacted by climate change may be a good strategy for this species.  Mapping the aquifer to determine the connectedness of different habitat sites is a first step in identifying priority sites."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/santa-fe-cave-crayfish/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/2273385/Santa-Fe-Cave-Crayfish-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738274/Santa-Fe-Cave-Crayfish-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/santa-fe-cave-crayfish/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/2273385/Santa-Fe-Cave-Crayfish-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738274/Santa-Fe-Cave-Crayfish-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5772,12 +6818,24 @@
         "Prioritize key stream systems that are less vulnerable to climate change.   As this species is dependent on high water quality, focusing restoration and conservation efforts on the sites with the with the highest likelihood of resilience in a future climate may be an effective strategy."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/freshwater/southern-tesselated-darter/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273409/Southern-Tessellated-Darter-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738280/Southern-Tessellated-Darter-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/freshwater/southern-tesselated-darter/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273409/Southern-Tessellated-Darter-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738280/Southern-Tessellated-Darter-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5816,12 +6874,24 @@
         "Monitoring natural community shifts to prioritize areas for conservation is an important first step in ensuring cooter habitat can be conserved in a future climate.  As locations of prime habitat are likely to shift under climate change, monitoring can help conservationists get ahead of natural shifts and understand where to best focus their efforts.  This strategy is also important to mitigate extensive habitat loss from altered human land use patterns in a changing climate."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/reptiles/freshwater-turtles/suwannee-cooter/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://myfwc.com/media/2273412/Suwannee-Cooter-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738286/Suwannee-Cooter-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/freshwater-turtles/suwannee-cooter/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://myfwc.com/media/2273412/Suwannee-Cooter-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738286/Suwannee-Cooter-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -5860,12 +6930,24 @@
         "Establishing and maintaining minimum flow levels of Florida springs is important to ensure consistent water quality in manatee habitat as climate change accelerates."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/mammals/aquatic/florida-manatee/",
-      "Federal Recovery Plan": "https://ecos.fws.gov/docs/recovery_plan/011030.pdf",
-      "Multi-Species Recovery Plan for South Florida": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf",
-      "FWC Management Plan": "http://www.myfwc.com/media/214332/Manatee_Mgmt_Plan.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/aquatic/florida-manatee/"
+      },
+      {
+        "label": "Federal Recovery Plan",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/011030.pdf"
+      },
+      {
+        "label": "Multi-Species Recovery Plan for South Florida",
+        "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
+      },
+      {
+        "label": "FWC Management Plan",
+        "url": "http://www.myfwc.com/media/214332/Manatee_Mgmt_Plan.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -5904,12 +6986,24 @@
         "Prevent reduction of contiguous salt marsh habitats by removing artificial barriers that divide the marshes.  Protecting salt marsh migration corridors will allow the bird to more easily move inland with marsh habitat as sea level rise occurs."
       ]
     },
-    "links": {
-      "Florida Fish and Wildlife Conservation Commission Species Profile": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/worthington-s-marsh-wren/",
-      "FWC Imperiled Species Management Plan (ISMP)": "https://myfwc.com/wildlifehabitats/wildlife/plan/",
-      "FWC Biological Status Review": "http://www.myfwc.com/media/3102710/Worthingtons-Marsh-Wren-Final-BSR.pdf",
-      "FWC Species Action Plan": "http://myfwc.com/media/2738837/Saltmarsh-Songbird-Species-Action-Plan-Final-Draft.pdf"
-    },
+    "resources": [
+      {
+        "label": "Florida Fish and Wildlife Conservation Commission Species Profile",
+        "url": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/worthington-s-marsh-wren/"
+      },
+      {
+        "label": "FWC Imperiled Species Management Plan (ISMP)",
+        "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
+      },
+      {
+        "label": "FWC Biological Status Review",
+        "url": "http://www.myfwc.com/media/3102710/Worthingtons-Marsh-Wren-Final-BSR.pdf"
+      },
+      {
+        "label": "FWC Species Action Plan",
+        "url": "http://myfwc.com/media/2738837/Saltmarsh-Songbird-Species-Action-Plan-Final-Draft.pdf"
+      }
+    ],
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
