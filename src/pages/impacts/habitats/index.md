@@ -7,35 +7,47 @@ title: "Florida's Ecosystems and Habitats"
 
 Florida’s unique landscape is one of the most rapidly changing and climate-vulnerable within the United States. It is extremely vulnerable to sea level rise and impacts from severe storms due to low elevation, geographic location, and landscape configuration. Many habitats and species are highly sensitive to changes in temperature and precipitation.
 
+Florida’s ecosystems and habitats will be impacted by the major climatic shifts Florida is likely to experience including sea level rise, changes in precipitation, changes in air temperature, changes in extreme events, and changes in carbon dioxide (CO2) concentration.
+
 <!-- https://api.mapbox.com/styles/v1/mapbox/satellite-v9.html?title=true&access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA#8.56/25.5513/-81.4365 -->
 <img src="s-florida-satellite.jpg" alt="South Florida satellite image" />
 <figcaption>Image:<a href="https://www.mapbox.com/about/maps/">© Mapbox</a></figcaption>
 
-Florida’s ecosystems and habitats will be impacted by the major climatic shifts Florida is likely to experience including sea level rise, changes in precipitation, changes in air temperature, changes in extreme events, and changes in carbon dioxide (CO2) concentration.
+### Explore overall impacts of climate change for major ecosystems in Florida:
 
-Explore overall impacts of climate change for major ecosystems in Florida:
+<profile-snippet id="1000">
+Increased temperatures will lead to increases in forest pest damage, changing fire patterns, longer growing seasons, higher evapotranspiration/drought stress, and the spread of non-native species.  Some tree species already at their southern range boundaries are predicted to have range reductions, which could affect forest suitability for nesting, roosting, or foraging.
+</profile-snippet>
 
-- [Coastal Ecosystems](/impacts/habitats/coastal)
-- [Freshwater Ecosystems](/impacts/habitats/freshwater)
-- [Marine & Estuarine Ecosystems](/impacts/habitats/coastal)
-- [Terrestrial Ecosystems](/impacts/habitats/terrestrial)
+<profile-snippet id="1600">
+Coastal systems have the natural ability to adapt to the dynamic conditions that formed and maintains them; however, these capacities are being overwhelmed by sea level rise, particularly in areas that have already been damaged by development, coastal armoring, and other activities. Many species depend on coastal areas for all or part of their life cycle. Habitat loss and degradation due to recreational and commercial activities have already led to declining wildlife populations. Additional impacts from climate change will only exacerbate these threats. 
+</profile-snippet>
 
-This tool includes 29 habitats for these ecosystems. [Learn more about specific climate change impacts for individual habitats](/habitats)
+<profile-snippet id="2000">
+Florida’s wetland and aquatic systems are expected to be impacted through changes in precipitation, temperature, sea level rise, and  interactions among these factors. Wetland-dependent species will be impacted through loss and degradation of habitat when water levels and the timing of water inputs become incompatible with their foraging, nesting, or roosting requirements.
+</profile-snippet>
 
-The state supports over 80 unique habitats including the scrub habitats of the Lake Wales Ridge, the Big Cypress Swamp, the coral reefs and tropical hardwood hammocks of the Florida Keys, mangroves, interior dry prairie, cypress domes and the Everglades. Many of Florida’s rarest and most diverse communities occur as small isolated areas, such as pine rocklands, rockland hammocks, upland glades, seepage slopes, cutthroat seeps and springs.
+<profile-snippet id="5000">
+Sea level rise, increasing ocean temperatures, ocean acidification, and changes in extreme events are expected to heavily impact estuarine and marine habitats.  Sea level rise will result in changes in the location, type, and quality of habitat for a wide range of species.  Impacts to corals long-term survival can have devastating effects on reef-associated biodiversity.
+</profile-snippet>
 
-<div class="clear" />
+<br />
+<br />
+
+This tool includes 29 habitats for these ecosystems. [Learn more about specific climate change impacts for individual habitats](/habitats).
 
 ## Florida has Many Unique Habitats
 
-Florida is in a transitional zone between the pine and bottomland hardwood elements of the Coastal Plain and the tropical elements of south Florida. The location of natural communities is influenced by the local physical geography, including elevation, soil type, hydrology, climate. Florida’s elevation range is extremely small, ranging from sea level to a high of approximately 107 meters above mean sea level. However, subtle changes in elevation in combination with variations in physical geography have led to an incredible range of habitats within the state. Many of these unique habitats are very sensitive to changes in temperature and precipitation.
+Florida is in a transitional zone between the pine and bottomland hardwood elements of the Coastal Plain and the tropical elements of south Florida. The location of natural communities is influenced by the local physical geography, including elevation, soil type, hydrology, climate. Florida’s elevation range is extremely small, ranging from sea level to a high of approximately 107 meters above mean sea level. However, subtle changes in elevation in combination with variations in physical geography have led to an incredible range of habitats within the state.
+
+The state supports over 80 unique habitats including the scrub habitats of the Lake Wales Ridge, the Big Cypress Swamp, the coral reefs and tropical hardwood hammocks of the Florida Keys, mangroves, interior dry prairie, cypress domes and the Everglades. Many of Florida’s rarest and most diverse communities occur as small isolated areas, such as pine rocklands, rockland hammocks, upland glades, seepage slopes, cutthroat seeps and springs.
 
 <div class="float-right thumbnail-large" style="margin-right: 2rem;">
 <!-- https://www.flickr.com/photos/evergladesnps/42295786392/ -->
 <img src="42295786392_67dfacdbf7_k.jpg" alt="Sawgrass Prairie, Everglades National Park. Photo: G. Gardner (NPS)." />
 </div>
 
-For example, one of the most imperiled landscapes in the nation - the Florida Everglades - has received international recognition and is home to 68 threatened and endangered species. Likewise, the Florida Keys, with a mild tropical-maritime climate, provides habitats for a number of terrestrial and marine plant and animal species found nowhere else.
+Many of these unique habitats are very sensitive to changes in temperature and precipitation. For example, one of the most imperiled landscapes in the nation - the Florida Everglades - has received international recognition and is home to 68 threatened and endangered species. Likewise, the Florida Keys, with a mild tropical-maritime climate, provides habitats for a number of terrestrial and marine plant and animal species found nowhere else.
 
 Florida has abundant surface water in lakes, rivers, streams, marshes and springs. The underlying karst geology supports more first magnitude springs (33) than any other state. Florida has 10,000 miles of rivers and streams and 7,800 lakes.
 
@@ -43,9 +55,7 @@ Florida also has an extremely diverse marine and estuarine ecosystem, and is the
 
 ### Landscape Conservation Planning - Conservation Assets:
 
-Conservation Assets (formerly known as Priority Resources) were identified by the Peninsular Florida Landscape Conservation Cooperative (PFLCC) as the set of biological, ecological, and cultural features most important for Florida’s Landscape. They represent the most significant resources, embody key landscape components, and reflect the mission, vision, common interests, and values of the PFLCC partners.
-
-Conservation assets include:
+Conservation Assets (formerly known as Priority Resources) were identified by the Peninsular Florida Landscape Conservation Cooperative (PFLCC) as the set of biological, ecological, and cultural features most important for Florida’s Landscape. They represent the most significant resources, embody key landscape components, and reflect the mission, vision, common interests, and values of the PFLCC partners. These conservation assets include:
 
 #### Coastal and Terrestrial Ecosystems:
 

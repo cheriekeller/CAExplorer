@@ -4,21 +4,27 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
-import styled from 'util/style'
+import styled, { themeGet } from 'util/style'
 
 import Thumbnail from './Thumbnail'
 
-const Wrapper = styled(Flex).attrs({})`
+const Wrapper = styled.div`
+  padding: 1rem;
+  background-color: ${themeGet('colors.grey.200')};
+  border-radius: 1rem;
   &:not(:first-child) {
     margin-top: 2rem;
   }
 `
 
 const StyledThumbnail = styled(Thumbnail)`
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+  border-radius: 0.25em;
 `
 
-const Header = styled.h4``
+const Header = styled.h3`
+  margin-bottom: 0.5em;
+`
 
 /**
  * Retrieve a snippet of a profile with a fixed-size, blur-up image.
@@ -29,7 +35,6 @@ const Header = styled.h4``
  */
 
 const Species = ({ id, children }) => {
-  console.log('loading spp summary', id)
   const data = useStaticQuery(graphql`
     query ProfileDataQuery {
       allJson(filter: { itemType: { in: ["species", "habitats"] } }) {
@@ -37,6 +42,7 @@ const Species = ({ id, children }) => {
           node {
             id
             path
+            icon
             itemType
             habitatType
             commonName
@@ -61,27 +67,30 @@ const Species = ({ id, children }) => {
     habitat,
   } = filtered[0].node
 
-  const name = commonName || habitat || conservationAsset || ecosystem
+  const name =
+    commonName || habitat || conservationAsset || `${ecosystem} Ecosystems`
 
   return (
     <Wrapper>
-      <div>
-        <Link to={path}>
-          <StyledThumbnail id={id} />
-        </Link>
-      </div>
+      <Header>
+        <Link to={path}>{name}</Link>
+      </Header>
 
-      <div>
-        <Header>
-          <Link to={path}>{name}</Link>
-        </Header>
+      <Flex>
+        <div>
+          <Link to={path}>
+            <StyledThumbnail id={id} />
+          </Link>
+        </div>
 
-        {children && (
-          <p>
-            {children} <Link to={path}>Read more...</Link>
-          </p>
-        )}
-      </div>
+        <div>
+          {children && (
+            <p>
+              {children} <Link to={path}>Read more...</Link>
+            </p>
+          )}
+        </div>
+      </Flex>
     </Wrapper>
   )
 }

@@ -14,7 +14,7 @@ const EcosystemTemplate = ({
     photo,
   },
 }) => {
-  const name = `${ecosystem} Ecosystem`
+  const name = `${ecosystem} Ecosystems`
   return (
     <Layout>
       <SEO title={name} />
