@@ -3,9 +3,10 @@ path: '/impacts/species'
 title: "Florida's Species"
 ---
 
-<content-header icon="shorebirds" title="Florida's Species"></content-header>
+<content-header icon="shorebirds" title="Florida's Species">
+</content-header>
 
-Florida has more than 16,000 species of native fish, wildlife, and invertebrates, including 147 endemic vertebrate species and approximately 400 terrestrial and freshwater endemic invertebrates. There are currently 82 species designated as federally endangered or threatened in Florida. An additional 59 species are listed as endangered or threatened by the state, including 21 birds, eight mammals, 13 reptiles, four amphibians, nine fish, and four invertebrates.
+Florida has more than 16,000 species of native fish, wildlife, and invertebrates, including 147 endemic vertebrate species and approximately 400 terrestrial and freshwater endemic invertebrates. There are currently 82 species designated as federally endangered or threatened in Florida. An additional 59 species are listed as endangered or threatened by the state, including 21 birds, 8 mammals, 13 reptiles, 4 amphibians, 9 fish, and 4 invertebrates.
 
 [See species profiles for more about how climate change will impact each species](/species).
 
@@ -26,7 +27,7 @@ Florida’s species have migrated and adapted to climate change in the past, but
 
 Climate change impacts on species will be driven by one or more climate-related factors acting in concert or synergistically. These include:
 
-- [altered community dynamics](/impacts/species/altered-dynamics)
+- [altered community dynamics](/impacts/species/community-dynamics)
 - [altered habitat suitability/geographic range](/impacts/species/altered-range)
 - [altered species fitness and survival](/impacts/species/altered-survival)
 - [altered phenology and physiology](/impacts/species/altered-phenology)
@@ -55,42 +56,14 @@ Species that are likely to be most affected by climate change have:
 
 ### Some of the most highly vulnerable species include:
 
-<div class="thumbnail-small float-left">
-<a href="/species/birds/113">
-<img src="113_sm.jpg" alt="Cuban snowy plover photo" />
-</a>
-</div>
+<profile-snippet id="113">
+As a beach nesting species, the Cuban snowy plover is extremely vulnerable to many threats that are common in coastal areas including habitat inundation from sea level rise. Cuban snowy plover nests on the open beach are easily destroyed by extreme weather events, human disturbance and predation, all of which are likely to increase as climate change accelerates.
+</profile-snippet>
 
-#### [Cuban snowy plover](/species/birds/113)
+<profile-snippet id="119">
+Florida Key deer are likely to be heavily impacted sea level rise as well as potential changes in hydrology and disturbance regimes on freshwater drinking sources. Over 95% of the species' modeled potential habitat is expected to be impacted by a 1-meter sea level rise. 
+</profile-snippet>
 
-As a beach nesting species, the Cuban snowy plover is extremely vulnerable to many threats that are common in coastal areas including habitat inundation from sea level rise. Cuban snowy plover nests on the open beach are easily destroyed by extreme weather events, human disturbance and predation, all of which are likely to increase as climate change accelerates. [Read more...](/species/birds/113)
-
-<div class="clear"></div>
-
-<br />
-
-<div class="thumbnail-small float-left">
-<a href="/species/mammals/119">
-<img src="119_sm.jpg" alt="Key deer photo" />
-</a>
-</div>
-
-#### [Key deer](/species/mammals/119)
-
-Florida Key deer are likely to be heavily impacted sea level rise as well as potential changes in hydrology and disturbance regimes on freshwater drinking sources. Over 95% of the species' modeled potential habitat is expected to be impacted by a 1-meter sea level rise. [Read more...](/species/mammals/119)
-
-<div class="clear"></div>
-
-<br />
-
-<div class="thumbnail-small float-left">
-<a href="/species/reptiles/217">
-<img src="217_sm.jpg" alt="Loggerhead turtle photo" />
-</a>
-</div>
-
-#### [Loggerhead turtle](/species/reptiles/217)
-
-Loggerhead turtles are likely to be impacted by sea level rise, anthropogenic barriers impacting the nesting habitat, and potentially incompatible human responses to climate change. Approximately 90% of the species' nesting habitat is expected to be impacted by a 1-meter sea level rise. Up to 80% of the nesting habitat is bordered by inland urban areas. [Read more...](/species/reptiles/217)
-
-<div class="clear"></div>
+<profile-snippet id="217">
+Loggerhead turtles are likely to be impacted by sea level rise, anthropogenic barriers impacting the nesting habitat, and potentially incompatible human responses to climate change. Approximately 90% of the species' nesting habitat is expected to be impacted by a 1-meter sea level rise. Up to 80% of the nesting habitat is bordered by inland urban areas. 
+</profile-snippet>

@@ -8,6 +8,7 @@ import SEO from 'components/SEO'
 import Icon from 'components/elements/Icon'
 import FaIcon from 'components/elements/FaIcon'
 import ContentHeader from 'components/elements/ContentHeader'
+import Snippet from 'components/Profile/Snippet'
 import styled from 'util/style'
 
 const Content = styled.div`
@@ -80,6 +81,7 @@ const renderAst = new rehypeReact({
     icon: Icon,
     'content-header': ContentHeader,
     'fa-icon': FaIcon,
+    'profile-snippet': Snippet,
   },
 }).Compiler
 

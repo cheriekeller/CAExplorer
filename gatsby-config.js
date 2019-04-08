@@ -79,7 +79,14 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-component`,
-            options: { components: [`icon`, `content-header`, `fa-icon`] },
+            options: {
+              components: [
+                `icon`,
+                `content-header`,
+                `fa-icon`,
+                `profile-snippet`,
+              ],
+            },
           },
         ],
       },
