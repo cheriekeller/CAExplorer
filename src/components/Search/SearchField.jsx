@@ -31,7 +31,8 @@ const ResetIcon = styled(FaRegTimesCircle)`
   visibility: ${({ visible }) => (visible ? 'visible' : 'hidden')};
   cursor: pointer;
 
-  transition: color 0.5s linear;
+  color: ${themeGet('colors.grey.400')};
+  transition: color 0.25s linear;
   &:hover {
     color: ${themeGet('colors.grey.600')};
   }
@@ -113,7 +114,7 @@ const SearchField = ({ rawIndex }) => {
       >
         <Icon />
         <Input placeholder="Search..." value={query} onChange={handleChange} />
-        <ResetIcon visible={!!query} onClick={handleReset} />
+        <ResetIcon visible={query && true} onClick={handleReset} />
       </Container>
       {query && (
         <Results>

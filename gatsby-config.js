@@ -159,7 +159,17 @@ module.exports = {
             title: node => node.frontmatter.title,
             path: node => node.frontmatter.path,
           },
+          Json: {
+            title: ({ commonName, habitat, conservationAsset, ecosystem }) =>
+              commonName ||
+              habitat ||
+              conservationAsset ||
+              (ecosystem ? `${ecosystem} Ecosystems` : ''),
+            path: node => node.path,
+          },
         },
+        // only include nodes that have a path defined
+        filter: node => !!node.path,
       },
     },
   ],
