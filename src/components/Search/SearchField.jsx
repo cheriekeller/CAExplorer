@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react'
 import PropTypes from 'prop-types'
 import { Index } from 'elasticlunr'
-import { FaSearch } from 'react-icons/fa'
+import { FaSearch, FaTimesCircle, FaRegTimesCircle } from 'react-icons/fa'
 
 import styled, { themeGet, theme } from 'util/style'
 import { Link } from 'components/Link'
@@ -17,12 +17,24 @@ const Container = styled(Flex).attrs({ alignItems: 'center' })`
   padding: 0.25rem 0.5rem;
 `
 
-const Icon = styled(FaSearch).attrs({
-  color: theme.colors.grey[400],
-})`
+const Icon = styled(FaSearch)`
+  color: ${themeGet('colors.grey.400')};
   width: 1rem;
   height: 1rem;
   margin-right: 0.5em;
+`
+
+const ResetIcon = styled(FaRegTimesCircle)`
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5em;
+  visibility: ${({ visible }) => (visible ? 'visible' : 'hidden')};
+  cursor: pointer;
+
+  transition: color 0.5s linear;
+  &:hover {
+    color: ${themeGet('colors.grey.600')};
+  }
 `
 
 const Input = styled.input.attrs({
@@ -41,7 +53,7 @@ const Results = styled.ul`
   margin: 4px 0 0 0;
   box-shadow: 2px 2px 6px ${themeGet('colors.grey.800')};
   overflow-y: auto;
-  max-height: 300px;
+  max-height: 50vh;
   width: 300px;
   border-radius: 0.25rem;
   border-bottom: 4px solid #fff;
@@ -60,8 +72,15 @@ const Result = styled.li`
   }
 `
 
+const NoResult = styled.li`
+  padding: 0.25em 1em;
+  margin: 0;
+  color: ${themeGet('colors.grey.400')};
+  text-align: center;
+  font-size: 0.8em;
+`
+
 const SearchField = ({ rawIndex }) => {
-  console.log('render search field')
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
   const indexRef = useRef(null)
@@ -76,35 +95,39 @@ const SearchField = ({ rawIndex }) => {
 
   const handleChange = ({ target: { value } }) => {
     const { current: index } = indexRef
-    console.log('value', value)
     setQuery(value)
     setResults(
-      index.search(value, {}).map(({ ref }) => index.documentStore.getDoc(ref))
+      index
+        .search(value, { expand: true })
+        .map(({ ref }) => index.documentStore.getDoc(ref))
     )
-    // TODO: debounce?
-    // if no results after a while, show a message
   }
 
-  console.log('results', results)
+  const handleReset = () => setQuery('')
 
   return (
     <Wrapper ml={['0.25rem', '1rem']} mr={['0.25rem', '0.5rem', '1rem']}>
       <Container
         p={['0.1em 0.25em', '0.25em 0.5em']}
-        fontSize={['0.75rem', '0.8rem', '0.9rem']}
+        fontSize={['0.75rem', '0.8rem']}
       >
         <Icon />
         <Input placeholder="Search..." value={query} onChange={handleChange} />
+        <ResetIcon visible={!!query} onClick={handleReset} />
       </Container>
-      {results && results.length > 0 ? (
+      {query && (
         <Results>
-          {results.map(({ id, path, title }) => (
-            <Link to={path}>
-              <Result key={id}>{title}</Result>
-            </Link>
-          ))}
+          {results && results.length > 0 ? (
+            results.map(({ id, path, title }) => (
+              <Link to={path}>
+                <Result key={id}>{title}</Result>
+              </Link>
+            ))
+          ) : (
+            <NoResult>No pages match your query...</NoResult>
+          )}
         </Results>
-      ) : null}
+      )}
     </Wrapper>
   )
 }
