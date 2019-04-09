@@ -1,22 +1,41 @@
 import React from 'react'
-import styled, { themeGet } from 'util/style'
+import { graphql, useStaticQuery } from 'gatsby'
 
-const Wrapper = styled.div`
-  width: 5rem;
-  height: 1.5rem;
-  background: #eee;
-  border-radius: 3px;
-  color: #aaa;
-  font-size: smaller;
-  padding: 0.25rem;
-  box-sizing: border-box;
-  margin-left: 1rem;
+import SearchField from './SearchField'
 
-  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
-    display: none;
-  }
-`
+const Search = () => {
+  const data = useStaticQuery(graphql`
+    query SearchIndexQuery {
+      siteSearchIndex {
+        index
+      }
+    }
+  `)
 
-const index = () => <Wrapper>search...</Wrapper>
+  return <SearchField rawIndex={data.siteSearchIndex.index} />
+}
 
-export default index
+export default Search
+
+// import React from 'react'
+// import styled, { themeGet } from 'util/style'
+
+// const Wrapper = styled.div`
+//   width: 5rem;
+//   height: 1.5rem;
+//   background: #eee;
+//   border-radius: 3px;
+//   color: #aaa;
+//   font-size: smaller;
+//   padding: 0.25rem;
+//   box-sizing: border-box;
+//   margin-left: 1rem;
+
+//   @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+//     display: none;
+//   }
+// `
+
+// const index = () => <Wrapper>search...</Wrapper>
+
+// export default index

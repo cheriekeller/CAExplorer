@@ -138,3 +138,7 @@ exports.createPages = ({ graphql, actions }) => {
     )
   })
 }
+
+// exports.onCreateNode = ({ node, getNode, actions }) => {
+//   console.log('creating node', node)
+// }
