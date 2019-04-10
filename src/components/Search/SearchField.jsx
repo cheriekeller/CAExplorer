@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react'
 import PropTypes from 'prop-types'
 import { Index } from 'elasticlunr'
-import { FaSearch, FaTimesCircle, FaRegTimesCircle } from 'react-icons/fa'
+import { FaSearch, FaRegTimesCircle } from 'react-icons/fa'
 
-import styled, { themeGet, theme } from 'util/style'
+import styled, { themeGet } from 'util/style'
 import { Link } from 'components/Link'
 import { Box, Flex } from 'components/Grid'
 
@@ -28,7 +28,7 @@ const ResetIcon = styled(FaRegTimesCircle)`
   width: 1rem;
   height: 1rem;
   margin-left: 0.5em;
-  visibility: ${({ visible }) => (visible ? 'visible' : 'hidden')};
+  visibility: ${({ visible }) => visible};
   cursor: pointer;
 
   color: ${themeGet('colors.grey.400')};
@@ -97,9 +97,11 @@ const SearchField = ({ rawIndex }) => {
   const handleChange = ({ target: { value } }) => {
     const { current: index } = indexRef
     setQuery(value)
+
+    // only search against title field
     setResults(
       index
-        .search(value, { expand: true })
+        .search(value, { expand: true, fields: { title: {} } })
         .map(({ ref }) => index.documentStore.getDoc(ref))
     )
   }
@@ -114,14 +116,17 @@ const SearchField = ({ rawIndex }) => {
       >
         <Icon />
         <Input placeholder="Search..." value={query} onChange={handleChange} />
-        <ResetIcon visible={query && true} onClick={handleReset} />
+        <ResetIcon
+          visible={query ? 'visible' : 'hidden'}
+          onClick={handleReset}
+        />
       </Container>
       {query && (
         <Results>
           {results && results.length > 0 ? (
             results.map(({ id, path, title }) => (
-              <Link to={path}>
-                <Result key={id}>{title}</Result>
+              <Link key={id} to={path}>
+                <Result>{title}</Result>
               </Link>
             ))
           ) : (

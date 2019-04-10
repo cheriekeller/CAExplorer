@@ -1,9 +1,9 @@
 ---
 path: '/impacts/species'
-title: "Florida's Species"
+title: 'Climate Impacts on Species'
 ---
 
-<content-header icon="shorebirds" title="Florida's Species">
+<content-header icon="shorebirds" title="Climate Impacts on Florida's Species">
 </content-header>
 
 Florida has more than 16,000 species of native fish, wildlife, and invertebrates, including 147 endemic vertebrate species and approximately 400 terrestrial and freshwater endemic invertebrates. There are currently 82 species designated as federally endangered or threatened in Florida. An additional 59 species are listed as endangered or threatened by the state, including 21 birds, 8 mammals, 13 reptiles, 4 amphibians, 9 fish, and 4 invertebrates.

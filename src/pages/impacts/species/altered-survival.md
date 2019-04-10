@@ -1,6 +1,6 @@
 ---
 path: '/impacts/species/altered-survival'
-title: 'Altered Survival'
+title: 'Altered Species Fitness, Survival, and Risk of Extinction'
 ---
 
 <content-header icon="rodents" title="Altered Species Fitness, Survival, and Risk of Extinction"></content-header>

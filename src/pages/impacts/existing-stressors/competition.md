@@ -1,9 +1,9 @@
 ---
 path: '/impacts/existing-stressors/competition'
-title: 'Competition & Overexploitation'
+title: 'Competition for Resources and Overexploitation'
 ---
 
-<content-header icon="competition" title="Competition for Resources and Overexploitation"></content-header>
+<content-header icon="competition" title="Competition for Resources and Overexploitati</content-header>
 
 Florida’s natural systems, in addition to their role in supporting biodiversity, provide a multitude of public services—supporting working landscapes, commercial and recreational activities. When well-maintained and well-managed, Florida’s ecosystems can support these activities; however, overexploitation, misuse, and illegal activities can cause harm to the systems, communities, and species. Climate change can heighten species’ vulnerability to overexploitation and, inversely, exploitation has made species particularly vulnerable to changes in climate. Species and populations impacted by climate change may be more vulnerable to over-harvesting if they become easier to harvest due to altered and increased movements as they react to loss or degradation of habitat, if they are forced to find alternative food sources, if their behavior is altered, or if they become stressed or diseased.
 

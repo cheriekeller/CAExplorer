@@ -1,9 +1,10 @@
 ---
 path: '/impacts/habitats/terrestrial'
-title: 'Terrestrial Ecosystems'
+title: 'Climate Impacts on Terrestrial Ecosystems'
 ---
 
-<content-header icon="terrestrial_ecosystems" title="Terrestrial Ecosystems"></content-header>
+<content-header icon="terrestrial_ecosystems" title="Climate Impacts on Florida's Terrestrial Ecosystems">
+</content-header>
 
 ![Terrestrial Ecosystems](1000.jpg 'Photo: NPS.')
 

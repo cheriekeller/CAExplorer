@@ -3,7 +3,8 @@ path: '/impacts/existing-stressors/invasives'
 title: 'Invasive Species'
 ---
 
-<content-header icon="invasive_species" title="Invasive Species"></content-header>
+<content-header icon="invasive_species" title="Invasive Species">
+</content-header>
 
 Florida has a well-documented list of invasive plants and animals—a list that is expected to increase as temperatures warm, number of frost/freeze nights decrease, intensity and/or frequency of storm events increase, and Florida’s human population increases and responds to climate change.
 

@@ -152,9 +152,7 @@ module.exports = {
       options: {
         // Fields to index
         fields: [`title`, `path`],
-        // How to resolve each field`s value for a supported node type
         resolvers: {
-          // For any node of type MarkdownRemark, list how to resolve the fields` values
           MarkdownRemark: {
             title: node => node.frontmatter.title,
             path: node => node.frontmatter.path,
@@ -166,6 +164,16 @@ module.exports = {
               conservationAsset ||
               (ecosystem ? `${ecosystem} Ecosystems` : ''),
             path: node => node.path,
+          },
+          SitePage: {
+            title: node =>
+              node.isCreatedByStatefulCreatePages && node.fields
+                ? node.fields.title
+                : null,
+            path: node =>
+              node.isCreatedByStatefulCreatePages && node.fields
+                ? node.path
+                : null,
           },
         },
         // only include nodes that have a path defined

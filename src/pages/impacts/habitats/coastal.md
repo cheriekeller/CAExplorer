@@ -1,9 +1,10 @@
 ---
 path: '/impacts/habitats/coastal'
-title: 'Coastal Ecosystems'
+title: 'Climate Impacts on Coastal Ecosystems'
 ---
 
-<content-header icon="coastal_ecosystems" title="Coastal Ecosystems"></content-header>
+<content-header icon="coastal_ecosystems" title="Climate Impacts on Florida's Coastal Ecosystems">
+</content-header>
 
 ![Coastal Ecosystems](1600.jpg 'Photo: NPS.')
 

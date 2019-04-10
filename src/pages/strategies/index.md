@@ -1,9 +1,9 @@
 ---
 path: '/strategies'
-title: 'Adaptation Strategies'
+title: 'Climate Adaptation Strategies'
 ---
 
-# Adaptation Strategies
+# Climate Adaptation Strategies
 
 Using an adaptation approach is vital to offset the increasing impacts from climate change combined with existing anthropogenic impacts to natural communities and species.
 

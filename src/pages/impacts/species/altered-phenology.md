@@ -1,6 +1,6 @@
 ---
 path: '/impacts/species/altered-phenology'
-title: 'Altered Phenology'
+title: 'Altered Phenology and Physiology'
 ---
 
 <content-header icon="sea_turtles" title="Altered Phenology and Physiology"></content-header>

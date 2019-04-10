@@ -3,7 +3,8 @@ path: '/impacts/existing-stressors/pathogens'
 title: 'Pathogens, Pests / Parasites, and Pollution'
 ---
 
-<content-header icon="pests" title="Pathogens, Pests/Parasites, and Pollutants"></content-header>
+<content-header icon="pests" title="Pathogens, Pests/Parasites, and Pollutants">
+</content-header>
 
 Climate change may result in increasing pathogen development and survival rates, disease transmission, and host susceptibility. Warmer temperatures allow disease organisms to complete their life cycle more rapidly and attain higher population densities. Additionally, native diseases that currently only have minor effects on host organisms could have more devastating impacts under future climatic conditions. Many marine and terrestrial species’ pathogens are sensitive to shifts in temperature, rainfall, and humidity. As temperatures increase, many diseases are expected to become more lethal and to spread more readily. There are climate-linked predictions that amphibians will decline in unusually warm years due the influence of temperature on disease dynamics.
 

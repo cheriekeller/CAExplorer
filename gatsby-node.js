@@ -32,6 +32,20 @@ exports.onCreateWebpackConfig = ({ actions, stage, loaders }) => {
   actions.setWebpackConfig(config)
 }
 
+exports.onCreateNode = ({ node, actions: { createNodeField } }) => {
+  // if the page originated from JSX, add a title based on the path
+  if (node.isCreatedByStatefulCreatePages) {
+    const pathParts = node.path.split('/')
+    let [title] = pathParts.slice(pathParts.length - 2, pathParts.length - 1)
+    if (title && title.length) {
+      title = `${title.slice(0, 1).toUpperCase()}${title.slice(1)}`
+    } else {
+      title = null
+    }
+    createNodeField({ node, name: 'title', value: title })
+  }
+}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
@@ -138,7 +152,3 @@ exports.createPages = ({ graphql, actions }) => {
     )
   })
 }
-
-// exports.onCreateNode = ({ node, getNode, actions }) => {
-//   console.log('creating node', node)
-// }

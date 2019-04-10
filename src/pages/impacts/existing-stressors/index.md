@@ -1,6 +1,6 @@
 ---
 path: '/impacts/existing-stressors'
-title: 'Existing Stressors'
+title: 'Interaction with Existing Non-climate Stressors'
 ---
 
 # Interaction with Existing Non-climate Stressors

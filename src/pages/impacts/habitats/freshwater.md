@@ -1,9 +1,10 @@
 ---
 path: '/impacts/habitats/freshwater'
-title: 'Freshwater Ecosystems'
+title: 'Climate Impacts on Freshwater Ecosystems'
 ---
 
-<content-header icon="freshwater_ecosystems" title="Freshwater Ecosystems"></content-header>
+<content-header icon="freshwater_ecosystems" title="Climate Impacts on Florida's Freshwater Ecosystems">
+</content-header>
 
 ![Freshwater Ecosystems](2000.jpg 'Photo: NPS.')
 

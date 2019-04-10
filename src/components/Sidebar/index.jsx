@@ -312,7 +312,7 @@ const Sidebar = ({ items, isOpen }) => {
       if (scroll !== null) {
         container.scrollTop = scroll
       } else {
-        scrollIntoView('ActiveSidebarLink', 'Sidebar')
+        scrollIntoView('ActiveSidebarLink')
       }
     }
   })
