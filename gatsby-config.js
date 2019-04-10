@@ -147,5 +147,30 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
+      options: {
+        // Fields to index
+        fields: [`title`, `path`],
+        // How to resolve each field`s value for a supported node type
+        resolvers: {
+          // For any node of type MarkdownRemark, list how to resolve the fields` values
+          MarkdownRemark: {
+            title: node => node.frontmatter.title,
+            path: node => node.frontmatter.path,
+          },
+          Json: {
+            title: ({ commonName, habitat, conservationAsset, ecosystem }) =>
+              commonName ||
+              habitat ||
+              conservationAsset ||
+              (ecosystem ? `${ecosystem} Ecosystems` : ''),
+            path: node => node.path,
+          },
+        },
+        // only include nodes that have a path defined
+        filter: node => !!node.path,
+      },
+    },
   ],
 }

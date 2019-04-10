@@ -4,8 +4,8 @@ import { Image, Text } from 'rebass'
 import styled, { themeGet } from 'util/style'
 import { Flex } from 'components/Grid'
 import { Link } from 'components/Link'
+import Search from 'components/Search'
 import Navigation from './Navigation'
-import Search from '../Search'
 
 import SiteLogo from '../../images/CAE_Icon.svg'
 

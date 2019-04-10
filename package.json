@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Brendan C. Ward, Conservation Biology Institute <bcward@consbio.org>",
   "dependencies": {
+    "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.2.1",
     "@rebass/grid": "^6.0.0-7",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.14",
