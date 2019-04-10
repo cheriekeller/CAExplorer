@@ -152,9 +152,10 @@ const HabitatTemplate = ({
               mr="1rem"
               mb={['1rem', '1rem', '1rem', 0]}
             >
-              <a href={`${path}/map`}>
+              <Link to={`${path}/map`}>
                 <Map sizes={map.childImageSharp.sizes} />
-              </a>
+                <div>Explore interactive map</div>
+              </Link>
             </Box>
             <Box width={['100%', '100%', '100%', 200]}>
               <DonutWrapper justifyContent="space-evenly" flexWrap="wrap">

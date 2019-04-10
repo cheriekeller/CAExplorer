@@ -12,10 +12,24 @@ import { formatNumber } from 'util/format'
 import ContentHeader from 'components/elements/ContentHeader'
 import Vulnerability from 'components/charts/Vulnerability'
 import Donut from 'components/charts/Donut'
-import {DONUTSIZE, DONUTWIDTH, Photo, Map, PhotoCaption, Section, SectionHeader, SubHeader, MinorHeader, VulnerabilityList, DonutWrapper} from 'components/Profile'
-import {splitLines} from 'util/dom'
-import { CONSERVATION_STATUS, VULNERABILITY_LEVELS } from '../../config/constants'
-
+import {
+  DONUTSIZE,
+  DONUTWIDTH,
+  Photo,
+  Map,
+  PhotoCaption,
+  Section,
+  SectionHeader,
+  SubHeader,
+  MinorHeader,
+  VulnerabilityList,
+  DonutWrapper,
+} from 'components/Profile'
+import { splitLines } from 'util/dom'
+import {
+  CONSERVATION_STATUS,
+  VULNERABILITY_LEVELS,
+} from '../../config/constants'
 
 const SpeciesTemplate = ({
   data: {
@@ -74,7 +88,10 @@ const SpeciesTemplate = ({
         vulnerability === [0] ? (
           <p>This species was not assessed for vulnerability</p>
         ) : (
-          <Vulnerability vulnerability={vulnerability} levels={VULNERABILITY_LEVELS}/>
+          <Vulnerability
+            vulnerability={vulnerability}
+            levels={VULNERABILITY_LEVELS}
+          />
         )}
 
         <SubHeader style={{ marginTop: '3rem' }}>
@@ -124,6 +141,7 @@ const SpeciesTemplate = ({
           >
             <a href={`${path}/map`}>
               <Map sizes={map.childImageSharp.sizes} />
+              <div>Explore interactive map</div>
             </a>
           </Box>
           <Box width={['100%', '100%', '100%', 200]}>
@@ -269,7 +287,6 @@ SpeciesTemplate.propTypes = {
     }).isRequired,
   }).isRequired,
 }
-
 
 export const pageQuery = graphql`
   query($id: String!, $imgSrc: String!, $mapImgSrc: String!) {

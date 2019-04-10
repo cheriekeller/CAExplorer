@@ -3,7 +3,8 @@ path: /impacts/florida
 title: Florida's Climate
 ---
 
-<content-header icon="florida_impacts" title="Impacts of Climate Change in Florida"></content-header>
+<content-header icon="florida_impacts" title="Impacts of Climate Change in Florida">
+</content-header>
 
 **Projections for the next century indicate that few other states will be impacted by climate change as severely as Florida.**
 
