@@ -28,7 +28,8 @@ module.exports = {
     themeColor: '#2d4059',
     backgroundColor: '#2d4059',
   },
-  googleAnalyticsId: 'UA-XXXXX',
+  googleAnalyticsId: 'UA-82274034-12',
+  sentryDSN: 'https://65f47c1a71664f86b5b71c3a39a3ee56@sentry.io/1436368',
   schema: {
     author: 'Brendan Ward, Conservation Biology Institute',
   },
