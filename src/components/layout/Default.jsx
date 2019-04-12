@@ -3,11 +3,12 @@ import PropTypes from 'prop-types'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 import styled, { ThemeProvider, theme, themeGet } from 'util/style'
+import { isUnsupported } from 'util/dom'
 import { Box, Flex, Container } from 'components/Grid'
-
-import Sidebar from '../Sidebar'
+import Sidebar from 'components/Sidebar'
 import MobileNavigation from './MobileNavigation'
 import Header from './Header'
+import UnsupportedBrowser from './UnsupportedBrowser'
 import sidebarItems from '../../../config/sidebar'
 
 const SidebarToggle = styled.button`
@@ -55,25 +56,29 @@ const Layout = ({ children }) => {
 
   return (
     <ThemeProvider theme={theme}>
-      <>
-        <Header />
-        <Flex pt={[0, '2rem', '2.75rem']} flexWrap="wrap">
-          <SidebarToggle
-            isOpen={isSidebarOpen}
-            onClick={() => setSidebarOpen(!isSidebarOpen)}
-          >
-            {isSidebarOpen ? <FaTimes /> : <FaBars />}
-          </SidebarToggle>
-          <Sidebar items={items} isOpen={isSidebarOpen} />
-          <ContentContainer
-            isOpen={!isSidebarOpen}
-            pl={[0, '12rem', '16rem', '18rem']}
-          >
-            <Container px={3}>{children}</Container>
-          </ContentContainer>
-        </Flex>
-        <MobileNavigation />
-      </>
+      {isUnsupported ? (
+        <UnsupportedBrowser />
+      ) : (
+        <>
+          <Header />
+          <Flex pt={[0, '2rem', '2.75rem']} flexWrap="wrap">
+            <SidebarToggle
+              isOpen={isSidebarOpen}
+              onClick={() => setSidebarOpen(!isSidebarOpen)}
+            >
+              {isSidebarOpen ? <FaTimes /> : <FaBars />}
+            </SidebarToggle>
+            <Sidebar items={items} isOpen={isSidebarOpen} />
+            <ContentContainer
+              isOpen={!isSidebarOpen}
+              pl={[0, '12rem', '16rem', '18rem']}
+            >
+              <Container px={3}>{children}</Container>
+            </ContentContainer>
+          </Flex>
+          <MobileNavigation />
+        </>
+      )}
     </ThemeProvider>
   )
 }
