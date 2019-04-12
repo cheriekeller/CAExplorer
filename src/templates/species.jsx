@@ -25,6 +25,8 @@ import {
   VulnerabilityList,
   DonutWrapper,
 } from 'components/Profile'
+import Crosslinks from 'components/Profile/Crosslinks'
+
 import { splitLines } from 'util/dom'
 import {
   CONSERVATION_STATUS,
@@ -34,6 +36,7 @@ import {
 const SpeciesTemplate = ({
   data: {
     json: {
+      id,
       path,
       commonName,
       scientificName,
@@ -111,6 +114,8 @@ const SpeciesTemplate = ({
     <Section>
       <SectionHeader>Habitat Requirements</SectionHeader>
       <p>{splitLines(habitatDescription)}</p>
+
+      <Crosslinks species={id} header={<SubHeader>Habitats:</SubHeader>} />
     </Section>
 
     {area && bounds && (

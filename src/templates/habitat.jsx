@@ -19,11 +19,12 @@ import {
   Subsection,
   SectionHeader,
   SubHeader,
-  MinorHeader,
   DonutWrapper,
 } from 'components/Profile'
+import Crosslinks from 'components/Profile/Crosslinks'
 import Vulnerability from 'components/charts/Vulnerability'
 import Donut from 'components/charts/Donut'
+import styled from 'util/style'
 import { splitLines } from 'util/dom'
 import {
   ADAPTATION_STRATEGIES,
@@ -32,15 +33,19 @@ import {
   VULNERABILITY_LEVELS,
 } from '../../config/constants'
 
+const SpeciesWrapper = styled.div`
+  margin-top: 3rem;
+`
+
 const HabitatTemplate = ({
   data: {
     json: {
+      id,
       path,
       habitatType,
       conservationAsset,
       habitat,
       components,
-      species,
       vulnerability,
       vulnerabilityNotes,
       icon,
@@ -112,19 +117,15 @@ const HabitatTemplate = ({
           {components && (
             <>
               <br />
-              <br />
               {components}
             </>
           )}
         </p>
-      </Section>
 
-      {species && (
-        <Section>
-          <SectionHeader>Example Species</SectionHeader>
-          <p>{species}</p>
-        </Section>
-      )}
+        <SpeciesWrapper>
+          <Crosslinks habitat={id} header={<SubHeader>Species:</SubHeader>} />
+        </SpeciesWrapper>
+      </Section>
 
       {area && bounds && (
         <Section>
@@ -322,13 +323,13 @@ HabitatTemplate.propTypes = {
 export const pageQuery = graphql`
   query($id: String!, $imgSrc: String!, $mapImgSrc: String!) {
     json(id: { eq: $id }) {
+      id
       path
       icon
       habitatType
       conservationAsset
       habitat
       components
-      species
       vulnerability
       vulnerabilityNotes
       photoCredit
