@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import Icon from 'components/elements/Icon'
 import { Box, Flex } from 'components/Grid'
 import { Link } from 'components/Link'
-import styled from 'util/style'
+import styled, { theme, themeGet } from 'util/style'
 
 const List = styled(Flex).attrs({ flexWrap: 'wrap' })``
 
@@ -14,16 +14,23 @@ const ListItem = styled(Box).attrs({
   minWidth: '14em',
   m: 2,
   flex: '0 1 14em',
-})``
+})`
+  line-height: 1.2;
+  padding: 0.5em;
+  background-color: ${themeGet('colors.grey.200')};
+  min-height: 3em;
+  border-radius: 0.5em;
+`
 
-const StyledIcon = styled(Icon)`
-  margin-right: 0.25em;
+const StyledIcon = styled(Icon).attrs({
+  size: '2em',
+  color: theme.colors.secondary[800],
+  borderColor: theme.colors.secondary[800],
+})`
+  margin-right: 0.5em;
 `
 
 const Crosslinks = ({ species, habitat, header }) => {
-  const targetSppID = species !== null ? parseInt(species, 10) : null
-  const targetHabitatID = habitat !== null ? parseInt(habitat, 10) : null
-
   const query = useStaticQuery(graphql`
     query ProfileCrosslinkQuery {
       links: allJson(filter: { path: { eq: null } }) {
@@ -54,14 +61,15 @@ const Crosslinks = ({ species, habitat, header }) => {
   const targetLinks = query.links.edges
     .filter(
       ({ node: { speciesID, habitatID } }) =>
-        speciesID === targetSppID || habitatID === targetHabitatID
+        speciesID === species || habitatID === habitat
     )
     .map(({ node }) => node)
+
   if (!targetLinks) return null
 
   const targetIDs = new Set(
     targetLinks.map(({ speciesID, habitatID }) =>
-      species !== null ? habitatID.toString() : speciesID.toString()
+      species !== null ? habitatID : speciesID
     )
   )
 
@@ -85,6 +93,7 @@ const Crosslinks = ({ species, habitat, header }) => {
         name: commonName || habitatName || conservationAsset,
       })
     )
+    .sort((a, b) => (a.name < b.name ? -1 : 1))
 
   if (!profiles) return null
 
@@ -94,10 +103,12 @@ const Crosslinks = ({ species, habitat, header }) => {
       <List>
         {profiles.map(({ path, icon, name }) => (
           <ListItem key={path}>
-            <Flex alignItems="center">
-              <StyledIcon name={icon} />
-              <Link to={path}>{name}</Link>
-            </Flex>
+            <Link to={path}>
+              <Flex alignItems="center">
+                <StyledIcon name={icon} />
+                {name}
+              </Flex>
+            </Link>
           </ListItem>
         ))}
       </List>
