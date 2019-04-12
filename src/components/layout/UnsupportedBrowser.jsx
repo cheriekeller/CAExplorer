@@ -16,6 +16,7 @@ const StyledIcon = styled(FaExclamationTriangle)`
 `
 
 const WarningBox = styled(Box)`
+  margin-top: 6rem;
   padding: 2rem;
   background-color: ${themeGet('colors.primary.900')};
 

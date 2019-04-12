@@ -10,15 +10,11 @@ import UnsupportedBrowser from './UnsupportedBrowser'
 
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
-    {isUnsupported ? (
-      <UnsupportedBrowser />
-    ) : (
-      <>
-        <Header />
-        {children}
-        <MobileNavigation />
-      </>
-    )}
+    <>
+      <Header />
+      {isUnsupported ? <UnsupportedBrowser /> : children}
+      <MobileNavigation />
+    </>
   </ThemeProvider>
 )
 
