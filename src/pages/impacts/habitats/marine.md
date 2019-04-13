@@ -102,3 +102,9 @@ title: 'Climate Impacts on Marine & Estuarine Ecosystems'
 - Increased seagrass production
 - Increased production and biomass of epiphytic algae on seagrass leaves
 - Increased competition (seagrass and algae)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about climate-related impacts to terrestrial ecosystems in Florida.](/impacts/habitats/terrestrial)

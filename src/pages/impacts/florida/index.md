@@ -19,7 +19,12 @@ Climate change will have additional impacts on Florida’s natural resources tha
 
 The overall vulnerability of some systems and species is primarily driven by the severity and extent of existing non-climate stressors, including human-caused alterations and impacts. The rate of climate change may become the most important feature in terms of consequences for biodiversity, potentially leading to escalating extinctions and widespread reorganizations of ecosystems, particularly where the rate of change is too fast and overwhelms the capacity of current ecosystems to adapt. Those species, populations, and communities that cannot keep pace with the rate of change will be most adversely impacted.
 
-Major climate changes in Florida include:
+<div class="clear"></div>
+
+<br/>
+<br/>
+
+### Major climate changes in Florida include:
 
 - [Sea level rise](/impacts/florida/slr)
 - [Changes in temperature](/impacts/florida/temperature)
@@ -27,9 +32,7 @@ Major climate changes in Florida include:
 - [Changes in extreme events](/impacts/florida/extreme-events)
 - [Changes in water chemistry](/impacts/florida/co2)
 
-**TODO:restructure as boxes in 5 columns if possible**
-
-These changes are likely to result in the following impacts:
+### These changes are likely to result in the following impacts:
 
 - Many terrestrial, freshwater, and marine species have shifted their geographic ranges, seasonal activities, migration patterns, abundances, and species interactions in response to ongoing climate change (**high confidence**).
 - A large fraction of both terrestrial and freshwater species faces increased extinction risk under projected climate change during and beyond the 21st century, especially as climate change interacts with other stressors, such as habitat modification, over-exploitation, pollution, and invasive species (**high confidence**).
@@ -40,3 +43,9 @@ These changes are likely to result in the following impacts:
 * For medium- to high-emission scenarios (RCP4.5, 6.0, and 8.5), ocean acidification poses substantial risks to marine ecosystems, especially polar ecosystems and coral reefs, associated with impacts on the physiology, behavior, and population dynamics of individual species from phytoplankton to animals (**medium to high confidence**).
 
 Source: [Top-Level Findings, From the Working Group II AR5 Summary for PolicyMakers](https://www.ipcc.ch/site/assets/uploads/2018/03/WGIIAR5_SPM_Top_Level_Findings-1.pdf).
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about sea level rise in Florida.](/impacts/florida/slr)

@@ -3,9 +3,7 @@ path: /impacts/florida/co2
 title: Changes in Water Chemistry
 ---
 
-<content-header icon="water_co2_change" title="Impacts from Changes in Water Chemistry"></content-header>
-
-**TODO: intro paragraph**
+<content-header icon="water_co2_change" title="Impacts from Changes in Water Chemistry in Florida"></content-header>
 
 <!-- https://www.flickr.com/photos/evergladesnps/9247497359/ -->
 
@@ -29,3 +27,9 @@ South Florida is likely to be impacted by ocean acidification more than any othe
 The Florida Reef is the only living coral barrier reef in the continental US and the third largest in the world. It is approximately 4 miles wide and extends 170 miles, with more than 6,000 individual reefs in the system.
 
 Known impacts due to ocean acidification include changes in shellfish growth and decreases in coral calcification, reproduction, and growth. Florida’s panhandle, Nature Coast, and Indian River Lagoon regions are also likely to experience increasing impacts from ocean acidification. Most of Florida’s shellfish industry, including oyster, clam and scallop, is in this region. It becomes more difficult for shellfish to make their calcium carbonate shells as the availability of carbonate ions decreases. The carbonate ions become more inaccessible as the oceans become more acidic.
+
+<hr class="divider"/>
+
+### What's next?
+
+[Learn about social and economic impacts of climate change in Florida.](/impacts/florida/social)

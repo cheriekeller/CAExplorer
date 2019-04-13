@@ -9,7 +9,7 @@ import Icon from 'components/elements/Icon'
 import FaIcon from 'components/elements/FaIcon'
 import ContentHeader from 'components/elements/ContentHeader'
 import Snippet from 'components/Profile/Snippet'
-import styled from 'util/style'
+import styled, { themeGet } from 'util/style'
 
 const Content = styled.div`
   h2,
@@ -30,6 +30,12 @@ const Content = styled.div`
 
   hr {
     margin-top: 3rem;
+
+    &.divider {
+      margin-bottom: 2rem;
+      height: 4px;
+      background: ${themeGet('colors.primary.900')};
+    }
   }
 
   .float-left {

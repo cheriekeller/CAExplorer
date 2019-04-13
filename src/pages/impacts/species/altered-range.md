@@ -90,3 +90,9 @@ Although migratory species are adapted to adjust their behavior with annual chan
 
 - Habitat degradation
 - Habitat loss
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about altered species survival and risk of extinction from changes in climate in Florida.](/impacts/species/altered-survival)

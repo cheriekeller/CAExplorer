@@ -75,3 +75,9 @@ This model simulates the dominant processes involved in wetland conversions and 
 - [Gulf TREE](http://www.gulftree.org/)
 - [Climate Smart Restoration Tool](https://climaterestorationtool.org/csrt/)
 - [Seedlot Selection Tool](https://seedlotselectiontool.org/sst/)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about other helpful climate-related resources for Florida.](/impacts/resources)

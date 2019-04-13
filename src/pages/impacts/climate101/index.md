@@ -42,7 +42,7 @@ Most weather forecasts are based on models, which incorporate observations of ai
 
 Climate projections take a much longer-term view.  These projections try to answer questions like how much warmer will the Earth be 50 to 100 years from now? How much more precipitation will there be? How much will sea level rise? Climate projections are made using global climate models. Unlike weather forecast models, climate models are probabilistic, indicating areas with higher chances to be warmer or cooler and wetter or drier than usual. Climate models are based on global patterns in the ocean and atmosphere.
 
-[Learn more about climate models and how they are used to estimate changes in temperature and precipitation](/impacts/climate101/models).
+[Learn more about climate models and how they are used to estimate changes in temperature and precipitation.](/impacts/climate101/models)
 
 ## Increasing Carbon Dioxide in the Atmosphere
 
@@ -57,4 +57,10 @@ Carbon dioxide causes about 20% of the Earth’s greenhouse (warming) effect; ot
 
 The current concentration of carbon dioxide in the atmosphere is much higher than it has been at any other time, as far back as 400,000 years. Since 1970 carbon dioxide in the atmosphere has risen 24 percent. Carbon dioxide remains in the atmosphere for centuries so the impacts of emissions today will linger long into the future.
 
-[Learn more about how increased levels of carbon dioxide are affecting ecosystems](/impacts/climate101/co2).
+[Learn more about how increased levels of carbon dioxide are affecting ecosystems.](/impacts/climate101/co2)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about Sea Level Rise.](/impacts/climate101/slr)

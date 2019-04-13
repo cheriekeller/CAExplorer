@@ -3,7 +3,7 @@ path: /impacts/florida/extreme-events
 title: Changes in Extreme Events
 ---
 
-<content-header icon="extreme_events" title="Changes in Extreme Events"></content-header>
+<content-header icon="extreme_events" title="Changes in Extreme Events in Florida"></content-header>
 
 There is uncertainty in how extreme events may change in Florida in the future.
 
@@ -20,3 +20,9 @@ Other extreme events such as floods and droughts can also be difficult to predic
 </div>
 
 Although the overall projection for changes in Florida’s precipitation ranges from minimal increases to moderate decreases, if the pattern of the precipitation changes so that most of the annual precipitation comes in fewer but more significant precipitation events, there could be an increase in flood events. Drought may be more likely to occur, particularly in south Florida, given the projections for moderate precipitation decreases. Decreased precipitation coupled with increased temperatures will increase the rate of evapotranspiration, reducing the amount of time water is on the ground.
+
+<hr class="divider"/>
+
+### What's next?
+
+[Learn about changes to temperature in Florida.](/impacts/florida/temperature)

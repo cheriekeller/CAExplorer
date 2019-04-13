@@ -112,3 +112,9 @@ title: 'Climate Impacts on Terrestrial Ecosystems'
 - Increased pest outbreaks
 - Loss of ephemeral ponds and wetlands
 - Increased drought related diseases in forest trees
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about interactions between climate change and existing stressors to habitats in Florida.](/impacts/existing-stressors)

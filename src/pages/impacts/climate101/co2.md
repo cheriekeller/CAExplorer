@@ -1,9 +1,9 @@
 ---
 path: /impacts/climate101/co2
-title: Increasing Atmospheric CO2
+title: Changes in Air and Water Chemistry
 ---
 
-<content-header icon="air_co2_change" title="Changes in Air and Water Chemistry"></content-header>
+<content-header icon="air_co2_change" title="Climate 101: Changes in Air and Water Chemistry"></content-header>
 
 Increasing levels of carbon dioxide (CO2) in the atmosphere can affect plants directly by stimulating photosynthesis and reducing loss of water by reducing the opening of the small pores in the leaves. These changes can lead to changes in the amount of leaf, root and below ground microbial biomass, resulting in changes to ecosystem functioning. Additional effects include relief of water and low light stresses, relief of nutrient stress, and delay of senescence that prolongs the growing season. However, because species respond differently to climate change, some will increase in abundance while others will decrease.
 
@@ -25,3 +25,13 @@ Figure 2: Cumulative land and ocean carbon uptake simulated for the historical p
 </figcaption>
 
 Carbon dioxide uptake by land and ocean increases in the future under all four of the IPCC AR5 RCPs.
+
+<hr class="divider" />
+
+### How will changes in air and water chemistry impact Florida?
+
+[Learn more about impacts from changes in water chemistry in Florida.](/impacts/florida/co2)
+
+### What's next?
+
+[Learn more about climate models and how they are used to project future climate conditions.](/impacts/climate101/models)

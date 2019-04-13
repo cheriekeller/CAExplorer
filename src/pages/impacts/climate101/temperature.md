@@ -3,7 +3,7 @@ path: /impacts/climate101/temperature
 title: Changes in Temperature
 ---
 
-<content-header icon="temperature_change" title="Changes in Temperature"></content-header>
+<content-header icon="temperature_change" title="Climate 101: Changes in Temperature"></content-header>
 
 Potential temperature and precipitation changes will not be uniform across the earth’s surface.
 
@@ -27,3 +27,13 @@ While the global temperatures have been increasing over the past several decades
 ![Temperature increase chart](temperature-chart.png)
 
 <figcaption>Figure 2: Observed changes in annual, winter, and summer temperature (°F). Changes are the difference between the average for present-day (1986–2016) and the average for the first half of the last century (1901–1960 for the contiguous United States, 1925–1960 for Alaska and Hawai‘i). Estimates are derived from the nClimDiv dataset.1, 2 (Figure source: NOAA/NCEI, Figure 6.1).Images from: USGCRP, 2017: Climate Science Special Report: Fourth National Climate Assessment, Volume I [Wuebbles, D.J., D.W. Fahey, K.A. Hibbard, D.J. Dokken, B.C. Stewart, and T.K. Maycock (eds.)]. U.S. Global Change Research Program, Washington, DC, USA, 470 pp., doi: 10.7930/J0J964J6.</figcaption>
+
+<hr class="divider" />
+
+### How are changes in temperature likely to impact Florida?
+
+[Learn about changes in temperature in Florida.](/impacts/florida/temperature)
+
+### What's next?
+
+[Learn about changes in precipitation.](/impacts/climate101/precipitation)

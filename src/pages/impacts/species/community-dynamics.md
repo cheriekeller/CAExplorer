@@ -71,3 +71,9 @@ Many exotic and invasive plants and pest species already possess characteristics
 - Shift in species composition
 - Changes in competition and predator/prey relationships
 - Reduced competitive ability
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about altered habitat suitability from changes in climate in Florida.](/impacts/species/altered-range)

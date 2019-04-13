@@ -86,3 +86,9 @@ Species that have limited ranges or dispersal ability, specialized habitat requi
 - Reduced reproductive success
 - Increased mortality (events) in corals and shell-forming organisms
 - Decreased growth due to reallocation of resources to maintain calcification
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about altered phenology and physiology from changes in climate in Florida.](/impacts/species/altered-phenology)

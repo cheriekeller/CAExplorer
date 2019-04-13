@@ -123,3 +123,9 @@ title: 'Climate Impacts on Freshwater Ecosystems'
 - Reduced fitness for shell producing species
 - Altered growth rates
 - Increased eutrophication
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about climate-related impacts to marine and estuarine ecosystems in Florida.](/impacts/habitats/marine)

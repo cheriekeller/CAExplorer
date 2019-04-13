@@ -48,3 +48,9 @@ Many species and their associated habitats are dependent upon disturbance regime
 - Loss of food source
 - Increased morality
 - Increased stress due to injury
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about loss of keystone species from changes in climate in Florida.](/impacts/species/keystone)

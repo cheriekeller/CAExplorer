@@ -3,7 +3,7 @@ path: /impacts/florida/temperature
 title: Changes in Temperature
 ---
 
-<content-header icon="temperature_change" title="Changes in Temperature"></content-header>
+<content-header icon="temperature_change" title="Changes in Temperature in Florida"></content-header>
 
 Based on available emission scenarios and the ensemble of climatic circulation models, annual average temperatures across the state are projected to markedly increase toward the end of the century. All areas of Florida are expected to see increases in temperature by the 2080s.
 
@@ -100,3 +100,9 @@ By mid- to late-century the Florida panhandle and northern peninsula will experi
 Figure N: Number of days below 32˚F.  Graphic derived on the PINEMAP DSS site. 
 <a href="http://www.nc-climate.ncsu.edu/pinemap/index.php"target="_blank" rel="noopener noreferrer">http://www.nc-climate.ncsu.edu/pinemap/index.php</a>
 </figcaption>
+
+<hr class="divider"/>
+
+### What's next?
+
+[Learn about changes to precipitation in Florida.](/impacts/florida/precipitation)

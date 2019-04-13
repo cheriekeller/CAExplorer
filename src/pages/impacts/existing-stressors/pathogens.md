@@ -15,3 +15,9 @@ Increased temperatures impact parasites by increasing their growth rates, sexual
 ![Sea turtle rescue](4700923872_171125fa46_b.jpg 'Photo: NOAA.')
 
 Alterations to temperature, pH, dilution rates, salinity, and other environmental conditions due to climate change can affect the impacts of pollutants on species and systems. The effects from these climatic changes can modify the availability of pollutants, the exposure and sensitivity of species to pollutants, transport patterns, and the uptake and toxicity of pollutants. Increased coastal flooding and inundation may result in release of contaminants from coastal soils, sediments, and infrastructure and increase exposure of fish, wildlife, and plants to these pollutants. The amount of runoff of phosphorus and other nutrients from farms and other landscapes currently contributes to harmful algal blooms and is expected to worsen with predicted increases in floods and other extreme precipitation events.
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about interactions between climate change and competition for resources and overexploitation in Florida.](/impacts/existing-stressors/competition)

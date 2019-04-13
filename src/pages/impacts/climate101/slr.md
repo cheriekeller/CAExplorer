@@ -3,7 +3,7 @@ path: /impacts/climate101/slr
 title: Sea Level Rise
 ---
 
-<content-header icon="sea_level_rise" title="Sea Level Rise"></content-header>
+<content-header icon="sea_level_rise" title="Climate 101: Sea Level Rise"></content-header>
 
 Oceanic warming and sea level rise are expected as a result of rising green house gas (GHG) levels and temperatures. Ocean warming is projected to be most pronounced in the surface waters of tropical and Northern Hemisphere subtropical regions. Estimates of ocean warming by the end of the 21st century are 0.6°C (RCP2.6) to 2.0°C (RCP8.5) for the top one hundred meters (IPCC 2014).
 
@@ -13,3 +13,13 @@ Oceanic warming and sea level rise are expected as a result of rising green hous
 IPCC AR5. 2014. Summary for Policymakers Synthesis Report. Page 9, Figure SPM.6.
 <a href="https://www.ipcc.ch/pdf/assessment-report/ar5/syr/SYR_AR5_FINAL_full.pdf"  target="_blank" rel="noopener noreferrer">https://www.ipcc.ch/pdf/assessment-report/ar5/syr/SYR_AR5_FINAL_full.pdf</a>
 </figcaption>
+
+<hr class="divider" />
+
+### How will sea level rise impact Florida?
+
+[Learn more about sea level rise impacts in Florida.](/impacts/florida/slr)
+
+### What's next?
+
+[Learn about changes in temperature.](/impacts/climate101/temperature)

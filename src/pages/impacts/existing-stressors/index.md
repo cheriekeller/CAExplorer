@@ -35,3 +35,9 @@ The primary existing threats to Florida’s species and habits that are expected
 - [Invasive species](/impacts/existing-stressors/invasives)
 - [Pathogens, pests/parasites, and pollutants](/impacts/existing-stressors/pathogens)
 - [Competition for resources and overexploitation](/impacts/existing-stressors/competition)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about interactions between climate change and habitat loss in Florida.](/impacts/existing-stressors/habitat-loss)

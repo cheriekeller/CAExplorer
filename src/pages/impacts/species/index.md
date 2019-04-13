@@ -67,3 +67,9 @@ Florida Key deer are likely to be heavily impacted sea level rise as well as pot
 <profile-snippet id="217">
 Loggerhead turtles are likely to be impacted by sea level rise, anthropogenic barriers impacting the nesting habitat, and potentially incompatible human responses to climate change. Approximately 90% of the species' nesting habitat is expected to be impacted by a 1-meter sea level rise. Up to 80% of the nesting habitat is bordered by inland urban areas. 
 </profile-snippet>
+
+<hr class="divider"/>
+
+### What's next?
+
+[Learn about altered community dynamics from changes in climate in Florida.](/impacts/species/community-dynamics)

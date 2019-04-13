@@ -81,3 +81,9 @@ Conservation Assets (formerly known as Priority Resources) were identified by th
 - [Mangrove Swamp](/habitats/marine/5250)
 - [Coral Reef and Hardbottom](/habitats/marine/6100)
 - [Seagrass](/habitats/marine/6200)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about climate-related impacts to coastal ecosystems in Florida.](/impacts/habitats/coastal)

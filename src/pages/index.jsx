@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import { Image } from 'rebass'
 import { FaQuestionCircle } from 'react-icons/fa'
 
@@ -11,7 +12,7 @@ import SEO from 'components/SEO'
 import Thumbnail from 'components/Profile/Thumbnail'
 import styled, { themeGet } from 'util/style'
 
-import { FluidImage } from 'components/Image'
+import { FluidImage, ImageCredits } from 'components/Image'
 import CBILogo from '../images/cbi_logo.png'
 import FWCLogo from '../images/fwc_logo.png'
 import PFLCCLogo from '../images/pflcc_logo.png'
@@ -79,6 +80,7 @@ const HelpIcon = styled(FaQuestionCircle)`
 `
 
 const CreditsSection = styled.section`
+  margin-top: 3rem;
   font-size: 0.9em;
   color: ${themeGet('colors.grey.600')};
 
@@ -87,7 +89,7 @@ const CreditsSection = styled.section`
   }
 `
 
-const IndexPage = ({ data: { headerImage } }) => (
+const IndexPage = ({ data: { headerImage, photo } }) => (
   <Layout>
     <SEO />
 
@@ -241,6 +243,18 @@ const IndexPage = ({ data: { headerImage } }) => (
         </SectionBody>
       </HelpSection>
 
+      <Img fluid={photo.childImageSharp.fluid} />
+      <ImageCredits>
+        Photo:&nbsp;
+        <a
+          href="https://www.flickr.com/photos/bigcypressnps/43784744421/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          NPS.
+        </a>
+      </ImageCredits>
+
       <CreditsSection>
         <h3>Credits</h3>
         <p>
@@ -324,7 +338,8 @@ const IndexPage = ({ data: { headerImage } }) => (
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
-    headerImage: PropTypes.any.isRequired,
+    headerImage: PropTypes.object.isRequired,
+    photo: PropTypes.object.isRequired,
   }).isRequired,
 }
 
@@ -338,6 +353,13 @@ export const pageQuery = graphql`
     ) {
       childImageSharp {
         fluid(maxWidth: 4160) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    photo: file(relativePath: { eq: "43784744421_bdcc62772f_k.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 960) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }

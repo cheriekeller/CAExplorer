@@ -114,3 +114,9 @@ title: 'Climate Impacts on Coastal Ecosystems'
 - Increased erosion
 - Altered patterns sediment build-up
 - Loss of sediment due to decreased runoff driven sedimentation rates
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about climate-related impacts to freshwater ecosystems in Florida.](/impacts/habitats/freshwater)
