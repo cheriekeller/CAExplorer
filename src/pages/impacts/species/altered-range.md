@@ -35,8 +35,6 @@ Although migratory species are adapted to adjust their behavior with annual chan
 - Reduction in the extent of occurrence of unique Florida Keys species
 - Reductions (or expansions) in species ranges and occurrences
 
-**TODO: species SLR barchart**
-
 #### Impacts of Salinity Shifts:
 
 - Decreased range for salt intolerant species in coastal areas and south Florida Species
