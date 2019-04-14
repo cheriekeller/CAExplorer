@@ -5,7 +5,7 @@ title: 'Common Adaptation Strategies'
 
 <content-header icon="coastal_ecosystems" title="Common Adaptation Strategies"></content-header>
 
-**TODO:intro paragraph**
+Common adaptation strategies are those that are widely used by conservation professionals. Similarities in adaptation strategies may be especially apparent across similar natural systems and types of natural resource management. However, common themes such as efficiency, prioritization, and resilience are evident throughout. Some general types of adaptation strategies include research to acquire information necessary to inform future adaptation decisions, restoring natural areas and monitoring for change. Keep in mind that there are a great many more adaptation strategies than the common ones listed.
 
 Common adaptation strategies include:
 

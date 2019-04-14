@@ -71,6 +71,18 @@ by: Reece, J.S., R.F. Noss, J. Oetting, T. Hoctor, M. Volk. 2013. PLoS ONE 8(11)
 
 In this study, the authors applied a new tool, the Standardized Index of Vulnerability and Value Assessments or SIVVA, to assess the conservation priority of 300 species of plants and animals in Florida given projections of climate change, human land-use patterns, and SLR by the year 2100. They prioritized species under five different systems of value, ranging from a primary emphasis on vulnerability or threats to an emphasis on metrics of conservation value such as phylogenetic distinctiveness.
 
+<hr id="NOSS"></hr>
+
+## [Adaptation to Sea-level rise in Florida: Biological Conservation Priorities. Final Report to The Kresge Foundation Grant Request Number 244146](https://www.researchgate.net/publication/265208304_Adaptation_to_Sea-level_rise_in_Florida_Biological_Conservation_Priorities_Final_Report_to_The_Kresge_Foundation_Grant_Request_Number_244146)
+
+by: Noss, R., J. S. Reece, T. Hoctor, M. Volk, and J. Oetting. 2014. 10.13140/2.1.4068.2881.
+
+<div class="float-left thumbnail-small">
+<img src="resources-noss.png"></img>
+</div>
+
+The objectives of this project were to: 1) Assess the vulnerability of [species and] natural communities in Florida to projected sea-level rise combined with land-use change; 2) Conduct a critical evaluation of adaptation options for reducing the combined impacts of sea-level rise and urban development, as well as options for reducing conflicts between adaptation for humans and adaptation for nature; 3) Develop the foundation for a statewide adaptation strategy that will aim to minimize losses of biodiversity and mitigate ecosystem impacts from sea-level rise and concurrent changes in land use; 4) Initiate a statewide public education campaign and outreach to decision makers to help them make better-informed decisions in preparation for sea-level rise. In keeping with these objectives, we analyzed the vulnerability of 300 species of conservation concern in Florida to sea-level rise, land-use change, and (in less detail) climate change, species by species, as well as the vulnerability of 30 natural communities, as classified by the Florida Natural Areas Inventory.
+
 <hr id="JOHNSON"></hr>
 
 ## [Climate Change Vulnerability Assessment for natural resources management: toolbox of methods with case studies](http://www.fws.gov/home/climatechange/pdf/Guide-to-Vulnerability-Assessment%20Methods-Version-2-0.pdf)

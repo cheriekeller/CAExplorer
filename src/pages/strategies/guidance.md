@@ -5,7 +5,7 @@ title: 'Adaptation Strategy Guidance'
 
 <content-header icon="climate_101" title="How to Create Adaptation Strategies?"></content-header>
 
-**TODO:more intro**
+Creating adaptation strategies generally consists of two phases: identifying all possible adaptation strategies and then evaluating and selecting which strategies to use. It is often helpful to focus on specifying the climate impacts of greatest concern before developing strategies for how to reduce these impacts. Conservation professionals create a broad array of adaptation strategies and then narrow down that array to select the strategies that best fit their conservation goals. By starting broad and being willing to “think outside the box,” practitioners can avoid limiting their adaptation options by barriers that may ultimately be surmountable. The focus should be on actions that can address near-term conservation challenges while also advancing longer-term adaptation strategies.
 
 <br />
 
