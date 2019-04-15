@@ -5,6 +5,10 @@ title: 'Resources'
 
 <content-header icon="resources" title="Additional Resources for Adaptation Strategies"></content-header>
 
+<!-- https://www.flickr.com/photos/bigcypressnps/31634121061/ -->
+
+![Palms and clouds](31634121061_875fb8ee90_k.jpg 'Photo: NPS.')
+
 The following adaptation guides provide additional information and resources for creating your own adaptation strategies.
 
 - [National Fish, Wildlife, and Plants Climate Adaptation Strategy](#WAS)

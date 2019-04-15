@@ -5,6 +5,10 @@ title: 'Resources'
 
 <content-header icon="resources" title="Additional Resources for Climate Impacts"></content-header>
 
+<!-- https://www.flickr.com/photos/bigcypressnps/35795585166/ -->
+
+![Big Cypress National Preserve](35795585166_e25064f348_k.jpg 'Photo: NPS.')
+
 The following resources provide you with additional information about climate impacts and vulnerability assessments.
 
 There is more information available on the [additional resources for adaptation strategies page](/strategies/resources).

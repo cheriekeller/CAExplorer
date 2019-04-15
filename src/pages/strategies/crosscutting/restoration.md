@@ -5,7 +5,11 @@ title: 'Restoration'
 
 # Restoration
 
-Restoration strategies can include:
+<!-- https://www.flickr.com/photos/bigcypressnps/16234020660/ -->
+
+![Prescribed fire, Big Cypress National Preserve](16234020660_d810b42d04_o.jpg 'Prescribed fire, Big Cypress National Preserve.  Photo: NPS.')
+
+### Restoration strategies can include:
 
 - Develop and implement restoration protocols and techniques that promote ecosystem resilience and facilitate adaptation under a range of possible future conditions.
 - Restore or enhance areas that will provide essential habitat and ecosystem services during ecosystem transitions under a changing climate.

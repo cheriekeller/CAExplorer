@@ -8,6 +8,10 @@ title: Florida's Climate
 
 **Projections for the next century indicate that few other states will be impacted by climate change as severely as Florida.**
 
+<!-- https://www.flickr.com/photos/bigcypressnps/30609865833/ -->
+
+![Big Cypress National Preserve](30609865833_f017ad9d9b_k.jpg 'Big Cypress National Preserve.  Photo: NPS.')
+
 Climate change will have impacts on Florida’s natural resources that operate at the individual, population, community, and ecosystem scales. These impacts will affect species through changes in community dynamics, habitat suitability and geographic range, species fitness and survival, phenology and physiology, risk of extinction, and altered disturbance regimes.
 
 Climate change will have additional impacts on Florida’s natural resources that will affect [social, cultural, and economic](/impacts/florida/social) aspects of Florida’s natural resources including the ability of residents and tourist to safely enjoy and use them.

@@ -5,7 +5,11 @@ title: 'Policy'
 
 # Policy
 
-Strategies for policy can include:
+<!-- https://www.flickr.com/photos/evergladesnps/9247366309/ -->
+
+![Everglades and Francis Taylor Wildlife Management Area](9247366309_7e08bab391_k.jpg 'Photo: R. Cammauf, NPS.')
+
+### Strategies for policy can include:
 
 - Provide landowners and stakeholder groups with incentives for conservation and restoration of key corridor habitats through conservation programs.
 - Review and revise existing habitat impact avoidance, minimization, mitigation, and compensation standards and develop new standards as necessary to address impacts in a manner that incorporates climate change considerations.

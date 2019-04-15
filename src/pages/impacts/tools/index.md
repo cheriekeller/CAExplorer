@@ -6,6 +6,10 @@ title: 'Other Climate-Oriented Tools'
 <content-header icon="tools" title="Other Climate-Oriented Tools">
 </content-header>
 
+<!-- https://www.flickr.com/photos/bigcypressnps/40159816361/ -->
+
+![Big Cypress National Preserve](40159816361_a986640b45_k.jpg 'Photo: NPS.')
+
 The following tools may be useful in evaluating climate change, climate impacts, vulnerability of species and ecosystems, and informing climate-smart management practices.
 
 ---

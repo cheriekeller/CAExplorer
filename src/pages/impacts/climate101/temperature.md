@@ -5,6 +5,10 @@ title: Changes in Temperature
 
 <content-header icon="temperature_change" title="Climate 101: Changes in Temperature"></content-header>
 
+<!-- https://www.flickr.com/photos/bigcypressnps/33129838416/ -->
+
+![Bear Island Pine](33129838416_b6d4fe9113_k.jpg 'Bear Island Pine.  Photo: NPS.')
+
 Potential temperature and precipitation changes will not be uniform across the earth’s surface.
 
 Various regions (e.g. high latitudes) are predicted to experience far more warming than others (e.g. tropical latitudes). Drier mid-latitude and subtropical regions are projected to receive less rainfall, while wetter mid-latitude regions are expected to have an increase in precipitation. Extreme precipitation events are expected to increase in frequency and intensity over most land masses.

@@ -5,6 +5,10 @@ title: Changes in Temperature
 
 <content-header icon="temperature_change" title="Changes in Temperature in Florida"></content-header>
 
+<!-- https://www.flickr.com/photos/bigcypressnps/32325689904/ -->
+
+![Big Cypress National Preserve](32325689904_3deb797d89_k.jpg 'Big Cypress National Preserve.  Photo: NPS.')
+
 Based on available emission scenarios and the ensemble of climatic circulation models, annual average temperatures across the state are projected to markedly increase toward the end of the century. All areas of Florida are expected to see increases in temperature by the 2080s.
 
 On average across the state, average annual temperatures are expected to increase by more than 6.5°F by the end of the 21st century.
