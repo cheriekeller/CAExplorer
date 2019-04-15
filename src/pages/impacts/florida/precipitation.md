@@ -5,11 +5,9 @@ title: Changes in Precipitation
 
 <content-header icon="precipitation_change" title="Changes in Precipitation in Florida"></content-header>
 
-<div class="float-right thumbnail-large">
-<img src="9257940598_f11bb2f03b_z.jpg" alt="Everglades summer thunderstorm" />
-<figcaption>Everglades summer thunderstorm.  Photo: NPS.</figcaption>
 <!-- https://www.flickr.com/photos/evergladesnps/9257940598/ -->
-</div>
+
+![Everglades summer thunderstorm](9257940598_6cfbc7a7ea_k.jpg 'Everglades summer thunderstorm.  Photo: NPS.')
 
 Predicting departures from annual average precipitation is more complex than projecting changing temperatures. Climate models are still evolving (particularly precipitation models), especially at these finer scales.
 

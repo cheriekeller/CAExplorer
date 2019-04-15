@@ -6,13 +6,13 @@ title: 'Climate Impacts on Species'
 <content-header icon="shorebirds" title="Climate Impacts on Florida's Species">
 </content-header>
 
-Florida has more than 16,000 species of native fish, wildlife, and invertebrates, including 147 endemic vertebrate species and approximately 400 terrestrial and freshwater endemic invertebrates. There are currently 82 species designated as federally endangered or threatened in Florida. An additional 59 species are listed as endangered or threatened by the state, including 21 birds, 8 mammals, 13 reptiles, 4 amphibians, 9 fish, and 4 invertebrates.
-
-[See species profiles for more about how climate change will impact each species](/species).
-
 <!-- https://www.flickr.com/photos/evergladesnps/9101524882/ -->
 
 ![Ibis & Spoonbill photo](9101524882_39eb47c360_k.jpg 'Ibis & Spoonbill.  Photo: S. Zenner (NPS)')
+
+Florida has more than 16,000 species of native fish, wildlife, and invertebrates, including 147 endemic vertebrate species and approximately 400 terrestrial and freshwater endemic invertebrates. There are currently 82 species designated as federally endangered or threatened in Florida. An additional 59 species are listed as endangered or threatened by the state, including 21 birds, 8 mammals, 13 reptiles, 4 amphibians, 9 fish, and 4 invertebrates.
+
+[See species profiles for more about how climate change will impact each species](/species).
 
 ## Climate Change Impacts on Florida Species
 

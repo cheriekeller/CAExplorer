@@ -25,4 +25,4 @@ Although the overall projection for changes in Florida’s precipitation ranges 
 
 ### What's next?
 
-[Learn about changes to temperature in Florida.](/impacts/florida/temperature)
+[Learn about changes in water chemistry in Florida.](/impacts/florida/co2)

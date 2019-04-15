@@ -43,6 +43,6 @@ You can also learn more about [cross-cutting adaptation strategies](/strategies/
 
 ### What's next?
 
-- [Guidelines for creating adaptation strategies](/strategies/guidelines)
+- [Guidelines for creating adaptation strategies](/strategies/guidance)
 - [Adaptation strategies for species](/strategies/species)
 - [Adaptation strategies for conservation assets and habitats](/strategies/habitats)

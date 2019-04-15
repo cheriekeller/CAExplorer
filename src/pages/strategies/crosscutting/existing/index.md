@@ -5,11 +5,11 @@ title: 'Adaptation Strategies for Existing Stressors'
 
 # Adaptation Strategies for Existing Stressors
 
-Climate change will compound many of the existing stressors and threats to species and habitats, leading to increased rates of biodiversity loss.
-
 <!-- https://www.flickr.com/photos/bigcypressnps/31635957141/ -->
 
 ![Coral Reef at Dry Tortugas National Park](31635957141_65f7fc12e1_k.jpg 'Coral Reef at Dry Tortugas National Park.  Photo: NPS.')
+
+Climate change will compound many of the existing stressors and threats to species and habitats, leading to increased rates of biodiversity loss.
 
 The overall vulnerability of some ecosystems may be primarily driven by the severity of these non-climate stressors and the degree to which they interact with climate change. The synergistic effects of climate and non-climate stressors, leading to range reductions and population declines, may be severe enough to threaten some species with extinction or extirpation from significant portions of their ranges.
 

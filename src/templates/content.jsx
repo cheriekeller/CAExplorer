@@ -79,6 +79,22 @@ const Content = styled.div`
       width: 66%;
     }
   }
+
+  table {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: ${themeGet('colors.grey.100')};
+
+    th:first-child,
+    td:first-child {
+      padding-left: 1rem;
+    }
+
+    th:last-child,
+    td:last-child {
+      padding-right: 1rem;
+    }
+  }
 `
 
 const renderAst = new rehypeReact({

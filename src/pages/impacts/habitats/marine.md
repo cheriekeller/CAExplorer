@@ -107,4 +107,6 @@ title: 'Climate Impacts on Marine & Estuarine Ecosystems'
 
 ### What's next?
 
+[Learn about impacts and adaptation strategies for conservation assets and habitats in marine and estuarine ecosystems.](/habitats/marine)
+
 [Learn about climate-related impacts to terrestrial ecosystems in Florida.](/impacts/habitats/terrestrial)

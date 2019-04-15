@@ -117,4 +117,6 @@ title: 'Climate Impacts on Terrestrial Ecosystems'
 
 ### What's next?
 
+[Learn about impacts and adaptation strategies for conservation assets and habitats in terrestrial ecosystems.](/habitats/terrestrial)
+
 [Learn about interactions between climate change and existing stressors to habitats in Florida.](/impacts/existing-stressors)

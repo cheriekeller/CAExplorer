@@ -6,9 +6,9 @@ title: 'Invasive Species'
 <content-header icon="invasive_species" title="Invasive Species">
 </content-header>
 
-Florida has a well-documented list of invasive plants and animals—a list that is expected to increase as temperatures warm, number of frost/freeze nights decrease, intensity and/or frequency of storm events increase, and Florida’s human population increases and responds to climate change.
-
 ![Invasive green iguana](invasive iguana FWC Carol Lyn Parrish.jpg 'Invasive green iguana. Photo: Carol Parrish, FWC.')
+
+Florida has a well-documented list of invasive plants and animals—a list that is expected to increase as temperatures warm, number of frost/freeze nights decrease, intensity and/or frequency of storm events increase, and Florida’s human population increases and responds to climate change.
 
 More than 170 species of ferns and flowering plants are naturalized in southeastern Florida and hundreds of exotic plants have been introduced into the region. Some of these species are not currently invasive or have not spread beyond South Florida; however, with climate change, these species may become invasive in the future or expand their current range into other regions of the state. Category I plants, defined as invasive exotics that are altering native plant communities by displacing native species, changing community structures or ecological functions, or hybridizing with natives include species such as Melaleuca, Australian Pine, Water-hyacinth, and old world climbing fern. These species are invading native habitats and decreasing diversity, in some cases becoming so abundant that they interfere with species use of the area (e.g., nesting sea turtles and crocodiles) and contribute to the degradation of the habitat (e.g., erosion, clogging water bodies).
 

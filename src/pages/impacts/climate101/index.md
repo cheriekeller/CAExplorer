@@ -5,13 +5,13 @@ title: Climate 101
 
 <content-header icon="climate_101" title="Climate 101"></content-header>
 
-In recent decades, changes in the global climate impacted natural and human systems on all continents and across the oceans. Evidence of impacts from climate-change is strongest and most comprehensive for natural systems.
+In recent decades, changes in the global climate impacted natural and human systems on all continents and across the oceans. Evidence of impacts from climate change is strongest and most comprehensive for natural systems.
 
 <!-- https://www.flickr.com/photos/evergladesnps/9257922150/ -->
 
 ![Everglades sunrise](9257922150_7ff85e4a3f_k.jpg 'Photo: R. Cammauf, NPS.')
 
-The main changes expected for North America include:
+### The main changes expected for North America include:
 
 - [sea level rise](/impacts/climate101/slr)
 - [rising temperatures](/impacts/climate101/temperature)
@@ -22,15 +22,15 @@ Increased knowledge of the risks of climate change can be a starting point for u
 
 ## Climate vs. Weather
 
+**Weather** varies from hour to hour and from day to day. People generally think of weather as the combination of temperature, humidity, precipitation, cloudiness, visibility, and wind.
+
+**Climate** is defined as the average of weather over several decades or longer. Scientists study the Earth's climate in a very similar way to weather, but with an emphasis on longer time scales.
+
 <div class="float-right thumbnail-medium">
 <img src="9257940598_f11bb2f03b_z.jpg" alt="Everglades summer thunderstorm" />
 <figcaption>Everglades summer thunderstorm.  Photo: NPS.</figcaption>
 <!-- https://www.flickr.com/photos/evergladesnps/9257940598/ -->
 </div>
-
-**Weather** varies from hour to hour and from day to day. People generally think of weather as the combination of temperature, humidity, precipitation, cloudiness, visibility, and wind.
-
-**Climate** is defined as the average of weather over several decades or longer. Scientists study the Earth's climate in a very similar way to weather, but with an emphasis on longer time scales.
 
 While climate can be considered at local or regional scales, scientists also study the global climate, averaging climate across the planet. Components of Earth’s climate system include the atmosphere and oceans, the land, ice, and biosphere (plant and animal life), as well as cities and other parts of the "built environment“.
 

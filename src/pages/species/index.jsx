@@ -219,7 +219,7 @@ const IndexPage = ({
           {filteredItems.length > 0 ? (
             <Flex flexWrap="wrap" style={{ marginTop: '2rem' }}>
               {filteredItems.map(item => (
-                <ListItem {...item} />
+                <ListItem key={item.id} {...item} />
               ))}
             </Flex>
           ) : (

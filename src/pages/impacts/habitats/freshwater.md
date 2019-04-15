@@ -128,4 +128,6 @@ title: 'Climate Impacts on Freshwater Ecosystems'
 
 ### What's next?
 
+[Learn about impacts and adaptation strategies for conservation assets and habitats in freshwater ecosystems.](/habitats/freshwater)
+
 [Learn about climate-related impacts to marine and estuarine ecosystems in Florida.](/impacts/habitats/marine)

@@ -9,14 +9,7 @@ title: 'Resources'
 
 ![Palms and clouds](31634121061_875fb8ee90_k.jpg 'Photo: NPS.')
 
-The following adaptation guides provide additional information and resources for creating your own adaptation strategies.
-
-- [National Fish, Wildlife, and Plants Climate Adaptation Strategy](#WAS)
-- [Climate Smart Conservation: Putting Adaptation into Practice](#CSC)
-- [Embracing Change: Adapting Conservation Approaches to Address a Changing Climate](#WCS)
-- [Promoting Resilience in Marine Ecosystems](#IUCN)
-
-There is more information available on the [additional resources for climate impacts page](/impacts/resources) that may help inform your adaptation strategies.
+The following adaptation guides provide additional information and resources for creating your own adaptation strategies. There is also more information available on the [additional resources for climate impacts page](/impacts/resources) that may help inform your adaptation strategies.
 
 <hr id="WAS"></hr>
 

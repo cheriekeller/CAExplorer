@@ -119,4 +119,6 @@ title: 'Climate Impacts on Coastal Ecosystems'
 
 ### What's next?
 
+[Learn about impacts and adaptation strategies for conservation assets and habitats in coastal ecosystems.](/habitats/coastal)
+
 [Learn about climate-related impacts to freshwater ecosystems in Florida.](/impacts/habitats/freshwater)
