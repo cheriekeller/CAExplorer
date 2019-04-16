@@ -6,7 +6,9 @@ title: 'Climate Impacts on Coastal Ecosystems'
 <content-header icon="coastal_ecosystems" title="Climate Impacts on Florida's Coastal Ecosystems">
 </content-header>
 
-![Coastal Ecosystems](1600.jpg 'Photo: NPS.')
+<!-- https://www.flickr.com/photos/evergladesnps/9247270199/ -->
+
+![Coastal Ecosystems](9247270199_761d54c557_k.jpg 'Photo: NPS.')
 
 #### Impacts of Sea Level Rise:
 

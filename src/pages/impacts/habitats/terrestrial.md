@@ -6,7 +6,9 @@ title: 'Climate Impacts on Terrestrial Ecosystems'
 <content-header icon="terrestrial_ecosystems" title="Climate Impacts on Florida's Terrestrial Ecosystems">
 </content-header>
 
-![Terrestrial Ecosystems](1000.jpg 'Photo: NPS.')
+<!-- https://www.flickr.com/photos/bigcypressnps/43784744421/ -->
+
+![Terrestrial Ecosystems](43784744421_bdcc62772f_k.jpg 'Photo: NPS.')
 
 #### Impacts of Sea Level Rise:
 

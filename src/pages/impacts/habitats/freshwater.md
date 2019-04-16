@@ -6,7 +6,9 @@ title: 'Climate Impacts on Freshwater Ecosystems'
 <content-header icon="freshwater_ecosystems" title="Climate Impacts on Florida's Freshwater Ecosystems">
 </content-header>
 
-![Freshwater Ecosystems](2000.jpg 'Photo: NPS.')
+<!-- https://www.flickr.com/photos/bigcypressnps/32666670288/ -->
+
+![Freshwater Ecosystems](32666670288_ef969d4d85_k.jpg 'Big Cypress National Preserve. Photo: NPS.')
 
 #### Impacts of Sea Level Rise:
 
