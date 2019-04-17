@@ -5,7 +5,9 @@ title: 'Altered Species Fitness, Survival, and Risk of Extinction'
 
 <content-header icon="rodents" title="Altered Species Fitness, Survival, and Risk of Extinction"></content-header>
 
-![Florida Keys mole skink](120.jpg 'Florida Keys mole skink.  Photo: FWC.')
+<!-- https://www.flickr.com/photos/evergladesnps/9101523443/ -->
+
+![Alligator remains](9101523443_8a3b59506e_k.jpg 'Photo: NPS.')
 
 Temperature and moisture availability are predicted to change, which can directly or indirectly affect species. As temperature or moisture variables reach or exceed species’ tolerance levels, species may have reduced reproductive success, recruitment, and lifespan. Increased levels of stress may cause some species to be more susceptible to disease and pests. Increased mortality may occur in sensitive species or in areas experiencing more extreme climatic changes.
 
