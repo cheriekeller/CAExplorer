@@ -5,7 +5,11 @@ title: 'Habitat Loss'
 
 # Habitat Loss, Fragmentation, and Degradation
 
-Strategies for habitat loss and related impacts can include:
+ <!-- https://www.flickr.com/photos/evergladesnps/9247241295/ -->
+
+![North Nest Key, Florida Bay](9247241295_1a715f2bc2_k.jpg 'North Nest Key, Florida Bay.  Photo: NPS.')
+
+### Strategies for habitat loss and related impacts can include:
 
 - Provide landowners with appropriate incentives for conservation and restoration of key habitats, such as conservation easement tax incentive programs, designed to protect private lands of high habitat connectivity value under climate change.
 - Work with water resource managers to enhance design and siting criteria for water resources infrastructure to reduce impacts and restore connectivity in floodplains and aquatic habitats.

@@ -5,11 +5,17 @@ title: 'Adaptation Strategy Guidance'
 
 <content-header icon="climate_101" title="How to Create Adaptation Strategies?"></content-header>
 
-**TODO:more intro**
+<!-- https://www.flickr.com/photos/bigcypressnps/31713164186/ -->
+
+![Wildflower walk](31713164186_0c8e1f6a09_k.jpg 'Photo: NPS.')
+
+Creating adaptation strategies generally consists of two phases: identifying all possible adaptation strategies and then evaluating and selecting which strategies to use. It is often helpful to focus on specifying the climate impacts of greatest concern before developing strategies for how to reduce these impacts.
+
+Conservation professionals create a broad array of adaptation strategies and then narrow down that array to select the strategies that best fit their conservation goals. By starting broad and being willing to “think outside the box,” practitioners can avoid limiting their adaptation options by barriers that may ultimately be surmountable. The focus should be on actions that can address near-term conservation challenges while also advancing longer-term adaptation strategies.
 
 <br />
 
-Adaptation strategies often include one or more of the following elements:
+### Adaptation strategies often include one or more of the following elements:
 
 - Establishing special protections for keystone species, corridors, processes, and habitats
 - Reducing of anthropogenic stresses (e.g., pollution, development, overharvest)
@@ -25,10 +31,13 @@ Adaptation strategies often include one or more of the following elements:
 - Promoting sustainable use of resources (subsistence, recreational, and commercial)
 
 <br />
-
 <br />
 
-Adaptation strategies should be developed with the following guidelines in mind:
+<!-- https://www.flickr.com/photos/bigcypressnps/31604383322/ -->
+
+![Birding in Big Cypress National Preserve](31604383322_ea1d3d12fe_k.jpg 'Photo: NPS.')
+
+### Adaptation strategies should be developed with the following guidelines in mind:
 
 - Actions need to be implemented at a range of management levels.
 

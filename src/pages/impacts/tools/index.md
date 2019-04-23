@@ -6,6 +6,10 @@ title: 'Other Climate-Oriented Tools'
 <content-header icon="tools" title="Other Climate-Oriented Tools">
 </content-header>
 
+<!-- https://www.flickr.com/photos/bigcypressnps/40159816361/ -->
+
+![Big Cypress National Preserve](40159816361_a986640b45_k.jpg 'Photo: NPS.')
+
 The following tools may be useful in evaluating climate change, climate impacts, vulnerability of species and ecosystems, and informing climate-smart management practices.
 
 ---
@@ -75,3 +79,9 @@ This model simulates the dominant processes involved in wetland conversions and 
 - [Gulf TREE](http://www.gulftree.org/)
 - [Climate Smart Restoration Tool](https://climaterestorationtool.org/csrt/)
 - [Seedlot Selection Tool](https://seedlotselectiontool.org/sst/)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about other helpful climate-related resources for Florida.](/impacts/resources)

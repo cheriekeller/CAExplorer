@@ -2,10 +2,12 @@ import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { Set } from 'immutable'
+import Img from 'gatsby-image'
 
 import { Link } from 'components/Link'
 import Layout from 'components/layout/Default'
 import SEO from 'components/SEO'
+import { ImageCredits } from 'components/Image'
 import { Flex, Box } from 'components/Grid'
 import Icon from 'components/elements/Icon'
 import Donut from 'components/charts/Donut'
@@ -107,6 +109,7 @@ ListItem.defaultProps = {
 const IndexPage = ({
   data: {
     allJson: { edges },
+    photo,
   },
 }) => {
   const [selectedLevels, setLevel] = useState(Set())
@@ -170,6 +173,18 @@ const IndexPage = ({
     <Layout>
       <SEO title="Habitats" />
       <h1>Climate Impacts and Adaptation Strategies for Florida Habitats</h1>
+
+      <Img fluid={photo.childImageSharp.fluid} />
+      <ImageCredits>
+        Photo:&nbsp;
+        <a
+          href="https://www.flickr.com/photos/bigcypressnps/30610230073/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          NPS.
+        </a>
+      </ImageCredits>
 
       <p>
         <b>
@@ -236,7 +251,7 @@ const IndexPage = ({
           {filteredItems.length > 0 ? (
             <Flex flexWrap="wrap" style={{ marginTop: '2rem' }}>
               {filteredItems.map(item => (
-                <ListItem {...item} />
+                <ListItem key={item.id} {...item} />
               ))}
             </Flex>
           ) : (
@@ -295,6 +310,13 @@ export const pageQuery = graphql`
           slr3m
           bounds
           vulnerability
+        }
+      }
+    }
+    photo: file(relativePath: { eq: "30610230073_c9acd6553a_k.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 960) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

@@ -9,7 +9,7 @@ import Icon from 'components/elements/Icon'
 import FaIcon from 'components/elements/FaIcon'
 import ContentHeader from 'components/elements/ContentHeader'
 import Snippet from 'components/Profile/Snippet'
-import styled from 'util/style'
+import styled, { themeGet } from 'util/style'
 
 const Content = styled.div`
   h2,
@@ -30,6 +30,12 @@ const Content = styled.div`
 
   hr {
     margin-top: 3rem;
+
+    &.divider {
+      margin-bottom: 2rem;
+      height: 4px;
+      background: ${themeGet('colors.primary.900')};
+    }
   }
 
   .float-left {
@@ -71,6 +77,22 @@ const Content = styled.div`
     width: 50%;
     &.is-two-thirds {
       width: 66%;
+    }
+  }
+
+  table {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: ${themeGet('colors.grey.100')};
+
+    th:first-child,
+    td:first-child {
+      padding-left: 1rem;
+    }
+
+    th:last-child,
+    td:last-child {
+      padding-right: 1rem;
     }
   }
 `

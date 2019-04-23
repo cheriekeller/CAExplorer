@@ -5,11 +5,11 @@ title: 'Altered Disturbance Regimes'
 
 <content-header icon="disturbance" title="Altered Disturbance Regimes"></content-header>
 
-Many species and their associated habitats are dependent upon disturbance regimes to initiate life cycle phases (e.g., seed release, germination, breeding). Florida has many species that only thrive in fire maintained systems. Other disturbance regimes, if altered, could be detrimental to species and habitats, including increased severity and frequency of storm events, flooding, droughts, and wildfire.
-
 <!-- https://www.flickr.com/photos/evergladesnps/5794171064/ -->
 
 ![Coastal Prairie Burn photo](5794171064_e221c5a0eb_b.jpg 'Photo: Jennifer Brown (NPS)')
+
+Many species and their associated habitats are dependent upon disturbance regimes to initiate life cycle phases (e.g., seed release, germination, breeding). Florida has many species that only thrive in fire maintained systems. Other disturbance regimes, if altered, could be detrimental to species and habitats, including increased severity and frequency of storm events, flooding, droughts, and wildfire.
 
 #### Impacts of Warmer Temperatures:
 
@@ -48,3 +48,9 @@ Many species and their associated habitats are dependent upon disturbance regime
 - Loss of food source
 - Increased morality
 - Increased stress due to injury
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about loss of keystone species from changes in climate in Florida.](/impacts/species/keystone)

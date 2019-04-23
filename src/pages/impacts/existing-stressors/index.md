@@ -5,6 +5,10 @@ title: 'Interaction with Existing Non-climate Stressors'
 
 # Interaction with Existing Non-climate Stressors
 
+<!-- https://www.flickr.com/photos/lagohsep/4666755387 -->
+
+![Oiled Pelican](4666755387_c8187332db_b.jpg 'Oiled Pelican. Photo: Governor Jindal’s office.')
+
 Climate change will compound many of the existing stressors and threats to species and habitats and lead to an increased rate of biodiversity loss.
 
 Three key drivers of biodiversity loss include existing threats, direct effects of climate change, and the interaction between the existing threats and climate change. The ability of species and systems to adapt to climate change will be further challenged when considering the effects of these other stressors.
@@ -35,3 +39,9 @@ The primary existing threats to Florida’s species and habits that are expected
 - [Invasive species](/impacts/existing-stressors/invasives)
 - [Pathogens, pests/parasites, and pollutants](/impacts/existing-stressors/pathogens)
 - [Competition for resources and overexploitation](/impacts/existing-stressors/competition)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about interactions between climate change and habitat loss in Florida.](/impacts/existing-stressors/habitat-loss)

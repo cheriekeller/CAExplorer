@@ -5,7 +5,11 @@ title: 'Planning'
 
 # Planning
 
-Strategies for planning can include:
+<!-- https://www.flickr.com/photos/bigcypressnps/40159817151/ -->
+
+![Big Cypress National Preserve](40159817151_c05161aa9d_k.jpg 'Photo: NPS.')
+
+### Strategies for planning can include:
 
 - Identify and map high priority areas for conservation using information such as species distributions (current and projected), habitat classification, land cover, and geophysical settings (including areas of rapid change and slow change).
 - Identify and prioritize areas currently experiencing rapid climate impacts (e.g., coastal areas).

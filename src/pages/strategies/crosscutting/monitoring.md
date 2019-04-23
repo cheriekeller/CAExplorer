@@ -5,7 +5,11 @@ title: 'Monitoring'
 
 # Monitoring
 
-Strategies for monitoring can include:
+<!-- https://www.flickr.com/photos/bigcypressnps/6545025737/ -->
+
+![Monitoring Florida Panther](6545025737_55eac5dff7_b.jpg 'Monitoring Florida Panther. Photo: NPS.')
+
+### Strategies for monitoring can include:
 
 - Use available long-term monitoring programs at appropriate scales as baselines for system changes that could be affected by climate change.
 - Develop, refine, and implement monitoring protocols that provide key information needed for managing and conserving species and ecosystems in a changing climate.

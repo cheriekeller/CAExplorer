@@ -5,6 +5,10 @@ title: 'Altered Community Dynamics'
 
 <content-header icon="turtles" title="Altered Community Dynamics"></content-header>
 
+<!-- https://www.flickr.com/photos/evergladesnps/9099302291/-->
+
+![Double Crested Cormorant](9099302291_ab9478b462_k.jpg 'Double Crested Cormorant.  Photo: R. Cammauf, NPS.')
+
 Species composition within a community will change as species and habitats respond to shifting environmental variables. These changes may lead to changes in availability of food due to increased competition and changes in predator-prey relationships.
 
 <div class="float-left thumbnail-large">
@@ -71,3 +75,9 @@ Many exotic and invasive plants and pest species already possess characteristics
 - Shift in species composition
 - Changes in competition and predator/prey relationships
 - Reduced competitive ability
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about altered habitat suitability from changes in climate in Florida.](/impacts/species/altered-range)

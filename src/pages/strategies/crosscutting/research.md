@@ -5,7 +5,11 @@ title: 'Research'
 
 # Research
 
-Strategies for research can include:
+<!-- https://www.flickr.com/photos/bigcypressnps/33327474041/ -->
+
+![Wildlife monitoring technology](33327474041_500670c095_k.jpg 'Learning how radio telemetry works.  Photo: NPS.')
+
+### Strategies for research can include:
 
 - Bring managers and scientists together at the appropriate scales to prioritize research needs that address resource management objectives considering a changing climate.
 - Prioritize research on questions relevant to managers of near-term risk environments.

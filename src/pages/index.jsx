@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import { Image } from 'rebass'
 import { FaQuestionCircle } from 'react-icons/fa'
 
@@ -11,7 +12,7 @@ import SEO from 'components/SEO'
 import Thumbnail from 'components/Profile/Thumbnail'
 import styled, { themeGet } from 'util/style'
 
-import { FluidImage } from 'components/Image'
+import { FluidImage, ImageCredits } from 'components/Image'
 import CBILogo from '../images/cbi_logo.png'
 import FWCLogo from '../images/fwc_logo.png'
 import PFLCCLogo from '../images/pflcc_logo.png'
@@ -79,15 +80,16 @@ const HelpIcon = styled(FaQuestionCircle)`
 `
 
 const CreditsSection = styled.section`
+  margin-top: 3rem;
   font-size: 0.9em;
-  color: ${themeGet('colors.grey.600')};
+  margin-bottom: 4rem;
 
   h3 {
     text-align: center;
   }
 `
 
-const IndexPage = ({ data: { headerImage } }) => (
+const IndexPage = ({ data: { headerImage, photo } }) => (
   <Layout>
     <SEO />
 
@@ -153,8 +155,12 @@ const IndexPage = ({ data: { headerImage } }) => (
               <br />
               <br />
               Learn more about climate change, climate impacts to Florida&apos;s
-              unique species and habitats, and more.{' '}
-              <Link to="/impacts">Read more...</Link>
+              unique species and habitats, and more.
+              <br />
+              <br />
+              <Link to="/impacts">
+                Start learning more about climate impacts...
+              </Link>
             </p>
           </SectionBody>
         </Section>
@@ -182,7 +188,9 @@ const IndexPage = ({ data: { headerImage } }) => (
               Learn more about climate impacts for 138 species of concern in
               Florida. Each species has a detailed profile that includes
               information on life history, range, habitat use, climate change
-              impacts, vulnerability, and adaptation strategies.{' '}
+              impacts, vulnerability, and adaptation strategies.
+              <br />
+              <br />
               <Link to="/species">Start exploring species profiles...</Link>
             </p>
           </SectionBody>
@@ -201,7 +209,9 @@ const IndexPage = ({ data: { headerImage } }) => (
               and habitats across Florida. Each habitat profile includes
               information on the location and defining characteristics of each
               habitat, climate impacts, vulnerability, and adaptation
-              strategies.{' '}
+              strategies.
+              <br />
+              <br />
               <Link to="/habitats">Start exploring habitat profiles...</Link>
             </p>
           </SectionBody>
@@ -218,7 +228,9 @@ const IndexPage = ({ data: { headerImage } }) => (
               Florida&apos;s unique species and habitats. Using an adaptation
               approach is vital to offset the increasing impacts from climate
               change combined with existing anthropogenic impacts to natural
-              communities and species.{' '}
+              communities and species.
+              <br />
+              <br />
               <Link to="/strategies">Learn what you can do...</Link>
             </p>
           </SectionBody>
@@ -240,6 +252,18 @@ const IndexPage = ({ data: { headerImage } }) => (
           <HelpIcon />
         </SectionBody>
       </HelpSection>
+
+      <Img fluid={photo.childImageSharp.fluid} />
+      <ImageCredits>
+        Photo:&nbsp;
+        <a
+          href="https://www.flickr.com/photos/bigcypressnps/43784744421/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          NPS.
+        </a>
+      </ImageCredits>
 
       <CreditsSection>
         <h3>Credits</h3>
@@ -324,7 +348,8 @@ const IndexPage = ({ data: { headerImage } }) => (
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
-    headerImage: PropTypes.any.isRequired,
+    headerImage: PropTypes.object.isRequired,
+    photo: PropTypes.object.isRequired,
   }).isRequired,
 }
 
@@ -338,6 +363,13 @@ export const pageQuery = graphql`
     ) {
       childImageSharp {
         fluid(maxWidth: 4160) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+    photo: file(relativePath: { eq: "43784744421_bdcc62772f_k.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 960) {
           ...GatsbyImageSharpFluid_withWebp
         }
       }

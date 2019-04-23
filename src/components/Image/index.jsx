@@ -1,3 +1,4 @@
 import FluidImage from './Fluid'
+import ImageCredits from './ImageCredits'
 
-export { FluidImage }
+export { FluidImage, ImageCredits }

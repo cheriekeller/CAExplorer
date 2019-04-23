@@ -5,7 +5,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import Icon from 'components/elements/Icon'
 import { Box, Flex } from 'components/Grid'
 import { Link } from 'components/Link'
-import styled, { theme, themeGet } from 'util/style'
+import styled, { themeGet } from 'util/style'
 
 const List = styled(Flex).attrs({ flexWrap: 'wrap' })``
 
@@ -17,15 +17,17 @@ const ListItem = styled(Box).attrs({
 })`
   line-height: 1.2;
   padding: 0.5em;
-  background-color: ${themeGet('colors.grey.200')};
+  background-color: ${themeGet('colors.grey.100')};
   min-height: 3em;
   border-radius: 0.5em;
+
+  a {
+    color: ${themeGet('colors.primary.800')};
+  }
 `
 
 const StyledIcon = styled(Icon).attrs({
   size: '2em',
-  color: theme.colors.secondary[800],
-  borderColor: theme.colors.secondary[800],
 })`
   margin-right: 0.5em;
 `

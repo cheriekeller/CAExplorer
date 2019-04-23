@@ -6,7 +6,9 @@ title: 'Climate Impacts on Marine & Estuarine Ecosystems'
 <content-header icon="marine_estuarine_ecosystems" title="Climate Impacts on Florida's Marine & Estuarine Ecosystems">
 </content-header>
 
-![Marine Ecosystems](5000.jpg 'Photo: NPS.')
+<!-- https://www.flickr.com/photos/bigcypressnps/31752098275/ -->
+
+![Coral Reef at Dry Tortugas National Park](31752098275_fb4d2f7cde_k.jpg 'Coral Reef at Dry Tortugas National Park.  Photo: NPS.')
 
 #### Impacts of Sea Level Rise:
 
@@ -102,3 +104,11 @@ title: 'Climate Impacts on Marine & Estuarine Ecosystems'
 - Increased seagrass production
 - Increased production and biomass of epiphytic algae on seagrass leaves
 - Increased competition (seagrass and algae)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about impacts and adaptation strategies for conservation assets and habitats in marine and estuarine ecosystems.](/habitats/marine)
+
+[Learn about climate-related impacts to terrestrial ecosystems in Florida.](/impacts/habitats/terrestrial)

@@ -5,7 +5,11 @@ title: 'Education'
 
 # Education and Outreach
 
-Strategies for education and outreach can include:
+<!-- https://www.flickr.com/photos/bigcypressnps/31662824635/ -->
+
+![2016 Swamp Heritage Festival, Big Cypress National Preserve](31662824635_40face4e48_k.jpg 'Photo: NPS')
+
+### Strategies for education and outreach can include:
 
 - Develop training on the use of existing and emerging tools for managing under uncertainty (e.g., vulnerability and risk assessments, scenario planning, decision support tools, and adaptive management).
 - Develop training materials to help managers and decision makers apply climate knowledge to the administration of existing natural resource and environmental laws and policies.

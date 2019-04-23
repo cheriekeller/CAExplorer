@@ -5,7 +5,13 @@ title: Impacts
 
 # Impacts of a Changing Climate
 
-Changes in environmental conditions are one of the main drivers of changes in biodiversity. It will impact biodiversity at multiple scales, ranging from an individual to a population, community, and ecosystem. In addition to the ways the climate may change, such as temperature, precipitation, and storm events, the rate of climate change may be the most important feature in terms of the impacts to biodiversity. This is particularly true for those species, populations, and communities that will not be able to keep pace with the rate of change. Even under the most modest climate change scenario, potential impacts on biodiversity will increase through most of this century.
+<!-- https://www.flickr.com/photos/bigcypressnps/31047005190/ -->
+
+![Big Cypress National Preserve](31047005190_6a47a6cd23_k.jpg 'Photo: NPS.')
+
+Changes in environmental conditions are one of the main drivers of changes in biodiversity. It will impact biodiversity at multiple scales, ranging from an individual to a population, community, and ecosystem.
+
+In addition to the ways the climate may change, such as temperature, precipitation, and storm events, the rate of climate change may be the most important feature in terms of the impacts to biodiversity. This is particularly true for those species, populations, and communities that will not be able to keep pace with the rate of change. Even under the most modest climate change scenario, potential impacts on biodiversity will increase through most of this century.
 
 <div class="float-right thumbnail-large">
 <img src="9101475502_b8dedd96a6_k.jpg" alt="Pinelands sunrise" />

@@ -6,7 +6,9 @@ title: 'Climate Impacts on Coastal Ecosystems'
 <content-header icon="coastal_ecosystems" title="Climate Impacts on Florida's Coastal Ecosystems">
 </content-header>
 
-![Coastal Ecosystems](1600.jpg 'Photo: NPS.')
+<!-- https://www.flickr.com/photos/evergladesnps/9247270199/ -->
+
+![Coastal Ecosystems](9247270199_761d54c557_k.jpg 'Photo: NPS.')
 
 #### Impacts of Sea Level Rise:
 
@@ -114,3 +116,11 @@ title: 'Climate Impacts on Coastal Ecosystems'
 - Increased erosion
 - Altered patterns sediment build-up
 - Loss of sediment due to decreased runoff driven sedimentation rates
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about impacts and adaptation strategies for conservation assets and habitats in coastal ecosystems.](/habitats/coastal)
+
+[Learn about climate-related impacts to freshwater ecosystems in Florida.](/impacts/habitats/freshwater)

@@ -5,9 +5,11 @@ title: 'Altered Species Fitness, Survival, and Risk of Extinction'
 
 <content-header icon="rodents" title="Altered Species Fitness, Survival, and Risk of Extinction"></content-header>
 
-Temperature and moisture availability are predicted to change, which can directly or indirectly affect species. As temperature or moisture variables reach or exceed species’ tolerance levels, species may have reduced reproductive success, recruitment, and lifespan. Increased levels of stress may cause some species to be more susceptible to disease and pests. Increased mortality may occur in sensitive species or in areas experiencing more extreme climatic changes.
+<!-- https://www.flickr.com/photos/evergladesnps/9101523443/ -->
 
-![Florida Keys mole skink](120.jpg 'Florida Keys mole skink.  Photo: FWC.')
+![Alligator remains](9101523443_8a3b59506e_k.jpg 'Photo: NPS.')
+
+Temperature and moisture availability are predicted to change, which can directly or indirectly affect species. As temperature or moisture variables reach or exceed species’ tolerance levels, species may have reduced reproductive success, recruitment, and lifespan. Increased levels of stress may cause some species to be more susceptible to disease and pests. Increased mortality may occur in sensitive species or in areas experiencing more extreme climatic changes.
 
 Species that have limited ranges or dispersal ability, specialized habitat requirements, small populations and/or low genetic diversity are typically the most vulnerable to extinction. As environmental conditions change, these species may not be able to adapt and survive. Species with extensive ranges, long-range dispersal mechanisms, large populations and high genetic diversity are less likely to be at risk of extinction in a changing climate.
 
@@ -86,3 +88,9 @@ Species that have limited ranges or dispersal ability, specialized habitat requi
 - Reduced reproductive success
 - Increased mortality (events) in corals and shell-forming organisms
 - Decreased growth due to reallocation of resources to maintain calcification
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about altered phenology and physiology from changes in climate in Florida.](/impacts/species/altered-phenology)

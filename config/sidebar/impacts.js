@@ -25,7 +25,7 @@ export const impacts = [
       },
       {
         path: '/impacts/climate101/co2',
-        label: 'Increasing Atmospheric Carbon Dioxide',
+        label: 'Changes in Air and Water Chemistry',
         icon: 'air_co2_change',
       },
       {

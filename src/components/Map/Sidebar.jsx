@@ -135,9 +135,6 @@ const Sidebar = ({ name, path, area, slr1m, slr3m }) => {
           <HelpText style={{ marginTop: '2rem' }}>
             Sea level rise projections were produced by the University of
             Florida Geoplan Center.
-            <br />
-            <br />
-            TODO: more information and crosslinks to modeled habitat in CPA?
           </HelpText>
         </Content>
       </Flex>

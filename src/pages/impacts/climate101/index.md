@@ -5,13 +5,13 @@ title: Climate 101
 
 <content-header icon="climate_101" title="Climate 101"></content-header>
 
-In recent decades, changes in the global climate impacted natural and human systems on all continents and across the oceans. Evidence of impacts from climate-change is strongest and most comprehensive for natural systems.
+In recent decades, changes in the global climate impacted natural and human systems on all continents and across the oceans. Evidence of impacts from climate change is strongest and most comprehensive for natural systems.
 
 <!-- https://www.flickr.com/photos/evergladesnps/9257922150/ -->
 
 ![Everglades sunrise](9257922150_7ff85e4a3f_k.jpg 'Photo: R. Cammauf, NPS.')
 
-The main changes expected for North America include:
+### The main changes expected for North America include:
 
 - [sea level rise](/impacts/climate101/slr)
 - [rising temperatures](/impacts/climate101/temperature)
@@ -22,15 +22,15 @@ Increased knowledge of the risks of climate change can be a starting point for u
 
 ## Climate vs. Weather
 
+**Weather** varies from hour to hour and from day to day. People generally think of weather as the combination of temperature, humidity, precipitation, cloudiness, visibility, and wind.
+
+**Climate** is defined as the average of weather over several decades or longer. Scientists study the Earth's climate in a very similar way to weather, but with an emphasis on longer time scales.
+
 <div class="float-right thumbnail-medium">
 <img src="9257940598_f11bb2f03b_z.jpg" alt="Everglades summer thunderstorm" />
 <figcaption>Everglades summer thunderstorm.  Photo: NPS.</figcaption>
 <!-- https://www.flickr.com/photos/evergladesnps/9257940598/ -->
 </div>
-
-**Weather** varies from hour to hour and from day to day. People generally think of weather as the combination of temperature, humidity, precipitation, cloudiness, visibility, and wind.
-
-**Climate** is defined as the average of weather over several decades or longer. Scientists study the Earth's climate in a very similar way to weather, but with an emphasis on longer time scales.
 
 While climate can be considered at local or regional scales, scientists also study the global climate, averaging climate across the planet. Components of Earth’s climate system include the atmosphere and oceans, the land, ice, and biosphere (plant and animal life), as well as cities and other parts of the "built environment“.
 
@@ -42,7 +42,7 @@ Most weather forecasts are based on models, which incorporate observations of ai
 
 Climate projections take a much longer-term view.  These projections try to answer questions like how much warmer will the Earth be 50 to 100 years from now? How much more precipitation will there be? How much will sea level rise? Climate projections are made using global climate models. Unlike weather forecast models, climate models are probabilistic, indicating areas with higher chances to be warmer or cooler and wetter or drier than usual. Climate models are based on global patterns in the ocean and atmosphere.
 
-[Learn more about climate models and how they are used to estimate changes in temperature and precipitation](/impacts/climate101/models).
+[Learn more about climate models and how they are used to estimate changes in temperature and precipitation.](/impacts/climate101/models)
 
 ## Increasing Carbon Dioxide in the Atmosphere
 
@@ -57,4 +57,10 @@ Carbon dioxide causes about 20% of the Earth’s greenhouse (warming) effect; ot
 
 The current concentration of carbon dioxide in the atmosphere is much higher than it has been at any other time, as far back as 400,000 years. Since 1970 carbon dioxide in the atmosphere has risen 24 percent. Carbon dioxide remains in the atmosphere for centuries so the impacts of emissions today will linger long into the future.
 
-[Learn more about how increased levels of carbon dioxide are affecting ecosystems](/impacts/climate101/co2).
+[Learn more about how increased levels of carbon dioxide are affecting ecosystems.](/impacts/climate101/co2)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about Sea Level Rise.](/impacts/climate101/slr)

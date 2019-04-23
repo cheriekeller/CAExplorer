@@ -5,6 +5,10 @@ title: 'Altered Habitat Suitability'
 
 <content-header icon="perching_birds" title="Altered Habitat Suitability"></content-header>
 
+<!-- https://www.flickr.com/photos/evergladesnps/9099299989/ -->
+
+![Anhinga feeding young](9099299989_549b81965c_k.jpg 'Anhinga feeding young. Photo NPS.')
+
 The suitability of habitat may shift, as vegetative composition and other key environmental variables respond to climate change. Species distributions are influenced through species-specific temperature and precipitation thresholds and, as these thresholds are crossed, species will need to change their movement patterns, shift their ranges, or disperse further distances to reach suitable habitat as they are forced to move away from unsuitable habitat conditions. These changes may lead to habitat degradation, fragmentation or loss for some species. Of particular significance, the loss of a keystone species from a community can lead to the loss of habitat for many associated species.
 
 <div class="float-right thumbnail-large">
@@ -34,8 +38,6 @@ Although migratory species are adapted to adjust their behavior with annual chan
 - Loss of critical sources of freshwater sources
 - Reduction in the extent of occurrence of unique Florida Keys species
 - Reductions (or expansions) in species ranges and occurrences
-
-**TODO: species SLR barchart**
 
 #### Impacts of Salinity Shifts:
 
@@ -90,3 +92,9 @@ Although migratory species are adapted to adjust their behavior with annual chan
 
 - Habitat degradation
 - Habitat loss
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about altered species survival and risk of extinction from changes in climate in Florida.](/impacts/species/altered-survival)

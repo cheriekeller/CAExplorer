@@ -6,6 +6,10 @@ title: 'Climate Impacts on Ecosystems and Habitats'
 <content-header icon="marine_estuarine_ecosystems" title="Climate Impacts on Florida's Ecosystems and Habitats">
 </content-header>
 
+<!-- https://www.flickr.com/photos/bigcypressnps/31378970270/ -->
+
+![Sweetwater Strand, Big Cypress National Preserve](31378970270_f50e4e472a_k.jpg 'Sweetwater Strand, Big Cypress National Preserve.  Photo: NPS.')
+
 Florida’s unique landscape is one of the most rapidly changing and climate-vulnerable within the United States. It is extremely vulnerable to sea level rise and impacts from severe storms due to low elevation, geographic location, and landscape configuration. Many habitats and species are highly sensitive to changes in temperature and precipitation.
 
 Florida’s ecosystems and habitats will be impacted by the major climatic shifts Florida is likely to experience including sea level rise, changes in precipitation, changes in air temperature, changes in extreme events, and changes in carbon dioxide (CO2) concentration.
@@ -81,3 +85,9 @@ Conservation Assets (formerly known as Priority Resources) were identified by th
 - [Mangrove Swamp](/habitats/marine/5250)
 - [Coral Reef and Hardbottom](/habitats/marine/6100)
 - [Seagrass](/habitats/marine/6200)
+
+<hr class="divider" />
+
+### What's next?
+
+[Learn about climate-related impacts to coastal ecosystems in Florida.](/impacts/habitats/coastal)
