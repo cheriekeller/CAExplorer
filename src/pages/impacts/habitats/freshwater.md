@@ -71,7 +71,7 @@ title: 'Climate Impacts on Freshwater Ecosystems'
 - Decreased connectivity of 1st and 2nd order streams to main channel
 - Reduced river stage and flows in panhandle affecting freshwater mussel beds
 - Loss of herbaceous aquatic vegetation as hardwood and pine encroaches into wetlands
-- Lake bottom drying allow for burning of land bed stimulates desirable aquatic plants (potentially beneficial change)
+- Lake bottom drying allows for burning of land bed stimulates desirable aquatic plants (potentially beneficial change)
 
 #### Impacts of Changes in Timing of Precipitation:
 
@@ -81,7 +81,7 @@ title: 'Climate Impacts on Freshwater Ecosystems'
 
 #### Impacts of Changes in Frequency and Severity of Extreme Events:
 
-- Altered habitat type/composition of wetland communities due wind damage
+- Altered habitat type/composition of wetland communities due to wind damage
 - Increased erosion, sediment transport and runoff into freshwater systems
 - Increased spread of exotic or invasive species
 - Increased levels of particulate and dissolved substances (nitrates, ammonia)

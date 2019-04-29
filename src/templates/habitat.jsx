@@ -237,7 +237,7 @@ const HabitatTemplate = ({
         </p>
       </Section>
 
-      {maxVulnerability && (
+      {maxVulnerability > 0 && (
         <Section>
           <SectionHeader>Vulnerability Assessment Details</SectionHeader>
           <p>
