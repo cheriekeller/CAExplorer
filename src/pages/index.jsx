@@ -108,14 +108,18 @@ const IndexPage = ({ data: { headerImage, photo } }) => (
       <PullQuote>
         Fish, wildlife and plants provide jobs, food, clean water, storm
         protection, health benefits and many other important ecosystems services
-        that support people, communities and economics across the nation every
+        that support people, communities and economies across the nation every
         day. The observed changes in the climate are already impacting these
         valuable resources and systems. These impacts are expected to increase
         with continued changes in the planet’s climate system. Action is needed
         now to help safeguard these natural resources and the communities and
         economies that depend on them.
         <br />
-        -- NFWPCAS 2012
+        --{' '}
+        <Link to="/strategies/resources#WAS">
+          National fish, wildlife, and plants climate adaptation strategy
+        </Link>{' '}
+        (2012)
       </PullQuote>
 
       <p>
@@ -177,7 +181,7 @@ const IndexPage = ({ data: { headerImage, photo } }) => (
                 Florida&apos;s species.
               </b>
               <br />
-              Nearly one quarter of the approximately 1,200 species tracked by
+              Nearly one-quarter of the approximately 1,200 species tracked by
               the Florida Natural Areas Inventory are projected to have at least
               50% of their range lost to a sea level rise of 1 m. Several
               keystone species are particularly vulnerable to the impacts of

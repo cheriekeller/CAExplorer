@@ -17,7 +17,7 @@ Reduced availability and opportunity could have a significant impact on Floridia
 
 The availability of healthy and safe resources such as clean ground and surface water, and a disease-free environment may be impacted by climate change. In the future, there may be increased competition for limited freshwater resources between humans and wildlife. This limitation could be caused by and/or contribute to a reduction in healthy ground surface water supplies. Changes in precipitation and storm events (e.g., floods) could increase the number and severity of contaminated wellfields.
 
-There may be some positive consequences to climate related changes. Precipitation changes may provide increased opportunities for waterfowl hunting, improved sportfish populations, and improved angler harvest.
+There may be some positive consequences to climate-related changes. Precipitation changes may provide increased opportunities for waterfowl hunting, improved sportfish populations, and improved angler harvest.
 
 ## Economic Impacts
 

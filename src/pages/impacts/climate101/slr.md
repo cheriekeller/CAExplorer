@@ -9,7 +9,7 @@ title: Sea Level Rise
 
 ![Rock Reef Pass, Florida](9103294900_14b0b6a1d9_k.jpg 'Photo: G.Gardner, NPS.')
 
-Oceanic warming and sea level rise are expected as a result of rising green house gas (GHG) levels and temperatures. Ocean warming is projected to be most pronounced in the surface waters of tropical and Northern Hemisphere subtropical regions. Estimates of ocean warming by the end of the 21st century are 0.6°C (RCP2.6) to 2.0°C (RCP8.5) for the top one hundred meters (IPCC 2014).
+Oceanic warming and sea level rise are expected as a result of rising greenhouse gas (GHG) levels and temperatures. Ocean warming is projected to be most pronounced in the surface waters of tropical and Northern Hemisphere subtropical regions. Estimates of ocean warming by the end of the 21st century are 0.6°C (RCP2.6) to 2.0°C (RCP8.5) for the top one hundred meters (IPCC 2014).
 
 ![Sea level rise chart](sea-level-rise-chart.png)
 

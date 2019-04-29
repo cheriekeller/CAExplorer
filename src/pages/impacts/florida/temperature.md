@@ -98,10 +98,8 @@ By mid- to late-century most of Florida will experience an increase of more than
 
 By mid- to late-century the Florida panhandle and northern peninsula will experience a decrease in the number of days with minimum temperatures below 32˚F under a high emission scenario. This could lead to a northward of expansion of both native and exotic species of plants and animals.
 
-![Days below 32 degrees graphic](days-below-32.png 'Figure 2: Number of days with temperature below 32˚F.')
-
 <figcaption>
-Figure 3: Number of days below 32˚F.  Graphic derived on the PINEMAP DSS site. 
+Figure 2: Number of days below 32˚F.  Graphic derived on the PINEMAP DSS site. 
 <a href="http://www.nc-climate.ncsu.edu/pinemap/index.php"target="_blank" rel="noopener noreferrer">http://www.nc-climate.ncsu.edu/pinemap/index.php</a>
 </figcaption>
 
