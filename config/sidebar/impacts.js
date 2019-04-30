@@ -80,7 +80,7 @@ export const impacts = [
   },
   {
     path: '/impacts/species',
-    label: "Florida's Species",
+    label: "Impacts on Florida's Species",
     icon: 'shorebirds',
     children: [
       {
@@ -117,7 +117,7 @@ export const impacts = [
   },
   {
     path: '/impacts/habitats',
-    label: "Florida's Ecosystems and Habitats",
+    label: "Impacts on Florida's Ecosystems and Habitats",
     icon: 'marine_estuarine_ecosystems',
     children: [
       {

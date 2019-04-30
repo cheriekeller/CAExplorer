@@ -26,6 +26,11 @@ const Content = styled.div`
     font-weight: bold;
     font-size: smaller;
     margin-bottom: 3rem;
+    text-align: right;
+
+    &.left {
+      text-align: left;
+    }
   }
 
   hr {

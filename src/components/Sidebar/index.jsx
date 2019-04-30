@@ -191,7 +191,7 @@ const ExpandableLink = ({
         <Expander>
           <>
             {isExpanded ? <CaretDown /> : <CaretRight />}
-            {icon ? <StyledIcon name={icon} size="1.5em" /> : null}
+            {icon ? <StyledIcon name={icon} size="2em" /> : null}
           </>
         </Expander>
 
@@ -221,7 +221,7 @@ const ExpandableLabel = ({ label, icon, children, isActive = false }) => {
         <Expander onClick={() => setExpanded(!isExpanded)}>
           <>
             {isExpanded ? <CaretDown /> : <CaretRight />}
-            {icon ? <StyledIcon name={icon} size="1.5em" /> : null}
+            {icon ? <StyledIcon name={icon} size="2em" /> : null}
           </>
         </Expander>
 
@@ -266,7 +266,7 @@ const ItemList = ({ items }) => (
             <Flex alignItems="center">
               {icon ? (
                 <HoverContainer>
-                  <StyledIcon name={icon} size="1.5em" />
+                  <StyledIcon name={icon} size="2em" />
                 </HoverContainer>
               ) : null}
               {isActive ? (

@@ -38,7 +38,9 @@ Impacts caused by changes in water and soil salinity will vary based on ecosyste
 
 When considering the impact of SLR, there will likely be a shift in the natural community structure before being completely lost. With loss of habitat, the impact to species will vary but in some cases will be extreme.
 
-![SLR chart by Conservation Asset](slr-chart.png 'Figure 1: Percent inundation of coastal and terrestrial conservation assets by 1 and 3 meters sea level rise.')
+![SLR chart by Conservation Asset](slr-chart.png)
+
+<figcaption class="left">Figure 1: Percent inundation of coastal and terrestrial conservation assets by 1 and 3 meters sea level rise.</figcaption>
 
 <hr class="divider"/>
 

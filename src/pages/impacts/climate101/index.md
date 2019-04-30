@@ -38,9 +38,9 @@ Scientists study climate to look for trends or cycles of variability, such as th
 
 ## Forecasts vs. Projections
 
-Most weather forecasts are based on models, which incorporate observations of air pressure, temperature, humidity and winds to produce the best estimate of current and near-term future conditions in the atmosphere. Forecasts answer questions such as “What will the temperature be like this week?”, “Will it rain tomorrow?”, “How much rain will we have?”. The accuracy of weather forecasts depends on both the model and on the forecaster's skill. Seasonal forecasts, tend to use statistical relationships between large-scale climate signals such as El Niño and La Niña and precipitation and temperature to predict what the weather will be like in one to six months time.
+Most **weather forecasts** are based on models, which incorporate observations of air pressure, temperature, humidity and winds to produce the best estimate of current and near-term future conditions in the atmosphere. Forecasts answer questions such as "What will the temperature be like this week?", "Will it rain tomorrow?", "How much rain will we have?" The accuracy of weather forecasts depends on both the model and on the forecaster's skill. Seasonal forecasts tend to use statistical relationships between large-scale climate signals such as El Niño and La Niña and precipitation and temperature to predict what the weather will be like in one to six months time.
 
-Climate projections take a much longer-term view.  These projections try to answer questions like how much warmer will the Earth be 50 to 100 years from now? How much more precipitation will there be? How much will sea level rise? Climate projections are made using global climate models. Unlike weather forecast models, climate models are probabilistic, indicating areas with higher chances to be warmer or cooler and wetter or drier than usual. Climate models are based on global patterns in the ocean and atmosphere.
+**Climate projections** take a much longer-term view.  These projections try to answer questions like "how much warmer will the Earth be 50 to 100 years from now?", "How much more precipitation will there be?", "How much will sea level rise?" Climate projections are made using global climate models. Unlike weather forecast models, climate models are probabilistic, indicating areas with higher chances to be warmer or cooler and wetter or drier than usual. Climate models are based on global patterns in the ocean and atmosphere.
 
 [Learn more about climate models and how they are used to estimate changes in temperature and precipitation.](/impacts/climate101/models)
 
@@ -48,7 +48,7 @@ Climate projections take a much longer-term view.  These projections try to ans
 
 <div class="float-right thumbnail-medium">
 <img src="co2-chart1.png" alt="Everglades summer thunderstorm" />
-<figcaption>CO2 levels during the last three glacial cycles, as reconstructed from ice cores.</figcaption>
+<figcaption class="left">CO2 levels during the last three glacial cycles, as reconstructed from ice cores.</figcaption>
 </div>
 
 One of the leading causes of climate change is increasing levels of atmospheric carbon dioxide (CO2). Carbon dioxide is a heat-trapping gas, which is released through natural processes such as respiration and volcanic eruptions, as well as through human activities such as deforestation and burning fossil fuels.

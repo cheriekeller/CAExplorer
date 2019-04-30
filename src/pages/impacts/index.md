@@ -22,8 +22,8 @@ The ability of species and communities to adapt to climate change will be furthe
 
 ## Learn More
 
-To learn more about major climate changes to climate and background on climate change modeling, please see [Climate 101](/impacts/climate101). This background is a useful starting point for understanding the opportunities for possible solutions.
+For an overview of climate science and climate change modeling, please see [Climate 101](/impacts/climate101). Several sections of this Explorer can serve as a useful starting point to learn more about potential climate change impacts in Florida and on Florida species and habitats.
 
-Learn more about how climate change is impacting [Florida in general](/impacts/florida), [Florida species](/impacts/species), and [Florida Habitats](/impacts/habitats).
+Learn more about how climate change is impacting [Florida in general](/impacts/florida), [Florida species](/impacts/species), and [Florida Habitats](/impacts/habitats). Learn about how climate change interacts with [existing stressors](/impacts/existing-stressors) to further impact species and habitats.
 
 You can also learn how species and habitats are assessed for [vulnerability to climate change](/impacts/vulnerability).

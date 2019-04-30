@@ -15,7 +15,7 @@ The predictive capability of any model will rely somewhat on the size of the gri
 
 ![Climate Model Resolution Chart](models-chart1.png)
 
-<figcaption>Figure 1: Resolution of the climate models presented in the first four IPCC reports.  National Academy of Sciences. 2012. Climate Modeling 101. 
+<figcaption class="left">Figure 1: Resolution of the climate models presented in the first four IPCC reports.  National Academy of Sciences. 2012. Climate Modeling 101. 
 <a href="http://nas-sites.org/climate-change/climatemodeling/page_3_2.php" target="_blank" rel="noopener noreferrer">http://nas-sites.org/climate-change/climatemodeling/page_3_2.php</a></figcaption>
 
 ## Carbon Dioxide Emission Models
@@ -28,7 +28,7 @@ The Intergovernmental Panel on Climate Change (IPCC) is an international body fo
 
 ![Emission Model Scenarios](models-chart2.png)
 
-<figcaption>
+<figcaption class="left">
 Figure 2: (a) Emissions of carbon dioxide (CO2) alone in the Representative Concentration Pathways (RCPs) (lines) and the associated scenario categories used in WGIII (coloured areas show 5 to 95% range). The WGIII scenario categories summarize the wide range of emission scenarios published in the scientific literature and are defined on the basis of CO2-eq concentration levels (in ppm) in 2100.  IPCC AR5. 2014. Summary for Policymakers Synthesis Report. Page 9, Figure SPM.5.  
 <a href="https://www.ipcc.ch/pdf/assessment-report/ar5/syr/SYR_AR5_FINAL_full.pdf" target="_blank" rel="noopener noreferrer">https://www.ipcc.ch/pdf/assessment-report/ar5/syr/SYR_AR5_FINAL_full.pdf</a>
 </figcaption>

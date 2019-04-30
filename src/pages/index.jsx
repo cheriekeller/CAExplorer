@@ -17,6 +17,10 @@ import CBILogo from '../images/cbi_logo.png'
 import FWCLogo from '../images/fwc_logo.png'
 import PFLCCLogo from '../images/pflcc_logo.png'
 
+const Title = styled.h1`
+  margin-top: 2rem;
+`
+
 const PullQuote = styled.p`
   margin: 3rem 2rem 0;
   color: ${themeGet('colors.grey.800')};
@@ -104,7 +108,9 @@ const IndexPage = ({ data: { headerImage, photo } }) => (
     />
 
     <Container mx={[2, 2, 4, 'auto']}>
-      <h1>Florida&apos;s unique wildlife are at risk from climate change.</h1>
+      <Title>
+        Florida&apos;s unique wildlife are at risk from climate change.
+      </Title>
       <PullQuote>
         Fish, wildlife and plants provide jobs, food, clean water, storm
         protection, health benefits and many other important ecosystems services
@@ -288,11 +294,10 @@ const IndexPage = ({ data: { headerImage, photo } }) => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            Climate Change Impacts on Florida&apos;s Biodiversity and
-            Ecology&quot; chapter in &quot;Florida’s Climate: Changes,
-            Variations and Impacts
+            Climate Change Impacts on Florida&apos;s Biodiversity and Ecology
           </a>{' '}
-          (Florida Climate Institute, 2017)
+          chapter in &quot;Florida’s Climate: Changes, Variations and Impacts
+          (Florida Climate Institute, 2017).&quot;
         </p>
         <p>
           This application was created by{' '}
@@ -305,12 +310,9 @@ const IndexPage = ({ data: { headerImage, photo } }) => (
             Conservation Biology Institute
           </a>
           &nbsp; (CBI) in partnership with{' '}
-          <a href="mailto:beth.stys@myfwc.com">Beth Stys</a>,{' '}
-          <a href="mailto:Lily.SwanbrowBecker@myfwc.com">
-            Lily Swanbrow Becker
-          </a>
-          , and <a href="mailto:Cherie.Keller@myfwc.com">Cherie Keller</a> with
-          the{' '}
+          <a href="mailto:beth.stys@myfwc.com">Beth Stys</a>, Lily Swanbrow
+          Becker, and <a href="mailto:Cherie.Keller@myfwc.com">Cherie Keller</a>{' '}
+          with the{' '}
           <a
             href="http://peninsularfloridalcc.org/"
             target="_blank"

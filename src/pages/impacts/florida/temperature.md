@@ -92,13 +92,15 @@ Changes such as the number of extremely hot days or fewer days with below freezi
 
 By mid- to late-century most of Florida will experience an increase of more than 40 additional days with temperatures over 95˚F.
 
-![Days above 95 degrees graphic](days-above-95.png 'Figure 1: Number of days with temperature above 95˚F.')
+![Days above 95 degrees graphic](days-above-95.png)
+
+<figcaption class="left">Figure 1: Number of days with temperature above 95˚F.</figcaption>
 
 ### Fewer Cold Days
 
 By mid- to late-century the Florida panhandle and northern peninsula will experience a decrease in the number of days with minimum temperatures below 32˚F under a high emission scenario. This could lead to a northward of expansion of both native and exotic species of plants and animals.
 
-<figcaption>
+<figcaption class="left">
 Figure 2: Number of days below 32˚F.  Graphic derived on the PINEMAP DSS site. 
 <a href="http://www.nc-climate.ncsu.edu/pinemap/index.php"target="_blank" rel="noopener noreferrer">http://www.nc-climate.ncsu.edu/pinemap/index.php</a>
 </figcaption>
