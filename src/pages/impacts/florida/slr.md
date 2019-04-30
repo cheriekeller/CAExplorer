@@ -9,9 +9,9 @@ title: Sea Level Rise
 <img src="reef.png" alt="Coral reefs" />
 </div>
 
-One of the most direct and pronounced changes due to global climatic change is sea level rise (SLR). Easily modeled and quantified at multiple scales, SLR is commonly used as a landscape level example of climate change. Inundation by increasing sea levels will have variable impacts on ecosystems, depending on various factors including elevation, species composition (salt tolerance), inland migration pathways, and extent.
+Sea level rise (SLR) will not impact the coastal areas of Florida to the same degree. Multiple variables will influence the type of changes and impacts, including location, coastline complexity, elevation, habitat type, and the presence of barriers to inland migration.
 
-While SLR is not technically a climatic change itself (rather a result of major climatic changes), it is associated with specific measurable shifts that result in ecological impacts in much the same way as the other climatic changes described. It is too simplistic to treat SLR as purely a habitat loss or inundation, as some land cover types may expand or shift up inland in the face of SLR. Some habitat and community shifts are likely to occur, especially with a more modest rise in sea levels. However, as the rate of SLR increases, open water will become more prominent as other habitats diminish.
+Across Florida, sea levels are expected to rise by 0.25 - 0.34 meters by 2080. However, this amount varies for different areas within the state. For example, Key West is expected to experience 0.31 meters SLR by 2080, whereas St. Petersburg is expected to have 0.35 meters, Pensacola is expected to have 0.34 meters, and Fernandina is expected to have 0.25 meters within that same timeframe.
 
 <div class="float-right thumbnail-medium">
 <img src="fl_slr.png" alt="Sea level rise in Florida" width="600px"/>
@@ -19,8 +19,6 @@ While SLR is not technically a climatic change itself (rather a result of major 
 Sea level rise is often modeled in defined increments such as feet or meters. This tool includes an analysis of impacts of SLR at 1 and 3 meters.
 
 [Explore interactive sea level rise map.](slr_map)
-
-Sea level rise will not impact the coastal areas of Florida to the same degree. Multiple variables will influence the type of changes and impacts, including location, coastline complexity, elevation, habitat type, and the presence of barriers to inland migration.
 
 <div class="clear"></div>
 
