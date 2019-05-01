@@ -45,3 +45,5 @@ The primary existing threats to Florida’s species and habits that are expected
 ### What's next?
 
 [Learn about interactions between climate change and habitat loss in Florida.](/impacts/existing-stressors/habitat-loss)
+
+[Learn about adaptation strategies for existing stressors](/strategies/crosscutting/existing).

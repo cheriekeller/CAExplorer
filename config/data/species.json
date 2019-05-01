@@ -25,6 +25,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 71101.5,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Moderately vulnerable",
@@ -74,6 +75,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 3658.5,
     "ccva": "SIVVA, GCVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -122,6 +124,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/930923b.pdf"
       }
     ],
+    "protectedArea": 363.0,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -171,6 +174,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 3968.8,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Highly to Extremely vulnerable",
@@ -219,6 +223,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 130321.6,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -268,6 +273,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 92192.9,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -312,6 +318,7 @@
         "url": "http://legacy.myfwc.com/bba/docs/bba_blra.pdf"
       }
     ],
+    "protectedArea": 132407.2,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -360,6 +367,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 6975.7,
     "ccva": "SIVVA, GCVA",
     "ccvi": null,
     "sivva": "Moderately to Highly vulnerable",
@@ -404,6 +412,7 @@
         "url": "http://legacy.myfwc.com/bba/docs/bba_BWVI.pdf"
       }
     ],
+    "protectedArea": 196195.7,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -451,6 +460,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 50061.9,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -489,6 +499,7 @@
       ]
     },
     "resources": [],
+    "protectedArea": 75.0,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -537,6 +548,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/870812.pdf"
       }
     ],
+    "protectedArea": 921.0,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -581,6 +593,7 @@
         "url": "http://legacy.myfwc.com/bba/docs/bba_COHA.pdf"
       }
     ],
+    "protectedArea": 884286.0,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -630,6 +643,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 5448.2,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -678,6 +692,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 1543605.3,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly to Moderately vulnerable",
@@ -726,6 +741,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 971656.5,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -769,6 +785,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/black-bear/"
       }
     ],
+    "protectedArea": 2717160.2000000002,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -817,6 +834,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 16299.5,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -866,6 +884,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 30970.9,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -915,6 +934,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 4819.9,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Highly vulnerable",
     "sivva": "Extremely vulnerable",
@@ -968,6 +988,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 2510.1,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -1017,6 +1038,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 138682.3,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1069,6 +1091,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 739348.4,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": "Extremely vulnerable",
@@ -1118,6 +1141,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 1152520.2,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1162,6 +1186,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-salt-marsh-vole/"
       }
     ],
+    "protectedArea": 12111.7,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -1210,6 +1235,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 278723.3,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1262,6 +1288,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 81704.7,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -1306,6 +1333,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/amphibians/frosted-flatwoods-salamander/"
       }
     ],
+    "protectedArea": 16439.0,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -1355,6 +1383,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 97905.8,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Highly vulnerable",
     "sivva": "Slightly vulnerable",
@@ -1400,6 +1429,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/gopher-tortoise/"
       }
     ],
+    "protectedArea": 1064532.2,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -1448,6 +1478,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/820701.pdf"
       }
     ],
+    "protectedArea": 38993.4,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1493,6 +1524,7 @@
         "url": "https://www.floridamuseum.ufl.edu/herpetology/fl-snakes/list/nerodia-clarkii-clarkii/"
       }
     ],
+    "protectedArea": 45331.6,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Highly vulnerable",
     "sivva": "Highly vulnerable",
@@ -1541,6 +1573,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 339773.1,
     "ccva": "CCVI",
     "ccvi": "Moderately vulnerable",
     "sivva": null,
@@ -1589,6 +1622,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 2165508.1000000001,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1634,6 +1668,7 @@
         "url": "http://legacy.myfwc.com/bba/docs/bba_sesp.pdf"
       }
     ],
+    "protectedArea": 1244.8,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -1682,6 +1717,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 5609.7,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1732,6 +1768,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 1477.9,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Extremely vulnerable",
@@ -1777,6 +1814,7 @@
         "url": "http://legacy.myfwc.com/bba/docs/bba_sesp.pdf"
       }
     ],
+    "protectedArea": 10448.0,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -1822,6 +1860,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Coccyzus_minor.pdf"
       }
     ],
+    "protectedArea": 177175.8,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Moderately vulnerable to Presumed stable",
     "sivva": "Highly vulnerable",
@@ -1866,6 +1905,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/birds/waterfowl/mottled-ducks/"
       }
     ],
+    "protectedArea": 906539.1,
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -1911,6 +1951,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/birds/songbirds/painted-bunting/"
       }
     ],
+    "protectedArea": 11282.5,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -1956,6 +1997,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/panama-city-crayfish/"
       }
     ],
+    "protectedArea": 13.5,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2005,6 +2047,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 44581.7,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2059,6 +2102,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 680987.9,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -2107,6 +2151,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 2165508.1000000001,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -2152,6 +2197,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/amphibians/reticulated-flatwoods-salamander/"
       }
     ],
+    "protectedArea": 16439.0,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Slightly vulnerable",
@@ -2201,6 +2247,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 11551.2,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -2249,6 +2296,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 2165508.1000000001,
     "ccva": "SIVVA, GCVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -2297,6 +2345,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 66797.7,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2346,6 +2395,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 468.5,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -2390,6 +2440,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Cordulegaster_sayi.pdf"
       }
     ],
+    "protectedArea": 1772.1,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2439,6 +2490,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 54717.5,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -2483,6 +2535,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Desmognathus_monticola.pdf"
       }
     ],
+    "protectedArea": 0.0,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2531,6 +2584,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 656210.2,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -2576,6 +2630,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Buteo_brachyurus.PDF"
       }
     ],
+    "protectedArea": 960539.4,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Moderately vulnerable (winter range)",
     "sivva": "Slightly vulnerable",
@@ -2625,6 +2680,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 91691.3,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2674,6 +2730,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 4083.3,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -2722,6 +2779,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 2165508.1000000001,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2733,15 +2791,15 @@
     "sivvaLink": null,
     "gcvaLink": null,
     "vulnerability": null,
-    "area": 4188603.6899999999,
-    "slr1m": 936709.29,
-    "slr3m": 1618721.6399999999,
+    "area": null,
+    "slr1m": null,
+    "slr3m": null,
     "photoCredit": "FWC",
     "photoUrl": null,
     "hasPhoto": true,
     "path": "/species/birds/157",
     "icon": "waterbirds",
-    "bounds": [-87.494, 24.483, -79.874, 31.022],
+    "bounds": null,
     "id": "157",
     "itemType": "species"
   },
@@ -2774,6 +2832,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 223510.0,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2819,6 +2878,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Myotis_austroriparius.pdf"
       }
     ],
+    "protectedArea": 373502.8,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2871,6 +2931,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 1477.4,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -2920,6 +2981,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": 1795200.7,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -2965,6 +3027,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Heterodon_simus.pdf"
       }
     ],
+    "protectedArea": 488341.7,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -3013,6 +3076,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/20110104_SABM_recov_plan_FINAL.pdf"
       }
     ],
+    "protectedArea": 776.8,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately to Highly vulnerable",
@@ -3061,6 +3125,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 1932.1,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -3106,6 +3171,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Notophthalmus_perstriatus.PDF"
       }
     ],
+    "protectedArea": 79829.3,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -3150,6 +3216,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/birds/raptors-and-vultures/swallow-tailed-kite/"
       }
     ],
+    "protectedArea": 1404198.8,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -3195,6 +3262,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Ambystoma_tigrinum.pdf"
       }
     ],
+    "protectedArea": 177079.4,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -3243,6 +3311,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 2165508.1000000001,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -3295,6 +3364,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 2165508.1000000001,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -3343,6 +3413,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 95193.3,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -3391,6 +3462,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": 2165508.1000000001,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -3436,6 +3508,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/birds/game-birds/wild-turkeys/"
       }
     ],
+    "protectedArea": 1009309.1,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -3480,6 +3553,7 @@
         "url": "https://myfwc.com/fishing/saltwater/recreational/blue-crab/"
       }
     ],
+    "protectedArea": null,
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -3523,6 +3597,7 @@
         "url": "https://myfwc.com/wildlifehabitats/nonnatives/reptiles/snakes/burmese-python/"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": null,
@@ -3568,6 +3643,7 @@
         "url": "http://legacy.myfwc.com/bba/docs/bba_clra.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI, GCVA",
     "ccvi": "Highly vulnerable",
     "sivva": null,
@@ -3613,6 +3689,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Malaclemys_terrapin.PDF"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Moderately vulnerable",
@@ -3657,6 +3734,7 @@
         "url": "https://myfwc.com/media/12470/51-eastern-oyster-2016.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -3702,6 +3780,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/florida-bonneted-bat/"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Moderately vulnerable to Presumed stable",
     "sivva": "Highly vulnerable",
@@ -3747,6 +3826,7 @@
         "url": "http://legacy.myfwc.com/bba/docs/bba_PRWA.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -3800,6 +3880,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -3843,6 +3924,7 @@
         "url": "https://myfwc.com/wildlifehabitats/nonnatives/mammals/rodents/gambian-pouched-rat/"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI",
     "ccvi": "Moderately vulnerable",
     "sivva": null,
@@ -3891,6 +3973,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -3940,6 +4023,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -3988,6 +4072,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4036,6 +4121,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4086,6 +4172,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -4125,6 +4212,7 @@
       ]
     },
     "resources": [],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -4174,6 +4262,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Highly vulnerable",
     "sivva": "Slightly vulnerable",
@@ -4224,6 +4313,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -4273,6 +4363,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Extremely vulnerable",
     "sivva": "Extremely vulnerable",
@@ -4318,6 +4409,7 @@
         "url": "https://www.allaboutbirds.org/guide/Clapper_Rail/overview"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -4363,6 +4455,7 @@
         "url": "http://www.fnai.org/FieldGuide/pdf/Malaclemys_terrapin.PDF"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4406,6 +4499,7 @@
         "url": "https://www.floridamuseum.ufl.edu/herpetology/fl-snakes/list/storeria-dekayi-limnetes/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -4451,6 +4545,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/land/marsh-rabbit/"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI",
     "ccvi": "Moderately vulnerable",
     "sivva": null,
@@ -4495,6 +4590,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/miami-blue-butterfly/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4542,6 +4638,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/970407.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -4591,6 +4688,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -4639,6 +4737,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/870812.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4682,6 +4781,7 @@
         "url": "http://ufdcimages.uflib.ufl.edu/IR/00/00/34/26/00001/UW31500.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": null,
@@ -4726,6 +4826,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/saltwater/drums/red-drum/"
       }
     ],
+    "protectedArea": null,
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -4770,6 +4871,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/mammals/aquatic/river-otter/"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": null,
@@ -4818,6 +4920,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -4865,6 +4968,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly to Moderately vulnerable",
@@ -4908,6 +5012,7 @@
         "url": "http://www.fishbase.se/summary/3863"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -4952,6 +5057,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/saltwater/drums/spotted-seatrout/"
       }
     ],
+    "protectedArea": null,
     "ccva": "GCVA",
     "ccvi": null,
     "sivva": null,
@@ -4997,6 +5103,7 @@
         "url": "http://ufwildlife.ifas.ufl.edu/frogs/squirreltreefrog.shtml"
       }
     ],
+    "protectedArea": null,
     "ccva": "CCVI, SIVVA",
     "ccvi": "Not vulnerable / Presumed stable",
     "sivva": "Slightly vulnerable",
@@ -5045,6 +5152,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/070604_v4.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -5090,6 +5198,7 @@
         "url": "http://legacy.myfwc.com/bba/docs/bba_WIPL.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA, GCVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -5139,6 +5248,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5182,6 +5292,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/reptiles/alligator/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5231,6 +5342,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5280,6 +5392,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5328,6 +5441,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5376,6 +5490,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5425,6 +5540,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5474,6 +5590,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -5521,6 +5638,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5569,6 +5687,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly to Moderately vulnerable",
@@ -5618,6 +5737,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5666,6 +5786,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5715,6 +5836,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -5762,6 +5884,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5810,6 +5933,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -5858,6 +5982,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -5906,6 +6031,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -5955,6 +6081,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -6003,6 +6130,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -6048,6 +6176,7 @@
         "url": "https://myfwc.com/wildlifehabitats/profiles/invertebrates/pillar-coral/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -6099,6 +6228,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -6148,6 +6278,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Highly vulnerable",
@@ -6197,6 +6328,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Moderately vulnerable",
@@ -6245,6 +6377,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -6293,6 +6426,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -6340,6 +6474,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": null,
     "ccvi": null,
     "sivva": null,
@@ -6388,6 +6523,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",
@@ -6440,6 +6576,7 @@
         "url": "https://ecos.fws.gov/docs/recovery_plan/sfl_msrp/SFL_MSRP_Species.pdf"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Extremely vulnerable",
@@ -6488,6 +6625,7 @@
         "url": "https://myfwc.com/wildlifehabitats/wildlife/plan/"
       }
     ],
+    "protectedArea": null,
     "ccva": "SIVVA",
     "ccvi": null,
     "sivva": "Slightly vulnerable",

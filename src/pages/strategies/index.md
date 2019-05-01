@@ -27,7 +27,7 @@ Developing adaptation strategies for natural systems requires an understanding o
 
 <br />
 
-[Learn more about how to create adaptation strategies](/strategies/guidelines).
+[Learn more about how to create adaptation strategies](/strategies/guidance).
 
 ---
 
