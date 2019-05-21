@@ -15,6 +15,10 @@ const Wrapper = styled(Flex).attrs({ flexDirection: 'column' })`
   height: 100%;
 `
 
+const PageContent = styled(Flex)`
+  height: 100%;
+`
+
 const SidebarToggle = styled.button`
   width: 2rem;
   height: 2rem;
@@ -73,12 +77,12 @@ const Layout = ({ children }) => {
           >
             {isSidebarOpen ? <FaTimes /> : <FaBars />}
           </SidebarToggle>
-          <Flex>
+          <PageContent>
             <Sidebar items={items} isOpen={isSidebarOpen} />
             <ContentContainer isOpen={!isSidebarOpen}>
               <Container px={3}>{children}</Container>
             </ContentContainer>
-          </Flex>
+          </PageContent>
           <MobileNavigation />
         </Wrapper>
       )}
