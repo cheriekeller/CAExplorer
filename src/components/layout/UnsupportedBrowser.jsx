@@ -4,6 +4,10 @@ import { FaExclamationTriangle } from 'react-icons/fa'
 
 import styled, { themeGet } from 'util/style'
 
+const Wrapper = styled(Container)`
+  overflow-y: auto;
+`
+
 const IconHeader = styled.h1`
   text-align: center;
 `
@@ -16,7 +20,7 @@ const StyledIcon = styled(FaExclamationTriangle)`
 `
 
 const WarningBox = styled(Box)`
-  margin-top: 6rem;
+  margin-top: 2rem;
   padding: 2rem;
   background-color: ${themeGet('colors.primary.900')};
 
@@ -26,7 +30,7 @@ const WarningBox = styled(Box)`
 `
 
 const UnsupportedBrowser = () => (
-  <Container>
+  <Wrapper>
     <WarningBox>
       <IconHeader>
         <StyledIcon />
@@ -40,7 +44,7 @@ const UnsupportedBrowser = () => (
         Edge.
       </h1>
     </WarningBox>
-  </Container>
+  </Wrapper>
 )
 
 export default UnsupportedBrowser
