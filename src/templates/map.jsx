@@ -4,15 +4,16 @@ import { graphql } from 'gatsby'
 
 import Layout from 'components/layout/Map'
 import SEO from 'components/SEO'
-import {Flex} from 'components/Grid'
+import { Flex } from 'components/Grid'
 import Map from 'components/Map'
 import MapSidebar from 'components/Map/Sidebar'
 import styled from 'util/style'
 
-const Wrapper = styled(Flex)`
+const Wrapper = styled(Flex).attrs({
+  flexDirection: ['column', 'row'],
+})`
   height: 100%;
 `
-
 
 const Template = ({
   data: {
@@ -36,15 +37,15 @@ const Template = ({
     <Layout>
       <SEO title={name} />
       <Wrapper>
-      <MapSidebar
-        id={id}
-        path={path}
-        name={name}
-        area={area}
-        slr1m={slr1m}
-        slr3m={slr3m}
-      />
-      <Map id={id} bounds={bounds} />
+        <MapSidebar
+          id={id}
+          path={path}
+          name={name}
+          area={area}
+          slr1m={slr1m}
+          slr3m={slr3m}
+        />
+        <Map id={id} bounds={bounds} />
       </Wrapper>
     </Layout>
   )

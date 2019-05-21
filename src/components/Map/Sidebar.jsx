@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Text } from 'rebass'
 import { FaReply } from 'react-icons/fa'
 
 import { Box, Flex } from 'components/Grid'
@@ -15,9 +14,9 @@ const DONUTWIDTH = 20
 const Wrapper = styled(Box).attrs({
   width: ['100%', '350px', '470px'],
   flex: '0 0 auto',
+  height: ['auto', '100%'],
 })`
   border-right: 1px solid ${themeGet('colors.grey.800')};
-  height: 100%;
 `
 
 const InnerWrapper = styled(Flex).attrs({
@@ -62,6 +61,11 @@ const Content = styled.div`
   svg {
     flex: 0 0 auto;
     margin-top: 1rem;
+  }
+
+/* hide content on mobile, it is redundant with profile page */
+  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+    display: none;
   }
 `
 
