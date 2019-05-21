@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Text } from 'rebass'
 import { FaReply } from 'react-icons/fa'
 
-import { Flex } from 'components/Grid'
+import { Box, Flex } from 'components/Grid'
 import styled, { theme, themeGet } from 'util/style'
 import { Link } from 'components/Link'
 import Donut from 'components/charts/Donut'
@@ -12,28 +12,21 @@ import HelpText from 'components/elements/HelpText'
 const DONUTSIZE = 130
 const DONUTWIDTH = 20
 
-const SidebarContainer = styled(Text)`
-  overflow-y: auto;
-  left: 0;
+const Wrapper = styled(Box).attrs({
+  width: ['100%', '350px', '470px'],
+  flex: '0 0 auto',
+})`
+  border-right: 1px solid ${themeGet('colors.grey.800')};
   height: 100%;
-  width: 100%;
-  padding: 0;
-  z-index: 999;
-  background: #fff;
+`
 
-  @media screen and (min-width: ${themeGet('breakpoints.0')}) {
-    position: fixed;
-    border-right: 1px solid #aaa;
-  }
-
-  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
-  }
+const InnerWrapper = styled(Flex).attrs({
+  flexDirection: 'column',
+  flex: '1 1 auto',
+})`
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
 `
 
 const BackLink = styled(Link)`
@@ -69,7 +62,6 @@ const Content = styled.div`
   svg {
     flex: 0 0 auto;
     margin-top: 1rem;
-    // margin-right: 1rem;
   }
 `
 
@@ -83,12 +75,8 @@ const Sidebar = ({ name, path, area, slr1m, slr3m }) => {
   const notImpactedPercent = 100 - slr3Percent // by definition, everything impacted by 3m was also impacted at 1m
 
   return (
-    <SidebarContainer
-      mt={['2rem', '2.5rem', '2.75rem']}
-      width={['100%', '12rem', '16rem', '18rem']}
-      isOpen
-    >
-      <Flex flexDirection="column" style={{ height: '100%' }}>
+    <Wrapper>
+      <InnerWrapper>
         <Header>
           <BackLink to={path.replace(/\/map$/g, '')}>
             <Flex alignItems="center">
@@ -137,8 +125,8 @@ const Sidebar = ({ name, path, area, slr1m, slr3m }) => {
             Florida Geoplan Center.
           </HelpText>
         </Content>
-      </Flex>
-    </SidebarContainer>
+      </InnerWrapper>
+    </Wrapper>
   )
 }
 

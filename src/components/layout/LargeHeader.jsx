@@ -29,18 +29,10 @@ const Subtitle = styled(Text)`
 `
 
 const Wrapper = styled.div`
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  right: 0;
+  flex: 0;
   background: ${themeGet('colors.primary.100')};
   border-bottom: 2px solid ${themeGet('colors.secondary.800')};
   padding: 0.5rem;
-
-  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
-    position: unset;
-  }
 
   a:hover {
     text-decoration: none;

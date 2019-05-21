@@ -34,19 +34,12 @@ if (hasWindow) {
 const [flWest, flSouth, flEast, flNorth] = FLORIDA_BOUNDS
 
 const Wrapper = styled(Box)`
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  position: relative;
+  flex: 1 0 auto;
 
   @media screen and (max-width: ${themeGet('breakpoints.0')}) {
     .leaflet-control-attribution {
       display: none;
-    }
-    .leaflet-bottom {
-      bottom: 3rem;
     }
   }
 
@@ -297,10 +290,7 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
   }, [])
 
   return (
-    <Wrapper
-      mt={['2rem', '2.5rem', '2.75rem']}
-      ml={[0, '12rem', '16rem', '18rem']}
-    >
+    <Wrapper>
       <div ref={mapNode} style={{ width: '100%', height: '100%' }} />
     </Wrapper>
   )

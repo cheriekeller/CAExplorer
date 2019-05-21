@@ -30,4 +30,7 @@ export const isUnsupported =
     /MSIE 10/i.test(navigator.userAgent) ||
     /Trident/i.test(navigator.userAgent))
 
-export default { scrollIntoView, hasWindow }
+export const rootPath = () => (hasWindow ? window.location.pathname.split('/')[1] : null)
+
+
+export default { scrollIntoView, hasWindow, rootPath }

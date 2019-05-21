@@ -11,6 +11,10 @@ import Header from './Header'
 import UnsupportedBrowser from './UnsupportedBrowser'
 import sidebarItems from '../../../config/sidebar'
 
+const Wrapper = styled(Flex).attrs({ flexDirection: 'column' })`
+  height: 100%;
+`
+
 const SidebarToggle = styled.button`
   width: 2rem;
   height: 2rem;
@@ -34,8 +38,10 @@ const SidebarToggle = styled.button`
   }
 `
 
-const ContentContainer = styled(Box)`
-  padding: 2rem 0 2rem 0;
+const ContentContainer = styled(Box).attrs({ py: '2rem;' })`
+  flex: 1 1 auto;
+  overflow: auto;
+  height: 100%;
   width: 100%;
 
   @media screen and (max-width: ${themeGet('breakpoints.0')}) {
@@ -59,25 +65,22 @@ const Layout = ({ children }) => {
       {isUnsupported ? (
         <UnsupportedBrowser />
       ) : (
-        <>
+        <Wrapper>
           <Header />
-          <Flex pt={[0, '2rem', '2.75rem']} flexWrap="wrap">
-            <SidebarToggle
-              isOpen={isSidebarOpen}
-              onClick={() => setSidebarOpen(!isSidebarOpen)}
-            >
-              {isSidebarOpen ? <FaTimes /> : <FaBars />}
-            </SidebarToggle>
+          <SidebarToggle
+            isOpen={isSidebarOpen}
+            onClick={() => setSidebarOpen(!isSidebarOpen)}
+          >
+            {isSidebarOpen ? <FaTimes /> : <FaBars />}
+          </SidebarToggle>
+          <Flex>
             <Sidebar items={items} isOpen={isSidebarOpen} />
-            <ContentContainer
-              isOpen={!isSidebarOpen}
-              pl={[0, '12rem', '16rem', '18rem']}
-            >
+            <ContentContainer isOpen={!isSidebarOpen}>
               <Container px={3}>{children}</Container>
             </ContentContainer>
           </Flex>
           <MobileNavigation />
-        </>
+        </Wrapper>
       )}
     </ThemeProvider>
   )
