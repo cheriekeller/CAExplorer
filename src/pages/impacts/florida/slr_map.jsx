@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from 'components/layout/Map'
+import Layout from 'components/layout/Basic'
 import SEO from 'components/SEO'
 import Map from 'components/Map'
 import { Flex } from 'components/Grid'

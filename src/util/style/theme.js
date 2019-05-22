@@ -1,10 +1,4 @@
-/**
- * This is our custom theme where we define global styles.
- * It should serve as a guideline for styling, but not all styles *have* to be taken from here.
- */
-// const breakpoints = ['40em', '52em', '64em']
-// breakpoints from Bulma:
-const breakpoints = ['769px', '1024px', '1216px']
+const breakpoints = ['480px', '640px', '960px', '1024px', '1216px']
 
 // palette: https://colorhunt.co/palette/7247
 // shades generated: http://www.0to255.com/2d4059
@@ -25,15 +19,6 @@ const colors = {
     700: '#97a1a7',
     800: '#5f6e78',
     900: '#374047',
-    // 100: 'hsl(210, 17%, 98%)',
-    // 200: 'hsl(207, 22%, 90%)',
-    // 300: 'hsl(210, 24%, 87%)',
-    // 400: 'hsl(208, 17%, 83%)',
-    // 500: 'hsl(209, 24%, 74%)',
-    // 600: 'hsl(215, 17%, 63%)',
-    // 700: 'hsl(214, 11%, 49%)',
-    // 800: 'hsl(215, 17%, 30%)',
-    // 900: 'hsl(215, 23%, 16%)',
   },
   primary: {
     100: '#d0dae7', // primary + 18

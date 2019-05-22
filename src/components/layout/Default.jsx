@@ -26,7 +26,7 @@ const SidebarToggle = styled.button`
   z-index: 2000;
   display: none;
   position: fixed;
-  bottom: 4rem;
+  bottom: 3rem;
   right: 1rem;
   border-radius: 2rem;
   box-shadow: 2px 2px 5px #000;
@@ -37,7 +37,7 @@ const SidebarToggle = styled.button`
   box-sizing: border-box;
   text-align: center;
 
-  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+  @media screen and (max-width: ${themeGet('breakpoints.1')}) {
     display: block;
   }
 `
@@ -48,7 +48,7 @@ const ContentContainer = styled(Box).attrs({ py: '2rem;' })`
   height: 100%;
   width: 100%;
 
-  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+  @media screen and (max-width: ${themeGet('breakpoints.1')}) {
     display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
   }
 `
@@ -71,6 +71,7 @@ const Layout = ({ children }) => {
       ) : (
         <Wrapper>
           <Header />
+
           <SidebarToggle
             isOpen={isSidebarOpen}
             onClick={() => setSidebarOpen(!isSidebarOpen)}
@@ -83,6 +84,7 @@ const Layout = ({ children }) => {
               <Container px={3}>{children}</Container>
             </ContentContainer>
           </PageContent>
+
           <MobileNavigation />
         </Wrapper>
       )}

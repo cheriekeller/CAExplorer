@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 import { Box, Flex } from 'components/Grid'
 import styled, { ThemeProvider, theme } from 'util/style'
+import MobileNavigation from './MobileNavigation'
 import Header from './Header'
 
 const Wrapper = styled(Flex).attrs({ flexDirection: 'column' })`
@@ -20,6 +21,7 @@ const Layout = ({ children }) => (
     <Wrapper>
       <Header />
       <ContentContainer>{children}</ContentContainer>
+      <MobileNavigation />
     </Wrapper>
   </ThemeProvider>
 )
