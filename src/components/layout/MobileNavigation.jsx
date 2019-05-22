@@ -14,6 +14,7 @@ const NavBar = styled(Box).attrs({
   fontSize: ['0.5rem', '0.75rem'],
 })`
   flex: 0;
+  min-height: 2rem;
   background: ${themeGet('colors.primary.100')};
   border-top: 2px solid ${themeGet('colors.secondary.800')};
 `

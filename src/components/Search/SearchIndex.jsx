@@ -14,7 +14,6 @@ const useIndex = () => {
   // Wrap setup of the index and query function in setState
   // to memoize it
   const [queryFunc, _] = useState(() => {
-    console.log('in callback')
     const searchIndex = Index.load(data.siteSearchIndex.index)
     const { documentStore } = searchIndex
     return query =>

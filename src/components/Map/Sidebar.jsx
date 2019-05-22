@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { FaReply } from 'react-icons/fa'
 
+import { Text } from 'components/Text'
 import { Box, Flex } from 'components/Grid'
 import styled, { theme, themeGet } from 'util/style'
 import { Link } from 'components/Link'
@@ -12,9 +13,9 @@ const DONUTSIZE = 130
 const DONUTWIDTH = 20
 
 const Wrapper = styled(Box).attrs({
-  width: ['0', '0', '12rem', '16rem', '18rem'],
+  width: ['100%', '100%', '12rem', '16rem', '18rem'],
   flex: '0 0 auto',
-  height: ['auto', '100%'],
+  height: ['auto', 'auto', '100%'],
 })`
   border-right: 1px solid ${themeGet('colors.grey.800')};
 `
@@ -43,9 +44,11 @@ const Header = styled.div`
   z-index: 1;
 `
 
-const Title = styled.h3`
-  margin: 0.5rem 0 0;
-`
+const Title = styled(Text).attrs({
+  as: 'h3',
+  mb: 0,
+  mt: [0, '0.25rem', '0.5rem'],
+})``
 
 const Subtitle = styled.h4`
   margin-bottom: 0;

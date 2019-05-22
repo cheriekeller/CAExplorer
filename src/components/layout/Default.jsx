@@ -7,6 +7,7 @@ import { isUnsupported } from 'util/dom'
 import { Box, Flex, Container } from 'components/Grid'
 import Sidebar from 'components/Sidebar'
 import MobileNavigation from './MobileNavigation'
+import {hasWindow} from 'util/dom'
 import Header from './Header'
 import UnsupportedBrowser from './UnsupportedBrowser'
 import sidebarItems from '../../../config/sidebar'
@@ -23,6 +24,7 @@ const PageContent = styled(Flex)`
 const SidebarToggle = styled.button`
   width: 2rem;
   height: 2rem;
+  padding: 0;
   line-height: 2.25;
   z-index: 2000;
   display: none;
@@ -53,9 +55,6 @@ const ContentContainer = styled(Box).attrs({ py: '2rem;' })`
     display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
   }
 `
-
-// make sure that window is available (not available in Gatsby build)
-const hasWindow = typeof window !== 'undefined' && window
 
 const Layout = ({ children }) => {
   const items = hasWindow
