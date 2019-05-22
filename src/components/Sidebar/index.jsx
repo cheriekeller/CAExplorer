@@ -15,6 +15,8 @@ import ItemList, { ItemsPropType } from './ItemList'
  * @param {Object} item - instance of ItemPropType
  */
 const setActiveItems = item => {
+  if (!hasWindow) return false
+
   const { path = null, children = null } = item
 
   // Note: even if path is not active, children may be active, so we need to recurse into everything
