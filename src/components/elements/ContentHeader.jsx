@@ -1,25 +1,29 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { Flex } from 'components/Grid'
+import { Text } from 'components/Text'
+import { Flex, Box } from 'components/Grid'
 import styled, { themeGet } from 'util/style'
 import Icon from './Icon'
 
-const Wrapper = styled.div`
-  margin-bottom: 2rem;
+const Wrapper = styled(Box).attrs({ mb: ['1rem', '1rem', '2rem'] })``
+
+const Title = styled(Text).attrs({
+  as: 'h1',
+  fontSize: ['1.5rem', '1.75rem', '2.15rem'],
+  m: 0,
+})`
+  line-height: 1;
 `
 
-const Title = styled.h1`
-  margin-top: -0.1em;
-  margin-bottom: 0 !important;
-`
-
-const Subtitle = styled.h3`
+const Subtitle = styled(Text).attrs({
+  as: 'h3',
+  fontSize: ['1rem', '1rem', '1.25rem'],
+  m: '0.1rem 0 0 0',
+})`
   color: ${themeGet('colors.primary.300')};
   font-weight: normal;
   font-style: italic;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
 `
 
 const StyledIcon = styled(Icon)`
@@ -28,6 +32,7 @@ const StyledIcon = styled(Icon)`
 
 const ContentHeader = ({ icon, title, subtitle }) => {
   const iconSize = subtitle ? '4em' : '3em'
+
   return (
     <Wrapper>
       <Flex alignItems="center">

@@ -3,11 +3,10 @@ import PropTypes from 'prop-types'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 import styled, { ThemeProvider, theme, themeGet } from 'util/style'
-import { isUnsupported } from 'util/dom'
+import { hasWindow, isUnsupported } from 'util/dom'
 import { Box, Flex, Container } from 'components/Grid'
 import Sidebar from 'components/Sidebar'
 import MobileNavigation from './MobileNavigation'
-import {hasWindow} from 'util/dom'
 import Header from './Header'
 import UnsupportedBrowser from './UnsupportedBrowser'
 import sidebarItems from '../../../config/sidebar'
@@ -45,7 +44,7 @@ const SidebarToggle = styled.button`
   }
 `
 
-const ContentContainer = styled(Box).attrs({ py: '2rem;' })`
+const ContentContainer = styled(Box).attrs({ py: ['1rem', '1rem', '2rem'] })`
   flex: 1 1 auto;
   overflow: auto;
   height: 100%;

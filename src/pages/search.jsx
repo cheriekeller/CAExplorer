@@ -10,6 +10,7 @@ import { Flex, Box, Container } from 'components/Grid'
 import Layout from 'components/layout/Basic'
 import SEO from 'components/SEO'
 import styled, { themeGet } from 'util/style'
+import { getViewportIndex } from 'util/dom'
 import { useIndex, SearchField } from 'components/Search'
 
 const Wrapper = styled(Container)`
@@ -74,7 +75,11 @@ const SearchPage = () => {
             <SearchField
               value={query}
               onChange={handleChange}
-              placeholder="Search the Climate Adaptation Explorer"
+              placeholder={
+                getViewportIndex() < 2
+                  ? 'Search...'
+                  : 'Search the Climate Adaptation Explorer'
+              }
             />
           </SearchFieldWrapper>
           {query && (

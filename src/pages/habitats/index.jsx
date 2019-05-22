@@ -13,6 +13,7 @@ import Icon from 'components/elements/Icon'
 import Donut from 'components/charts/Donut'
 import styled, { themeGet } from 'util/style'
 import { toggleSetItem } from 'util/set'
+import {H1} from 'templates/styles'
 
 import { VULNERABILITY, VULNERABILITY_COLORS } from '../../../config/constants'
 
@@ -35,6 +36,9 @@ const itemSort = (
   }
   return leftLevel < rightLevel ? 1 : -1
 }
+
+const Title = styled(H1).attrs({mb: '1rem'})``
+
 
 const Spacer = styled.div`
   width: 1rem;
@@ -172,7 +176,7 @@ const IndexPage = ({
   return (
     <Layout>
       <SEO title="Habitats" />
-      <h1>Climate Impacts and Adaptation Strategies for Florida Habitats</h1>
+      <Title>Climate Impacts and Adaptation Strategies for Florida Habitats</Title>
 
       <Img fluid={photo.childImageSharp.fluid} />
       <ImageCredits>

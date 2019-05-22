@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { Image } from 'rebass'
-import { FaQuestionCircle } from 'react-icons/fa'
 
+import { Text } from 'components/Text'
 import { Flex, Box, Container } from 'components/Grid'
 import { Link } from 'components/Link'
 import Layout from 'components/layout/Home'
@@ -17,21 +17,29 @@ import CBILogo from '../images/cbi_logo.png'
 import FWCLogo from '../images/fwc_logo.png'
 import PFLCCLogo from '../images/pflcc_logo.png'
 
-const Title = styled.h1`
+const Title = styled(Text).attrs({
+  as: 'h1',
+  fontSize: ['1.75rem', '1.75rem', '2.15rem'],
+})`
   margin-top: 2rem;
 `
 
-const PullQuote = styled.p`
+const PullQuote = styled(Text).attrs({
+  as: 'p',
+  fontSize: ['1em', '1em', '1.2em'],
+})`
   margin: 3rem 2rem 0;
   color: ${themeGet('colors.grey.800')};
-  font-size: 1.2em;
   font-style: italic;
 `
 
-const InvertedHeader = styled.h1`
+const InvertedHeader = styled(Text).attrs({
+  as: 'h1',
+  fontSize: ['1.5rem', '1.5rem', '2rem'],
+  p: ['1rem', '1rem', '2rem'],
+})`
   background-color: ${themeGet('colors.primary.900')};
   color: ${themeGet('colors.white')};
-  padding: 2rem;
   margin: 4rem 0 2rem;
   text-align: center;
   border-radius: 1rem;
@@ -75,12 +83,6 @@ const HelpSection = styled(Box)`
     color: ${themeGet('colors.white')};
     text-decoration: underline;
   }
-`
-const HelpIcon = styled(FaQuestionCircle)`
-  height: 4rem;
-  width: 4rem;
-  color: ${themeGet('colors.white')};
-  margin: 0 2rem;
 `
 
 const CreditsSection = styled.section`
@@ -249,8 +251,7 @@ const IndexPage = ({ data: { headerImage, photo } }) => (
 
       <HelpSection>
         <SectionHeader as="h2">Need help?</SectionHeader>
-        <SectionBody justifyContent="space-between">
-          <HelpIcon />
+        <SectionBody>
           <p>
             We are here to help you interpret and apply the information in this
             tool.
@@ -259,7 +260,6 @@ const IndexPage = ({ data: { headerImage, photo } }) => (
             Please <a href="mailto:adapt@myfwc.com">contact us</a> for
             assistance or to report issues.
           </p>
-          <HelpIcon />
         </SectionBody>
       </HelpSection>
 
