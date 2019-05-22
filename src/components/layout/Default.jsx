@@ -17,6 +17,7 @@ const Wrapper = styled(Flex).attrs({ flexDirection: 'column' })`
 
 const PageContent = styled(Flex)`
   height: 100%;
+  overflow-y: auto;
 `
 
 const SidebarToggle = styled.button`
