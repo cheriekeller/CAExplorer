@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { Index } from 'elasticlunr'
 
@@ -9,12 +10,20 @@ const useIndex = () => {
       }
     }
   `)
-  const index = Index.load(data.siteSearchIndex.index)
 
-  return query =>
-    index
-      .search(query, { expand: true, fields: { title: {} } })
-      .map(({ ref }) => index.documentStore.getDoc(ref))
+  // Wrap setup of the index and query function in setState
+  // to memoize it
+  const [queryFunc, _] = useState(() => {
+    console.log('in callback')
+    const searchIndex = Index.load(data.siteSearchIndex.index)
+    const { documentStore } = searchIndex
+    return query =>
+      searchIndex
+        .search(query, { expand: true, fields: { title: {} } })
+        .map(({ ref }) => documentStore.getDoc(ref))
+  })
+
+  return queryFunc
 }
 
 export { useIndex }

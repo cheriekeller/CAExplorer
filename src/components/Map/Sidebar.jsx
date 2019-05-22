@@ -12,7 +12,7 @@ const DONUTSIZE = 130
 const DONUTWIDTH = 20
 
 const Wrapper = styled(Box).attrs({
-  width: ['100%', '350px', '470px'],
+  width: ['0', '0', '12rem', '16rem', '18rem'],
   flex: '0 0 auto',
   height: ['auto', '100%'],
 })`
@@ -51,8 +51,11 @@ const Subtitle = styled.h4`
   margin-bottom: 0;
 `
 
-const Content = styled.div`
-  padding: 1rem;
+// hide content on mobile, it is redundant with profile page
+const Content = styled(Box).attrs({
+  p: '1rem',
+  display: ['none', 'none', 'unset'],
+})`
   overflow-y: auto;
   overflow-x: hidden;
   flex-grow: 1;
@@ -61,11 +64,6 @@ const Content = styled.div`
   svg {
     flex: 0 0 auto;
     margin-top: 1rem;
-  }
-
-/* hide content on mobile, it is redundant with profile page */
-  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
-    display: none;
   }
 `
 

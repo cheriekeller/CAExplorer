@@ -1,7 +1,12 @@
+/**
+ * Note: we use Gatsby's navigate function on result items instead
+ * of using a Link.  This is because using a link was causing a
+ * recursion error in Firefox (exact reason not determined).
+ * */
 import React, { useState } from 'react'
+import { navigate } from 'gatsby'
 
 import { Flex, Box, Container } from 'components/Grid'
-import { Link } from 'components/Link'
 import Layout from 'components/layout/Basic'
 import SEO from 'components/SEO'
 import styled, { themeGet } from 'util/style'
@@ -29,10 +34,12 @@ const Results = styled.div`
   overflow-y: auto;
 `
 
-const Result = styled(Link)`
+const Result = styled(Box)`
   display: block;
   padding: 0.5em 1em;
   margin: 0;
+  color: ${themeGet('colors.secondary.800')};
+  cursor: pointer;
 
   &:not(:first-child) {
     border-top: 1px solid ${themeGet('colors.grey.200')};
@@ -74,7 +81,7 @@ const SearchPage = () => {
             <Results>
               {results && results.length > 0 ? (
                 results.map(({ id, path, title }) => (
-                  <Result key={id} to={path}>
+                  <Result key={id} onClick={() => navigate(path)}>
                     {title}
                   </Result>
                 ))

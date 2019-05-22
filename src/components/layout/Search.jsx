@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { FaSearch } from 'react-icons/fa'
 
 import styled, { themeGet } from 'util/style'
 import { Link } from 'components/Link'
@@ -14,11 +13,6 @@ const SearchWrapper = styled(Box).attrs({
   position: relative;
 `
 
-const SearchIcon = styled(FaSearch).attrs({ size: '1em' })`
-  width: 1em;
-  height: 1em;
-  margin-left: 0.5em;
-`
 
 const Results = styled.ul`
   list-style: none;
@@ -84,12 +78,6 @@ const Search = () => {
           </Results>
         )}
       </SearchWrapper>
-
-      {/* <Box display={['none', 'none', 'unset', 'none']}>
-        <Link to="/search">
-          <SearchIcon />
-        </Link>
-      </Box> */}
     </>
   )
 }
