@@ -1,16 +1,12 @@
 import React, { useLayoutEffect } from 'react'
 import PropTypes from 'prop-types'
-import { setConfig } from 'react-hot-loader'
 import { Text } from 'rebass'
 import { fromJS } from 'immutable'
 
 import styled, { themeGet } from 'util/style'
 import { hasWindow, scrollIntoView, rootPath } from 'util/dom'
 
-import ItemList from './ItemList'
-import { ItemsPropType } from './proptypes'
-
-setConfig({ pureSFC: true })
+import ItemList, { ItemsPropType } from './ItemList'
 
 /**
  * Recurse into children arrays to determine which items are active based on current navigation
@@ -45,11 +41,11 @@ const SidebarContainer = styled(Text)`
   z-index: 999;
   background: #fff;
 
-  @media screen and (min-width: ${themeGet('breakpoints.0')}) {
+  @media screen and (min-width: ${themeGet('breakpoints.1')}) {
     border-right: 1px solid #aaa;
   }
 
-  @media screen and (max-width: ${themeGet('breakpoints.0')}) {
+  @media screen and (max-width: ${themeGet('breakpoints.1')}) {
     display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
     padding-top: 1rem;
   }
@@ -95,7 +91,7 @@ const Sidebar = ({ items, isOpen }) => {
     <SidebarContainer
       id="Sidebar"
       isOpen={isOpen}
-      width={['100%', '12rem', '16rem', '18rem']}
+      width={['100%', '100%', '12rem', '16rem', '18rem']}
     >
       <ItemList items={nav} />
     </SidebarContainer>

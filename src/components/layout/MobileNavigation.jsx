@@ -1,34 +1,22 @@
 import React from 'react'
-import { FaHome } from 'react-icons/fa'
+import { FaHome, FaSearch } from 'react-icons/fa'
 
 import styled, { themeGet } from 'util/style'
-import { Flex } from 'components/Grid'
+import { Box } from 'components/Grid'
 import { Link } from 'components/Link'
 import { hasWindow } from 'util/dom'
 
 import config from '../../../config/meta'
 
-const NavBar = styled(Flex)`
-  display: none;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 2000;
+const NavBar = styled(Box).attrs({
+  as: 'nav',
+  display: ['flex', 'flex', 'none'],
+  fontSize: ['0.5rem', '0.75rem'],
+})`
+  flex: 0;
+  min-height: 2rem;
   background: ${themeGet('colors.primary.100')};
   border-top: 2px solid ${themeGet('colors.secondary.800')};
-
-  @media (max-width: ${themeGet('breakpoints.0')}) {
-    display: flex;
-  }
-
-  @media (max-width: 480px) {
-    font-size: 0.75rem;
-  }
-
-  @media (max-width: 320px) {
-    font-size: 0.5rem;
-  }
 `
 
 const NavLink = styled(Link)`
@@ -38,7 +26,7 @@ const NavLink = styled(Link)`
     themeGet(active ? 'colors.white' : 'colors.secondary.800')};
   border-top: 2px solid transparent;
   text-decoration: none;
-  flex-grow: 1;
+  flex: 1;
   background: ${({ active }) =>
     active ? themeGet('colors.primary.200') : 'transparent'};
 `
@@ -46,7 +34,7 @@ const NavLink = styled(Link)`
 const isActive = path => hasWindow && window.location.pathname.startsWith(path)
 
 const MobileNavigation = () => (
-  <NavBar as="nav" justifyContent="space-evenly" alignItems="center">
+  <NavBar justifyContent="space-evenly" alignItems="center">
     <NavLink to="/" active={hasWindow && window.location.pathname === '/'}>
       <FaHome />
     </NavLink>
@@ -55,7 +43,9 @@ const MobileNavigation = () => (
         {shortLabel || label}
       </NavLink>
     ))}
+    <NavLink to="/search" active={isActive('/search')}>
+      <FaSearch />
+    </NavLink>
   </NavBar>
 )
-
 export default MobileNavigation

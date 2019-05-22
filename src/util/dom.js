@@ -1,4 +1,5 @@
 import React from 'react'
+import { theme } from 'util/style'
 
 export const hasWindow = typeof window !== 'undefined' && window
 
@@ -32,5 +33,21 @@ export const isUnsupported =
 
 export const rootPath = () =>
   hasWindow ? window.location.pathname.split('/')[1] : null
+
+export const getViewportIndex = () => {
+  if (!hasWindow) return 0
+  const thresholds = theme.breakpoints.map(b =>
+    parseInt(b.replace('px', ''), 10)
+  )
+
+  const viewportWidth = window.document.body.offsetWidth
+  let i = 0
+  for (; i < thresholds.length; i += 1) {
+    if (viewportWidth < thresholds[i]) {
+      break
+    }
+  }
+  return i
+}
 
 export default { scrollIntoView, hasWindow, rootPath }

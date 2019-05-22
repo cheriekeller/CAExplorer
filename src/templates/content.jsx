@@ -10,6 +10,7 @@ import FaIcon from 'components/elements/FaIcon'
 import ContentHeader from 'components/elements/ContentHeader'
 import Snippet from 'components/Profile/Snippet'
 import styled, { themeGet } from 'util/style'
+import { H1, H2 } from './styles'
 
 const Content = styled.div`
   h2,
@@ -105,6 +106,8 @@ const Content = styled.div`
 const renderAst = new rehypeReact({
   createElement: React.createElement,
   components: {
+    h1: H1,
+    h2: H2,
     icon: Icon,
     'content-header': ContentHeader,
     'fa-icon': FaIcon,

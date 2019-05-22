@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
-import Layout from 'components/layout/Map'
+import Layout from 'components/layout/Basic'
 import SEO from 'components/SEO'
 import { Flex } from 'components/Grid'
 import Map from 'components/Map'
@@ -10,8 +10,9 @@ import MapSidebar from 'components/Map/Sidebar'
 import styled from 'util/style'
 
 const Wrapper = styled(Flex).attrs({
-  flexDirection: ['column', 'row'],
+  flexDirection: ['column', 'column', 'row'],
 })`
+  flex: 1 1 auto;
   height: 100%;
 `
 

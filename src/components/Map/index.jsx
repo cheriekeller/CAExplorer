@@ -18,7 +18,7 @@ import 'leaflet-geonames/L.Control.Geonames.css'
 import 'leaflet-html-legend/dist/L.Control.HtmlLegend.css'
 
 import styled, { themeGet } from 'util/style'
-import { hasWindow } from '../../util/dom'
+import { hasWindow, getViewportIndex } from '../../util/dom'
 import { FLORIDA_BOUNDS } from '../../../config/constants'
 
 if (hasWindow) {
@@ -35,7 +35,8 @@ const [flWest, flSouth, flEast, flNorth] = FLORIDA_BOUNDS
 
 const Wrapper = styled(Box)`
   position: relative;
-  flex: 1 0 auto;
+  flex: 1 1 auto;
+  height: 100%;
 
   @media screen and (max-width: ${themeGet('breakpoints.0')}) {
     .leaflet-control-attribution {
@@ -148,6 +149,8 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
     map.fitBounds(layerBounds)
     window.map = map
 
+    const collapseLegend = getViewportIndex() < 2
+
     const slrLayer = L.tileLayer(
       'https://tiles.climateadaptationexplorer.org/services/slr/tiles/{z}/{x}/{y}.png',
       {
@@ -174,6 +177,7 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
       L.control
         .htmllegend({
           position: 'topleft',
+          collapsedOnInit: collapseLegend,
           legends: [
             {
               name: 'Sea Level Rise Impacts',
@@ -224,6 +228,7 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
       L.control
         .htmllegend({
           position: 'topleft',
+          collapsedOnInit: collapseLegend,
           legends: [
             {
               name: 'Sea Level Rise Impacts',
