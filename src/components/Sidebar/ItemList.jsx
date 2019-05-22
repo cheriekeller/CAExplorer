@@ -103,12 +103,19 @@ export const SidebarLink = styled(Link)`
 `
 
 const serializeScroll = () => {
-  const container = hasWindow
-    ? window.document.getElementById('Sidebar')
-    : null || null
+  if (!hasWindow) return
+
+  const container = window.document.getElementById('Sidebar')
+
   if (container) {
     sessionStorage.setItem(`sidebarScroll/${rootPath()}`, container.scrollTop)
   }
+}
+
+const isCurrentPath = path => {
+  if (!hasWindow) return false
+
+  return window.location.pathname === path
 }
 
 const ExpandableLink = ({
@@ -134,7 +141,7 @@ const ExpandableLink = ({
           <SidebarLink
             to={path}
             isActive={isActive}
-            isCurrent={window.location.pathname === path}
+            isCurrent={isCurrentPath(path)}
           >
             {label}
           </SidebarLink>
@@ -205,17 +212,14 @@ const ItemList = ({ items }) => (
                 </HoverContainer>
               ) : null}
               {isActive ? (
-                <Label
-                  isActive={isActive}
-                  isCurrent={window.location.pathname === path}
-                >
+                <Label isActive={isActive} isCurrent={isCurrentPath(path)}>
                   {label}
                 </Label>
               ) : (
                 <SidebarLink
                   to={path}
                   isActive={isActive}
-                  isCurrent={window.location.pathname === path}
+                  isCurrent={isCurrentPath(path)}
                 >
                   {label}
                 </SidebarLink>
