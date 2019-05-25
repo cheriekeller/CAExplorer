@@ -12,7 +12,6 @@ const NavBar = styled(Box).attrs({
   display: ['none', 'none', 'flex'],
 })`
   flex-grow: 1;
-  justify-content: flex-end;
 `
 
 const NavLink = styled(Link)`
