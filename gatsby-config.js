@@ -104,12 +104,12 @@ module.exports = {
         pathToConfigModule: `./config/typography.js`,
       },
     },
-    {
-      resolve: `gatsby-plugin-lodash`,
-      options: {
-        disabledFeatures: [`shorthands`, `cloning`, `currying`],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-lodash`,
+    //   options: {
+    //     disabledFeatures: [`shorthands`, `cloning`, `currying`],
+    //   },
+    // },
     {
       resolve: `gatsby-transformer-json`,
       options: {
