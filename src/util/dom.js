@@ -11,7 +11,11 @@ export const scrollIntoView = (id, behavior = 'auto') => {
   const elem = window.document.getElementById(id) || null
 
   if (elem) {
-    elem.scrollIntoView({ behavior, block: 'nearest' })
+    try {
+      elem.scrollIntoView({ behavior, block: 'nearest' })
+    } catch {
+      elem.scrollIntoView()
+    }
   }
 }
 
