@@ -51,7 +51,7 @@ The guide outlines its three primary objectives as follows:
 
 <hr id="DUBOIS"></hr>
 
-## [Integrating climate change vulnerability assessments into adaptation planning](http://www.defenders.org/climate-change/preparing-climate-change)
+## [Integrating climate change vulnerability assessments into adaptation planning](https://defenders.org/sites/default/files/publications/integrating_climate_change_vulnerability_into_adaption_planning.pdf)
 
 by: Dubois, N., A. Caldas, J. Boshoven, and A. Delach. 2011. Defenders of Wildlife, Washington D.C.
 
@@ -132,7 +132,7 @@ The Gulf Coast Vulnerability Assessment used an expert opinion approach to quali
 
 <hr id="FLAXMAN"></hr>
 
-## [Considering Climate Change in Florida’s Wildlife Action Planning – A Spatial Resilience Planning Approach](http://myfwc.com/media/1770248/consideringclimatechange-wildlifeactionplan.pdf)
+## [Considering Climate Change in Florida’s Wildlife Action Planning – A Spatial Resilience Planning Approach](http://geoadaptive.com/fwc/Considering_Climate_Change_in_Wildlife_Action_Planning_lowres.pdf)
 
 by: Flaxman M., and J.C. Vargas-Moreno. 2011. Research Report FWC-2011. Department of Urban Studies and Planning, Massachusetts Institute of Technology. Cambridge, MA.
 
