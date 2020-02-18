@@ -14,7 +14,7 @@ The following tools may be useful in evaluating climate change, climate impacts,
 
 ---
 
-## [NOAA Digital Coast – Sea Level Rise Viewer](http://coast.noaa.gov/digitalcoast/tools/slr)
+## [NOAA Digital Coast – Sea Level Rise Viewer](https://coast.noaa.gov/slr/)
 
 <div class="float-left thumbnail-small">
 <img src="tools-noaa-slr.png"></img>
@@ -71,8 +71,8 @@ This model simulates the dominant processes involved in wetland conversions and 
 
 ## Other Tools:
 
-- [Climate Explorer](http://toolkit.climate.gov/climate-explorer/)
-- [Climate Wizard](http://climatewizard.org/)
+- [Climate Explorer](https://crt-climate-explorer.nemac.org/)
+- [Climate Wizard](https://www.fs.usda.gov/ccrc/tools/climate-wizard)
 - [PINEMAP](http://www.nc-climate.ncsu.edu/pinemap/index.php)
 - [U.S. Climate Resilience Toolkit](https://toolkit.climate.gov/tools)
 - [Forest Service Climate Change Atlas](http://www.fs.fed.us/nrs/atlas/)
