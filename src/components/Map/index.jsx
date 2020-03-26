@@ -152,7 +152,7 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
     const collapseLegend = getViewportIndex() < 2
 
     const slrLayer = L.tileLayer(
-      'https://tiles.climateadaptationexplorer.org/services/slr/tiles/{z}/{x}/{y}.png',
+      'https://tiles2.climateadaptationexplorer.org/services/slr/tiles/{z}/{x}/{y}.png',
       {
         opacity: slrOpacity,
         maxNativeZoom: 14,
@@ -165,7 +165,7 @@ const Map = ({ id, bounds: [west, south, east, north] }) => {
     // add habitat
     if (id !== null) {
       const habitatLayer = L.tileLayer(
-        `https://tiles.climateadaptationexplorer.org/services/${id}/tiles/{z}/{x}/{y}.png`,
+        `https://tiles2.climateadaptationexplorer.org/services/${id}/tiles/{z}/{x}/{y}.png`,
         {
           maxNativeZoom: 14,
           bounds: layerBounds,
