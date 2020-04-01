@@ -46,7 +46,7 @@ Species that have limited ranges or dispersal ability, specialized habitat requi
 - Increased mortality for cold temperature sensitive species
 - Increased occurrence and severity of cold kill events
 
-#### Impacts of Increased Precipitation:
+#### Impacts of Decreased Precipitation:
 
 - Increased avian mortality due to water loss
 - Decreased reproductive success of amphibians
@@ -56,7 +56,7 @@ Species that have limited ranges or dispersal ability, specialized habitat requi
 - Decreased survival of amphibians in ephemeral ponds
 - Increased isolation – lower genetic diversity
 
-#### Impacts of Decreased Precipitation:
+#### Impacts of Increased Precipitation:
 
 - Increased mortality of amphibians
 - Reproductive failure for ground-nesting birds due to flooding
