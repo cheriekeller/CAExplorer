@@ -29,7 +29,7 @@ module.exports = {
     backgroundColor: '#2d4059',
   },
   googleAnalyticsId: 'UA-82274034-12',
-  sentryDSN: 'https://65f47c1a71664f86b5b71c3a39a3ee56@sentry.io/1436368',
+  sentryDSN: process.env.GATSBY_SENTRY_DSN,
   schema: {
     author: 'Brendan Ward, Conservation Biology Institute',
   },

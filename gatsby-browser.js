@@ -17,6 +17,15 @@ export const onClientEntry = () => {
 
     Sentry.init({
       dsn: config.sentryDSN,
+      beforeSend(event, { originalException: error }) {
+        if (error && error.message) {
+          // extension errors
+          if (error.message.match(/extension context/i)) {
+            return null
+          }
+        }
+        return event
+      },
       denyUrls: [
         // Chrome extensions
         /extensions\//i,
