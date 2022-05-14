@@ -17,6 +17,12 @@ export const onClientEntry = () => {
 
     Sentry.init({
       dsn: config.sentryDSN,
+      denyUrls: [
+        // Chrome extensions
+        /extensions\//i,
+        /^chrome:\/\//i,
+        /^chrome-extension:\/\//i,
+      ],
     })
     window.Sentry = Sentry
   }
