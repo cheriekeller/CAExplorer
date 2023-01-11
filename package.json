@@ -28,7 +28,7 @@
     "gatsby-remark-images-grid": "^1.0.2",
     "gatsby-source-filesystem": "^2.0.28",
     "gatsby-transformer-json": "^2.1.11",
-    "gatsby-transformer-remark": "^2.3.7",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.1.8",
     "immutable": "^4.0.0-rc.12",
     "leaflet": "^1.4.0",
